@@ -195,6 +195,8 @@ function lerp(x, a, b, c, d){
 	return (d-c)*scale + c;
 }
 
+const nullActiveSolution = {'name': 'nope'};
+
 Vue.createApp({
     computed: {
         activeSolutionHeight(){
@@ -203,6 +205,9 @@ Vue.createApp({
             }
             const maxLengthSolution = _.max(this.mapping[this.activeSolution.name].map(company => company.name.length));
             return {'margin-top': maxLengthSolution * 8 + 20 + 'px'};
+        },
+        isMobile(){
+            return this.windowWidth < 480;
         }
     },
     data() {
@@ -216,8 +221,13 @@ Vue.createApp({
             mapping: mapping,
             windowWidth: window.innerWidth * .6,
             windowHeight: window.innerHeight,
-            activeSolution: solutions[0]
+            activeSolution: nullActiveSolution, //solutions[0]
         };
+    },
+    mounted(){
+      if (!this.isMobile){
+          this.activeSolution = this.solutions[0];
+      }
     },
     methods: {
         barStyle(solution){
@@ -245,7 +255,9 @@ Vue.createApp({
           }
         },
         clickOnSolution(solution){
-            this.activeSolution = solution;
+            if (!this.isMobile){
+                this.activeSolution = solution;
+            }
         }
     }
 }).mount('#app');
