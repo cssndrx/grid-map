@@ -1,2078 +1,90 @@
 const mapping = {
-  "Distributed Solar Photovoltaics": [
+  "Peatland Protection and Rewetting": [
     {
-      "name": "Allume Energy",
-      "description": "Allume have created the SolShare: The world\u2019s only hardware for connecting apartments to a shared rooftop solar system. The behind-the-meter solution is simple to install and affordable, making it the go-to solar solution for apartment buildings. Social Housing Providers, Property Developers, Asset Owners, and traditional apartment owners are now able to achieve their sustainability goals and save their residents money via the SolShare. With the SolShare, we\u2019re creating a world where everyone can access clean energy.",
-      "website": "allumeenergy.com",
-      "employees": "40",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Arnergy",
-      "description": "ARNERGY\\'s mission is to deliver energy solutions for productive use by deploying products, services and systems that power business operations and improve economic outcomes for our clients. Vision: Providing sustainable solutions to energy reliability issues across emerging markets.",
-      "website": "arnergy.com",
-      "employees": "100",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Aurora Solar",
-      "description": "Aurora Solar develops solar industry software. It develops cloud-based software, that enables solar PV engineering design, provides workflow management functionality, and facilitates sales and customer acquisition for solar installers and financiers. Christopher Hopper and Samuel Adeyemo founded Aurora Solar in 2013. It has its headquarters in San Francisco, California.",
-      "website": "aurorasolar.com",
-      "employees": "596",
-      "active_jobs": "9"
-    },
-    {
-      "name": "BRIGHT",
-      "description": "Bright offers residential solar for the developing world at $0 upfront. They operating first in Mexico, where electricity rates are 2-3x (that of the US), there\\'s 40% more sun, and installation costs are half as much.",
-      "website": "thinkbright.mx",
-      "employees": "196",
-      "active_jobs": "20"
-    },
-    {
-      "name": "Brooklyn SolarWorks",
-      "description": "Brooklyn SolarWorks is a solar design and installation firm based in Gowanus, Brooklyn, specializing in residential flat roof solar for New York City.",
-      "website": "brooklynsolarworks.com",
-      "employees": "33",
+      "name": "44.01",
+      "description": "44.01 is a company that specializes in eliminating CO2 from the atmosphere by mineralizing it in peridotite, a type of rock that naturally absorbs CO2. We eliminate CO2 by turning it into rock, and removing it from the atmosphere safely, efficiently, and permanently.",
+      "website": "4401.earth",
+      "employees": "67",
       "active_jobs": "7"
     },
     {
-      "name": "Common Energy",
-      "description": "Common Energy works with developers across the country to activate their clean energy projects and maximize ROI. Our platform enables homeowners and businesses to connect new clean energy projects to the grid, reduce their carbon footprint and lower their electricity cost in minutes. Join us!",
-      "website": "commonenergy.us",
-      "employees": "78",
-      "active_jobs": "5"
+      "name": "CarbonPlan",
+      "description": "we\\'re using science and data to help optimize the deployment of carbon removal",
+      "website": "carbonplan.org",
+      "employees": "12",
+      "active_jobs": "0"
     },
     {
-      "name": "Coperniq",
-      "description": "Coperniq helps solar and energy contractors grow by connecting people, data, and systems.",
-      "website": "coperniq.io",
-      "employees": "6",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Energetic Insurance",
-      "description": "Energetic Insurance unlocks solar financing for unrated or below investment grade organizations. It is a Managing General Underwriter (MGU) with a novel, data-driven approach that develop new risk management products to unlock exponential growth in the renewable energy industry. For solar industry participants who want to do more projects and deploy more capital, EneRate Credit Cover unlocks solar project financing for unrated and below investment grade counterparties by covering payment default risk.",
-      "website": "energeticinsurance.com",
-      "employees": "27",
+      "name": "Carbonfuture",
+      "description": "Carbonfuture helps companies and organizations worldwide on their path to true net zero. As an online marketplace and fully digitized platform for high-quality and effective carbon sink credits, we offer certificates that not only avoid CO2 emissions, but actively remove them out of the atmosphere. Our uncompromisingly scientific approach as well as seamless, tamper-proof supply chain tracking, precise sink modeling, and flexible credit management, set the standard for credible and effective climate protection. In accordance with our mission statement \u201ccarbon removal you can trust\u201d, we incorporate these key values into all our processes. One carbon future credit corresponds to one ton of CO2 being safely removed from the atmosphere for a minimum of 100 years. The goal is to deliver real climate impact: and that means providing carbon sinks in the gigaton range. Find out more about how we can help you reach your net zero goals here: https://www.carbonfuture.earth",
+      "website": "carbonfuture.earth",
+      "employees": "47",
       "active_jobs": "3"
     },
     {
-      "name": "Ion Solar",
-      "description": "ION Solar is a premium, full-service solar provider. ION\\'s in-house professionals handle the solar process from start to finish giving homeowners a carefree switch to solar. A premium experience shouldn\\'t have to cost more. Pay nothing out of pocket and pay less for power with ION Solar.",
-      "website": "ionsolar.com",
-      "employees": "738",
-      "active_jobs": "14"
-    },
-    {
-      "name": "King Energy",
-      "description": "King Energy enables commercial-scale solar at shopping centers and office buildings, bringing financial benefit to property owners",
-      "website": "kingenergy.com",
-      "employees": "69",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Lemon Energy",
-      "description": "Lemon Energy is a digital utility that provides electric bill savings and sustainable energy through a fully digital platform and frictionless user experience.",
-      "website": "lemon.energy",
-      "employees": "113",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Lumen Energy",
-      "description": "We enable commercial buildings to generate income from clean energy.\n\nJoin us! \nhttps://getlumen.com/careers",
-      "website": "getlumen.com",
-      "employees": "33",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mosaic",
-      "description": "Mosaic is a residential solar lending platform that enables thousands of people to profit from the benefits of clean energy. It is a solar finance company that provides financing for residential solar systems. Mosaic\\'s vision, 100% clean energy for all, embodies the desire to create shared prosperity through clean energy and to help millions of people invest in themselves, their homes, and the future of the planet. It was founded in 2011 and is based in Oakland, California.",
-      "website": "joinmosaic.com",
-      "employees": "284",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Near Space Labs",
-      "description": "Near Space Labs is an aerial imagery and earth observation company. Our high-frequency, high-resolution imagery supports businesses, partners and government organizations for improved remote sensing. Our technology allows for immediate access to imagery via our API. We invite you to analyze the past, explore the present and be the first to see the future with us!",
-      "website": "nearspacelabs.com",
-      "employees": "45",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Omnidian",
-      "description": "Omnidian is a provider of comprehensive protection plans for investments in residential solar energy systems. It serves both individual homeowners and financial institutions, such as funds and third-party owners, that manage large portfolios of residential solar assets. The company\\'s lifetime performance guarantee includes real time monitoring, proactive service alerts and 100% covered hardware and software through a nationwide network of field service professionals, as well as a 100% guarantee on energy or plan owners will be reimbursed for energy loss. The company\\'s mission is to protect and accelerate capital invested in the residential solar industry. Omnidian is backed by the DOE SunShot Program which accelerates the development of highly impactful solar technologies.",
-      "website": "omnidian.com",
-      "employees": "200",
-      "active_jobs": "10"
-    },
-    {
-      "name": "Palmetto Clean Technology",
-      "description": "Just as technology has advanced society and delivered exciting consumer products, like Tesla cars and the iPhone, tech innovation is empowering homeowners across the country to join the New Utility Revolution. Palmetto\u2019s clean energy marketplace and custom software tools help homeowners quickly estimate utility cost-savings and get renewable energy sources up and running, with ongoing data insights and support. For individuals, this innovation means lower utility bills, more transparency, control over energy use, increase in property value, and protection against power outages. When adopted en masse, a clean energy shift is a major step towards combating climate change and achieving American energy independence.",
-      "website": "palmetto.com",
-      "employees": "561",
-      "active_jobs": "20"
-    },
-    {
-      "name": "Sighten",
-      "description": "Sighten develops a software toolset to manage the complexity of distributed solar. It offers a platform that spans the entire lifecycle of a solar asset ranging from tools that streamline origination, system design, and sales/operations to features that automate ongoing reporting and analytics. Sighten also offers a reporting and analytics portal that brings solar up to speed with mature asset classes and real-time access to data and analysis tools; a pricing engine that accommodates the complexity of the structures used to finance solar and allows for sophisticated asset pricing logic and decisioning; and a downstream toolset that allows organizations to sell solar more effectively and manage the entire financing workflow from lead to operating asset. Its customers include tax equity investors, lenders, finance companies, developers, and installers. Conlan O\\'Leary and Graham Hommel founded Sighten in 2012. It has its headquarters in San Francisco in California.",
-      "website": "sighten.io",
-      "employees": "9",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Solar Analytics",
-      "description": "Solar Analytics is an Australian greentech start-up that provides performance monitoring and fault diagnosis for rooftop solar photovoltaic (PV) power systems to derive maximum value for customers. The Smart Monitor product intelligently monitors real-time solar energy system performance - energy consumption, solar production, faults, downtime, energy bought and sold. After installing a small device in their meter box, customers receive any fault alerts and advice immediately by email, can access a dashboard online from any computer, tablet or smartphone to check energy usage and system performance, and receive monthly reports that provide valuable insight. Contact us via our website to learn more about saving money on your electricity bill by optimising your solar power system.",
-      "website": "solaranalytics.com.au",
-      "employees": "23",
-      "active_jobs": "0"
-    },
-    {
-      "name": "SolarSquare Energy",
-      "description": "SolarSquare Energy is a solar energy solutions providing company.",
-      "website": "solarsquare.in",
-      "employees": "407",
-      "active_jobs": "31"
-    },
-    {
-      "name": "Solstice",
-      "description": "Solstice provides turnkey customer solutions for shared solar. It also offers subscriber aggregation and management services to solar developers, utilities, and other providers of shared solar energy. Employing community organizing techniques and the nation\\'s first online marketplace and customer management platform for shared solar, Solstice leverages network effects to aggregate consumer demand and put more solar in the ground. Solstice\\'s goal is o use community solar to help these groups meet one another and to unlock the possibility of solar power for these households. It has received the MassChallenge Silver Award, Kia Revisionaries Award, and Gold Stevie Award. The company was founded in 2014 and is headquartered in Cambridge, Massachusetts.",
-      "website": "solstice.us",
-      "employees": "64",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Source",
-      "description": "Source is a developer and manufacturer of solar-powered devices designed to extract drinkable water from the atmosphere. The company\\'s solar-powered hydro panels utilize advanced materials science to pull water from even the driest conditions, producing pure water that is mineralized and delivered to a tap, enabling users to get clean water essentially anywhere. It was founded in 2014 and is headquartered in Scottsdale, Arizona.",
-      "website": "source.co",
-      "employees": "211",
-      "active_jobs": "10"
-    },
-    {
-      "name": "Volta Charging",
-      "description": "Volta Charging is a marketing and advertising company that designs, installs, and maintains a network of electric vehicle charging stations funded by sponsor brands. The company provides a valuable community amenity in markets across the U.S. helping brands meet consumers at the optimal moment of the purchase decision. It was founded in 2010 and is headquartered in San Francisco, California.",
-      "website": "voltacharging.com",
-      "employees": "212",
-      "active_jobs": "0"
-    },
-    {
-      "name": "WattBuy",
-      "description": "At WattBuy, we are focused on an ambitious vision: making cleaner, more affordable electricity accessible to every household. Our energy marketplace and platform provides actionable insights to millions of energy consumers by estimating their electricity usage, costs, and carbon footprint. We deliver these insights directly to consumers using WattBuy.com and through partnerships with leading enterprises in real estate, personal finance, and smart devices.",
-      "website": "wattbuy.com",
-      "employees": "23",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Wunder",
-      "description": "Wunder makes it dead simple for any accredited investor to invest in solar and reap the returns that only the largest institutional investors and corporations have been enjoying to date. Wunder sources solar projects from our national network of top tier installer partners, runs those projects through a rigorous and proprietary diligence process, and brings the very best to institutional and individual accredited investors in the form of diversified solar funds. Wunder provides the solar expertise and partnerships necessary to make investing in, diversifying, and optimizing a solar portfolio delightfully simple. You invest and Wunder handles all of the details. With Wunder, investing in solar is now as easy as investing in the public markets.",
-      "website": "wundercapital.com",
-      "employees": "50",
-      "active_jobs": "6"
-    },
-    {
-      "name": "ZOLAR",
-      "description": "ZOLAR is an online provider of solar systems enables the entry into the private energy supply for private households. The freedom of energy for the home. A future in which every household can generate, store and consume all the necessary energy itself. A future in which solar energy makes abolishing unnecessary costs possible. A future without big energy companies.",
-      "website": "zolar.de",
-      "employees": "391",
-      "active_jobs": "11"
-    }
-  ],
-  "None": [
-    {
-      "name": "Aclima",
-      "description": "Aclima has pioneered an entirely new way to measure and analyze air pollution and greenhouse gases, block by block and around the world. The Aclima hardware and software technology platform translates billions of scientific measurements from its network of stationary and roving sensors into environmental intelligence for governments, businesses, and communities. A Public Benefit Corporation, Aclima is dedicated to catalyzing bold action to protect public health, reduce climate-changing emissions and advance equity. The company holds a broad patent portfolio for networked, indoor, wearable, and mobile air quality sensing technologies. Aclima is headquartered in San Francisco with offices in Portland and New York City. For more information please visit https://aclima.io.",
-      "website": "aclima.io",
-      "employees": "71",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Active Surfaces",
-      "website": "activesurfaces.xyz",
+      "name": "Carboniferous",
+      "description": "Enhancing natures carbon sequestration solutions to reduce climate change. Learn more at carboniferous.co",
+      "website": "carboniferous.co",
       "employees": "4",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Aepnus Technologies",
-      "description": "Aepnus develops low-cost electrolysis equipment to electrify and decarbonize the production of commodity chemicals needed to transition to a carbon-free industry. Salts of Lithium, Sodium, NMC Cathodes, as well as Hydrochloric acid, Sulfuric Acid, and Caustic Soda, are some of the chemicals we currently focus on.\n\nBy electrifying mineral and chemical refinement trains, we enable domestic production of these materials and position the US as a leader in the global energy transition.",
-      "website": "aepnus.com",
       "active_jobs": "0"
     },
     {
-      "name": "Air Company",
-      "description": "Air Company is a technology and lifestyle company that ideates, creates, and manufactures liquor products. The company was founded in 2017 by Gregory Constantine and Staff Sheehan and is based in New York, New York, United States.",
-      "website": "aircompany.com",
-      "employees": "102",
-      "active_jobs": "11"
-    },
-    {
-      "name": "Albedo",
-      "description": "In a rapidly changing world, today\u2019s problems can\u2019t be solved with yesterday\u2019s solutions. Our biggest challenges keep get bigger, but we can\u2019t keep up with our feet on the ground.\n\nAt Albedo, we believe that space is more than just a place to explore \u2014 it\u2019s also a tool that can be used to help tackle problems here on Earth. Our exquisite imagery empowers industry leaders with the details that matter so that we can support what we have and shape what we don\u2019t.\n\nWith a new perspective, we can change the big picture.",
-      "website": "albedo.space",
-      "employees": "45",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Albedo",
-      "description": "Albedo is developing low-flying satellites that will capture visible and thermal imagery at the highest resolution commercially available. By making aerial quality imagery globally available, easy to purchase, and transparent to task, we aim to catalyze market growth and spur new applications. The world is rapidly changing and a new level of visibility and transparency is required to solve some of our largest problems. Albedo\u2019s 10cm visible and 2m thermal imagery will fuel insights for industries such as mapping, insurance, utilities, solar, agriculture, carbon offsets, infrastructure sustainability, national security, and much more.",
-      "website": "albedo.com",
-      "employees": "53",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Allium Engineering",
-      "description": "Allium Engineering is a civil engineering company that develops and manufactures corrosion resistant steel rebar.",
-      "website": "alliumeng.com",
-      "employees": "6",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Alloy Enterprises",
-      "description": "Alloy Enterprises operates as industry disruptors looking to tackle inefficiencies in conventional manufacturing. The company is based in Somerville, Massachusetts.",
-      "website": "alloyenterprises.co",
-      "employees": "49",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Applied Intuition",
-      "description": "Applied Intuition is a vehicle software supplier that accelerates the adoption of safe and intelligent machines worldwide. Founded in 2017, Applied Intuition provides a simulation and validation platform for various industries such as automotive, trucking, construction, and more. 18 of the top 20 global automakers rely on Applied Intuition\u2019s solutions to shorten development cycles, deliver high-quality systems, and accelerate the production of modern vehicles with confidence.",
-      "website": "appliedintuition.com",
-      "employees": "346",
-      "active_jobs": "132"
-    },
-    {
-      "name": "Arca",
-      "description": "Carbin Minerals unlock the enormous carbon dioxide removal potential of mine waste.",
-      "website": "arcaclimate.com",
-      "employees": "19",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Axle Mobility",
-      "website": "axlemobility.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Azolla Ventures",
-      "website": "azollaventures.com",
-      "employees": "12",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Banyan Infrastructure",
-      "description": "Banyan is a platform that automates contractual compliance and creates transparency throughout the loan lifecycle of infrastructure. The company\\'s platform consists of dynamic loan agreements that are easily integrated with the project\\'s IoT monitoring systems, bank accounts, and other asset management software to speed up the development of next-generation infrastructure projects at a high velocity and low cost. This allows lenders and borrowers to synthesize important insights, automate contractual compliance, and actively mitigate risk with greater transparency across all counterparties.",
-      "website": "banyaninfrastructure.com",
-      "employees": "61",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Beekeeper",
-      "description": "Beekeeper is a mobile-first communication platform that reaches every shift, location, and language through real-time messaging and targeted streams. Managers keep frontline teams productive and turnover low by automating workflows while leveraging an analytics dashboard to measure engagement. Beekeeper integrates with operational systems, making them accessible in one central portal.",
-      "website": "beekeeper.io",
-      "employees": "365",
-      "active_jobs": "9"
-    },
-    {
-      "name": "Beijing Climate Policy Initiative",
-      "description": "Climate Policy Initiative helps governments, businesses, and financial institutions drive economic growth while addressing climate change.",
-      "website": "climatepolicyinitiative.org",
-      "employees": "181",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Better Ventures",
-      "description": "Better Ventures provides funding and support to technology startups building innovative solutions to big and important problems, from work and education to health and sustainability. Given the magnitude of the these problems and the enormous market opportunities they represent, it takes the best and brightest minds armed with the best resources to address them. These are the people they seek to back \u2013 entrepreneurs committed to using the tools and methodologies of the modern technology startup to build world-changing companies that make money and do good. They\\'re thinking big and expecting big results, and so are the entrepreneurs they back.",
-      "website": "better.vc",
-      "employees": "11",
-      "active_jobs": "0"
-    },
-    {
-      "name": "BlackCurrant",
-      "description": "BlackCurrant is a hydrogen trading platform provides advanced machine learning to predict hydrogen pricing and demand growth.",
-      "website": "blackcurrant.ai",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Boundless Impact Research & Analytics",
-      "description": "Boundless Impact Research & Analytics is a market intelligence and impact analytics company that provides investors, companies, and funds.",
-      "website": "boundlessimpact.net",
-      "employees": "14",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Breakthrough Energy Coalition",
-      "website": "b-t.energy",
-      "employees": "218",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Bright Harbor",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Brightside",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Capella Space",
-      "description": "Capella Space is an American space tech company with data and satellite solutions for government and commercial use. A pioneer in the Earth observation industry, Capella is the first U.S. company with a constellation of Synthetic Aperture Radar (SAR) satellites, delivering the best quality, highest resolution SAR imagery commercially available. Capella provides easy access to frequent and timely information affecting dozens of industries worldwide, including defense and intelligence, supply chain, insurance, maritime and others. Its market-leading SAR satellites are matched with unparalleled data infrastructure to quickly deliver reliable global insights that sharpen our understanding of the changing world \u2013 improving decisions about commerce, conservation, and security on Earth. Headquartered in San Francisco, California with additional locations in Denver, Colorado and Washington, D.C., Capella\u2019s satellites are operated, designed and manufactured in the USA.",
-      "website": "capellaspace.com",
-      "employees": "201",
-      "active_jobs": "15"
-    },
-    {
-      "name": "Carbon Collective",
-      "description": "Carbon Collective is the first 100% climate-focused online investment advisor with the mission to close the annual $5 trillion climate investment gap.",
-      "website": "carboncollective.co",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Cascade Climate",
-      "description": "Cascade Climate is a company that is speeding up progress in open-system climate initiatives.",
-      "website": "cascadeclimate.org",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Celerity Consulting Group",
-      "description": "Celerity Consulting Group is an information governance consulting firm that helps regulated entities, public agencies, companies, and law firms resolve their risk and compliance, litigation, technology deployment, and restructuring challenges. We have a particular depth of expertise in the utility and natural gas pipeline sectors. Celerity clients include Fortune 500 companies, several state attorneys general offices, some of the largest utilities in the country, and 14 of the AmLaw 2016 top 25 law firms.",
-      "website": "consultcelerity.com",
-      "employees": "114",
-      "active_jobs": "11"
-    },
-    {
-      "name": "ClimateAI",
-      "description": "ClimateAI is an enterprise climate platform to help companies reduce, monitor, and adapt to physical climate risks. ClimateAi seeks to climate-proof the global economy while aiming for zero loss of lives, livelihoods, and nature. The company is a team of passionate entrepreneurs, scientists, and engineers who all believe that climate change is the most important problem of our generation.",
-      "website": "climate.ai",
-      "employees": "78",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Coastal Carbon",
-      "website": "coastalcarbon.ai",
-      "employees": "1",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Cobalt",
-      "description": "Cobalt builds indoor robots that work alongside human guards to provide security. It offers indoor security robots that do patrolling in the premises, as well as look for intruders or anything that\\'s out of the ordinary; and comprise intruder and anomaly detection, human-robot interaction, and mapping and sensing capabilities. Erik Schluntz and Travis Deyle founded it in 2016, with its headquarters in San Mateo in California.",
-      "website": "cobaltrobotics.com",
-      "employees": "151",
-      "active_jobs": "15"
-    },
-    {
-      "name": "Dioxycle",
-      "description": "At Dioxycle we develop electrolyser solutions for carbon dioxide emissions. Using state-of-the-art technology, we research and provide technology that captures and converts carbon dioxide and ultimately generates valuable chemical products.",
-      "website": "dioxycle.com",
-      "employees": "22",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Down Ballot Climate Partners",
-      "active_jobs": "0"
-    },
-    {
-      "name": "DroneDeploy",
-      "description": "DroneDeploy is a provider of cloud-control software solutions for drones which include automated flight safety checks, workflows, and real-time mapping and data processing.The company has partnered with leading drone manufacturers like DJI to provide its software to end users in a variety of industries, including agriculture, real estate, mining, construction and many other commercial and consumer arenas. DroneDeploy is compatible with any drone.",
-      "website": "dronedeploy.com",
-      "employees": "283",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Earthmover",
-      "description": "Earthmover is an early-stage startup developing a cloud-based platform for array data analytics.",
-      "website": "earthmover.io",
-      "employees": "12",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Elemental Excelerator",
-      "description": "Elemental Excelerator helps startups change the world, one community at a time. Each year, it finds 15-20 companies that best fit its mission and funds each company up to $1 million to improve systems that impact people\\'s lives: energy, mobility, water, agriculture, and beyond. To date, it has awarded over $30 million to 82 companies.",
-      "website": "elementalexcelerator.com",
-      "employees": "90",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Eli",
-      "description": "Eli provides turnkey software that powers equitable, efficient incentive programs.",
-      "website": "eli.build",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Energize Capital",
-      "description": "Energize Capital is a leading climate software investor. We partner with best-in-class innovators to accelerate the sustainability transition. Founded in 2016 and based in Chicago, Energize is backed by LPs who represent world-class institutional, strategic, impact and family office investors. We leverage our team\\'s deep industry and operational expertise to guide our research-based investment approach and support our portfolio companies in scaling and realizing their full potential, from early commercialization to the public markets.",
-      "website": "energizecap.com",
-      "employees": "21",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Equatic",
-      "website": "equatic.tech",
-      "employees": "7",
-      "active_jobs": "1"
-    },
-    {
-      "name": "FACE PLANT",
-      "website": "eatfaceplant.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Felt",
-      "description": "Felt is a collaborative software company that wants to make it easier for people to build maps on the internet.",
-      "website": "felt.com",
-      "employees": "32",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Forerunner",
-      "description": "Forerunner builds software to help communities adapt to the impacts of climate change.",
-      "website": "withforerunner.com",
-      "employees": "37",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Fox Robotics",
-      "description": "Fox Robotics is a platform the engineers and manufactures autonomous forklifts that specialize in trailer unloading.",
-      "website": "foxrobotics.com",
-      "employees": "82",
-      "active_jobs": "20"
-    },
-    {
-      "name": "FutureProof Technologies",
-      "description": "FutureProof Technologies is a financial analytics software company specializing in physical climate risks.",
-      "website": "futureprooftech.io",
-      "employees": "21",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Gencores, Inc.",
-      "description": "Gencores provides a platform that reduces the risk of concussion with customizable, smart, shock-absorbing helmet inserts.",
-      "website": "gencores.com",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Grover",
-      "description": "Grover is a platform that enables users to subscribe to tech products monthly instead of buying them. The product-as-a-service company gives the freedom of renting by bringing the access economy to the consumer electronics market and offering a simple, monthly subscription model for the best in tech. It allows private customers, as well as businesses, to get access to a wide assortment of over 1500 tech products such as smartphones, laptops, virtual reality (VR) gear, and wearables profiting from the flexibility and full usage rights at a fraction of the purchase price. Michael Cassau established Grover in Berlin, Berlin, Germany in 2015.",
-      "website": "grover.com",
-      "employees": "455",
-      "active_jobs": "17"
-    },
-    {
-      "name": "Hgen",
-      "description": "Hgen is on a mission to decarbonize the 25% of global carbon emissions that can be best addressed by affordable green hydrogen.",
-      "website": "hgen.com",
-      "employees": "6",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Hoxton Farms",
-      "description": "Based in London, UK, Hoxton Farms is growing real animal fat \u2013 without animals. The company combines cell biology and mathematical modelling to produce cultivated fat as an ingredient for the meat alternatives industry.",
-      "website": "hoxtonfarms.com",
-      "employees": "44",
-      "active_jobs": "4"
-    },
-    {
-      "name": "In2lytics",
-      "description": "In2lytics is a data analytics company that specializes in the fields of big data and software development. It provides insights needed to increase system availability while reducing operational expenditure. With in2lytics, the utility has the data-driven insight needed for improved planning and decision-making capabilities. The company was founded in 2016 and headquartered in Hawaii, United States.",
-      "website": "in2lytics.com",
-      "employees": "5",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Intensivate",
-      "description": "Intensivate\u2019s silicon establishes the category of Cluster CPUs, providing a 12x increase in data center performance while running unmodified, existing workloads and supporting the full Linux ecosystem. The product benefits cloud, on-prem and edge applications that are not well served by GPUs, FPGAs and general purpose CPUs. Intensivate\\'s data center product, IntenScale, is a PCIe card equivalent to 21 standard servers at only 350W. The card contains 21 of Intensivate\\'s patented 16 core, 16 thread Cluster CPU chips, giving the card a total of 336 cores, 5367 threads, and 672GB of DRAM.",
-      "website": "intensivate.com",
-      "employees": "20",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Isometric",
-      "description": "Isometric builds scientifically rigorous verification technology to confirm carbon removal claims are true, with all data transparently recorded in a publicly available registry.",
-      "website": "isometric.com",
+      "name": "Origen",
+      "description": "Origen is a UK-based cleantech company specialising in providing innovative solutions for carbon removal from the atmosphere. Founded in 2013 following ground-breaking research at the University of Oxford, Origen\u2019s patented ZerCaL\u2122 technology enables the production of zero-carbon lime that can be used in carbon-intensive industrial processes.\n\nBy harnessing lime\u2019s CO2-absorbing properties, Origen is developing new methods to remove billions of tonnes of CO2 directly from the atmosphere and bring us closer to achieving crucial climate change targets.\n\nNo more excuses. No more blue sky thinking. It\u2019s time for blue sky doing.",
+      "website": "origencarbonsolutions.com",
       "employees": "48",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Isometric Technologies",
-      "description": "Isometric Technologies is a performance management solution for the supply chain industry.",
-      "website": "iso.io",
-      "employees": "37",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Kaya Pay",
-      "description": "Kaya Pay is a developer of a materials procurement and financing platform intended for construction projects.",
-      "website": "usekaya.ai",
       "active_jobs": "0"
     },
     {
-      "name": "Kettle",
-      "description": "Kettle uses machine learning to better understand the effects of climate change on catastrophic risk, such as wildfires or hurricanes. Kettle then writes insurance and reinsurance policies to protect people and businesses from these risks.",
-      "website": "ourkettle.com",
-      "employees": "26",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Kindred Motorworks",
-      "description": "We are marketing folks, technicians, software developers, mechanical engineers, designers, painters and car lovers. We love a whiff of gasoline and we geek out about the torque provided by electric motors. Above all we believe the world is a better place with vintage cars out on the road. We strive to create a meaningful workplace at Kindred, which means something different for each of our team members. For some, it\u2019s getting these immortal vehicles on the road. For others it\u2019s the portion of revenue we donate to our local community for every vehicle sold. For many at Kindred, it\u2019s the inclusive work environment we\u2019ve created. Our cars create joyful experiences for our customers and immense pride for our team. Consider joining the team if you share our interests. Retirees, MBAs, high school drop-outs, career changers; we don\u2019t care if you can match our passion, values and work ethic. About Our Company: Our leadership team built two successful companies together, one in supply chain and another in technology. Along the way, we\u2019ve been restoring cars, racing on the weekends and gaining all the experience necessary to build Kindred. At Kindred we build modernized vintage cars in a wildly innovative way. In our design center in Northern California we spend countless hours for every Kindred model prototyping and painstakingly evaluating thousands of design decisions that drive performance and reliability. Mid to late 2022 we will be moving to Vallejo Mare Island, into a new production facility 100,000 square feet+. Our home grown technology platform helps us map the genome of each model in such detail, that we can manage our workflows in ways never seen before in vintage cars. Kindred\u2019s integrated supply chain and our scale allow us to build with an unwavering focus on efficiency and quality. The result is a car so well built, that you can just be present in the moment and Enjoy the Ride.",
-      "website": "kindredmotorworks.com",
-      "employees": "33",
-      "active_jobs": "3"
-    },
-    {
-      "name": "KoBold Metals",
-      "description": "KoBold Metals is pioneering Digital Exploration by applying statistical modeling, big data aggregation, and foundational ore-deposit science to materially improve the pace and efficacy of natural resources exploration. We are deploying our Machine Prospector tool to discover new ethical sources of Ni, Cu, Co, and Li critical for the electric vehicle revolution.",
-      "website": "koboldmetals.com",
-      "employees": "134",
-      "active_jobs": "36"
-    },
-    {
-      "name": "Lastwall Networks, Inc.",
-      "description": "Lastwall is building new internet security systems, broadly based on new ways of authenticating users and strongly enforcing identity. The company\\'s API gives full control over security implementation and allows to add extra user security with just a few lines of code. Lastwall has a full developer documentation for many of the major web platforms.",
-      "website": "lastwall.com",
-      "employees": "25",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Lightship",
-      "description": "Lightship is an early-stage hardware startup launched in 2020 by Tesla alumni that is bringing the $26B RV industry into the electric age. Based in San Francisco, Lightship is designing and producing an aerodynamic, battery-powered trailer that liberates travelers from the noise, emissions, and range anxiety of gas RVing.",
-      "website": "lightshiprv.com",
-      "employees": "50",
-      "active_jobs": "21"
-    },
-    {
-      "name": "Lowercarbon Capital",
-      "description": "Lowercarbon Capital funds research and invests in technologies to reduce CO2 in the atmosphere. For too long, the world has ignored the scientists, inventors, and entrepreneurs who are pursuing solutions to lower emissions, remove carbon, actively cool the planet, and save human, animal, and plant life. It was founded in 2018.",
-      "website": "lowercarboncapital.com",
-      "employees": "26",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Machina Labs",
-      "description": "Machina Labs unlocks manufacturing with AI & Robotics. Machina\\'s Robotic Craftsman is introducing unseen flexibility and agility to the centuries-old manufacturing industry, enabling rapid iteration and innovation to design, engineering, and production. Machina helps leading companies quickly and affordably turn great ideas into reality.",
-      "website": "machinalabs.ai",
-      "employees": "56",
-      "active_jobs": "17"
-    },
-    {
-      "name": "MadeFrom",
-      "description": "MadeFrom provides clients with competitor\\'s insight using live data on companies.",
-      "website": "madefrom.com",
+      "name": "Silicate",
+      "description": "Silicate permanently removes excess carbon dioxide from the atmosphere via the acceleration of a natural geochemical process \u2013 mineral weathering.",
+      "website": "silicatecarbon.com",
       "employees": "3",
       "active_jobs": "0"
     },
     {
-      "name": "Mangrove Lithium",
-      "description": "Mangrove Lithium, a Vancouver-based company, has developed a breakthrough platform for the most cost-effective production of battery-grade lithium hydroxide and carbonate from diverse input streams and assets. Mangrove\u2019s modular solution can be scaled to any capacity and co-located with upstream lithium producers or cathode and cell manufacturers. The platform technology is also being commercialized for the conversion of waste brines to chemicals and desalinated water.",
-      "website": "mangrovelithium.com",
-      "employees": "36",
+      "name": "Sylvera",
+      "description": "Sylvera is a leading carbon data provider. Our mission is to incentivize investment in real climate action. To help organizations ensure they\\'re making the most effective investments toward net zero, we build software that independently and accurately automates the evaluation of carbon projects that capture, remove, or avoid emissions. With Sylvera\\'s data and tools, businesses and governments can confidently invest in, benchmark, deliver, and report real climate impact.",
+      "website": "sylvera.com",
+      "employees": "167",
+      "active_jobs": "13"
+    },
+    {
+      "name": "UNDO",
+      "description": "UNDO develops pioneering carbon removal that can capture huge amounts of CO2 from our atmosphere. Our innovative, nature-based technologies lock away carbon permanently and start immediately. And with cutting-edge, scientific research we ensure our technology is safe, effective, and beneficial, whilst measuring the amount of carbon removed through our model. Partnering with local agricultural communities, they both support and benefit from our work. And by providing high-quality carbon credits, we enable companies to meet their net zero commitments and help individuals who want to make a difference. Our ambition is to be the first company to remove 1 million tons of CO2 with the aim of removing a billion - once and for all.",
+      "website": "un-do.com",
+      "employees": "79",
       "active_jobs": "1"
     },
     {
-      "name": "MicroByre",
-      "description": "MicroByre is a biotechnology company that specializes in microbiology, synthetic biology, molecular biology, and computational biology. It domesticates and then genetically engineers otherwise reluctant, recalcitrant, and rebellious bacteria. It was founded in 2017 and headquartered in California, United States.",
-      "website": "microbyre.com",
-      "employees": "32",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Modulous",
-      "description": "Our planet doesn\\'t have sufficient homes. Our technology will help change that. We\\'re a team of designers, engineers and technologists dedicated to creating a technology platform designed to enable the high-speed design & delivery of quality, sustainable, healthy & affordable housing, globally.",
-      "website": "modulous.com",
-      "employees": "62",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Modumate",
-      "description": "Modumate is a next-generation 3D design tool helping to modernize architects\\' workflows, including automation of drafting. The tool automatically creates, annotates, and updates your permit and construction drawings. They making architects 10x more productive and helping them design 10x better buildings. Modumate offers software application for designing and customization of building exteriors and interiors, as well as enables users to tag and schedule display data from the data-complete objects of design. It was founded in 2017 and is based in San Francisco, California, United States.",
-      "website": "modumate.com",
-      "employees": "6",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mombak",
-      "website": "mombak.com",
-      "employees": "25",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Muon Vision",
-      "description": "Our technology provides a passive, non-invasive X-ray imaging technology that can be used to i) visualize the percolation of process fluids across leaching heaps at scale; ii) monitor the stability of dams, heaps, mining assets; iii) other industrial and mining applications where density measurements are of key importance to improve safety and productivity.",
-      "website": "muonvision.com",
-      "employees": "6",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mythos AI",
-      "description": "The founders of Mythos AI have been at the bleeding edge of the Silicon Valley self-driving car industry and the unmanned surface vehicle industry for over a decade. We are applying lessons learned from self-driving cars to develop a next generation autonomy framework for the maritime sector and enable large scale adoption of advanced machine learning and true automation for commercial operators. Together with strategic partners we leverage our technology to enable an industry.",
-      "website": "mythos-ai.com",
-      "employees": "8",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Novi",
-      "description": "Novi is a technology platform that uses AI to ingest proprietary chemical information from chemical manufacturers or suppliers and create chemical profiles at the trade material level. It enables brands and formulators on the platform to access data for any trade material of interest to assess an ingredient currently in use, find safer alternatives, or discover new ingredients that meet their standards. Retailers verify that brands only use ingredients that meet their standards. The company is dedicated to solving the large hurdle of scalable data management by acting as the third-party to translate relevant proprietary information between suppliers and brands.",
-      "website": "noviconnect.com",
-      "employees": "28",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Othersphere",
-      "description": "Othersphere identifies profitable and sustainable locations for deploying zero or low greenhouse gas industrial technologies.",
-      "website": "othersphere.io",
-      "employees": "13",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Overview Energy",
-      "description": "Overview Energy is a VC-backed space startup based in the DC Area. We\u2019re building a constellation of large, deployable satellites, which will require solving fundamental problems in aerospace manufacturing, GNC, and space power systems..",
-      "website": "overviewenergy.com",
-      "employees": "9",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Pano",
-      "description": "Pano AI (Pano) is the leader in early wildfire detection and intelligence, providing government, utilities, insurers, and private landowners with advanced tools and up-to-the-minute intelligence to quickly mitigate wildfire threats while protecting lives, property, and the environment. Pano combines advanced hardware, artificial intelligence, and software in a single integrated enterprise solution. Leveraging data and satellite feeds, as well as propriety imagery from a network of ultra-high-definition, 360-degree cameras atop high vantage points, Pano\u2019s artificial intelligence model produces a real-time picture of threats in a geographic region and delivers immediate, actionable intelligence.",
-      "website": "pano.ai",
-      "employees": "76",
+      "name": "Vaulted Deep",
+      "description": "Vaulted is an emerging leader in permanent carbon removal. A biomass carbon removal and storage (BiCRs) solution, Vaulted delivers permanent, high quality carbon removal at scale through the geologic sequestration of carbon-filled organic waste. Vaulted\u2019s approach is designed to be the lowest-cost, gigaton scale, permanent carbon removal. We sequester sludgy organic wastes (biosolids, manure, agricultural, food waste, paper sludge, etc.) that today are sent to a landfill, dumped into an ocean/river, land applied, or otherwise left to decompose, releasing GHGs into the atmosphere. Vaulted leverages a suite of patented, mature, geologic slurry sequestration technologies which allow us to sequester organic waste with minimal processing. We inject deep under the earth\u2019s surface, where the carbon is permanently trapped under a layer of impermeable rock - the same formations that have kept hydrocarbons underground for millions of years. We have two permitted, operational, facilities allowing us to reach near-term meaningful scale. Our carbon removal approach goes beyond vaulting carbon. It inherently improves local environmental and human health. In doing so, our operations redress historically unjust waste management practices and advance environmental justice. Vaulted is backed by leading carbon removal and climate investors, including Lowercarbon Capital, Earthshot Ventures, and WovenEarth Ventures.",
+      "website": "vaulteddeep.com",
+      "employees": "10",
       "active_jobs": "5"
-    },
+    }
+  ],
+  "Water Distribution Efficiency": [
     {
-      "name": "Petra",
-      "description": "Petra is the first robotics company focused on undergrounding utilities. Our undergrounding robot is the first practical and affordable solution able to bore utility tunnels through high grade hard rock, in areas that are the most disaster-prone. Our mission is to make the world a safer place by making utility undergrounding ubiquitous and affordable to all communities.",
-      "website": "petra.cc",
+      "name": "120Water",
+      "description": "120Water is the end-to-end lead management solution designed to ease the compliance burden and optimize the efforts of water systems. Comprised of software, consultative services and sampling kits, 120Water\u2019s solution meets systems where they are, providing a roadmap for lead compliance and program success. Their team of water alumni and technology experts have supported over 7,000 sampling events across the country, partnering with water systems and facilities of all sizes to protect public health and provide clean drinking water to communities.",
+      "website": "120water.com",
       "employees": "75",
       "active_jobs": "0"
     },
     {
-      "name": "Phase Genomics",
-      "description": "Phase Genomics\\' mission is to help scientists make breakthrough discoveries by providing the most complete, accurate, detailed genomes and metagenomes available from any technology.",
-      "website": "phasegenomics.com",
-      "employees": "31",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Pico MES",
-      "description": "Manufacturing Execution Systems (MES) have never been human-centric. Poor data management, broken traceability, and not designed for the average factory worker. Not anymore - we\u2019ve fixed it. Pico MES is a fresh approach to factory operating systems and enables a connected environment to limitless factory tools, capturing data for visibility into the supply chain. Pico MES has migrated dozens of mid-sized factories off of paper-based systems and helped improve product quality for American factories in battery manufacturing, automotive, and aerospace. Pico MES is designed by end users, for future end users.",
-      "website": "picomes.com",
-      "employees": "31",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Pioneer Transformers",
-      "description": "Pioneer Transformers is a engineer and manufacturer of a broad range of specialty liquid-filled and dry-type power transformers for niche applications in industrial, OEM and commercial and backup power markets.",
-      "website": "pioneertransformers.com",
-      "employees": "18",
-      "active_jobs": "43"
-    },
-    {
-      "name": "Planet",
-      "description": "Planet is the leading provider of global, daily satellite imagery and insights. Planet is driven by a mission to image all of Earth\u2019s landmass every day, and make global change visible, accessible, and actionable. Founded in 2010 by three NASA scientists, Planet designs, builds, and operates the largest fleet of imaging satellites, as well as online software, tools and analytics needed to deliver data to users. Decision makers in business, government, and within organizations use Planet\\'s data and machine learning-powered analytics to develop new technologies, drive revenue, power research, and make informed, timely decisions to solve our world\\'s toughest challenges.",
-      "website": "planet.com",
-      "employees": "1352",
-      "active_jobs": "16"
-    },
-    {
-      "name": "PulSenics",
-      "description": "PulSenics is a provider of real-time electrochemical system monitoring and control solutions. It utilizes artificial intelligence technology for electrochemical system monitoring and provides insights about electrolyte concentration, membrane health, power consumption, electrode adsorption, and others.",
-      "website": "pulsenics.com",
-      "employees": "19",
-      "active_jobs": "14"
-    },
-    {
-      "name": "Relativity Space",
-      "description": "Relativity Space is an aerospace company that designs, develops, and builds 3D-printed rockets. a vertically integrated technology platform, Relativity is at the forefront of an inevitable shift toward software-defined manufacturing by fusing 3D printing, artificial intelligence, and autonomous robotics. It offers a radically simplified supply chain, building a rocket with 100x fewer parts in less than 60 days. Relativity Space is backed by leading investors including Bond, Tribe Capital, Playground Global, Y Combinator, Social Capital, and Mark Cuban.",
-      "website": "relativityspace.com",
-      "employees": "969",
-      "active_jobs": "199"
-    },
-    {
-      "name": "Renaissance Fusion",
-      "description": "Nuclear fusion start-up in Europe making the stellarator simple, fusion electricity incredibly cheap, and MRI a routine medical check-up.",
-      "website": "stellarator.energy",
-      "employees": "41",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Rendered.ai",
-      "description": "Rendered.ai develops data engineering tools built to help medical, automotive, robotics, security, and other industries. It provides a Common Application Framework to produce physics-based synthetic datasets for AI training and validation. The company was founded in 2019 and is based in Bellevue, Washington.",
-      "website": "rendered.ai",
-      "employees": "27",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Safehub",
-      "description": "Safehub helps corporations manage catastrophe risk through physics-based technology, enhanced by sensors and AI. The Safehub Global Platform presents building-specific data in real-time, providing critical risk information. This enables corporations to refine and evaluate insurance and risk reduction programs, and expedite emergency response and recovery, minutes following an event.",
-      "website": "safehub.io",
-      "employees": "20",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Scope3",
-      "website": "scope3.com",
-      "employees": "38",
-      "active_jobs": "12"
-    },
-    {
-      "name": "Scythe Robotics",
-      "description": "Building highly-intelligent autonomous robots to tackle challenges in unstructured outdoor environments.",
-      "website": "scytherobotics.com",
-      "employees": "68",
-      "active_jobs": "18"
-    },
-    {
-      "name": "Sibros",
-      "description": "Sibros takes the complexity out of software-defined vehicles with its Deep Connected Platform\u2122 that unifies real-time data collection with software configuration management, remote updates, and diagnostic commands, while meeting key automotive safety, security, and data privacy requirements. Sibros solutions can be deployed on any vehicle architecture, from legacy gas and diesel to next-generation BEVs, fuel cells, motorcycles, buses, commercial trucks, and heavy machinery. Using our future-ready technology built in Silicon Valley, Sibros enables OEMs to innovate differentiated customer experiences, improve cost savings and realize new revenue models across the full mobility product life cycle.",
-      "website": "sibros.tech",
-      "employees": "144",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sightline Climate",
-      "description": "Sightline Climate is a market intelligence platform that provides data-driven insights as well as tactical intelligence on climate change.",
-      "website": "sightlineclimate.com",
-      "employees": "27",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sila Nanotechnologies",
-      "description": "Sila Nanotechnologies is an electronics company that offers new battery materials chemistry. It works directly with leading consumer electronics and automotive OEMs to help accelerate product roadmaps, and partners with battery manufacturers commercial cell production. The company was founded in 2011 and headquartered in California, United States.",
-      "website": "silanano.com",
-      "employees": "372",
-      "active_jobs": "34"
-    },
-    {
-      "name": "SilverLining",
-      "description": "SilverLining is a non-profit supporting research in interventions to reduce heat in climate and innovations to better understanding the climate system.",
-      "website": "silverlining.ngo",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Singularity Energy",
-      "description": "Singularity is a Harvard spinoff building real-time carbon tracking and decision-making solutions to help climate regulators, sustainability directors, and cleantech product directors meet ambitious targets with confidence and transparency through a combination of data and artificial intelligence. The company was founded in 2018 by Wenbo Shi and is based in Somerville, Massachusetts, United States.",
-      "website": "singularity.energy",
-      "employees": "13",
-      "active_jobs": "0"
-    },
-    {
-      "name": "SirenOpt",
-      "description": "SirenOpt makes sensors and software that accelerate R&D and enable cost-effective manufacturing of high-performance thin films.",
-      "website": "sirenopt.com",
-      "employees": "11",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Sitetracker",
-      "description": "Sitetracker is a SaaS platform for deploying, operating, and servicing critical infrastructure and technology. The Sitetracker Platform enables growth-focused innovators to optimize the entire asset lifecycle through native platform inclusions like AI, automation, and actionable analytics. From the field to the C-suite, Sitetracker enables stakeholders to optimize how they plan, deploy, maintain, and grow their capital asset portfolios. Market leaders in the telecommunications, alternative energy, and utility industries \u2014 such as Ericsson, Fortis, Google, British Telecom, and Vodafone \u2014 rely on Sitetracker to manage millions of sites and projects representing over $25 billion of portfolio holdings globally.",
-      "website": "sitetracker.com",
-      "employees": "362",
-      "active_jobs": "14"
-    },
-    {
-      "name": "Smartcar",
-      "description": "Smartcar\\'s team is building the infrastructure for the connected car.",
-      "website": "smartcar.com",
-      "employees": "113",
-      "active_jobs": "2"
-    },
-    {
-      "name": "SolarAPP Foundation",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Stoke Space",
-      "description": "Stoke Space is a developer of reusable rockets that provide access to and from any orbit to the satellite industry. These reusable rockets are designed to make space access sustainable and scalable. They are also used to deliver satellites, that can be reused, are low-cost, on-demand, and designed to fly daily. These reusable rockets help clients launch space missions and deliver new satellites to space in a sustainable and cost-efficient manner.",
-      "website": "stokespace.com",
-      "employees": "108",
-      "active_jobs": "25"
-    },
-    {
-      "name": "Stripe, Frontier",
-      "description": "An advance market commitment to accelerate carbon removal\nFrontier is an advance market commitment to buy an initial $925M of permanent carbon removal between 2022 and 2030. It\u2019s funded by Stripe, Alphabet, Shopify, Meta, McKinsey, and tens of thousands of businesses using Stripe Climate.",
-      "website": "frontierclimate.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sunthetics",
-      "description": "Sunthetics enables process chemists in pharma to develop electrochemical lead molecules in 1/10th of the time. Electrochemistry has many operational, cost, and sustainable benefits such as using 40% less energy, avoiding toxic chemicals and waste, and enabling new types of molecules. Despite interest in pharmaceuticals to develop electrochemical molecules, many molecules don\\'t make it past process development. For most applications, the many years of optimization and additional training required don\\'t justify the energy and cost savings. Sunthetics develops smart electrochemical reactors that enable process chemists to develop at-scale processes in 1/10th of the time. Our effective hardware is scalable and effective, and enables fast results through a machine-learning platform that is automatic and predictive, reducing the experiments needed for development by 10x. Though the beachhead market is pharmaceuticals, Sunthetics has a platform technology that can be scaled and applied to follow-on markets such as agrochemicals and specialty chemicals, spearheading the electrification of the chemical industry.",
-      "website": "sunthetics.io",
-      "employees": "7",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Supercritical",
-      "description": "Supercritical produces hydrogen and oxygen with the help of an electrolyzer and works towards creating a zero-carbon future.",
-      "website": "supercritical.solutions",
-      "employees": "19",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Sustainment",
-      "description": "Sustainment is an online software platform that efficiently connects manufacturing vendors and heavy industry to enable American manufacturing. Their platform incorporates data infrastructure technology, algorithm-based matching and optimization, encrypted transfer protocols, semi-autonomous sourcing techniques, and excellent UX design to provide an intuitive customer experience for sourcing teams and manufacturing vendors.",
-      "website": "sustainment.tech",
-      "employees": "93",
-      "active_jobs": "2"
-    },
-    {
-      "name": "T-REX",
-      "description": "Enterprise Fintech Platform: T-REX\u2019s mission is to make complex capital markets more liquid through enhanced transparency and efficiency. In order to facilitate growth in complex asset classes, T-REX aims to continuously build effective market-relevant financial infrastructure that allows complex markets to be more robust through unprecedented transparency. T-REX is the financial and risk analytics platform for complex asset classes: increasing standardization, efficiency, and transparency. Through its enterprise SaaS platform, T-REX unlocks hundreds of billions of dollars currently seeking investment through modules that combine analysis across assets, loans, bonds, and other capital structures. Before T-REX, the value of the assets was opaque, non-standard, and manually evaluated one asset at a time. With T-REX, industry participants can now efficiently invest in, securitize, and manage portfolios of assets with complete transparency.",
-      "website": "trexgroup.com",
-      "employees": "128",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Tenere",
-      "description": "Tenere is a North American manufacturer of custom mechanical solutions for companies that connect the world through technology in the Cloud Infrastructure, Network Architecture, Fiber Optics, and Renewable Energy markets. With decades of experience, the company specializes in fabricated sheet metal, injection molding, and assemblies by leveraging their expertise in prototyping, design for manufacturability, tooling, production, assembly, integration & test, and supply chain.",
-      "website": "tenere.com",
-      "employees": "200",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Terra.do",
-      "description": "Terra.do operate as an online climate school. Terra.do collaborate with experts from the field to offer learners an overview of the entire climate landscape. The company was founded in 2020 and is based in Stanford, California, United States.",
-      "website": "terra.do",
-      "employees": "140",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Terrafuse",
-      "description": "Terrafuse develops artificial intelligence to provide actionable climate intelligence to the planet. Their tool uses machine learning emulators of weather and hydroclimate models for operational and financial risk assessment, enabling clients to make climate-informed decisions for their businesses.",
-      "website": "terrafuse.ai",
-      "employees": "11",
-      "active_jobs": "0"
-    },
-    {
-      "name": "The Eastern Specialty Company",
-      "description": "TESCO offers a full range of meter testing operational support, including burdens, test switches, and wattmeter test accessories. The company provides a range of services, including meter shop layout, statistical sampling, equipment specifications, field services, facility relocations, quality management, project management and custom equipment. They work with utilities to develop and implement engineered solutions such as ultrasonic cleaning systems, statistical sampling processes, and supporting software, as well as technical support for preparing reports for regulating agencies and Public Utility Commissions (PUCs) for both electrical and gas metering operations.",
-      "website": "tescometering.com",
-      "employees": "65",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Toucan Protocol",
-      "description": "Toucan is working to make DeFi work for the planet. We\\'re building market infrastructure to bring carbon markets to public blockchains. If you\\'re passionate about climate, finance, tech, people or the Earth, get in touch - we\\'re hiring!",
-      "website": "toucan.earth",
-      "employees": "26",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Transcend",
-      "description": "We enable engineering, construction, and technology companies to improve financial performance and accelerate digital transformation initiatives through automated engineering design software.",
-      "website": "transcendinfra.com",
-      "employees": "98",
-      "active_jobs": "11"
-    },
-    {
-      "name": "Trove",
-      "description": "Trove is a SaaS start-up in Ann Arbor, Michigan that uses artificial intelligence (AI) to help companies build more productive professional relationships. Trove\u2019s analysis of a company\u2019s communications data reveals valuable insights about how your team members are connected.",
-      "website": "trove.com",
-      "employees": "210",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Twelve",
-      "description": "We are the carbon transformation(tm) company. We make the world\\'s most critical chemicals, materials and fuels from air with our revolutionary carbon transformation(tm) technology.",
-      "website": "twelve.co",
-      "employees": "343",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Uncharted",
-      "description": "At Uncharted, we\u2019re building the operating system for last mile infrastructure. Uncharted is an MWBE-certified Platform-as-a-Service company that helps cities and developers reduce the cost and complexity of deploying and managing last mile infrastructure.",
-      "website": "uncharted.city",
-      "employees": "21",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Urban Machine",
-      "description": "Stealth Startup",
-      "website": "urbanmachine.build",
-      "employees": "16",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Urbint",
-      "description": "Urbint predicts threats to workers and critical infrastructure to stop incidents before they happen. Leveraging real-world data and artificial intelligence, Urbint\u2019s software delivers a clear picture of risk up to a week in advance, so decision-makers can take action in the right place, at the right time, before an incident occurs. Many of thelargest energy and infrastructure companies in North America trust Urbint to protect their workers, assets, and the communities they serve.",
-      "website": "urbint.com",
-      "employees": "98",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Vecna Robotics",
-      "description": "Vecna Robotics offers Automated Material Handling, Hybrid Fulfillment, and Workflow Optimization solutions. The company\\'s objective is to revolutionize customer productivity by delivering the best automation technologies. By placing workflows over robots, we ensure that all parts and players complement each other perfectly. That is a futuristic vision that puts fact over fiction.",
-      "website": "vecnarobotics.com",
-      "employees": "146",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Vector",
-      "description": "Reduce operational friction and increase productivity by streamlining your workflows with our LoadDocs electronic forms and document capture solution.",
-      "website": "withvector.com",
-      "employees": "165",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Watershed",
-      "description": "Watershed is the enterprise climate platform. Leading companies like BlackRock, Airbnb, Stripe, Klarna, and Block use our software to run end-to-end climate programs with quantifiable results. Watershed delivers granular, audit-grade carbon measurement; one-click disclosure and reporting; and real emissions reduction\u2014all in a single, intuitive, enterprise-grade software platform. Watershed customers have access to our exclusive marketplace of scientifically vetted, high-additionality carbon removal projects and high-quality offsets; in-house climate and policy expertise; and ongoing support throughout their climate journey.",
-      "website": "watershed.com",
-      "employees": "364",
-      "active_jobs": "41"
-    },
-    {
-      "name": "Work on Climate",
-      "description": "We are an action-oriented Slack community for people serious about climate work. Find climate jobs. Build climate companies. Find your people.",
-      "website": "workonclimate.org",
-      "employees": "44",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Xtelligent",
-      "description": "Xtelligent is an American software company. Andrew Powch co-founded it in 2015, with its headquarters Los Angeles in California in the United States.",
-      "website": "xtelligent.io",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "blumensystems.com",
-      "website": "blumensystems.com",
-      "active_jobs": "8"
-    },
-    {
-      "name": "circleseafoods.com",
-      "website": "circleseafoods.com",
-      "employees": "8",
-      "active_jobs": "0"
-    },
-    {
-      "name": "polySpectra",
-      "description": "PolySpectra transforms 3D printing from a prototyping aid into a production manufacturing tool. PolySpectra makes functional materials for advanced additive manufacturing. The company uses light-activated catalysts to 3D print advanced functional materials. Its modular platform enables us to deliver materials with a broad spectrum of tailored properties from a single chemical system. PolySpectra helps inventors, designers, and engineers make their ideas real. Founded in 2016 by Raymond Weitekamp, PolySpectra is headquartered in Berkeley, California.",
-      "website": "polyspectra.com",
-      "employees": "10",
-      "active_jobs": "6"
-    },
-    {
-      "name": "rewind.earth",
-      "website": "rewind.earth",
-      "employees": "8",
-      "active_jobs": "0"
-    },
-    {
-      "name": "supercircle.world",
-      "website": "supercircle.world",
-      "employees": "9",
-      "active_jobs": "0"
-    }
-  ],
-  "Electric Cars": [
-    {
-      "name": "Amber Technologies",
-      "description": "While EVs typically have lower total cost of ownership and fewer maintenance requirements, longtime owners have found that EVs often outlive their warranties, which ends up costing drivers if they have issues with high voltage parts or the battery. That\u2019s why at Amber, we offer modern protection plans and repair facilities to give owners the confidence to own electric vehicles as they age. Unlike traditional extended warranty programs, Amber\u2019s EV care program was designed with the top EV technicians and communities to be tailored for the EV ownership experience. Amber is a seed-stage startup led by an experienced group of operators at the intersection of insurtech (Metromile; NYSE: LMND), mobility (Samsara; NYSE: IOT), and automotive (Hyundai), (Tesla; NASDAQ: TSLA).",
-      "website": "getamber.com",
-      "employees": "9",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Arc",
-      "description": "Arc is a venture-backed startup manufacturing and selling high-performance electric boats. We\u2019re starting with watersport boats, but have an eye toward electrifying the watercraft industry.",
-      "website": "arcboats.com",
-      "employees": "569",
-      "active_jobs": "13"
-    },
-    {
-      "name": "BETA Technologies",
-      "description": "Beta Technologies designs and develops electric aircraft including advanced flight control and electric propulsion systems, with a focus on clean aviation technology. Beta designs a self-sufficient eVTOL aircraft ecosystem that satisfies the needs of humans, embraces the laws of nature, and works in harmony with the planet. Beta Technologies simplifies and amplifies access to the vertical dimension of mobility.",
-      "website": "beta.team",
-      "employees": "568",
-      "active_jobs": "86"
-    },
-    {
-      "name": "Blue Current",
-      "description": "Blue Current manufactures advanced solid-state batteries for electric vehicles, consumer electronics, medical, and IoT devices. The company strives to provide engineers and designers with the highest performance and safest battery solutions. Blue Current leads with science, data, and thoughtful IP across the full solid-state battery solution stack. We\u2019re excited to share more soon. The company was founded in 2014 and is based in Hayward, California.",
-      "website": "bluecurrent.com",
-      "employees": "40",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Bolt.Earth",
-      "description": "India\u2019s Largest EV Charging Network with 15000+ charging points, accessible across 300+ cities via the BOLT Application",
-      "website": "bolt.earth",
-      "employees": "293",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Breathe",
-      "description": "Breathe Battery Technologies is a developer of electric vehicle battery charging control software for automotive manufacturers. The software improves battery capacity by 5% and allows for twice more uses in the battery\u2019s lifetime, without requiring any costly or time consuming hardware changes.",
-      "website": "breathebatteries.com",
-      "employees": "32",
-      "active_jobs": "20"
-    },
-    {
-      "name": "ChargerHelp!",
-      "description": "ChargerHelp! pioneers the future of EV charging with our innovative Reliability as a Service (RaaS) solution. Addressing core challenges in EVSE Operation & Maintenance (O&M), our data-driven approach maximizes charger uptime. Partnering with industry leaders and emphasizing community empowerment, we\\'re committed to elevating EVSE infrastructure reliability. Let\\'s redefine the future of EV charging together.",
-      "website": "chargerhelp.com",
-      "employees": "57",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Chargetrip",
-      "description": "Chargetrip is the world\\'s leading Smart EV Routing platform. We make EV-driving and -charging seamless, reduce operational costs, and unlock new business models. Our customers are CPOs (e.g. EnBW, Recharge, EDP, Iberdrola), Fleet Operators (e.g. Total), OEMs (e.g. Porsche), Telematics providers (e.g. Autosense), and Mobility Service Providers (e.g. Elbil, ANWB). They use our Routing-API to power solutions for individual EV-drivers and EV-fleets; owned, leased, rented, shared, and autonomous. Our routing engine uses over 15 different (dynamic) variables to calculate the real-time range of any EV (currently 260+ EV models). Proprietary algorithms then compute the best route from A, to B (to C, to D) with the optimal charge stations in between; specific to that vehicle, to that journey, business logic, and fleet specs. Build-in predictive models optimize for total travel-time and travel-costs. Chargetrip\u2019s API is easy to integrate into existing charge-, navigation-, Fleet operating, and telematics applications. On average, over 175.000 EV drivers use our software every month; equal to 10% of all EV\u2019s in Europe.",
-      "website": "chargetrip.com",
-      "employees": "42",
-      "active_jobs": "2"
-    },
-    {
-      "name": "FLO",
-      "description": "Leader nord-am\u00e9ricain en solutions de recharge pour v\u00e9hicules \u00e9lectriques // North American leader in smart charging solutions for electric vehicles.",
-      "website": "addenergie.com",
-      "employees": "538",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Greenlots",
-      "description": "Greenlots is unlocking the possibilities of the new electric mobility future by delivering innovative software, services and expertise that empowers utilities, cities, communities and automakers to deploy EV charging infrastructure at scale. Their technology brings together the latest in EV charging and grid management software, connecting people in a safer, cleaner, and smarter way. Headquartered in Los Angeles, CA, the company\u2019s global footprint spans across three continents with deployments in 13 different countries.",
-      "website": "greenlots.com",
-      "employees": "23",
-      "active_jobs": "0"
-    },
-    {
-      "name": "HIVED",
-      "description": "With innovative technology, we have created an all-electric parcel delivery system that is significantly better in every way imaginable: more affordable, great service and 100% emission-free.",
-      "website": "hived.space",
-      "employees": "80",
-      "active_jobs": "0"
-    },
-    {
-      "name": "KIGT",
-      "description": "KIGT is an Electric Vehicle Supply Equipment (EVSE) Manufacturer that also creates the operating software. We help Plug-in Car Drivers save time and money by providing faster charging at home with software that makes it easier to manage fueling and energy expenses. The MINI eCharger is one of the smallest Level 2-220 Volt wall mount Smart Charge Stations for your home or commercial parking structures. Featuring the first ever interactive touch screen in home charge station . Our Managed Charging Operating System completely enhances the most important aspects of the plug-in driving experience. Including Scheduled Charging software that enables drivers to pre-set your home charging session for off-peak times when electricity cost less per kWh. KIGT eChargers are for all Electric Vehicle (EV) and Plug-In Hybrid Electric Vehicle (PHEV) drivers. Imagine, what it would be like if you never had to pay for gasoline ever. Now imagine every time you left home or your parking space at work you had a full tank. Even better if you can, imagine it cost you less than $3. Now if you can do your best to imagine that the car you drove actually supplied the electricity for your home and building where you worked. Sounds like something out of the Jetsons, right? Yet it, isn\u2019t. We at KIGT live this future almost everyday, and our intent is to have others live like this to. KIGT is a green tech company whose core focus is providing clean affordable fuel and energy infrastructure options to individual consumers and commercial customers. KIGT designs and manufactures an intelligent compact yet stylish 220V/30Amp bi-directional fast chargers for battery electric vehicles. KIGT is now the primary Electric Vehicle (EV) Charge Station provider for the University of La Verne. KIGT and the Univ. of La Verne have agreed to a 3 Year exclusivity/non-compete agreement. This is the first EV Charging project on the campus for students and visitors.",
-      "website": "kigtinc.com",
-      "employees": "7",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Kinetic Automation",
-      "description": "Kinetic is ushering in the next generation of mobility (EVs, AVs) with a network of highly automated service centers.",
-      "website": "kinetic.auto",
-      "employees": "18",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Kopperfield",
-      "description": "Hassle-free home EV charger installation",
-      "website": "kopperfield.com",
-      "employees": "11",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Monta",
-      "description": "With Monta you can launch, manage, and scale all your EV needs and operation with one integrated software built to EV better. We believe that accelerating and democratising the adoption of EV technology is key to fostering the sustainable future we so desperately need. That\u2019s why Monta drives the entire EV ecosystem. You may be familiar with our app for EV drivers or our EV charging portal; Monta\u2019s mission is to provide the best technology solutions for the entire EV charging cycle. At our core, we provide access, innovation, and reliability to the emobility transformation. Why EV less when you can #EVBetter?",
-      "website": "monta.com",
-      "employees": "243",
-      "active_jobs": "75"
-    },
-    {
-      "name": "Orange Charger",
-      "description": "Orange Charger is excited about building solutions that overcome the limitations that have slowed the installation of electric vehicle charging in multi-unit dwellings. We believe that charging at home makes owning an electric vehicle more compelling and convenient. When cars first emerged, gas stations were not at every corner, and electricity was just taking off. As electric vehicles cross the chasm, a new charging network will be required to help manage the demand on the grid while also being more convenient than public charging and gas stations. Our goal at Orange is to build the world\\'s largest at-home charging network for multi-unit dwellings and beyond.",
-      "website": "orangecharger.com",
-      "employees": "12",
-      "active_jobs": "8"
-    },
-    {
-      "name": "Plug",
-      "description": "EV Wholesale Excellence",
-      "website": "plug.vin",
-      "employees": "8",
-      "active_jobs": "2"
-    },
-    {
-      "name": "PowerFlex Systems",
-      "description": "We enable work places to support mass EV charging using renewable energy. Our software solution intelligently balances electricity demand and supply to maximize the use of renewable energy, minimize cost, while meeting EV owners\\'\u200b needs for charging their vehicles.",
-      "website": "powerflex.com",
-      "active_jobs": "9"
-    },
-    {
-      "name": "Proterra",
-      "description": "Proterra is a leader in the design and manufacture of zero-emission, heavy-duty electric vehicles, enabling bus fleet operators to significantly reduce operating costs while delivering clean, quiet transportation to local communities across North America. The company\u2019s configurable Catalyst platform is designed to serve the daily mileage needs of a wide range of transit routes on a single charge. With industry-leading durability and energy efficiency based on rigorous U.S. independent testing, Proterra products are proudly designed, engineered, and manufactured in America, with offices in Silicon Valley, South Carolina, and Los Angeles. Proterra\\'s revolutionary battery-electric transit vehicles help fleet operators abandon fossil fuels, improve environmental quality, and reduce operating costs. Together with their customers, they have prevented more than 55 million pounds of greenhouse gases from escaping into the atmosphere and avoided burning some 2 million gallons of fuel. The company was established in 2004 and is based in Burlingame, California, USA.",
-      "website": "proterra.com",
-      "employees": "797",
-      "active_jobs": "21"
-    },
-    {
-      "name": "QuantumScape",
-      "description": "QuantumScape is a renewable energy company that develops solid-state battery technology to increase the range of electric cars. The company works to revolutionize the battery industry by producing a solid-state battery that will provide a substantially higher level of battery storage than other batteries currently on the market. It manufactures lithium batteries aimed to accelerate the commercialization of solid-state batteries. Jagdeep Singh founded the company in San Jose, California in 2010.",
-      "website": "quantumscape.com",
-      "employees": "581",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Recurrent",
-      "description": "We provide car dealers and private party buyers with vehicle reports for used electric cars. Understanding the battery health and typical ranges of electric cars as they age is more complicated. And it\\'s more important than knowing the odometer reading.",
-      "website": "recurrentauto.com",
-      "employees": "35",
-      "active_jobs": "0"
-    },
-    {
-      "name": "River",
-      "description": "River is an electric vehicle startup backed by marquee international investors in the mobility space. River is building high-quality mobility solutions designed to better the livelihoods of people around the world. The first product is an electric two-wheeler designed and built in India for the world.",
-      "website": "rideriver.com",
-      "employees": "453",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Rivian",
-      "description": "Rivian is an automotive technology company that develops products and services to advance the shift to sustainable mobility. The company creates solutions that redefine traditional automotive economics and remove the pain points of conventional ownership. It also manufactures autonomous electric vehicles intended to offer a comfortable and eco-friendly driving experience.",
-      "website": "rivian.com",
-      "employees": "9970",
-      "active_jobs": "474"
-    },
-    {
-      "name": "Scalvy",
-      "description": "Scalvy develops an electric powertrain platform for faster development of electric mobility systems. Its platform can be adjusted modularly to fit different customer requirements without over-specification and associated high costs such as research and development, sourcing, and production costs.",
-      "website": "scalvy.com",
-      "employees": "13",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Shift EV",
-      "description": "Shift EV is an electric mobility technology startup that develops electric vehicle batteries for commercial vehicles. The startup provides fleet owners, operators, and financiers with information about electric vehicle operations such as savings, electricity consumed, emissions avoided available battery range, and mileage.",
-      "website": "shift-ev.com",
-      "employees": "75",
-      "active_jobs": "17"
-    },
-    {
-      "name": "Stable",
-      "description": "Stable is helps EV fleets and charging providers efficiently plan and operate their charging infrastructure.",
-      "website": "stable.auto",
-      "employees": "18",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Synop",
-      "description": "The Operating System for Commercial EV\\'s",
-      "website": "synop.ai",
-      "employees": "28",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Treehouse",
-      "description": "Treehouse simplifies residential, commercial, and fleet electrification through software-enabled Installation-as-a-Service",
-      "website": "treehouse.pro",
-      "employees": "22",
-      "active_jobs": "1"
-    },
-    {
-      "name": "XL Fleet",
-      "description": "XL Fleet is a provider of electrified powertrain solutions for commercial fleet vehicles. The company provides real-time data monitoring and analytics and will expand its \u201cElectrification-as-a Service\u201d solution, which includes power management, charging infrastructure, and onsite power and storage offerings. XL has developed a flexible proprietary electrification powertrain platform that transforms traditional fossil fuel-powered fleet vehicles into hybrid and plug-in hybrid electric vehicles as they are manufactured.",
-      "website": "xlfleet.com",
-      "employees": "31",
-      "active_jobs": "0"
-    },
-    {
-      "name": "ev.energy",
-      "description": "We make electric vehicle charging simpler, greener, and cheaper for everyone, reducing carbon emissions caused by EV charging by as much as 70%. To achieve this we\u2019ve brought together a team of over 100 people, bringing expertise from previous roles at National Grid, Tesla, Amazon, Arcadia, and Chargepoint; and we\u2019ve secured over 50m USD from leading VCs in the automotive and energy space including National Grid Partners, WEX Venture Capital, Energy Impact Partners and JLR\u2019s InMotion Ventures. Come help us drive change for the better.",
-      "website": "ev.energy",
-      "employees": "106",
-      "active_jobs": "3"
-    }
-  ],
-  "Utility-Scale Solar Photovoltaics": [
-    {
-      "name": "Charge Robotics",
-      "description": "Charge Robotics is building robots that automate the most labor-intensive parts of solar construction.\nSolar has rapidly become the cheapest form of power generation in many regions. Demand has skyrocketed, and now the primary barrier to getting it installed is labor logistics and bandwidth.\nOur robots remove the labor bottleneck, allowing construction companies to meet the rising demand for solar, and enabling the world to switch to renewables faster.",
-      "website": "chargerobotics.com",
-      "employees": "9",
-      "active_jobs": "4"
-    },
-    {
-      "name": "CubicPV",
-      "description": "CubicPV is a solar manufacturing company that produces wafers and tandem modules. The company utilizes silicon and perovskite technologies to develop semiconductor combinations for tandem modules which lead to reductions in clean electricity costs and embedded carbon.",
-      "website": "cubicpv.com",
-      "employees": "76",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Dimensional Energy",
-      "description": "Dimensional Energy is a chemistry company pioneering artificial photosynthesis to produce environmentally responsible polymers and chemical intermediaries. Dimensional Energy is making solar fuels viable through efficient utilization and even distribution of sunlight in scalable reactor forms with novel, functionalized catalysts.",
-      "website": "dimensionalenergy.com",
-      "employees": "37",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Equilibrium Energy",
-      "description": "We are building a next generation power company to create a cleaner, better world. Come join us!",
-      "website": "equilibriumenergy.com",
-      "employees": "87",
-      "active_jobs": "11"
-    },
-    {
-      "name": "Euclid",
-      "description": "Euclid Power is comprised of a team of industry-leading veterans within renewable energy project development, diligence, finance, and execution with over 3GW of PV and 3GWh of energy storage experience. We guide developers and investors through execution on projects at all stages of the project lifecycle. We offer a competitive advantage to our clients by demystifying technical and financial diligence, de-risking projects for investment, and by driving execution results through ensuring continuity throughout each respective discipline. Our market sectors include residential VPPs, commercial-industrial and utility scale solar and storage. Whether you have a small C&I portfolio or a utility scale solar plus storage project, we can help. Our services also span both development and operating portfolios, as our team has deep experience in both.",
-      "website": "euclidpower.com",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Fuse Energy",
-      "description": "Fuse is an energy supplier that offers the UK\\'s cheapest electricity tarif.",
-      "website": "fuseenergy.com",
-      "employees": "39",
-      "active_jobs": "16"
-    },
-    {
-      "name": "HST",
-      "description": "We are building a world where the way we work, move, and live is powered by clean energy. As carbon footprints expand with growing populations and rapid electrification, our digital technology is revolutionizing the way the world develops, sells,and procures clean energy. Our vision for a zero-carbon world drives us to develop software that makes the grid cleaner and more efficient. Our platform has already helped many top-tier clean energy developers assess, optimize, and build projects that deliver clean energy to power our society. Headquartered in the San Francisco Bay Area, HST\u2019s diverse team collectively brings several decades worth of clean energy and software experience. We work collaboratively to reinvent the way we decarbonize this planet with large clean energy projects.",
-      "website": "hstpowers.com",
-      "employees": "26",
-      "active_jobs": "0"
-    },
-    {
-      "name": "LevelTen Energy",
-      "description": "LevelTen Energy, Inc. manages a renewable energy transaction platform that connects corporate and industrial (C&amp;I) power buyers to the universe of power purchase agreements (PPAs) from utility-scale wind, solar, and storage projects. In facilitating these\ntransactions, LevelTen aims to revolutionize the $30 billion C&amp;I power market and to mobilize untapped corporate clean power demand.",
-      "website": "leveltenenergy.com",
-      "employees": "142",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Muon Space",
-      "description": "Muon is building the world\u2019s most capable multi-modal Earth remote sensing satellite platform. With a focus is on dense, scientific-grade measurements of the atmosphere, ocean, and land processes related to climate. Our Mission-as-a-Service product brings these capabilities to a broad array of customers without the expertise or resources to develop them themselves.",
-      "website": "muonspace.com",
-      "employees": "72",
-      "active_jobs": "13"
-    },
-    {
-      "name": "Pioneer Power Solutions",
-      "description": "Pioneer Power Solutions is a manufacturer of specialty electrical transmission and distribution equipment and provides a broad range of custom-engineered and general-purpose solutions for applications in the utility, industrial and commercial markets. The Company provides through its three operating subsidiaries, Pioneer Transformers Ltd., Jefferson Electric, Inc., and Bemag Transformer Inc., a range of electrical transformers for applications in the utility, industrial and commercial segments of the electrical transmission and distribution industry. The Company has operations in the United States, Canada, and Mexico. The Company\\'s customers include a range of national and regional utilities and industrial companies, which are primarily located in North America. On March 6, 2013, the Company acquired Power Systems Solutions Inc.",
-      "website": "pioneerpowersolutions.com",
-      "employees": "19",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Power Factors",
-      "description": "Power Factors is to deliver software and services to make renewable energy the world\u2019s leading power generation source. Power Factors consolidates multiple operational data sources, asset hierarchies, and metadata frameworks to create a single asset management platform that works with today\u2019s large-scale portfolios. With embedded connections to maintenance workflows, Power Factors streamlines the process, reduces costs, and increases the ROI of assets. Implementation and Customer Success Services ensure customers realize value from the platform quickly and for the life of the asset. .",
-      "website": "pfdrive.com",
-      "employees": "523",
-      "active_jobs": "18"
-    },
-    {
-      "name": "RIFT",
-      "description": "We are on a mission towards a sustainable future that is powered by clean and renewable energy. The use of renewable energy is accelerating, and the world continues to grow in its energy needs. We rethink traditional practices of fossil fuels and aim to reduce the global carbon footprint by revolutionizing energy-intensive industries with the Iron Fuel Technology\u2122. At RIFT, teamwork makes the impossible possible. While we continue to develop our technology, grow our partnerships and ensure investments our team needs to develop and grow with it. We are frontrunners in a fast-paced environment, and our team is diverse, highly skilled, eager to learn and to make an impact. We take pride in what we do, celebrate when we achieve our goals, and depend on each other while getting there. Working at RIFT means you are mission-driven, and don\\'t shy away from a challenge. You are looking to make a difference and want to be a part of the solution. You want to do that by working with likeminded colleagues, with whom you share more than just the 9 to 5; by sharing your knowledge and experience, or by learning from the best.",
-      "website": "ironfueltechnology.com",
-      "employees": "40",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Raptor Maps",
-      "description": "Raptor Maps offers advanced analytics, insights and productivity software for the entire solar lifecycle. We provide asset owners, managers, O&M, EPCs and financiers with services that include: a digital twin of solar sites, aerial thermal inspections, data normalization, serial number scanning and mapping, warranty claim features, equipment records and mobile tools. Raptor Maps will help you standardize and compare data across installations, increase performance, reduce risk and lift ROI.",
-      "website": "raptormaps.com",
-      "employees": "84",
-      "active_jobs": "2"
-    },
-    {
-      "name": "RatedPower",
-      "description": "RatedPower offers pvDesign, a cloud-based software to carry out the design and engineering of utility-scale solar photovoltaic plants. The software offers a faster, more automated, accurate, and reliable method than traditional engineering, improving the profitability of users assets.",
-      "website": "ratedpower.com",
-      "employees": "99",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Swift Solar",
-      "description": "Swift Solar is a U.S. startup designing and manufacturing lightweight solar panels and systems that are cheaper and more efficient than existing products. The Swift Solar team includes leading solar technologists from Stanford, MIT, Cambridge, Oxford, and the University of Washington, with deep expertise in perovskite photovoltaic technology and scale-up. Swift\u2019s core technologies range from new solar cell architectures to specialized manufacturing techniques initially developed in the labs at Stanford and MIT.",
-      "website": "swiftsolar.com",
-      "employees": "39",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Terabase Energy",
-      "description": "Terabase Energy is a digital solutions company whose products and services reduce costs and accelerate deployment in large-scale solar. The company\\'s proprietary software is used by more than 400 engineering, procurement, and construction firms, developers, and independent power producers in 28 countries. Terabase Energy was established onJanuary 1, 2019 by Chris Baker, Matt Campbell, and Pierre Gousseland in Berkeley, California.",
-      "website": "terabase.energy",
-      "employees": "107",
-      "active_jobs": "7"
-    },
-    {
-      "name": "UtilityAPI",
-      "description": "UtilityAPI is a mission-driven software company that enables standardized data transactions for the new energy economy. Hundreds of companies use this everyday for quote generation, feasibility analyses, and asset management, measurement, and verification. UtilityAPI is based in oakland, California.",
-      "website": "utilityapi.com",
-      "employees": "47",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Verse Inc.",
-      "description": "Providing clean power to all.",
-      "website": "verse.inc",
-      "employees": "17",
-      "active_jobs": "1"
-    },
-    {
-      "name": "kWh Analytics",
-      "description": "kWh Analytics is the market leader in solar risk management. By leveraging the most comprehensive performance database of solar assets in the United States (20% of the U.S. asset class) and the strength of the global insurance markets, kWh Analytics\u2019 customers are able to minimize risk and increase equity returns of their solar portfolios. kWh Analytics invented the Solar Revenue Put to help solar investors reduce their biggest cost: the cost of capital. The credit enhancement has been valued by the leading project finance banks and implemented by top investors on $500M+ of solar projects. We wrote the book on \u201crisk management\u201d for solar investors, and our software solution, HelioStats, supports the market\u2019s largest financial institutions on their data management and compliance obligations. kWh Analytics is backed by private venture capital and the US Department of Energy. kWh Analytics was founded in 2012 and is based in San Francisco, California.",
-      "website": "kwhanalytics.com",
-      "employees": "47",
-      "active_jobs": "0"
-    }
-  ],
-  "Regenerative Annual Cropping": [
-    {
-      "name": "AGERpoint",
-      "description": "Agerpoint\u00ae is an innovator in geospatial intelligence and data engineering that develops technologies to digitize, analyze and comprehend natural environments. Through a combination of artificial intelligence, high performance computing, computer vision and advanced analytics, the Agerpoint platform fuses together sensor from mobile devices, ground vehicles, autonomous robots, drones and satellites with other information and human observations to create a highly precise, quantifiable and interactive digital record to enable better decision-making for clients across agrochemical and food and beverage R&D, forestry, production agriculture, government and conservation organizations. With these advancements, our mission is to improve quality of life for our planet\u2019s inhabitants and mitigate climate change by enabling a transformational shift in how we understand plants, crops and forests along with vegetation that coexists within built environments. Agerpoint was founded in 2012 and is headquartered in Research Triangle Park, North Carolina, USA.",
-      "website": "agerpoint.com",
-      "employees": "33",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Ceres Imaging",
-      "description": "Ceres Imaging is a California-based aerial spectral imagery and analytics company that serves farmers and agribusinesses. Using proprietary sensors, analytics, machine learning models, and plant science, Ceres delivers university-validated imagery-based intelligence to farms in the US and Australia. This enables customers to identify pest, disease, water, and fertilizer issues weeks before they are visible to the naked eye.",
-      "website": "ceresimaging.net",
-      "employees": "81",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Climate Farmers",
-      "description": "The solution for a healthy planet lies beneath our feet. Soil plays a central role in regulating our ecosystems. If we manage to increase the global carbon content of the soil by 2%, we will be able to hold back climate change. The key to this is regenerative agriculture, which works with natural processes and conserves the planet\u2019s resources such as water, soil and air. Regenerative agriculture actively supports our ecosystem, captures carbon from the atmosphere, creates healthier soils, and thereby contributes to a healthier and more resilient planet. Climate farmers is building the infrastructure in support a large-scale transition towards regenerative practices. If we want to change global mindsets, we need to expand our view and understand the way plants grow, break down the disconnection between food production and consumers and develop a new relationship with nature. As Climate Farmers, we implement and support self-regulating systems that protect biodiversity while producing healthy and nutritious food. You can support farmers and their projects for a healthier planet through monthly contributions or invest in larger agricultural project co-investments. With a collective approach to a healthier and more sustainable lifestyle, we can positively impact agriculture and help farmers and consumers alike in their mission for a healthier future.",
-      "website": "climatefarmers.org",
-      "employees": "32",
-      "active_jobs": "1"
-    },
-    {
-      "name": "ClimateCrop",
-      "description": "ClimateCrop enhances plants\\' genetics using non-GM techniques to increase yield per unit area with less inputs, resulting in a lower carbon footprint.",
-      "website": "climate-crop.com",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Future Acres",
-      "description": "Future Acres is an agricultural robotics company whose mission is to help carry farms into a sustainable future. Future Acres develops a robotic platform for farms. Future Acres\\'s first product, Carry is a self-driving robot meant to, as the name suggests, carry crops around a farm.",
-      "website": "futureacres.co",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Gro Intelligence",
-      "description": "Gro Intelligence is a Kenya-born company that provides builds technologies to avail companies of climate and agricultural data intended to bridge the data gaps across global agriculture and offer predictive analytics on plant and yield.\n\nThe company\\'s platform utilizes artificial intelligence to collect and synthesize a large number of agricultural data points from disparate and often previously unavailable sources, enabling users to get a clear, comprehensive and timely picture of the factors influencing various agricultural commodities.\n\nGro Intelligence sources information from proprietary, public, and private sources including self-provided data, then delivers it t o its users through APIs models, platforms, applications, and working documents.",
-      "website": "gro-intelligence.com",
-      "employees": "214",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Hippo Harvest",
-      "description": "Hippo Harvest develops an agriculture technology to help scale sustainable agriculture. It was founded in 2019 and is based in Half Moon Bay, California.",
-      "website": "hippoharvest.com",
-      "employees": "18",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Kula Bio",
-      "description": "Kula Bio specializes in sustainable, biological solutions for modern agriculture. It energizes nitrogen-fixing microbes to produce organic fertilizer. By rewiring the energy flow from the sun to soil, they are disrupting synthetic fertilizer to eliminate the division between affordable practices and stewardship of our land, sea, and air. The company was founded in 2018 and is headquartered in Somerville, Massachusetts.",
-      "website": "kulabio.com",
-      "employees": "34",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Lithos Carbon",
-      "description": "We remove atmospheric carbon for a fraction of the cost while increasing crop yields. Our process is highly efficient, increases soil health, and repurposes post-industrial waste. Then we sell the carbon credits to companies and split revenue with our regenerative growers. With a world-class team leveraging expertise in soil chemistry, agronomy, geochemistry, machine learning, and logistics, we are engineering the most cost-effective, and scientifically rigorous solution to enhanced rock weathering at scale.",
-      "website": "lithoscarbon.com",
-      "employees": "16",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Loam Bio",
-      "description": "Loam works with 4.5 billion years of evolution to solve the climate crisis. Microbes have changed the composition of our atmosphere through earth\u2019s history. At Loam, we are ensuring these organisms can do it again. Through a better understanding of how microbes influence the carbon cycle, we can create new planetary-scale opportunities for carbon sequestration and improve agricultural productivity.",
-      "website": "loambio.com",
-      "employees": "107",
-      "active_jobs": "19"
-    },
-    {
-      "name": "Nori",
-      "description": "Nori is a marketplace for reversing climate change. We enable companies to pay for removing CO2 from the atmosphere via more sustainable farming practices.",
-      "website": "nori.com",
-      "employees": "43",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Pivot Bio",
-      "description": "Pivot Bio is a sustainable agriculture company delivering farmers patented crop nutrition technologies that harness the power of nature to reliably and productively grow the food the world needs in the face of increasing volatility.",
-      "website": "pivotbio.com",
-      "employees": "479",
-      "active_jobs": "15"
-    },
-    {
-      "name": "Re-Nuble",
-      "description": "Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming. Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We were founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.",
-      "website": "re-nuble.com",
-      "employees": "19",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Regrow Ag",
-      "description": "Regrow is the first digital platform to unlock the power and profitability of resilient agriculture through a single, measurable and verifiable system. Regrow combines best-in-class agronomy with soil and carbon modeling to deliver customized, site-specific and scalable solutions to businesses across the supply chain.",
-      "website": "regrow.ag",
-      "employees": "160",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Robigo",
-      "description": "Despite growers applying over 6B pounds of toxic pesticides each year, 20 - 40% of crops are lost to disease across the globe. As the climate changes, these losses are expected to increase 10 - 25% for every degree of global warming. Founded by MIT synthetic biologists, Robigo has developed a platform technology of programmable, CRISPR-enabled microbes that protect crops from disease with unrivaled specificity and efficacy. Leveraging machine learning and cutting edge genetic engineering, Robigo\\'s new class of microbial treatments are fundamentally changing how the world treats crops to improve plant health, agricultural productivity, and sustainability.",
-      "website": "robigo.bio",
-      "employees": "18",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sabanto",
-      "description": "Sabanto is a farming-as-a-service performing row-crop field operations using low-cost autonomous systems.",
-      "website": "sabantoag.com",
-      "employees": "44",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Soil Carbon Co.",
-      "description": "Soil C Quest 2031 LTD is a CSIRO approved and registered not-for-profit Australian research institute. We have assembled some of Australia\\'s most experience scientists in this specalist field and have began lab, glass house and field research and development. However, R & D is expensive, and we need more resources to reach our goals...\nFind out more at our website www.soilcquest.org.au",
-      "website": "soilcquest.org.au",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Yard Stick PBC",
-      "description": "Yard Stick PBC is an in-situ soil carbon & bulk density measurement technology.",
-      "website": "useyardstick.com",
-      "employees": "26",
-      "active_jobs": "4"
-    }
-  ],
-  "Improved Fisheries": [
-    {
-      "name": "FlyWire",
-      "description": "At FlyWire, our mission is to provide at-sea verification of fishing efforts in order to ensure and promote sustainable fishing and responsible labor practices. Our at-sea fisheries monitoring solutions are critical to identifying, empowering, and growing the number of fishers operating sustainably and responsibly world-wide.",
-      "website": "flywirecameras.com",
-      "employees": "4",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Scoot Science",
-      "description": "The Ocean is changing. Quickly. Know what\\'s coming. What\\'s happening beneath the surface doesn\\'t have to be a mystery. Scoot Science fills in the data gaps, and then uses a combination of traditional numerical ocean models and predictive artificial intelligence to deliver accurate underwater weather. What can Scoot Science do for your marine operations? * Visualize - Wake up each day to the headlines of your underwater weather and a complete picture of the local sub-surface conditions *Analyze - Know the environmental threats to your marine operations before the impacts materialize * Empower - Make informed logistics and operations decisions, protect your marine assets and strengthen your bottom line",
-      "website": "scootscience.com",
-      "employees": "15",
-      "active_jobs": "0"
-    }
-  ],
-  "Plant-Rich Diets": [
-    {
-      "name": "Artemys Foods",
-      "description": "Artemys Foods works on the next generation of meat alternatives by cultivating meat, instead of harvesting meat from animals. Artemys develops and executes a strategic vision for a biomanufacturing company that grows meat from animal cells, thereby empowering humanity to eat sustainable food.",
-      "website": "artemysfoods.com",
-      "employees": "35",
-      "active_jobs": "0"
-    },
-    {
-      "name": "BIOMILQ",
-      "description": "BIOMILQ is a women-owned and science-led mammary biotechnology start-up leveraging its patented technology to produce functional cell-cultured human milk components outside the body. With the goal of bridging the gap between breast milk and infant formula, BIOMILQ aims to revolutionize early-life nutrition by bringing more of the benefits of breast milk to more babies.",
-      "website": "biomilq.com",
-      "employees": "29",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Bellwether Coffee",
-      "description": "Bellwether Coffee is making coffee roasting more accessible, and more sustainable for the environment and communities. With its controllable roaster available, Bellwether\u2019s customers from large brands to small neighborhood cafes are in complete control of their coffee offerings using the electric, ventless, zero-emissions, award-winning Bellwether Roaster and intuitive roasting software. Bellwether Coffee is the recipient of the Best New Product award for 2019 by the Specialty Coffee Association. The company was founded in 2013 and is headquartered in Berkeley, California.",
-      "website": "bellwethercoffee.com",
-      "employees": "68",
-      "active_jobs": "0"
-    },
-    {
-      "name": "C16 Biosciences",
-      "description": "C16 Biosciences is a biotechnology firm that uses microbiology to brew sustainable alternatives to palm oil. It was founded in 2017 with the objective of creating a sustainable, environmentally friendly alternative to conflict palm oil. By offering producers, refiners, traders, and consumers of palm oil an opportunity to invest part of their production into bio-based oils and sustainability efforts, C16 Biosciences\\' aim is to reduce the environmental footprint of palm oil production and protect precious natural land, wildlife, and resources in the process. Fermentation is a well-proven commercial process that has been used for centuries to convert raw materials into consumable commercial products consumed by billions of people every day. C16 Biosciences believes that brewing palm oil like beer is the most likely path to developing a truly sustainable palm oil alternative. C16 Biosciences\\' palm oil is sustainable which doesn\\'t involve deforestation, endangering precious animal species, or forcing inhumane labor practices. The result is a world where consumers can enjoy the products they love without worrying about the dangerous practices involved in making them.",
-      "website": "c16bio.com",
-      "employees": "37",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Coconut Bliss",
-      "description": "Coconut Bliss is a dairy-free ice cream producer creating 100 percent plant-based flavors of ice creams.",
-      "website": "coconutbliss.com",
-      "employees": "19",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Eclipse Foods",
-      "description": "Eclipse Foods is plant-based dairy products that are indistinguishable from animal dairy products. Using a novel plant-processing technology, Eclipse gives amazing dairy flavor, texture, and functionality without the health, environmental, and welfare issues attached to traditional dairy. The company\\'s mission is to create a more sustainable, healthy, and humane food system by making amazing plant-based foods that require no sacrifice. Eclipse Foods was founded in 2019 and is based in Oakland, California.",
-      "website": "eclipsefoods.com",
-      "employees": "27",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Entocycle",
-      "description": "Entocycle is developing the world\u2019s most efficient and sustainable way to produce protein. The rainforests and savannahs of South America are being destroyed at shocking rates in order to grow crops such as soy to feed farm animals. Using insects to feed livestock requires significantly less land and water compared to soy whilst being a natural part of the diet for many animals including fish, chickens and pigs. Their technology is significantly more efficient at producing protein than traditional methods of production as their insects are vertically farmed and not restricted to floor space or area. Thanks to their automated system they can produce at industrial scale and offer farmers a cost-effective and sustainable alternative to soymeal and fishmeal.",
-      "website": "entocycle.com",
-      "employees": "37",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Formo",
-      "description": "Formo is Europe\u2019s first cellular agriculture company developing animal-free dairy products using real, nature-identical milk proteins derived from precision fermentation.",
-      "website": "formo.bio",
-      "employees": "100",
-      "active_jobs": "7"
-    },
-    {
-      "name": "HigherSteaks",
-      "description": "HigherSteaks is about providing with that juicy, tender, and delicious meat they love but without harming their health, planet, and animals. Using state-of-the-art cell culture techniques, a small sample of cells from an animal will be expanded by feeding these cells a rich and animal-free growth media. When these cells have grown we can then use different methods in order to form the desired meat product. Their technologies focus on the end-to-end solution and innovating in bioprocess engineering, biomaterials, and in-process monitoring. HigherSteaks was founded in 2017 and is headquartered in London, England, United Kingdom.",
-      "website": "highersteaks.com",
-      "employees": "64",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Impossible Foods",
-      "description": "Impossible Foods focuses on developing plant-based substitutes for meat, dairy, and fish products. It selects specific proteins and nutrients from greens, seeds, and grains to recreate the experience of meats and dairy products. Founded by Patrick Brown and Monte Casino in 2011, Impossible Foods is headquartered in Redwood City, California.",
-      "website": "impossiblefoods.com",
-      "employees": "682",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Maui Nui Venison",
-      "description": "Maui Nui Venison is sourced from Hawaii\u2019s Axis deer, harvested humanely and in the wild and combined with only a small handful of wholesome ingredients. USDA inspected, free of gluten, MSG and nitrates, and packed with protein; in short - Wildly Good.",
-      "website": "mauinuivenison.com",
-      "employees": "12",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Meati Foods",
-      "description": "Meati Foods is a consumer goods company that provides fungi-based meat alternatives to everyone. It focuses on using proprietary, clean technologies to provide nutrient-dense, plant-based meat alternatives that everyone can enjoy and feel good about eating every day. Meati Foods was founded in 2016 and is headquartered in Boulder, United States.",
-      "website": "meati.com",
-      "employees": "217",
-      "active_jobs": "11"
-    },
-    {
-      "name": "Minus",
-      "description": "We create delicious products through fermentation. Our product: Beanless coffee, crafted to conserve. As in: Forbes, Fast Company, NYT, Wired, TechCrunch, Food Entreprenuer Minus produces coffee using 94% less water than traditional coffee, 91% less GHG emissions, and shorter supply chains. Minus was developed by a team of coffee-obsessed, planet-loving scientists. How did they do this exactly? They subtracted the beans, kept the caffeine, and dialed up the flavor through a precise fermentation process. Minus is dangerously smooth and consciously created; even the most discerning coffee snobs won\\'t believe it\\'s beanless.",
-      "website": "shopminuscoffee.com",
-      "employees": "13",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mission Barns",
-      "description": "Mission Barns is making the juicy, savory meats they all love in a sustainable, more efficient way. At Mission Barns, they are cultivating animal cells to sustainably grow meat without the negative impacts of intensive animal agriculture. They start with a handful of cells from select animals, grow them in a nutrient-rich environment, and harvest delicious, savory meat. Working at the convergence of biotech and food science, they\u2019re on the path to creating a more sensible food system for the world.",
-      "website": "missionbarns.com",
-      "employees": "61",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Mosa Meat",
-      "description": "Mosa Meat produces slaughter-free hamburgers. The burger is harvested from cow cells, rather than raising and slaughtering a whole animal. By growing meat naturally from cells, Mosa Meat strives to accelerate the transition to a truly sustainable global food system.",
-      "website": "mosameat.com",
-      "employees": "160",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Motif FoodWorks",
-      "description": "Motif develops plant-based food products designed to produce healthy food using genetic engineering and fermentation. Their food technologies enable CPG companies to develop plant-based alternatives that have the same meaty taste, appearance, and texture as their animal counterparts. They offer bioprocessing services, finished products, and food services.",
-      "website": "madewithmotif.com",
-      "employees": "50",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Nature\u2019s Fynd",
-      "description": "Nature\u2019s Fynd is a food company producing a protein from a microbe discovered in the geothermal springs. The company\\'s mission is to create foods that both nourish people and the planet. Its revolutionary fermentation technology grows protein using a fraction of the land and water resources required by traditional agriculture. Nature\u2019s Fynd was founded in 2012 and is headquartered in Chicago, Illinois.",
-      "website": "naturesfynd.com",
-      "employees": "154",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Neutral",
-      "description": "Neutral is a carbon-neutral food company that builds a sustainable carbon-neutral food ecosystem starting with milk and a half and half. The company was founded in 2018 and is based in Portland, OR.",
-      "website": "eatneutral.com",
-      "employees": "25",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Nobell Foods",
-      "description": "Alpine Roads unlocks the power of plants to create the next generation of animal-based food substitutes.",
-      "website": "nobellfoods.com",
-      "employees": "66",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Novel Farms, Inc.",
-      "description": "Industrial animal agriculture has detrimental impacts on the environment, public health, and animal welfare. Cultivated meat is a sustainable solution, but challenges arise in terms of cost and texture. Novel Farms produces scalable scaffolds that can significantly reduce production costs, enabling cultivated meat commercialization at price parity with conventional meat.",
-      "website": "novelfarms.co",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "OnePointOne",
-      "description": "OnePointOne is a developer of an automated indoor farming platform that supplies fresh food and technology to retail and beyond. It automates the vertical farming process to fill the globally widening gap between supply and demand for fresh produce. With a sophisticated, proprietary, and competitively-distinct combination of Plant Science, Robotics, Farming, and Machine Learning technologies, OPO\\'s automated farming platform will support the cultivation requirements of dozens of industries. Its rapidly growing first-class team is fervently committed to building a farming platform that has the potential to conquer global issues of malnutrition and agricultural sustainability. It was founded in 2017 and is based in San Jose, California.",
-      "website": "onepointone.com",
-      "employees": "88",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Planet FWD",
-      "description": "Planet FWD is the leading decarbonization platform for the consumer industry. Launched first for Food and Beverage companies, Planet FWD\u2019s platform and team of climate scientists empowers consumer companies to reach their climate goals by helping them measure and reduce their carbon footprint. Leveraging the food & beverage industry\u2019s most in-depth Life Cycle Assessment data and robust Scope 3 emissions modeling capabilities, customers can harness an understanding of their climate impacts and unlock a clear path to Net Zero. Planet FWD\u2019s software platform is the only solution that can analyze how a company can reduce emissions by making specific changes to their ingredients, packaging, suppliers and farm-level practices.",
-      "website": "planetfwd.com",
-      "employees": "43",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Plenty",
-      "description": "Plenty is a vertical farming company that brings fresh, clean, and craveable produce to people everywhere. Plenty\\'s vertical farms use 99% less water than conventional fields, are pesticide-free, and produce zero fertilizer runoff. Plenty is a collective of growers, innovators, engineers, scientists, artists, foodies, and plant romantics working to improve the health of plants, people, and the planet. It was founded in 2014 and headquartered in South San Francisco, California.",
-      "website": "plenty.ag",
-      "employees": "450",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Rubi Laboratories",
-      "description": "We turn carbon emissions into natural carbon-negative textiles. Rubi is building a future where human prosperity and economic growth are planet-positive. We\\'re unlocking CO2 as a natural resource for making critical materials, cost competitively, with our cell-free enzymatic technology platform. We\\'re producing carbon-negative textiles for the fashion industry first. We make the same textiles apparel brands already use today, for half the cost of cotton at scale, and completely carbon-negative and water- and land-neutral. Our company is built on high-quality science, a focus on impact, honesty & transparency, and a sense of purpose in everything we do. We\\'re backed by leading investors including Talis Capital, Plug and Play, Incite.org, Necessary Ventures, and Climactic VC.",
-      "website": "rubi.earth",
-      "employees": "35",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Tender Food",
-      "description": "Tender Food is a plant-based and cultured meat company in the Greater Boston Area, a hub for biotech research and innovation. It specializes in creating alternative meats with authentic textures.",
-      "website": "tenderfood.com",
-      "employees": "41",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Tezza",
-      "description": "We discover novel categories of fermented foods like cheese made from sustainable plants. We do this because climate change is about to sit on all of human civilization. But realistically we\\'re probably just going to get nachos out of this.",
-      "website": "tezzafoods.com",
-      "employees": "30",
-      "active_jobs": "8"
-    },
-    {
-      "name": "Tomorrow Farms",
-      "description": "Tomorrow Farms is a food technology company on a mission to fuel the sustainable food revolution with irresistible food and beverage brands.",
-      "website": "tomorrowfarms.co",
-      "employees": "19",
-      "active_jobs": "0"
-    },
-    {
-      "name": "VELOZBIO",
-      "description": "Veloz Bio is a biotechnology company that uses molecular farming to create and manufacture animal-free and alternative proteins. The company was founded in 2021 and is based in Monterrey, Nuevo Le\u00f3n.",
-      "website": "velozbio.com",
-      "employees": "6",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Xilinat",
-      "description": "Xilinat manufactures natural sweeteners from xylitol using a natural and environmentally friendly process. Customers will not notice the difference when using Xilinat to sweeten favorite desserts, drinks, and foods. Xilinat aims to reduce health problems associated with excessive sugar consumption while also providing consumers with a healthy and delicious alternative.",
-      "website": "xilinat.com",
-      "employees": "8",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Zero Acre Farms",
-      "description": "Zero Acre Farms is fixing one of the most problematic parts of our food system by introducing Zero Acre oil, a cleaner all-purpose cooking oil - with even more good fats than olive oil, a neutral taste, high smoke point and a smaller environmental footprint. Foods that are clean-fried in Zero Acre oil (not seed oils) have a delicious crisp taste with less greasiness, more heart-healthy fats and the lowest environmental impact compared to other cooking oils. Finally, restaurant and home kitchens have a replacement that offers the same versatility as vegetable oils without the health and environmental drawbacks. As a team of food lovers, nutritionists, medical professionals, scientists and Michelin-starred chefs, we\u2019re banding together to save our health and planet without sacrificing the foods we love.",
-      "website": "zeroacre.com",
-      "employees": "47",
-      "active_jobs": "0"
-    }
-  ],
-  "Recycling": [
-    {
-      "name": "AMP Robotics",
-      "description": "AMP Robotics creates a scalable robotic system that reduces the cost of recycling and enables smart recycling facilities. AMP Robotics\\' solution is a combination of computer vision and machine learning with robots that can identify and rapidly pick recyclable materials off a conveyor belt for market and recovery. AMP Robotics automates the identification, sorting, and processing of material streams to extract value for material recovery facilities (MRFs) that process municipal solid waste, construction and demolition, e-waste, and auto-shredding. The company\\'s engineering design reduces the cost of capital investment with modular implementation easily dropping into existing facility infrastructure without costly retrofits or interruption to operations. AMP Robotics was founded on 2015 and is headquartered in Louisville, Colorado.",
-      "website": "amprobotics.com",
-      "employees": "198",
-      "active_jobs": "5"
-    },
-    {
-      "name": "AptDeco",
-      "description": "AptDeco is an online marketplace for buying and selling quality preowned furniture. AptDeco offers a complete end-to-end process to bring back the joy of discovering amazing furniture finds again. With a trusted and verified community of buyers and sellers, pre-arranged pick up and delivery and a secure payment process you can finally sit back, relax and enjoy your finds while they take care of those pesky details in the background!",
-      "website": "aptdeco.com",
-      "employees": "29",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Carbon Crusher",
-      "description": "Carbon Crusher is a road tech company that repairs roads in a carbon-negative way. We work with public and private road owners. Carbon Crusher replaces heavy oil with carbon-binding biopolymers and reuse old road materials with our crusher. The result is durable, recycled, and sustainable roads. We are committed to solving climate change and making a positive impact on our planet. Our goal is to change the negative trajectory the planet is on with sound values and innovative solutions. As Margaret Mead once said, \u201cNever doubt that a small group of thoughtful, committed citizens can change the world; indeed, it\u2019s the only thing that ever has\u201d.",
-      "website": "carboncrusher.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "ChemFinity Technologies",
-      "description": "ChemFinity Technologies is engineering a more equitable future, by creating molecularly selective materials that eliminate pollution and circularize natural resources. We aim to address the most impactful environmental challenges in water purification, critical mineral recovery, and gas separations. We\\'re hiring! https://jobs.polymer.co/chemfinitytech ChemFinity is a startup spun out of UC Berkeley\u2019s College of Chemistry and is backed by the Breakthrough Energy Fellows program, USAID, and Conservation X Labs.",
-      "website": "chemfinitytech.com",
-      "employees": "10",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Circ",
-      "description": "2023 Earthshot Prize Finalist on a mission to protect the planet from the cost of clothing. At Circ, we\u2019ve created a technology system that returns clothes to the raw materials from which they were made. Again and again. Brand partners like Patagonia, Marubeni, and Fashion For Good are joining us in our goal of turning wasteful fashion lines into renewable fashion circles. By 2030, we expect to have recycled 10 billion garments, represent 10% of the global apparel market, and to have saved more than 100 million trees. As our ecology and economy grow evermore entwined, it is clear to us that the world already has all the clothing it needs to create all the clothing it will ever need.",
-      "website": "circ.earth",
-      "employees": "49",
-      "active_jobs": "9"
-    },
-    {
-      "name": "Crux",
-      "description": "The ecosystem for developers, tax credit buyers, and financial institutions to transact & manage transferable tax credits.",
-      "website": "cruxclimate.com",
-      "employees": "17",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Ethic",
-      "description": "Hello, we\u2019re Ethic. We believe in a future where all investing is sustainable investing. Our way forward starts by empowering advisors and investors.",
-      "website": "ethic.com",
-      "employees": "110",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Evergrow",
-      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
-      "website": "evergrow.com",
-      "employees": "25",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Evrnu",
-      "description": "Evrnu is an innovative new technology that recycles post-consumer cotton textile waste to create premium, renewable fiber. Reduced CO2 emissions by 90% compared to polyester production, and water usage by 98% compared to traditional cotton fiber.",
-      "website": "evrnu.com",
-      "employees": "21",
-      "active_jobs": "0"
-    },
-    {
-      "name": "For Days",
-      "description": "For Days is the company behind the revolutionary recycling and rewards platform, Trashie. Trashie is the only platform that goes beyond rhetoric and offers tangible incentives to customers who embrace clothing recycling at scale.",
-      "website": "fordays.com",
-      "employees": "20",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Glacier",
-      "description": "Glacier is the creator of the first affordable, high-performing, and space-efficient AI-enabled robot for recycling.",
-      "website": "endwaste.io",
-      "employees": "50",
-      "active_jobs": "3"
-    },
-    {
-      "name": "MOLG",
-      "description": "We help companies achieve their sustainability goals by using automation to design how a product\\'s end is another\\'s new beginning.",
-      "website": "molg.ai",
-      "employees": "22",
-      "active_jobs": "8"
-    },
-    {
-      "name": "Musa Tecnologia LTDA",
-      "description": "Musa is a smart city solution providing a platform that efficiently connects waste generators, haulers, and recyclers. Our mission is to guarantee that all waste becomes raw material directed to a productive chain of reuse. This is what connects us, a world without waste where everything can be reused. We want to transform the waste management industry by leveraging technology and developing new business models ensuring economic, social, and environmental impact.",
-      "website": "musa.co",
-      "employees": "220",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Normative.io",
-      "description": "Normative is the only software capable of assessing a company\u2019s social and environmental impact automatically by analysing their purchases,using artificial intelligence combined with the world\\'s largest sustainability research database.Their goal is to make the social and environmental cost of every purchase in their economy transparent.This will enable humanity to move towards achieving the Sustainable Development Goals together.",
-      "website": "normative.io",
-      "employees": "183",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Phuc Labs",
-      "description": "At Phuc Labs, we use robotics to automate the process of identifying, separating, and reclaiming particles from water. We use the latest innovations from machine vision to identify particles in a stream of water, much like different types of packages moving along a conveyor belt in a warehouse. Then we use hardware to \u201cslice\u201d the water and divert it to various destinations; one for water and others for different types of particles.",
-      "website": "phuclabs.com",
-      "employees": "7",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Pledge",
-      "description": "Pledge makes it simple for businesses of every size to understand and manage the climate impact of their products. By providing tools and infrastructure, we automate the delivery of climate solutions - such as footprint measurement, reduction and offsetting - into customer journeys. We\\'re on a mission to make businesses climate aware and help accelerate their transition to net zero. Pledge was founded in 2021 by early employees of Revolut and the co-founder of Freetrade.",
-      "website": "pledge.io",
-      "employees": "30",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Reath",
-      "description": "Reath is a software platform that lets businesses adopt safe, compliant, scalable reuse systems. It has been designed with input from businesses operating reuse systems, and environmental, health, and safety regulators. Their focus is on helping to capture data about your reusable packaging easily and at-scale, and using that data to maintain compliance with regulatory standards like batch codes, or optimise the system.",
-      "website": "reath.id",
-      "employees": "9",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Refiberd",
-      "description": "Refiberd is developing a novel textile recycling system that uses AI and a green chemical recycling process to convert used, discarded textiles into new, reusable thread. By turning waste into a resource, Refiberd is able to manufacture 100% recycled thread that is cost-effective, sustainable, and easy to integrate into existing manufacturing processes.",
-      "website": "refiberd.com",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Rheaply",
-      "description": "Developer of a online resource marketplace and Saas based platform designed to buy, sell, trade, donate and rent resources that might otherwise go to waste. The company\\'s platform has developed and launched the exchange technology for researchers to share their ideas and surplus resources with colleagues to reduce time, costs, as well as environmental waste. On Rheaply\\'s Asset Exchange Manager (AxM), users from all departments can access resources and expertise from colleagues in the same organization or beyond.",
-      "website": "rheaply.com",
-      "employees": "70",
-      "active_jobs": "1"
-    },
-    {
-      "name": "SINAI Technologies",
-      "description": "The world\u2019s leading enterprise decarbonization software. Built to measure, analyze, price, and reduce emissions.",
-      "website": "sinaitechnologies.com",
-      "employees": "49",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Safi",
-      "description": "Safi is the new era of TrueCircle. Since we launched in 2021 under the name TrueCircle, we have been on a mission to tackle recycling inefficiency by improving the way we buy and sell recyclables. The Safi marketplace gives customers access to the best prices and instant expansion into global markets. Through Safi AI, sellers can prove their material quality and drive better prices while buyers know they\u2019re getting exactly what they expect. And through Safi Ship, the entire order management process is online, automated and ultra easy.",
-      "website": "safi.co",
-      "employees": "33",
-      "active_jobs": "10"
-    },
-    {
-      "name": "Senken",
-      "description": "Senken is an easy-to-use platform to access the largest selection of climate assets for transparent climate actions and finance. To ensure the quality and integrity of each project, senken provides additional security and transparency at the data level. Confidently invest in climate projects that meet the values of your company. For verifiable climate impact, purchase, trade and retire carbon credits to offset your companies\u2019 emissions.",
-      "website": "senken.io",
-      "employees": "33",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Sourcemap",
-      "description": "Sourcemap helps companies map their supply chains, evaluate the social / environmental / financial risks, and put systems in place for ongoing monitoring and optimization. In 2009 we introduced the first software-as-a-service for supply chain mapping. Today Sourcemap SaaS is being used by dozens of major brands including Mars, Ikea and Stonyfield.",
-      "website": "sourcemap.com",
-      "employees": "93",
-      "active_jobs": "0"
-    },
-    {
-      "name": "SupplyShift",
-      "description": "At SupplyShift, we\u2019re committed to helping businesses create more transparent, responsible, and resilient supply chains. We believe that, when properly managed, a company\u2019s supplier network can deliver incredible value for the company, the greater economy, and can play an important role in changing our world for the better. For business to thrive, collaboration in the supply chain is critical. That\u2019s why we built a network for supply chain transparency. A place for buyers and suppliers to engage on critical aspects of risk without repeating their efforts. A place where information can be shared quickly and insights can be found efficiently. We help some of the world\u2019s most influential companies turn supplier information into action, improving their risk resilience and sustainable business practices. With tens of thousands of companies across 133 countries exchanging data every day, SupplyShift is the world\u2019s largest supply chain transparency network.",
-      "website": "supplyshift.net",
-      "employees": "65",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Thrilling",
-      "description": "Thrilling is an online marketplace that offers curated vintage and secondhand items from the best boutiques across the United States. Thrilling is currently hosting 100 stores in 15 cities.",
-      "website": "shopthrilling.com",
-      "employees": "11",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Topanga.io",
-      "description": "Topanga.io is building the digital infrastructure for the circular economy. Today, Topanga works with brands and restaurants to help them implement reusable packaging programs. Topanga\u2019s Track & Trace technology ensures that operators see ROI and consumers see added value as we collectively shift towards sustainable, circular consumption.",
-      "website": "topanga.io",
+      "name": "DigitalPaani",
+      "description": "Today, most of India faces extreme water scarcity even as 75% of the sewage treatment plants that can recycle water remain defunct. \n\nWe\u2019re building cutting-edge IoT and digital management tools that redesign wastewater operations to protect natural resources and build clean cities with abundant water. Our IOT-powered platform automates plants, comprehensively detects issues using custom-made sensors and 75+ algorithms, launches automated workflows for service teams, and gives maintenance recommendations. It has been awarded by Niti Aayog and transforms non-functional plants to high quality, compliant units while reducing operating costs by 25-35%. \n\nEach plant that partners with us also saves 58 million litres of freshwater and offsets as much carbon as 5200 trees. \n\nJoin us on our mission to tackle India\u2019s water and sanitation crisis!",
+      "website": "ecoinnovision.com",
       "employees": "14",
       "active_jobs": "0"
     },
     {
-      "name": "VALIS",
-      "description": "VALIS builds AI-powered software that makes recycling more profitable, material supply chains more sustainable, and closes the loop on a circular economy for metal fabrication.",
-      "website": "valisinsights.com",
-      "employees": "6",
-      "active_jobs": "2"
-    },
-    {
-      "name": "WEEE Centre",
-      "description": "ISO Certified Company (ISO 14001:2015 & ISO 9001:2015) Managing E-waste for a safe environment. SME of the year 2019 winner. #ewate #recycling #circularEconomy",
-      "website": "weeecentre.com",
-      "employees": "19",
-      "active_jobs": "0"
-    }
-  ],
-  "Public Transit": [
-    {
-      "name": "Actionfigure",
-      "description": "Actionfigure has three core products, all of which empower employers and owners and operators of commercial real estate including office, multifamily apartments, hotels, entertainment venues, and campuses to help people travel to, from, and around the location more easily, affordably, and sustainably. Actionfigure Mobile: the number-one rated B2B transportation app available, popular with multifamily and office owners and urban employers. Actionfigure Screen: market-leading display software first released as TransitScreen, offers live real-time information about all transportation choices with dynamic media and messaging and white labeling capabilities. Actionfigure Insights: first-of-a-kind commute planning software, for employers and office owners, generates custom door-to-door commute plans and lets employees find and select a commute plan based on personal preferences, transportation availability, and fares for public and private commuting options.",
-      "website": "actionfigure.ai",
-      "employees": "27",
-      "active_jobs": "0"
-    },
-    {
-      "name": "BasiGo",
-      "description": "BasiGo is the operator of an e-mobility startup intended to revolutionize the public transportation sector.\n\nBasiGo offers bus operators an Electric Bus solution that is more affordable, more convenient, and more reliable than a diesel alternative. To help bus operators receive the benefits of electric drive, BasiGo provides a complete electric bus solution including electric busses, charging depots, and Pay-As-You-Go financing that makes BasiGo buses affordable to purchase and lower cost to operate than diesel busses.",
-      "website": "basi-go.com",
-      "employees": "54",
-      "active_jobs": "9"
-    },
-    {
-      "name": "Blyncsy",
-      "description": "Founded in 2014, Blyncsy is the big data solution they have all been waiting for. Through our proprietary Blyncs devices, we capture the movement of people and connected devices almost anywhere. This allows us to perform a virtual traffic study every second of every day in near real time. Our powerful analytics platform then generates actionable insight for our customers allowing them to focus on Moving Forward Faster. Blyncsy is an ecosystem of change with the power to make the traffic grid a more efficient place, reduce carbon emissions, bringing new businesses to a city, improving the flow of traffic and so much more. Our company has flourished under the management and leadership of its Executive Team and is moving into new arenas. Their user-specific offerings and features provide our customers with the tools to get them Moving Forward Faster.",
-      "website": "blyncsy.com",
-      "employees": "7",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Dollaride",
-      "description": "Dollaride offers a technology platform that connects people living in transit deserts to private ride-sharing networks called dollar vans. Its cashless platform offers operator business dashboard, fleet management system, automated fee collection, and territory expansion features, technical resources, web assistance for operators so that they can manage their fleets with transparency and legal compliance, insurance brokerage, scheduling, and dispatch services, enabling drivers to earn more and keep a track of their daily earnings from their phone and passengers to hail a van instantly and save time. The company was founded in 2018 and is headquartered in Brooklyn, New York.",
-      "website": "dollaride.com",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Fleet",
-      "description": "Fleet is building the first employee-centric, holistic mobility platform designed to power the next generation of smart commuting. By automating the work of entire transportation teams and packing the expertise of commute planners into a simple, plug-and-play solution, Fleet makes it easy to design, launch, and manage smarter, impactful commuter programs all in one place. We are reinventing commuting benefits and bringing big-company superpowers to everyone. We are backed by top Silicon Valley investors behind industry-defining companies like Dropbox, Doordash, Brex, Hired, among others. We\u2019re supported by an extremely strong bench of innovators passionate about sustainable mobility, including heads of transportation at Fortune 100 companies, former leaders in government, and executives of billion-dollar mobility startups.",
-      "website": "movewithfleet.com",
-      "employees": "60",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Hopthru",
-      "description": "Make sense of your transit data",
-      "website": "hopthru.com",
-      "employees": "6",
-      "active_jobs": "0"
-    },
-    {
-      "name": "OptimoRoute Inc.",
-      "description": "OptimoRoute plans and optimizes routes and schedules for deliveries and mobile workforce. From the very beginning, our aim has been to offer the absolute state of the art in planning, routing and schedule optimization.",
-      "website": "optimoroute.com",
-      "employees": "38",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Orca Mobility",
-      "description": "Orca Mobility is developing semi-autonomous transportation solutions leveraging persistent communications.",
-      "website": "orcamobility.ai",
-      "employees": "5",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Parallel Systems",
-      "description": "Parallel Systems is a startup company developing the future of intermodal transportation. Our mission is to decarbonize freight while improving supply chain logistics and safety. We are developing vehicles and software to create new autonomous and electric transportation systems for existing rail infrastructure, allowing railroads to convert part of the $700 billion U.S. trucking industry to rail.",
-      "website": "moveparallel.com",
-      "employees": "81",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Populus",
-      "description": "Trusted by more than 70 cities around the world, Populus is a comprehensive digital solution that empowers cities to manage their streets, and develop data-driven policies with access to data from mobility operators (shared bikes, scooters, and cars).",
-      "website": "populus.ai",
-      "employees": "35",
+      "name": "Waterplan",
+      "description": "Waterplan is a SaaS platform for companies to manage water availability in their facilities.",
+      "website": "waterplan.com",
+      "employees": "86",
       "active_jobs": "4"
-    },
-    {
-      "name": "Rally",
-      "description": "Rally is Mass Mobility as a Service: technology and model innovations for the business of buses. With millions of rides completed, Rally is disrupting the mode of transportation that moves more people than any other. Our AI creates new intercity routes for regional transport and our crowdfunding/sourcing marketplace facilitates surge demand for travel during peak times or mass movements. Rally converts private car users to shared bus riders, unlocking the value of the underutilized assets of the bus industry. While Rally introduces bus travel to many first-time riders, our platform also provides traditional bus charter customers the digital tools to manage their entire journey, from route planning and procurement to marketing automation, payments and customer service.",
-      "website": "rally.co",
-      "employees": "116",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Remix",
-      "description": "Remix is a platform for planning public transit, designing streets, and managing new mobility. Trusted by 4,000 planners in 300+ cities on three continents, Remix helps cities understand how streets, public transit, and private mobility work together. Remix brings critical datasets from disparate sources together into a unified view so you can understand existing conditions and gain insights across many dimensions. The company was founded in 2014 and based in San Francisco, California.",
-      "website": "remix.com",
-      "employees": "131",
-      "active_jobs": "129"
-    },
-    {
-      "name": "Salient Predictions",
-      "description": "Make weather-related decisions in time to matter. Reliable, award-winning 2- to 52-week forecasts for adapting to a more volatile climate.",
-      "website": "salientpredictions.com",
-      "employees": "25",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Swiftly",
-      "description": "Swiftly develops enterprise software that helps transit agencies and cities improve urban mobility. Built by transportation experts for transportation professionals, the Swiftly platform harnesses billions of data points and sophisticated algorithms to improve transit system performance, service reliability, and real-time passenger information.Swiftly\u2019s technology platform is installed in over 50 cities from coast to coast, improving transportation services for millions of riders each day.",
-      "website": "goswift.ly",
-      "employees": "93",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Via",
-      "description": "Via is a re-engineering public transit company that develops and provides on-demand public mobility solutions for commuters. The company transforms public transit, from a regulated system of rigid routes and schedules to a fully dynamic, on-demand network. Via\\'s mobile app connects passengers who are headed the same way, allowing riders toseamlessly share a premium vehicle. The platform operates in the United States and in Europe through its joint venture with Mercedes-Benz Vans, ViaVan. Via\\'s technology is deployed worldwide through partner projects with public transportation agencies, private transit operators, taxi fleets, private companies, and universities, integrating with public transit infrastructure to power cutting-edge on-demand mobility. Via\\'s software offers an end-to-end solution for planning, optimizing, and operating efficient and equitable transit systems, thereby unlocking opportunity for all and constructing resilient cities for the future.",
-      "website": "ridewithvia.com",
-      "employees": "1439",
-      "active_jobs": "129"
-    },
-    {
-      "name": "WhereIsMyTransport",
-      "description": "WhereIsMyTransport is an operator of a mobility technology company intended to be the de facto source of mobility data for low and middle-income cities.\n\nThe company operates a data collection playbook for mapping formal and informal public transport networks in emerging-market cities, providing businesses, cities, and citizens with the information they need to enter new markets, improve infrastructure and get where they need to go.",
-      "website": "whereismytransport.com",
-      "employees": "31",
-      "active_jobs": "0"
-    }
-  ],
-  "Efficient Trucks": [
-    {
-      "name": "Aperia Technologies",
-      "description": "Aperia Technologies provides automatic tire inflation devices that help improve the safety and efficiency of commercial vehicles. It offers Halo Tire Inflator, a ring-shaped device that utilizes a wheel\\'s rotational motion to pump air and maintain optimal tire pressure. Aperia Technologies was incorporated in 2010 and is based in San Francisco, California.",
-      "website": "aperiatech.com",
-      "employees": "101",
-      "active_jobs": "11"
-    },
-    {
-      "name": "Derive Systems",
-      "description": "Derive Systems is a leading B2B and B2C automotive technology provider, with nearly 2 million software installations on the road today. Derive connects vehicles and their engines to the digital world, enabling individuals and fleets to take control of their vehicles and optimize the way they behave. The Derive Systems platform writes directly to the engine and other vehicle control modules, integrating third party software, data, and sensors so that each vehicle performs specifically to unique requirements, preferences, and conditions.",
-      "website": "derivesystems.com",
-      "employees": "96",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Embark Trucks",
-      "description": "Embark is building self-driving truck technology to make roads safer and transportation more efficient. We\u2019re moving the entire trucking industry forward. Embark\u2019s technology is already moving freight for five Fortune 500 companies in the southwest U.S. By moving real freight through our purpose-built transfer hubs, we are setting a new standard for how driverless trucks will move freight in the future. Watch the video to learn more. Embark has compiled many firsts for automated trucks, including driving across the country, operating in rain and fog, and navigating between transfer hubs. Embark is advancing the state of the art in automated trucks and bringing safe, efficient commercial transport closer every day. Embark is assembling a world-class group of engineers from companies like Tesla, Google, Audi and NASA with a professional operations team that averages over a million miles per driver. Working together, we are able to develop a system tailored to the demands of real world trucking.",
-      "website": "embarktrucks.com",
-      "employees": "75",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Forum Mobility",
-      "description": "The freight-moving industry are both a lifeblood of the US economy and its dominant source of harmful pollution. Diesel trucks emit nearly one-third of smog-forming nitrogen oxides and more than one-quarter of diesel particulate matter in the state. Forum Mobility is bringing its 60+ years of combined energy development and energy contracting history to the goods movement industry with a \"Zero Emissions Fleet as a Service\" business model. We do it ALL, own and operate the fleet for our customers who simply put a driver in the seat and realize a savings over its existing combustion engine fleet.",
-      "website": "forummobility.com",
-      "employees": "20",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Infinium",
-      "description": "Infinium offers an electrofuels solution to decarbonize the transportation sector using today\u2019s infrastructure. Infinium\u2019s Electrofuels is a net-zero carbon alternative to existing liquid fuels that can immediately \"drop-in\" and be used in plane, ship, and truck fleets.",
-      "website": "infiniumco.com",
-      "employees": "56",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Jaro Fleet Technologies",
-      "description": "Our high-power charging solution allows fleets to: Get more miles at lower cost with the same trucks Electrify more routes with no operational changes Extend battery life with top-up charging...",
-      "website": "jarofleets.com",
-      "employees": "3",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Linear Labs",
-      "description": "The world has a bottomless appetite for electricity. In fact, 45% of the world\\'s electricity passes through an electric motor. This is equivalent to 1 out of every 2 power plants solely dedicated to electric motors. And yet electric motor designs remain essentially unchanged in last 100 years. Linear Labs, an electric motor company, has created an entirely new family of electric motor systems designed for the next generation of electric vehicles, HVAC systems and robotics welcoming in a new era of smarter energy utilization. Our \"smart\"\u200b motors shape shift and morph the physical design in real time to adjust for changing conditions. The result is 2x improvements in torque, further range and significantly lowering power consumption. Linear Labs is a Texas based technology company. www.linearlabsinc.com",
-      "website": "linearlabsinc.com",
-      "employees": "30",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Motiv Power Systems",
-      "description": "Motiv Power Systems delivers medium-duty commercial all-electric trucks and buses, along with charging infrastructure and guidance for deploying commercial fleets. Specializing in step vans, shuttle buses, and box trucks, Motiv is an innovative provider of daily-use zero-emission vehicles for moving people and goods with 98% uptime and intense customer-driven focus.",
-      "website": "motivps.com",
-      "employees": "106",
-      "active_jobs": "9"
-    },
-    {
-      "name": "Terraline",
-      "description": "At Terraline we are fully committed to benefiting the planet by disrupting a massive segment of the transportation industry with our clean-sheet, battery-electric, long-rang, heavy trucks that are designed to eliminate CO2 emissions.",
-      "website": "terralinetrucks.com",
-      "employees": "15",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Verne",
-      "description": "Verne is a cleantech startup formed out of Stanford & Berkeley. We are accelerating the transition to zero-emission heavy transportation by pioneering a new high-density hydrogen technology platform for trucks and other heavy transport vehicles.",
-      "website": "verneh2.com",
-      "employees": "23",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Xos Trucks",
-      "description": "Xos Trucks is an electric mobility company dedicated to making fleets more efficient. Xos designs and develops fully electric battery mobility systems specifically for commercial fleets. The company\u2019s primary focus is on medium- and heavy-duty commercial vehicles that travel on \u201clast mile\u201d routes (i.e. predictable routes that are less than 200miles per day). The company leverages its proprietary technologies to provide commercial fleets zero emission vehicles that are easier to maintain and more cost-efficient on a total cost of ownership (TCO) basis than their internal combustion engine and commercial EV counterparts.",
-      "website": "xostrucks.com",
-      "employees": "213",
-      "active_jobs": "36"
-    }
-  ],
-  "Managed Grazing": [
-    {
-      "name": "Halter",
-      "description": "Halter creates GPS enabled, solar powered collars for cows. The collar hardware allows farmers to use simple tablet app software to remotely set geographic boundaries for cattle, virtual fences. Farmers use Halter\\'s system to avoid physically herding cows, maximizing farmer time and productivity.",
-      "website": "halter.co.nz",
-      "employees": "163",
-      "active_jobs": "16"
-    },
-    {
-      "name": "PastureMap",
-      "description": "PastureMap helps ranchers and farmers make profits building healthy grasslands. The company builds a global regenerative agriculture movement that is restores soil health, sequestering carbon, and provides clean water while feeding local communities.",
-      "website": "pasturemap.com",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Vence",
-      "description": "Vence makes a hardware solution for cattle which when combined with their application software allows farmers to remotely manage/control their livestock. Their solution increases the utilization of the available grasses (increased the number of animals on a farm), removes costs associated with fencing (hardware/ maintenance costs/ labor) and eliminates labor associated with moving the animals.",
-      "website": "vence.io",
-      "employees": "24",
-      "active_jobs": "0"
     }
   ],
   "Building Automation Systems": [
@@ -2300,7 +312,1159 @@ const mapping = {
       "active_jobs": "0"
     }
   ],
+  "NaN": [
+    {
+      "name": "Aclima",
+      "description": "Aclima has pioneered an entirely new way to measure and analyze air pollution and greenhouse gases, block by block and around the world. The Aclima hardware and software technology platform translates billions of scientific measurements from its network of stationary and roving sensors into environmental intelligence for governments, businesses, and communities. A Public Benefit Corporation, Aclima is dedicated to catalyzing bold action to protect public health, reduce climate-changing emissions and advance equity. The company holds a broad patent portfolio for networked, indoor, wearable, and mobile air quality sensing technologies. Aclima is headquartered in San Francisco with offices in Portland and New York City. For more information please visit https://aclima.io.",
+      "website": "aclima.io",
+      "employees": "71",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Aepnus Technologies",
+      "description": "Aepnus develops low-cost electrolysis equipment to electrify and decarbonize the production of commodity chemicals needed to transition to a carbon-free industry. Salts of Lithium, Sodium, NMC Cathodes, as well as Hydrochloric acid, Sulfuric Acid, and Caustic Soda, are some of the chemicals we currently focus on.\n\nBy electrifying mineral and chemical refinement trains, we enable domestic production of these materials and position the US as a leader in the global energy transition.",
+      "website": "aepnus.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Air Company",
+      "description": "Air Company is a technology and lifestyle company that ideates, creates, and manufactures liquor products. The company was founded in 2017 by Gregory Constantine and Staff Sheehan and is based in New York, New York, United States.",
+      "website": "aircompany.com",
+      "employees": "102",
+      "active_jobs": "11"
+    },
+    {
+      "name": "Albedo",
+      "description": "In a rapidly changing world, today\u2019s problems can\u2019t be solved with yesterday\u2019s solutions. Our biggest challenges keep get bigger, but we can\u2019t keep up with our feet on the ground.\n\nAt Albedo, we believe that space is more than just a place to explore \u2014 it\u2019s also a tool that can be used to help tackle problems here on Earth. Our exquisite imagery empowers industry leaders with the details that matter so that we can support what we have and shape what we don\u2019t.\n\nWith a new perspective, we can change the big picture.",
+      "website": "albedo.space",
+      "employees": "45",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Albedo",
+      "description": "Albedo is developing low-flying satellites that will capture visible and thermal imagery at the highest resolution commercially available. By making aerial quality imagery globally available, easy to purchase, and transparent to task, we aim to catalyze market growth and spur new applications. The world is rapidly changing and a new level of visibility and transparency is required to solve some of our largest problems. Albedo\u2019s 10cm visible and 2m thermal imagery will fuel insights for industries such as mapping, insurance, utilities, solar, agriculture, carbon offsets, infrastructure sustainability, national security, and much more.",
+      "website": "albedo.com",
+      "employees": "53",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Allium Engineering",
+      "description": "Allium Engineering is a civil engineering company that develops and manufactures corrosion resistant steel rebar.",
+      "website": "alliumeng.com",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Alloy Enterprises",
+      "description": "Alloy Enterprises operates as industry disruptors looking to tackle inefficiencies in conventional manufacturing. The company is based in Somerville, Massachusetts.",
+      "website": "alloyenterprises.co",
+      "employees": "49",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Applied Intuition",
+      "description": "Applied Intuition is a vehicle software supplier that accelerates the adoption of safe and intelligent machines worldwide. Founded in 2017, Applied Intuition provides a simulation and validation platform for various industries such as automotive, trucking, construction, and more. 18 of the top 20 global automakers rely on Applied Intuition\u2019s solutions to shorten development cycles, deliver high-quality systems, and accelerate the production of modern vehicles with confidence.",
+      "website": "appliedintuition.com",
+      "employees": "346",
+      "active_jobs": "132"
+    },
+    {
+      "name": "Arca",
+      "description": "Carbin Minerals unlock the enormous carbon dioxide removal potential of mine waste.",
+      "website": "arcaclimate.com",
+      "employees": "19",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Axle Mobility",
+      "description": "",
+      "website": "axlemobility.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Azolla Ventures",
+      "description": "",
+      "website": "azollaventures.com",
+      "employees": "12",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Banyan Infrastructure",
+      "description": "Banyan is a platform that automates contractual compliance and creates transparency throughout the loan lifecycle of infrastructure. The company\\'s platform consists of dynamic loan agreements that are easily integrated with the project\\'s IoT monitoring systems, bank accounts, and other asset management software to speed up the development of next-generation infrastructure projects at a high velocity and low cost. This allows lenders and borrowers to synthesize important insights, automate contractual compliance, and actively mitigate risk with greater transparency across all counterparties.",
+      "website": "banyaninfrastructure.com",
+      "employees": "61",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Beekeeper",
+      "description": "Beekeeper is a mobile-first communication platform that reaches every shift, location, and language through real-time messaging and targeted streams. Managers keep frontline teams productive and turnover low by automating workflows while leveraging an analytics dashboard to measure engagement. Beekeeper integrates with operational systems, making them accessible in one central portal.",
+      "website": "beekeeper.io",
+      "employees": "365",
+      "active_jobs": "9"
+    },
+    {
+      "name": "Beijing Climate Policy Initiative",
+      "description": "Climate Policy Initiative helps governments, businesses, and financial institutions drive economic growth while addressing climate change.",
+      "website": "climatepolicyinitiative.org",
+      "employees": "181",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Better Ventures",
+      "description": "Better Ventures provides funding and support to technology startups building innovative solutions to big and important problems, from work and education to health and sustainability. Given the magnitude of the these problems and the enormous market opportunities they represent, it takes the best and brightest minds armed with the best resources to address them. These are the people they seek to back \u2013 entrepreneurs committed to using the tools and methodologies of the modern technology startup to build world-changing companies that make money and do good. They\\'re thinking big and expecting big results, and so are the entrepreneurs they back.",
+      "website": "better.vc",
+      "employees": "11",
+      "active_jobs": "0"
+    },
+    {
+      "name": "BlackCurrant",
+      "description": "BlackCurrant is a hydrogen trading platform provides advanced machine learning to predict hydrogen pricing and demand growth.",
+      "website": "blackcurrant.ai",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Boundless Impact Research & Analytics",
+      "description": "Boundless Impact Research & Analytics is a market intelligence and impact analytics company that provides investors, companies, and funds.",
+      "website": "boundlessimpact.net",
+      "employees": "14",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Breakthrough Energy Coalition",
+      "description": "",
+      "website": "b-t.energy",
+      "employees": "218",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Bright Harbor",
+      "description": "",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Brightside",
+      "description": "",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Capella Space",
+      "description": "Capella Space is an American space tech company with data and satellite solutions for government and commercial use. A pioneer in the Earth observation industry, Capella is the first U.S. company with a constellation of Synthetic Aperture Radar (SAR) satellites, delivering the best quality, highest resolution SAR imagery commercially available. Capella provides easy access to frequent and timely information affecting dozens of industries worldwide, including defense and intelligence, supply chain, insurance, maritime and others. Its market-leading SAR satellites are matched with unparalleled data infrastructure to quickly deliver reliable global insights that sharpen our understanding of the changing world \u2013 improving decisions about commerce, conservation, and security on Earth. Headquartered in San Francisco, California with additional locations in Denver, Colorado and Washington, D.C., Capella\u2019s satellites are operated, designed and manufactured in the USA.",
+      "website": "capellaspace.com",
+      "employees": "201",
+      "active_jobs": "15"
+    },
+    {
+      "name": "Carbon Collective",
+      "description": "Carbon Collective is the first 100% climate-focused online investment advisor with the mission to close the annual $5 trillion climate investment gap.",
+      "website": "carboncollective.co",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Cascade Climate",
+      "description": "Cascade Climate is a company that is speeding up progress in open-system climate initiatives.",
+      "website": "cascadeclimate.org",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Celerity Consulting Group",
+      "description": "Celerity Consulting Group is an information governance consulting firm that helps regulated entities, public agencies, companies, and law firms resolve their risk and compliance, litigation, technology deployment, and restructuring challenges. We have a particular depth of expertise in the utility and natural gas pipeline sectors. Celerity clients include Fortune 500 companies, several state attorneys general offices, some of the largest utilities in the country, and 14 of the AmLaw 2016 top 25 law firms.",
+      "website": "consultcelerity.com",
+      "employees": "114",
+      "active_jobs": "11"
+    },
+    {
+      "name": "ClimateAI",
+      "description": "ClimateAI is an enterprise climate platform to help companies reduce, monitor, and adapt to physical climate risks. ClimateAi seeks to climate-proof the global economy while aiming for zero loss of lives, livelihoods, and nature. The company is a team of passionate entrepreneurs, scientists, and engineers who all believe that climate change is the most important problem of our generation.",
+      "website": "climate.ai",
+      "employees": "78",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Coastal Carbon",
+      "description": "",
+      "website": "coastalcarbon.ai",
+      "employees": "1",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Cobalt",
+      "description": "Cobalt builds indoor robots that work alongside human guards to provide security. It offers indoor security robots that do patrolling in the premises, as well as look for intruders or anything that\\'s out of the ordinary; and comprise intruder and anomaly detection, human-robot interaction, and mapping and sensing capabilities. Erik Schluntz and Travis Deyle founded it in 2016, with its headquarters in San Mateo in California.",
+      "website": "cobaltrobotics.com",
+      "employees": "151",
+      "active_jobs": "15"
+    },
+    {
+      "name": "Dioxycle",
+      "description": "At Dioxycle we develop electrolyser solutions for carbon dioxide emissions. Using state-of-the-art technology, we research and provide technology that captures and converts carbon dioxide and ultimately generates valuable chemical products.",
+      "website": "dioxycle.com",
+      "employees": "22",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Down Ballot Climate Partners",
+      "description": "",
+      "active_jobs": "0"
+    },
+    {
+      "name": "DroneDeploy",
+      "description": "DroneDeploy is a provider of cloud-control software solutions for drones which include automated flight safety checks, workflows, and real-time mapping and data processing.The company has partnered with leading drone manufacturers like DJI to provide its software to end users in a variety of industries, including agriculture, real estate, mining, construction and many other commercial and consumer arenas. DroneDeploy is compatible with any drone.",
+      "website": "dronedeploy.com",
+      "employees": "283",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Earthmover",
+      "description": "Earthmover is an early-stage startup developing a cloud-based platform for array data analytics.",
+      "website": "earthmover.io",
+      "employees": "12",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Elemental Excelerator",
+      "description": "Elemental Excelerator helps startups change the world, one community at a time. Each year, it finds 15-20 companies that best fit its mission and funds each company up to $1 million to improve systems that impact people\\'s lives: energy, mobility, water, agriculture, and beyond. To date, it has awarded over $30 million to 82 companies.",
+      "website": "elementalexcelerator.com",
+      "employees": "90",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Eli",
+      "description": "Eli provides turnkey software that powers equitable, efficient incentive programs.",
+      "website": "eli.build",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Energize Capital",
+      "description": "Energize Capital is a leading climate software investor. We partner with best-in-class innovators to accelerate the sustainability transition. Founded in 2016 and based in Chicago, Energize is backed by LPs who represent world-class institutional, strategic, impact and family office investors. We leverage our team\\'s deep industry and operational expertise to guide our research-based investment approach and support our portfolio companies in scaling and realizing their full potential, from early commercialization to the public markets.",
+      "website": "energizecap.com",
+      "employees": "21",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Equatic",
+      "description": "",
+      "website": "equatic.tech",
+      "employees": "7",
+      "active_jobs": "1"
+    },
+    {
+      "name": "FACE PLANT",
+      "description": "",
+      "website": "eatfaceplant.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Felt",
+      "description": "Felt is a collaborative software company that wants to make it easier for people to build maps on the internet.",
+      "website": "felt.com",
+      "employees": "32",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Forerunner",
+      "description": "Forerunner builds software to help communities adapt to the impacts of climate change.",
+      "website": "withforerunner.com",
+      "employees": "37",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Fox Robotics",
+      "description": "Fox Robotics is a platform the engineers and manufactures autonomous forklifts that specialize in trailer unloading.",
+      "website": "foxrobotics.com",
+      "employees": "82",
+      "active_jobs": "20"
+    },
+    {
+      "name": "FutureProof Technologies",
+      "description": "FutureProof Technologies is a financial analytics software company specializing in physical climate risks.",
+      "website": "futureprooftech.io",
+      "employees": "21",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Gencores, Inc.",
+      "description": "Gencores provides a platform that reduces the risk of concussion with customizable, smart, shock-absorbing helmet inserts.",
+      "website": "gencores.com",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Grover",
+      "description": "Grover is a platform that enables users to subscribe to tech products monthly instead of buying them. The product-as-a-service company gives the freedom of renting by bringing the access economy to the consumer electronics market and offering a simple, monthly subscription model for the best in tech. It allows private customers, as well as businesses, to get access to a wide assortment of over 1500 tech products such as smartphones, laptops, virtual reality (VR) gear, and wearables profiting from the flexibility and full usage rights at a fraction of the purchase price. Michael Cassau established Grover in Berlin, Berlin, Germany in 2015.",
+      "website": "grover.com",
+      "employees": "455",
+      "active_jobs": "17"
+    },
+    {
+      "name": "Hgen",
+      "description": "Hgen is on a mission to decarbonize the 25% of global carbon emissions that can be best addressed by affordable green hydrogen.",
+      "website": "hgen.com",
+      "employees": "6",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Hoxton Farms",
+      "description": "Based in London, UK, Hoxton Farms is growing real animal fat \u2013 without animals. The company combines cell biology and mathematical modelling to produce cultivated fat as an ingredient for the meat alternatives industry.",
+      "website": "hoxtonfarms.com",
+      "employees": "44",
+      "active_jobs": "4"
+    },
+    {
+      "name": "In2lytics",
+      "description": "In2lytics is a data analytics company that specializes in the fields of big data and software development. It provides insights needed to increase system availability while reducing operational expenditure. With in2lytics, the utility has the data-driven insight needed for improved planning and decision-making capabilities. The company was founded in 2016 and headquartered in Hawaii, United States.",
+      "website": "in2lytics.com",
+      "employees": "5",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Intensivate",
+      "description": "Intensivate\u2019s silicon establishes the category of Cluster CPUs, providing a 12x increase in data center performance while running unmodified, existing workloads and supporting the full Linux ecosystem. The product benefits cloud, on-prem and edge applications that are not well served by GPUs, FPGAs and general purpose CPUs. Intensivate\\'s data center product, IntenScale, is a PCIe card equivalent to 21 standard servers at only 350W. The card contains 21 of Intensivate\\'s patented 16 core, 16 thread Cluster CPU chips, giving the card a total of 336 cores, 5367 threads, and 672GB of DRAM.",
+      "website": "intensivate.com",
+      "employees": "20",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Isometric",
+      "description": "Isometric builds scientifically rigorous verification technology to confirm carbon removal claims are true, with all data transparently recorded in a publicly available registry.",
+      "website": "isometric.com",
+      "employees": "48",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Isometric Technologies",
+      "description": "Isometric Technologies is a performance management solution for the supply chain industry.",
+      "website": "iso.io",
+      "employees": "37",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Kaya Pay",
+      "description": "Kaya Pay is a developer of a materials procurement and financing platform intended for construction projects.",
+      "website": "usekaya.ai",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Kettle",
+      "description": "Kettle uses machine learning to better understand the effects of climate change on catastrophic risk, such as wildfires or hurricanes. Kettle then writes insurance and reinsurance policies to protect people and businesses from these risks.",
+      "website": "ourkettle.com",
+      "employees": "26",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Kindred Motorworks",
+      "description": "We are marketing folks, technicians, software developers, mechanical engineers, designers, painters and car lovers. We love a whiff of gasoline and we geek out about the torque provided by electric motors. Above all we believe the world is a better place with vintage cars out on the road. We strive to create a meaningful workplace at Kindred, which means something different for each of our team members. For some, it\u2019s getting these immortal vehicles on the road. For others it\u2019s the portion of revenue we donate to our local community for every vehicle sold. For many at Kindred, it\u2019s the inclusive work environment we\u2019ve created. Our cars create joyful experiences for our customers and immense pride for our team. Consider joining the team if you share our interests. Retirees, MBAs, high school drop-outs, career changers; we don\u2019t care if you can match our passion, values and work ethic. About Our Company: Our leadership team built two successful companies together, one in supply chain and another in technology. Along the way, we\u2019ve been restoring cars, racing on the weekends and gaining all the experience necessary to build Kindred. At Kindred we build modernized vintage cars in a wildly innovative way. In our design center in Northern California we spend countless hours for every Kindred model prototyping and painstakingly evaluating thousands of design decisions that drive performance and reliability. Mid to late 2022 we will be moving to Vallejo Mare Island, into a new production facility 100,000 square feet+. Our home grown technology platform helps us map the genome of each model in such detail, that we can manage our workflows in ways never seen before in vintage cars. Kindred\u2019s integrated supply chain and our scale allow us to build with an unwavering focus on efficiency and quality. The result is a car so well built, that you can just be present in the moment and Enjoy the Ride.",
+      "website": "kindredmotorworks.com",
+      "employees": "33",
+      "active_jobs": "3"
+    },
+    {
+      "name": "KoBold Metals",
+      "description": "KoBold Metals is pioneering Digital Exploration by applying statistical modeling, big data aggregation, and foundational ore-deposit science to materially improve the pace and efficacy of natural resources exploration. We are deploying our Machine Prospector tool to discover new ethical sources of Ni, Cu, Co, and Li critical for the electric vehicle revolution.",
+      "website": "koboldmetals.com",
+      "employees": "134",
+      "active_jobs": "36"
+    },
+    {
+      "name": "Lastwall Networks, Inc.",
+      "description": "Lastwall is building new internet security systems, broadly based on new ways of authenticating users and strongly enforcing identity. The company\\'s API gives full control over security implementation and allows to add extra user security with just a few lines of code. Lastwall has a full developer documentation for many of the major web platforms.",
+      "website": "lastwall.com",
+      "employees": "25",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Lightship",
+      "description": "Lightship is an early-stage hardware startup launched in 2020 by Tesla alumni that is bringing the $26B RV industry into the electric age. Based in San Francisco, Lightship is designing and producing an aerodynamic, battery-powered trailer that liberates travelers from the noise, emissions, and range anxiety of gas RVing.",
+      "website": "lightshiprv.com",
+      "employees": "50",
+      "active_jobs": "21"
+    },
+    {
+      "name": "Lowercarbon Capital",
+      "description": "Lowercarbon Capital funds research and invests in technologies to reduce CO2 in the atmosphere. For too long, the world has ignored the scientists, inventors, and entrepreneurs who are pursuing solutions to lower emissions, remove carbon, actively cool the planet, and save human, animal, and plant life. It was founded in 2018.",
+      "website": "lowercarboncapital.com",
+      "employees": "26",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Machina Labs",
+      "description": "Machina Labs unlocks manufacturing with AI & Robotics. Machina\\'s Robotic Craftsman is introducing unseen flexibility and agility to the centuries-old manufacturing industry, enabling rapid iteration and innovation to design, engineering, and production. Machina helps leading companies quickly and affordably turn great ideas into reality.",
+      "website": "machinalabs.ai",
+      "employees": "56",
+      "active_jobs": "17"
+    },
+    {
+      "name": "MadeFrom",
+      "description": "MadeFrom provides clients with competitor\\'s insight using live data on companies.",
+      "website": "madefrom.com",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mangrove Lithium",
+      "description": "Mangrove Lithium, a Vancouver-based company, has developed a breakthrough platform for the most cost-effective production of battery-grade lithium hydroxide and carbonate from diverse input streams and assets. Mangrove\u2019s modular solution can be scaled to any capacity and co-located with upstream lithium producers or cathode and cell manufacturers. The platform technology is also being commercialized for the conversion of waste brines to chemicals and desalinated water.",
+      "website": "mangrovelithium.com",
+      "employees": "36",
+      "active_jobs": "1"
+    },
+    {
+      "name": "MicroByre",
+      "description": "MicroByre is a biotechnology company that specializes in microbiology, synthetic biology, molecular biology, and computational biology. It domesticates and then genetically engineers otherwise reluctant, recalcitrant, and rebellious bacteria. It was founded in 2017 and headquartered in California, United States.",
+      "website": "microbyre.com",
+      "employees": "32",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Modulous",
+      "description": "Our planet doesn\\'t have sufficient homes. Our technology will help change that. We\\'re a team of designers, engineers and technologists dedicated to creating a technology platform designed to enable the high-speed design & delivery of quality, sustainable, healthy & affordable housing, globally.",
+      "website": "modulous.com",
+      "employees": "62",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Modumate",
+      "description": "Modumate is a next-generation 3D design tool helping to modernize architects\\' workflows, including automation of drafting. The tool automatically creates, annotates, and updates your permit and construction drawings. They making architects 10x more productive and helping them design 10x better buildings. Modumate offers software application for designing and customization of building exteriors and interiors, as well as enables users to tag and schedule display data from the data-complete objects of design. It was founded in 2017 and is based in San Francisco, California, United States.",
+      "website": "modumate.com",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mombak",
+      "description": "",
+      "website": "mombak.com",
+      "employees": "25",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Muon Vision",
+      "description": "Our technology provides a passive, non-invasive X-ray imaging technology that can be used to i) visualize the percolation of process fluids across leaching heaps at scale; ii) monitor the stability of dams, heaps, mining assets; iii) other industrial and mining applications where density measurements are of key importance to improve safety and productivity.",
+      "website": "muonvision.com",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mythos AI",
+      "description": "The founders of Mythos AI have been at the bleeding edge of the Silicon Valley self-driving car industry and the unmanned surface vehicle industry for over a decade. We are applying lessons learned from self-driving cars to develop a next generation autonomy framework for the maritime sector and enable large scale adoption of advanced machine learning and true automation for commercial operators. Together with strategic partners we leverage our technology to enable an industry.",
+      "website": "mythos-ai.com",
+      "employees": "8",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Novi",
+      "description": "Novi is a technology platform that uses AI to ingest proprietary chemical information from chemical manufacturers or suppliers and create chemical profiles at the trade material level. It enables brands and formulators on the platform to access data for any trade material of interest to assess an ingredient currently in use, find safer alternatives, or discover new ingredients that meet their standards. Retailers verify that brands only use ingredients that meet their standards. The company is dedicated to solving the large hurdle of scalable data management by acting as the third-party to translate relevant proprietary information between suppliers and brands.",
+      "website": "noviconnect.com",
+      "employees": "28",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Othersphere",
+      "description": "Othersphere identifies profitable and sustainable locations for deploying zero or low greenhouse gas industrial technologies.",
+      "website": "othersphere.io",
+      "employees": "13",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Overview Energy",
+      "description": "Overview Energy is a VC-backed space startup based in the DC Area. We\u2019re building a constellation of large, deployable satellites, which will require solving fundamental problems in aerospace manufacturing, GNC, and space power systems..",
+      "website": "overviewenergy.com",
+      "employees": "9",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Pano",
+      "description": "Pano AI (Pano) is the leader in early wildfire detection and intelligence, providing government, utilities, insurers, and private landowners with advanced tools and up-to-the-minute intelligence to quickly mitigate wildfire threats while protecting lives, property, and the environment. Pano combines advanced hardware, artificial intelligence, and software in a single integrated enterprise solution. Leveraging data and satellite feeds, as well as propriety imagery from a network of ultra-high-definition, 360-degree cameras atop high vantage points, Pano\u2019s artificial intelligence model produces a real-time picture of threats in a geographic region and delivers immediate, actionable intelligence.",
+      "website": "pano.ai",
+      "employees": "76",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Petra",
+      "description": "Petra is the first robotics company focused on undergrounding utilities. Our undergrounding robot is the first practical and affordable solution able to bore utility tunnels through high grade hard rock, in areas that are the most disaster-prone. Our mission is to make the world a safer place by making utility undergrounding ubiquitous and affordable to all communities.",
+      "website": "petra.cc",
+      "employees": "75",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Phaidra",
+      "description": "Phaidra creates AI-powered control systems for the industrial sector, enabling industrial facilities to automatically learn and improve over time",
+      "website": "phaidra.ai",
+      "employees": "81",
+      "active_jobs": "13"
+    },
+    {
+      "name": "Phase Genomics",
+      "description": "Phase Genomics\\' mission is to help scientists make breakthrough discoveries by providing the most complete, accurate, detailed genomes and metagenomes available from any technology.",
+      "website": "phasegenomics.com",
+      "employees": "31",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pico MES",
+      "description": "Manufacturing Execution Systems (MES) have never been human-centric. Poor data management, broken traceability, and not designed for the average factory worker. Not anymore - we\u2019ve fixed it. Pico MES is a fresh approach to factory operating systems and enables a connected environment to limitless factory tools, capturing data for visibility into the supply chain. Pico MES has migrated dozens of mid-sized factories off of paper-based systems and helped improve product quality for American factories in battery manufacturing, automotive, and aerospace. Pico MES is designed by end users, for future end users.",
+      "website": "picomes.com",
+      "employees": "31",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pioneer Transformers",
+      "description": "Pioneer Transformers is a engineer and manufacturer of a broad range of specialty liquid-filled and dry-type power transformers for niche applications in industrial, OEM and commercial and backup power markets.",
+      "website": "pioneertransformers.com",
+      "employees": "18",
+      "active_jobs": "43"
+    },
+    {
+      "name": "Planet",
+      "description": "Planet is the leading provider of global, daily satellite imagery and insights. Planet is driven by a mission to image all of Earth\u2019s landmass every day, and make global change visible, accessible, and actionable. Founded in 2010 by three NASA scientists, Planet designs, builds, and operates the largest fleet of imaging satellites, as well as online software, tools and analytics needed to deliver data to users. Decision makers in business, government, and within organizations use Planet\\'s data and machine learning-powered analytics to develop new technologies, drive revenue, power research, and make informed, timely decisions to solve our world\\'s toughest challenges.",
+      "website": "planet.com",
+      "employees": "1352",
+      "active_jobs": "16"
+    },
+    {
+      "name": "PulSenics",
+      "description": "PulSenics is a provider of real-time electrochemical system monitoring and control solutions. It utilizes artificial intelligence technology for electrochemical system monitoring and provides insights about electrolyte concentration, membrane health, power consumption, electrode adsorption, and others.",
+      "website": "pulsenics.com",
+      "employees": "19",
+      "active_jobs": "14"
+    },
+    {
+      "name": "Relativity Space",
+      "description": "Relativity Space is an aerospace company that designs, develops, and builds 3D-printed rockets. a vertically integrated technology platform, Relativity is at the forefront of an inevitable shift toward software-defined manufacturing by fusing 3D printing, artificial intelligence, and autonomous robotics. It offers a radically simplified supply chain, building a rocket with 100x fewer parts in less than 60 days. Relativity Space is backed by leading investors including Bond, Tribe Capital, Playground Global, Y Combinator, Social Capital, and Mark Cuban.",
+      "website": "relativityspace.com",
+      "employees": "969",
+      "active_jobs": "199"
+    },
+    {
+      "name": "Renaissance Fusion",
+      "description": "Nuclear fusion start-up in Europe making the stellarator simple, fusion electricity incredibly cheap, and MRI a routine medical check-up.",
+      "website": "stellarator.energy",
+      "employees": "41",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Rendered.ai",
+      "description": "Rendered.ai develops data engineering tools built to help medical, automotive, robotics, security, and other industries. It provides a Common Application Framework to produce physics-based synthetic datasets for AI training and validation. The company was founded in 2019 and is based in Bellevue, Washington.",
+      "website": "rendered.ai",
+      "employees": "27",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Safehub",
+      "description": "Safehub helps corporations manage catastrophe risk through physics-based technology, enhanced by sensors and AI. The Safehub Global Platform presents building-specific data in real-time, providing critical risk information. This enables corporations to refine and evaluate insurance and risk reduction programs, and expedite emergency response and recovery, minutes following an event.",
+      "website": "safehub.io",
+      "employees": "20",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Scope3",
+      "description": "",
+      "website": "scope3.com",
+      "employees": "38",
+      "active_jobs": "12"
+    },
+    {
+      "name": "Scythe Robotics",
+      "description": "Building highly-intelligent autonomous robots to tackle challenges in unstructured outdoor environments.",
+      "website": "scytherobotics.com",
+      "employees": "68",
+      "active_jobs": "18"
+    },
+    {
+      "name": "Sibros",
+      "description": "Sibros takes the complexity out of software-defined vehicles with its Deep Connected Platform\u2122 that unifies real-time data collection with software configuration management, remote updates, and diagnostic commands, while meeting key automotive safety, security, and data privacy requirements. Sibros solutions can be deployed on any vehicle architecture, from legacy gas and diesel to next-generation BEVs, fuel cells, motorcycles, buses, commercial trucks, and heavy machinery. Using our future-ready technology built in Silicon Valley, Sibros enables OEMs to innovate differentiated customer experiences, improve cost savings and realize new revenue models across the full mobility product life cycle.",
+      "website": "sibros.tech",
+      "employees": "144",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Sightline Climate",
+      "description": "Sightline Climate is a market intelligence platform that provides data-driven insights as well as tactical intelligence on climate change.",
+      "website": "sightlineclimate.com",
+      "employees": "27",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Sila Nanotechnologies",
+      "description": "Sila Nanotechnologies is an electronics company that offers new battery materials chemistry. It works directly with leading consumer electronics and automotive OEMs to help accelerate product roadmaps, and partners with battery manufacturers commercial cell production. The company was founded in 2011 and headquartered in California, United States.",
+      "website": "silanano.com",
+      "employees": "372",
+      "active_jobs": "34"
+    },
+    {
+      "name": "SilverLining",
+      "description": "SilverLining is a non-profit supporting research in interventions to reduce heat in climate and innovations to better understanding the climate system.",
+      "website": "silverlining.ngo",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Singularity Energy",
+      "description": "Singularity is a Harvard spinoff building real-time carbon tracking and decision-making solutions to help climate regulators, sustainability directors, and cleantech product directors meet ambitious targets with confidence and transparency through a combination of data and artificial intelligence. The company was founded in 2018 by Wenbo Shi and is based in Somerville, Massachusetts, United States.",
+      "website": "singularity.energy",
+      "employees": "13",
+      "active_jobs": "0"
+    },
+    {
+      "name": "SirenOpt",
+      "description": "SirenOpt makes sensors and software that accelerate R&D and enable cost-effective manufacturing of high-performance thin films.",
+      "website": "sirenopt.com",
+      "employees": "11",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Sitetracker",
+      "description": "Sitetracker is a SaaS platform for deploying, operating, and servicing critical infrastructure and technology. The Sitetracker Platform enables growth-focused innovators to optimize the entire asset lifecycle through native platform inclusions like AI, automation, and actionable analytics. From the field to the C-suite, Sitetracker enables stakeholders to optimize how they plan, deploy, maintain, and grow their capital asset portfolios. Market leaders in the telecommunications, alternative energy, and utility industries \u2014 such as Ericsson, Fortis, Google, British Telecom, and Vodafone \u2014 rely on Sitetracker to manage millions of sites and projects representing over $25 billion of portfolio holdings globally.",
+      "website": "sitetracker.com",
+      "employees": "362",
+      "active_jobs": "14"
+    },
+    {
+      "name": "Smartcar",
+      "description": "Smartcar\\'s team is building the infrastructure for the connected car.",
+      "website": "smartcar.com",
+      "employees": "113",
+      "active_jobs": "2"
+    },
+    {
+      "name": "SolarAPP Foundation",
+      "description": "",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Stoke Space",
+      "description": "Stoke Space is a developer of reusable rockets that provide access to and from any orbit to the satellite industry. These reusable rockets are designed to make space access sustainable and scalable. They are also used to deliver satellites, that can be reused, are low-cost, on-demand, and designed to fly daily. These reusable rockets help clients launch space missions and deliver new satellites to space in a sustainable and cost-efficient manner.",
+      "website": "stokespace.com",
+      "employees": "108",
+      "active_jobs": "25"
+    },
+    {
+      "name": "Stripe, Frontier",
+      "description": "An advance market commitment to accelerate carbon removal\nFrontier is an advance market commitment to buy an initial $925M of permanent carbon removal between 2022 and 2030. It\u2019s funded by Stripe, Alphabet, Shopify, Meta, McKinsey, and tens of thousands of businesses using Stripe Climate.",
+      "website": "frontierclimate.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Sunthetics",
+      "description": "Sunthetics enables process chemists in pharma to develop electrochemical lead molecules in 1/10th of the time. Electrochemistry has many operational, cost, and sustainable benefits such as using 40% less energy, avoiding toxic chemicals and waste, and enabling new types of molecules. Despite interest in pharmaceuticals to develop electrochemical molecules, many molecules don\\'t make it past process development. For most applications, the many years of optimization and additional training required don\\'t justify the energy and cost savings. Sunthetics develops smart electrochemical reactors that enable process chemists to develop at-scale processes in 1/10th of the time. Our effective hardware is scalable and effective, and enables fast results through a machine-learning platform that is automatic and predictive, reducing the experiments needed for development by 10x. Though the beachhead market is pharmaceuticals, Sunthetics has a platform technology that can be scaled and applied to follow-on markets such as agrochemicals and specialty chemicals, spearheading the electrification of the chemical industry.",
+      "website": "sunthetics.io",
+      "employees": "7",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Supercritical",
+      "description": "Supercritical produces hydrogen and oxygen with the help of an electrolyzer and works towards creating a zero-carbon future.",
+      "website": "supercritical.solutions",
+      "employees": "19",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Sustainment",
+      "description": "Sustainment is an online software platform that efficiently connects manufacturing vendors and heavy industry to enable American manufacturing. Their platform incorporates data infrastructure technology, algorithm-based matching and optimization, encrypted transfer protocols, semi-autonomous sourcing techniques, and excellent UX design to provide an intuitive customer experience for sourcing teams and manufacturing vendors.",
+      "website": "sustainment.tech",
+      "employees": "93",
+      "active_jobs": "2"
+    },
+    {
+      "name": "T-REX",
+      "description": "Enterprise Fintech Platform: T-REX\u2019s mission is to make complex capital markets more liquid through enhanced transparency and efficiency. In order to facilitate growth in complex asset classes, T-REX aims to continuously build effective market-relevant financial infrastructure that allows complex markets to be more robust through unprecedented transparency. T-REX is the financial and risk analytics platform for complex asset classes: increasing standardization, efficiency, and transparency. Through its enterprise SaaS platform, T-REX unlocks hundreds of billions of dollars currently seeking investment through modules that combine analysis across assets, loans, bonds, and other capital structures. Before T-REX, the value of the assets was opaque, non-standard, and manually evaluated one asset at a time. With T-REX, industry participants can now efficiently invest in, securitize, and manage portfolios of assets with complete transparency.",
+      "website": "trexgroup.com",
+      "employees": "128",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Tenere",
+      "description": "Tenere is a North American manufacturer of custom mechanical solutions for companies that connect the world through technology in the Cloud Infrastructure, Network Architecture, Fiber Optics, and Renewable Energy markets. With decades of experience, the company specializes in fabricated sheet metal, injection molding, and assemblies by leveraging their expertise in prototyping, design for manufacturability, tooling, production, assembly, integration & test, and supply chain.",
+      "website": "tenere.com",
+      "employees": "200",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Terra.do",
+      "description": "Terra.do operate as an online climate school. Terra.do collaborate with experts from the field to offer learners an overview of the entire climate landscape. The company was founded in 2020 and is based in Stanford, California, United States.",
+      "website": "terra.do",
+      "employees": "140",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Terrafuse",
+      "description": "Terrafuse develops artificial intelligence to provide actionable climate intelligence to the planet. Their tool uses machine learning emulators of weather and hydroclimate models for operational and financial risk assessment, enabling clients to make climate-informed decisions for their businesses.",
+      "website": "terrafuse.ai",
+      "employees": "11",
+      "active_jobs": "0"
+    },
+    {
+      "name": "The Eastern Specialty Company",
+      "description": "TESCO offers a full range of meter testing operational support, including burdens, test switches, and wattmeter test accessories. The company provides a range of services, including meter shop layout, statistical sampling, equipment specifications, field services, facility relocations, quality management, project management and custom equipment. They work with utilities to develop and implement engineered solutions such as ultrasonic cleaning systems, statistical sampling processes, and supporting software, as well as technical support for preparing reports for regulating agencies and Public Utility Commissions (PUCs) for both electrical and gas metering operations.",
+      "website": "tescometering.com",
+      "employees": "65",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Toucan Protocol",
+      "description": "Toucan is working to make DeFi work for the planet. We\\'re building market infrastructure to bring carbon markets to public blockchains. If you\\'re passionate about climate, finance, tech, people or the Earth, get in touch - we\\'re hiring!",
+      "website": "toucan.earth",
+      "employees": "26",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Transcend",
+      "description": "We enable engineering, construction, and technology companies to improve financial performance and accelerate digital transformation initiatives through automated engineering design software.",
+      "website": "transcendinfra.com",
+      "employees": "98",
+      "active_jobs": "11"
+    },
+    {
+      "name": "Trove",
+      "description": "Trove is a SaaS start-up in Ann Arbor, Michigan that uses artificial intelligence (AI) to help companies build more productive professional relationships. Trove\u2019s analysis of a company\u2019s communications data reveals valuable insights about how your team members are connected.",
+      "website": "trove.com",
+      "employees": "210",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Twelve",
+      "description": "We are the carbon transformation(tm) company. We make the world\\'s most critical chemicals, materials and fuels from air with our revolutionary carbon transformation(tm) technology.",
+      "website": "twelve.co",
+      "employees": "343",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Uncharted",
+      "description": "At Uncharted, we\u2019re building the operating system for last mile infrastructure. Uncharted is an MWBE-certified Platform-as-a-Service company that helps cities and developers reduce the cost and complexity of deploying and managing last mile infrastructure.",
+      "website": "uncharted.city",
+      "employees": "21",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Urban Machine",
+      "description": "Stealth Startup",
+      "website": "urbanmachine.build",
+      "employees": "16",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Urbint",
+      "description": "Urbint predicts threats to workers and critical infrastructure to stop incidents before they happen. Leveraging real-world data and artificial intelligence, Urbint\u2019s software delivers a clear picture of risk up to a week in advance, so decision-makers can take action in the right place, at the right time, before an incident occurs. Many of thelargest energy and infrastructure companies in North America trust Urbint to protect their workers, assets, and the communities they serve.",
+      "website": "urbint.com",
+      "employees": "98",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Vecna Robotics",
+      "description": "Vecna Robotics offers Automated Material Handling, Hybrid Fulfillment, and Workflow Optimization solutions. The company\\'s objective is to revolutionize customer productivity by delivering the best automation technologies. By placing workflows over robots, we ensure that all parts and players complement each other perfectly. That is a futuristic vision that puts fact over fiction.",
+      "website": "vecnarobotics.com",
+      "employees": "146",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Vector",
+      "description": "Reduce operational friction and increase productivity by streamlining your workflows with our LoadDocs electronic forms and document capture solution.",
+      "website": "withvector.com",
+      "employees": "165",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Watershed",
+      "description": "Watershed is the enterprise climate platform. Leading companies like BlackRock, Airbnb, Stripe, Klarna, and Block use our software to run end-to-end climate programs with quantifiable results. Watershed delivers granular, audit-grade carbon measurement; one-click disclosure and reporting; and real emissions reduction\u2014all in a single, intuitive, enterprise-grade software platform. Watershed customers have access to our exclusive marketplace of scientifically vetted, high-additionality carbon removal projects and high-quality offsets; in-house climate and policy expertise; and ongoing support throughout their climate journey.",
+      "website": "watershed.com",
+      "employees": "364",
+      "active_jobs": "41"
+    },
+    {
+      "name": "Work on Climate",
+      "description": "We are an action-oriented Slack community for people serious about climate work. Find climate jobs. Build climate companies. Find your people.",
+      "website": "workonclimate.org",
+      "employees": "44",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Xtelligent",
+      "description": "Xtelligent is an American software company. Andrew Powch co-founded it in 2015, with its headquarters Los Angeles in California in the United States.",
+      "website": "xtelligent.io",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "blumensystems.com",
+      "description": "",
+      "website": "blumensystems.com",
+      "active_jobs": "8"
+    },
+    {
+      "name": "circleseafoods.com",
+      "description": "",
+      "website": "circleseafoods.com",
+      "employees": "8",
+      "active_jobs": "0"
+    },
+    {
+      "name": "polySpectra",
+      "description": "PolySpectra transforms 3D printing from a prototyping aid into a production manufacturing tool. PolySpectra makes functional materials for advanced additive manufacturing. The company uses light-activated catalysts to 3D print advanced functional materials. Its modular platform enables us to deliver materials with a broad spectrum of tailored properties from a single chemical system. PolySpectra helps inventors, designers, and engineers make their ideas real. Founded in 2016 by Raymond Weitekamp, PolySpectra is headquartered in Berkeley, California.",
+      "website": "polyspectra.com",
+      "employees": "10",
+      "active_jobs": "6"
+    },
+    {
+      "name": "rewind.earth",
+      "description": "",
+      "website": "rewind.earth",
+      "employees": "8",
+      "active_jobs": "0"
+    },
+    {
+      "name": "supercircle.world",
+      "description": "",
+      "website": "supercircle.world",
+      "employees": "9",
+      "active_jobs": "0"
+    }
+  ],
+  "Public Transit": [
+    {
+      "name": "Actionfigure",
+      "description": "Actionfigure has three core products, all of which empower employers and owners and operators of commercial real estate including office, multifamily apartments, hotels, entertainment venues, and campuses to help people travel to, from, and around the location more easily, affordably, and sustainably. Actionfigure Mobile: the number-one rated B2B transportation app available, popular with multifamily and office owners and urban employers. Actionfigure Screen: market-leading display software first released as TransitScreen, offers live real-time information about all transportation choices with dynamic media and messaging and white labeling capabilities. Actionfigure Insights: first-of-a-kind commute planning software, for employers and office owners, generates custom door-to-door commute plans and lets employees find and select a commute plan based on personal preferences, transportation availability, and fares for public and private commuting options.",
+      "website": "actionfigure.ai",
+      "employees": "27",
+      "active_jobs": "0"
+    },
+    {
+      "name": "BasiGo",
+      "description": "BasiGo is the operator of an e-mobility startup intended to revolutionize the public transportation sector.\n\nBasiGo offers bus operators an Electric Bus solution that is more affordable, more convenient, and more reliable than a diesel alternative. To help bus operators receive the benefits of electric drive, BasiGo provides a complete electric bus solution including electric busses, charging depots, and Pay-As-You-Go financing that makes BasiGo buses affordable to purchase and lower cost to operate than diesel busses.",
+      "website": "basi-go.com",
+      "employees": "54",
+      "active_jobs": "9"
+    },
+    {
+      "name": "Blyncsy",
+      "description": "Founded in 2014, Blyncsy is the big data solution they have all been waiting for. Through our proprietary Blyncs devices, we capture the movement of people and connected devices almost anywhere. This allows us to perform a virtual traffic study every second of every day in near real time. Our powerful analytics platform then generates actionable insight for our customers allowing them to focus on Moving Forward Faster. Blyncsy is an ecosystem of change with the power to make the traffic grid a more efficient place, reduce carbon emissions, bringing new businesses to a city, improving the flow of traffic and so much more. Our company has flourished under the management and leadership of its Executive Team and is moving into new arenas. Their user-specific offerings and features provide our customers with the tools to get them Moving Forward Faster.",
+      "website": "blyncsy.com",
+      "employees": "7",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Dollaride",
+      "description": "Dollaride offers a technology platform that connects people living in transit deserts to private ride-sharing networks called dollar vans. Its cashless platform offers operator business dashboard, fleet management system, automated fee collection, and territory expansion features, technical resources, web assistance for operators so that they can manage their fleets with transparency and legal compliance, insurance brokerage, scheduling, and dispatch services, enabling drivers to earn more and keep a track of their daily earnings from their phone and passengers to hail a van instantly and save time. The company was founded in 2018 and is headquartered in Brooklyn, New York.",
+      "website": "dollaride.com",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Fleet",
+      "description": "Fleet is building the first employee-centric, holistic mobility platform designed to power the next generation of smart commuting. By automating the work of entire transportation teams and packing the expertise of commute planners into a simple, plug-and-play solution, Fleet makes it easy to design, launch, and manage smarter, impactful commuter programs all in one place. We are reinventing commuting benefits and bringing big-company superpowers to everyone. We are backed by top Silicon Valley investors behind industry-defining companies like Dropbox, Doordash, Brex, Hired, among others. We\u2019re supported by an extremely strong bench of innovators passionate about sustainable mobility, including heads of transportation at Fortune 100 companies, former leaders in government, and executives of billion-dollar mobility startups.",
+      "website": "movewithfleet.com",
+      "employees": "60",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Hopthru",
+      "description": "Make sense of your transit data",
+      "website": "hopthru.com",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "OptimoRoute Inc.",
+      "description": "OptimoRoute plans and optimizes routes and schedules for deliveries and mobile workforce. From the very beginning, our aim has been to offer the absolute state of the art in planning, routing and schedule optimization.",
+      "website": "optimoroute.com",
+      "employees": "38",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Orca Mobility",
+      "description": "Orca Mobility is developing semi-autonomous transportation solutions leveraging persistent communications.",
+      "website": "orcamobility.ai",
+      "employees": "5",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Parallel Systems",
+      "description": "Parallel Systems is a startup company developing the future of intermodal transportation. Our mission is to decarbonize freight while improving supply chain logistics and safety. We are developing vehicles and software to create new autonomous and electric transportation systems for existing rail infrastructure, allowing railroads to convert part of the $700 billion U.S. trucking industry to rail.",
+      "website": "moveparallel.com",
+      "employees": "81",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Populus",
+      "description": "Trusted by more than 70 cities around the world, Populus is a comprehensive digital solution that empowers cities to manage their streets, and develop data-driven policies with access to data from mobility operators (shared bikes, scooters, and cars).",
+      "website": "populus.ai",
+      "employees": "35",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Rally",
+      "description": "Rally is Mass Mobility as a Service: technology and model innovations for the business of buses. With millions of rides completed, Rally is disrupting the mode of transportation that moves more people than any other. Our AI creates new intercity routes for regional transport and our crowdfunding/sourcing marketplace facilitates surge demand for travel during peak times or mass movements. Rally converts private car users to shared bus riders, unlocking the value of the underutilized assets of the bus industry. While Rally introduces bus travel to many first-time riders, our platform also provides traditional bus charter customers the digital tools to manage their entire journey, from route planning and procurement to marketing automation, payments and customer service.",
+      "website": "rally.co",
+      "employees": "116",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Remix",
+      "description": "Remix is a platform for planning public transit, designing streets, and managing new mobility. Trusted by 4,000 planners in 300+ cities on three continents, Remix helps cities understand how streets, public transit, and private mobility work together. Remix brings critical datasets from disparate sources together into a unified view so you can understand existing conditions and gain insights across many dimensions. The company was founded in 2014 and based in San Francisco, California.",
+      "website": "remix.com",
+      "employees": "131",
+      "active_jobs": "129"
+    },
+    {
+      "name": "Salient Predictions",
+      "description": "Make weather-related decisions in time to matter. Reliable, award-winning 2- to 52-week forecasts for adapting to a more volatile climate.",
+      "website": "salientpredictions.com",
+      "employees": "25",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Swiftly",
+      "description": "Swiftly develops enterprise software that helps transit agencies and cities improve urban mobility. Built by transportation experts for transportation professionals, the Swiftly platform harnesses billions of data points and sophisticated algorithms to improve transit system performance, service reliability, and real-time passenger information.Swiftly\u2019s technology platform is installed in over 50 cities from coast to coast, improving transportation services for millions of riders each day.",
+      "website": "goswift.ly",
+      "employees": "93",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Via",
+      "description": "Via is a re-engineering public transit company that develops and provides on-demand public mobility solutions for commuters. The company transforms public transit, from a regulated system of rigid routes and schedules to a fully dynamic, on-demand network. Via\\'s mobile app connects passengers who are headed the same way, allowing riders toseamlessly share a premium vehicle. The platform operates in the United States and in Europe through its joint venture with Mercedes-Benz Vans, ViaVan. Via\\'s technology is deployed worldwide through partner projects with public transportation agencies, private transit operators, taxi fleets, private companies, and universities, integrating with public transit infrastructure to power cutting-edge on-demand mobility. Via\\'s software offers an end-to-end solution for planning, optimizing, and operating efficient and equitable transit systems, thereby unlocking opportunity for all and constructing resilient cities for the future.",
+      "website": "ridewithvia.com",
+      "employees": "1439",
+      "active_jobs": "129"
+    },
+    {
+      "name": "WhereIsMyTransport",
+      "description": "WhereIsMyTransport is an operator of a mobility technology company intended to be the de facto source of mobility data for low and middle-income cities.\n\nThe company operates a data collection playbook for mapping formal and informal public transport networks in emerging-market cities, providing businesses, cities, and citizens with the information they need to enter new markets, improve infrastructure and get where they need to go.",
+      "website": "whereismytransport.com",
+      "employees": "31",
+      "active_jobs": "0"
+    }
+  ],
+  "Distributed Solar Photovoltaics": [
+    {
+      "name": "Active Surfaces",
+      "description": "Active Surfaces produces thin flexibile solar panels.",
+      "website": "activesurfaces.xyz",
+      "employees": "4",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Allume Energy",
+      "description": "Allume have created the SolShare: The world\u2019s only hardware for connecting apartments to a shared rooftop solar system. The behind-the-meter solution is simple to install and affordable, making it the go-to solar solution for apartment buildings. Social Housing Providers, Property Developers, Asset Owners, and traditional apartment owners are now able to achieve their sustainability goals and save their residents money via the SolShare. With the SolShare, we\u2019re creating a world where everyone can access clean energy.",
+      "website": "allumeenergy.com",
+      "employees": "40",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Arnergy",
+      "description": "ARNERGY\\'s mission is to deliver energy solutions for productive use by deploying products, services and systems that power business operations and improve economic outcomes for our clients. Vision: Providing sustainable solutions to energy reliability issues across emerging markets.",
+      "website": "arnergy.com",
+      "employees": "100",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Aurora Solar",
+      "description": "Aurora Solar develops solar industry software. It develops cloud-based software, that enables solar PV engineering design, provides workflow management functionality, and facilitates sales and customer acquisition for solar installers and financiers. Christopher Hopper and Samuel Adeyemo founded Aurora Solar in 2013. It has its headquarters in San Francisco, California.",
+      "website": "aurorasolar.com",
+      "employees": "596",
+      "active_jobs": "9"
+    },
+    {
+      "name": "BRIGHT",
+      "description": "Bright offers residential solar for the developing world at $0 upfront. They operating first in Mexico, where electricity rates are 2-3x (that of the US), there\\'s 40% more sun, and installation costs are half as much.",
+      "website": "thinkbright.mx",
+      "employees": "196",
+      "active_jobs": "20"
+    },
+    {
+      "name": "Brooklyn SolarWorks",
+      "description": "Brooklyn SolarWorks is a solar design and installation firm based in Gowanus, Brooklyn, specializing in residential flat roof solar for New York City.",
+      "website": "brooklynsolarworks.com",
+      "employees": "33",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Common Energy",
+      "description": "Common Energy works with developers across the country to activate their clean energy projects and maximize ROI. Our platform enables homeowners and businesses to connect new clean energy projects to the grid, reduce their carbon footprint and lower their electricity cost in minutes. Join us!",
+      "website": "commonenergy.us",
+      "employees": "78",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Coperniq",
+      "description": "Coperniq helps solar and energy contractors grow by connecting people, data, and systems.",
+      "website": "coperniq.io",
+      "employees": "6",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Energetic Insurance",
+      "description": "Energetic Insurance unlocks solar financing for unrated or below investment grade organizations. It is a Managing General Underwriter (MGU) with a novel, data-driven approach that develop new risk management products to unlock exponential growth in the renewable energy industry. For solar industry participants who want to do more projects and deploy more capital, EneRate Credit Cover unlocks solar project financing for unrated and below investment grade counterparties by covering payment default risk.",
+      "website": "energeticinsurance.com",
+      "employees": "27",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Ion Solar",
+      "description": "ION Solar is a premium, full-service solar provider. ION\\'s in-house professionals handle the solar process from start to finish giving homeowners a carefree switch to solar. A premium experience shouldn\\'t have to cost more. Pay nothing out of pocket and pay less for power with ION Solar.",
+      "website": "ionsolar.com",
+      "employees": "738",
+      "active_jobs": "14"
+    },
+    {
+      "name": "King Energy",
+      "description": "King Energy enables commercial-scale solar at shopping centers and office buildings, bringing financial benefit to property owners",
+      "website": "kingenergy.com",
+      "employees": "69",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Lemon Energy",
+      "description": "Lemon Energy is a digital utility that provides electric bill savings and sustainable energy through a fully digital platform and frictionless user experience.",
+      "website": "lemon.energy",
+      "employees": "113",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Lumen Energy",
+      "description": "We enable commercial buildings to generate income from clean energy.\n\nJoin us! \nhttps://getlumen.com/careers",
+      "website": "getlumen.com",
+      "employees": "33",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mosaic",
+      "description": "Mosaic is a residential solar lending platform that enables thousands of people to profit from the benefits of clean energy. It is a solar finance company that provides financing for residential solar systems. Mosaic\\'s vision, 100% clean energy for all, embodies the desire to create shared prosperity through clean energy and to help millions of people invest in themselves, their homes, and the future of the planet. It was founded in 2011 and is based in Oakland, California.",
+      "website": "joinmosaic.com",
+      "employees": "284",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Near Space Labs",
+      "description": "Near Space Labs is an aerial imagery and earth observation company. Our high-frequency, high-resolution imagery supports businesses, partners and government organizations for improved remote sensing. Our technology allows for immediate access to imagery via our API. We invite you to analyze the past, explore the present and be the first to see the future with us!",
+      "website": "nearspacelabs.com",
+      "employees": "45",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Omnidian",
+      "description": "Omnidian is a provider of comprehensive protection plans for investments in residential solar energy systems. It serves both individual homeowners and financial institutions, such as funds and third-party owners, that manage large portfolios of residential solar assets. The company\\'s lifetime performance guarantee includes real time monitoring, proactive service alerts and 100% covered hardware and software through a nationwide network of field service professionals, as well as a 100% guarantee on energy or plan owners will be reimbursed for energy loss. The company\\'s mission is to protect and accelerate capital invested in the residential solar industry. Omnidian is backed by the DOE SunShot Program which accelerates the development of highly impactful solar technologies.",
+      "website": "omnidian.com",
+      "employees": "200",
+      "active_jobs": "10"
+    },
+    {
+      "name": "Palmetto Clean Technology",
+      "description": "Just as technology has advanced society and delivered exciting consumer products, like Tesla cars and the iPhone, tech innovation is empowering homeowners across the country to join the New Utility Revolution. Palmetto\u2019s clean energy marketplace and custom software tools help homeowners quickly estimate utility cost-savings and get renewable energy sources up and running, with ongoing data insights and support. For individuals, this innovation means lower utility bills, more transparency, control over energy use, increase in property value, and protection against power outages. When adopted en masse, a clean energy shift is a major step towards combating climate change and achieving American energy independence.",
+      "website": "palmetto.com",
+      "employees": "561",
+      "active_jobs": "20"
+    },
+    {
+      "name": "Sighten",
+      "description": "Sighten develops a software toolset to manage the complexity of distributed solar. It offers a platform that spans the entire lifecycle of a solar asset ranging from tools that streamline origination, system design, and sales/operations to features that automate ongoing reporting and analytics. Sighten also offers a reporting and analytics portal that brings solar up to speed with mature asset classes and real-time access to data and analysis tools; a pricing engine that accommodates the complexity of the structures used to finance solar and allows for sophisticated asset pricing logic and decisioning; and a downstream toolset that allows organizations to sell solar more effectively and manage the entire financing workflow from lead to operating asset. Its customers include tax equity investors, lenders, finance companies, developers, and installers. Conlan O\\'Leary and Graham Hommel founded Sighten in 2012. It has its headquarters in San Francisco in California.",
+      "website": "sighten.io",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Solar Analytics",
+      "description": "Solar Analytics is an Australian greentech start-up that provides performance monitoring and fault diagnosis for rooftop solar photovoltaic (PV) power systems to derive maximum value for customers. The Smart Monitor product intelligently monitors real-time solar energy system performance - energy consumption, solar production, faults, downtime, energy bought and sold. After installing a small device in their meter box, customers receive any fault alerts and advice immediately by email, can access a dashboard online from any computer, tablet or smartphone to check energy usage and system performance, and receive monthly reports that provide valuable insight. Contact us via our website to learn more about saving money on your electricity bill by optimising your solar power system.",
+      "website": "solaranalytics.com.au",
+      "employees": "23",
+      "active_jobs": "0"
+    },
+    {
+      "name": "SolarSquare Energy",
+      "description": "SolarSquare Energy is a solar energy solutions providing company.",
+      "website": "solarsquare.in",
+      "employees": "407",
+      "active_jobs": "31"
+    },
+    {
+      "name": "Solstice",
+      "description": "Solstice provides turnkey customer solutions for shared solar. It also offers subscriber aggregation and management services to solar developers, utilities, and other providers of shared solar energy. Employing community organizing techniques and the nation\\'s first online marketplace and customer management platform for shared solar, Solstice leverages network effects to aggregate consumer demand and put more solar in the ground. Solstice\\'s goal is o use community solar to help these groups meet one another and to unlock the possibility of solar power for these households. It has received the MassChallenge Silver Award, Kia Revisionaries Award, and Gold Stevie Award. The company was founded in 2014 and is headquartered in Cambridge, Massachusetts.",
+      "website": "solstice.us",
+      "employees": "64",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Source",
+      "description": "Source is a developer and manufacturer of solar-powered devices designed to extract drinkable water from the atmosphere. The company\\'s solar-powered hydro panels utilize advanced materials science to pull water from even the driest conditions, producing pure water that is mineralized and delivered to a tap, enabling users to get clean water essentially anywhere. It was founded in 2014 and is headquartered in Scottsdale, Arizona.",
+      "website": "source.co",
+      "employees": "211",
+      "active_jobs": "10"
+    },
+    {
+      "name": "Volta Charging",
+      "description": "Volta Charging is a marketing and advertising company that designs, installs, and maintains a network of electric vehicle charging stations funded by sponsor brands. The company provides a valuable community amenity in markets across the U.S. helping brands meet consumers at the optimal moment of the purchase decision. It was founded in 2010 and is headquartered in San Francisco, California.",
+      "website": "voltacharging.com",
+      "employees": "212",
+      "active_jobs": "0"
+    },
+    {
+      "name": "WattBuy",
+      "description": "At WattBuy, we are focused on an ambitious vision: making cleaner, more affordable electricity accessible to every household. Our energy marketplace and platform provides actionable insights to millions of energy consumers by estimating their electricity usage, costs, and carbon footprint. We deliver these insights directly to consumers using WattBuy.com and through partnerships with leading enterprises in real estate, personal finance, and smart devices.",
+      "website": "wattbuy.com",
+      "employees": "23",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Wunder",
+      "description": "Wunder makes it dead simple for any accredited investor to invest in solar and reap the returns that only the largest institutional investors and corporations have been enjoying to date. Wunder sources solar projects from our national network of top tier installer partners, runs those projects through a rigorous and proprietary diligence process, and brings the very best to institutional and individual accredited investors in the form of diversified solar funds. Wunder provides the solar expertise and partnerships necessary to make investing in, diversifying, and optimizing a solar portfolio delightfully simple. You invest and Wunder handles all of the details. With Wunder, investing in solar is now as easy as investing in the public markets.",
+      "website": "wundercapital.com",
+      "employees": "50",
+      "active_jobs": "6"
+    },
+    {
+      "name": "ZOLAR",
+      "description": "ZOLAR is an online provider of solar systems enables the entry into the private energy supply for private households. The freedom of energy for the home. A future in which every household can generate, store and consume all the necessary energy itself. A future in which solar energy makes abolishing unnecessary costs possible. A future without big energy companies.",
+      "website": "zolar.de",
+      "employees": "391",
+      "active_jobs": "11"
+    }
+  ],
+  "Insulation": [
+    {
+      "name": "Aeroseal",
+      "description": "Aeroseal\u2019s mission is to revolutionize the way buildings consume energy, drastically reducing their carbon emissions in a simple, safe, and cost-effective way. How will we do it? With our air-sealing technologies. Small leaks are a BIG problem -- The ducts and walls in buildings leak air - wasting energy and affecting comfort, and traditional sealing solutions fall short of solving the problem. Aeroseal\u2019s technologies - HomeSeal Connect, SmartSeal, and AeroBarrier Connect - inject a fog of sealant particles into these pressurized spaces, efficiently sealing air leaks in both ducts and the building envelope. Software tracks the entire process, creating a certificate of completion showing before and after leakage. Aeroseal is one of the fastest-growing clean technology companies in the U.S. and has sealed over 250,000 buildings globally, spanning homes, hospitals, schools, government facilities, hotels, and offices. This commitment has resulted in billions of dollars in energy savings.",
+      "website": "aeroseal.com",
+      "employees": "193",
+      "active_jobs": "14"
+    },
+    {
+      "name": "Agorus",
+      "description": "We are a construction technology company accelerating the future of homebuilding to help solve our nation\u2019s housing crisis. Agorus\u00ae has streamlined and accelerated the custom home building process with software and robotics that optimize residential construction. In doing so we eliminate many of the risks and inefficiencies associated with traditional homebuilding. The Agorus technology leverages our proprietary software and custom automated robotics to minimize construction time, on-site costs and material waste while maximizing construction precision and efficiency.",
+      "website": "agorus.com",
+      "employees": "45",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Get Weatherized, Inc.",
+      "description": "SaaS for residential insulation retrofits.",
+      "website": "getweatherized.com",
+      "employees": "5",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Hyperframe",
+      "description": "Hyperframe develops a new class of building materials that raises construction productivity by 10 to 100 times.",
+      "website": "hyperframe.com",
+      "employees": "11",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Tangible",
+      "description": "Your platform for sustainable building materials.",
+      "website": "tangiblematerials.com",
+      "employees": "15",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Vantem Global",
+      "description": "We make possible the construction of affordable, energy-efficient homes on a large scale, globally. Our Vantem Building System enables the rapid delivery of high quality, energy-efficient structures with the look and feel of traditional masonry construction. It is cost-effective, requires less labor, and is very thermally efficient.",
+      "website": "vantem.com",
+      "employees": "28",
+      "active_jobs": "0"
+    }
+  ],
   "Reduced Food Waste": [
+    {
+      "name": "Afresh",
+      "description": "Afresh helps grocery stores forecast fresh produce demanding, reduing food waste.",
+      "website": "afresh.com",
+      "employees": "187",
+      "active_jobs": "3"
+    },
     {
       "name": "Ark Biotech",
       "description": "Ark Biotech develops bioreactors and operating systems for the industrial production of cultivated meat.",
@@ -2481,6 +1645,321 @@ const mapping = {
       "website": "unspun.io",
       "employees": "56",
       "active_jobs": "3"
+    }
+  ],
+  "Regenerative Annual Cropping": [
+    {
+      "name": "AGERpoint",
+      "description": "Agerpoint\u00ae is an innovator in geospatial intelligence and data engineering that develops technologies to digitize, analyze and comprehend natural environments. Through a combination of artificial intelligence, high performance computing, computer vision and advanced analytics, the Agerpoint platform fuses together sensor from mobile devices, ground vehicles, autonomous robots, drones and satellites with other information and human observations to create a highly precise, quantifiable and interactive digital record to enable better decision-making for clients across agrochemical and food and beverage R&D, forestry, production agriculture, government and conservation organizations. With these advancements, our mission is to improve quality of life for our planet\u2019s inhabitants and mitigate climate change by enabling a transformational shift in how we understand plants, crops and forests along with vegetation that coexists within built environments. Agerpoint was founded in 2012 and is headquartered in Research Triangle Park, North Carolina, USA.",
+      "website": "agerpoint.com",
+      "employees": "33",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Ceres Imaging",
+      "description": "Ceres Imaging is a California-based aerial spectral imagery and analytics company that serves farmers and agribusinesses. Using proprietary sensors, analytics, machine learning models, and plant science, Ceres delivers university-validated imagery-based intelligence to farms in the US and Australia. This enables customers to identify pest, disease, water, and fertilizer issues weeks before they are visible to the naked eye.",
+      "website": "ceresimaging.net",
+      "employees": "81",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Climate Farmers",
+      "description": "The solution for a healthy planet lies beneath our feet. Soil plays a central role in regulating our ecosystems. If we manage to increase the global carbon content of the soil by 2%, we will be able to hold back climate change. The key to this is regenerative agriculture, which works with natural processes and conserves the planet\u2019s resources such as water, soil and air. Regenerative agriculture actively supports our ecosystem, captures carbon from the atmosphere, creates healthier soils, and thereby contributes to a healthier and more resilient planet. Climate farmers is building the infrastructure in support a large-scale transition towards regenerative practices. If we want to change global mindsets, we need to expand our view and understand the way plants grow, break down the disconnection between food production and consumers and develop a new relationship with nature. As Climate Farmers, we implement and support self-regulating systems that protect biodiversity while producing healthy and nutritious food. You can support farmers and their projects for a healthier planet through monthly contributions or invest in larger agricultural project co-investments. With a collective approach to a healthier and more sustainable lifestyle, we can positively impact agriculture and help farmers and consumers alike in their mission for a healthier future.",
+      "website": "climatefarmers.org",
+      "employees": "32",
+      "active_jobs": "1"
+    },
+    {
+      "name": "ClimateCrop",
+      "description": "ClimateCrop enhances plants\\' genetics using non-GM techniques to increase yield per unit area with less inputs, resulting in a lower carbon footprint.",
+      "website": "climate-crop.com",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Future Acres",
+      "description": "Future Acres is an agricultural robotics company whose mission is to help carry farms into a sustainable future. Future Acres develops a robotic platform for farms. Future Acres\\'s first product, Carry is a self-driving robot meant to, as the name suggests, carry crops around a farm.",
+      "website": "futureacres.co",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Gro Intelligence",
+      "description": "Gro Intelligence is a Kenya-born company that provides builds technologies to avail companies of climate and agricultural data intended to bridge the data gaps across global agriculture and offer predictive analytics on plant and yield.\n\nThe company\\'s platform utilizes artificial intelligence to collect and synthesize a large number of agricultural data points from disparate and often previously unavailable sources, enabling users to get a clear, comprehensive and timely picture of the factors influencing various agricultural commodities.\n\nGro Intelligence sources information from proprietary, public, and private sources including self-provided data, then delivers it t o its users through APIs models, platforms, applications, and working documents.",
+      "website": "gro-intelligence.com",
+      "employees": "214",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Hippo Harvest",
+      "description": "Hippo Harvest develops an agriculture technology to help scale sustainable agriculture. It was founded in 2019 and is based in Half Moon Bay, California.",
+      "website": "hippoharvest.com",
+      "employees": "18",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Kula Bio",
+      "description": "Kula Bio specializes in sustainable, biological solutions for modern agriculture. It energizes nitrogen-fixing microbes to produce organic fertilizer. By rewiring the energy flow from the sun to soil, they are disrupting synthetic fertilizer to eliminate the division between affordable practices and stewardship of our land, sea, and air. The company was founded in 2018 and is headquartered in Somerville, Massachusetts.",
+      "website": "kulabio.com",
+      "employees": "34",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Lithos Carbon",
+      "description": "We remove atmospheric carbon for a fraction of the cost while increasing crop yields. Our process is highly efficient, increases soil health, and repurposes post-industrial waste. Then we sell the carbon credits to companies and split revenue with our regenerative growers. With a world-class team leveraging expertise in soil chemistry, agronomy, geochemistry, machine learning, and logistics, we are engineering the most cost-effective, and scientifically rigorous solution to enhanced rock weathering at scale.",
+      "website": "lithoscarbon.com",
+      "employees": "16",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Loam Bio",
+      "description": "Loam works with 4.5 billion years of evolution to solve the climate crisis. Microbes have changed the composition of our atmosphere through earth\u2019s history. At Loam, we are ensuring these organisms can do it again. Through a better understanding of how microbes influence the carbon cycle, we can create new planetary-scale opportunities for carbon sequestration and improve agricultural productivity.",
+      "website": "loambio.com",
+      "employees": "107",
+      "active_jobs": "19"
+    },
+    {
+      "name": "Nori",
+      "description": "Nori is a marketplace for reversing climate change. We enable companies to pay for removing CO2 from the atmosphere via more sustainable farming practices.",
+      "website": "nori.com",
+      "employees": "43",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pivot Bio",
+      "description": "Pivot Bio is a sustainable agriculture company delivering farmers patented crop nutrition technologies that harness the power of nature to reliably and productively grow the food the world needs in the face of increasing volatility.",
+      "website": "pivotbio.com",
+      "employees": "479",
+      "active_jobs": "15"
+    },
+    {
+      "name": "Re-Nuble",
+      "description": "Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming. Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We were founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.",
+      "website": "re-nuble.com",
+      "employees": "19",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Regrow Ag",
+      "description": "Regrow is the first digital platform to unlock the power and profitability of resilient agriculture through a single, measurable and verifiable system. Regrow combines best-in-class agronomy with soil and carbon modeling to deliver customized, site-specific and scalable solutions to businesses across the supply chain.",
+      "website": "regrow.ag",
+      "employees": "160",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Robigo",
+      "description": "Despite growers applying over 6B pounds of toxic pesticides each year, 20 - 40% of crops are lost to disease across the globe. As the climate changes, these losses are expected to increase 10 - 25% for every degree of global warming. Founded by MIT synthetic biologists, Robigo has developed a platform technology of programmable, CRISPR-enabled microbes that protect crops from disease with unrivaled specificity and efficacy. Leveraging machine learning and cutting edge genetic engineering, Robigo\\'s new class of microbial treatments are fundamentally changing how the world treats crops to improve plant health, agricultural productivity, and sustainability.",
+      "website": "robigo.bio",
+      "employees": "18",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Sabanto",
+      "description": "Sabanto is a farming-as-a-service performing row-crop field operations using low-cost autonomous systems.",
+      "website": "sabantoag.com",
+      "employees": "44",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Soil Carbon Co.",
+      "description": "Soil C Quest 2031 LTD is a CSIRO approved and registered not-for-profit Australian research institute. We have assembled some of Australia\\'s most experience scientists in this specalist field and have began lab, glass house and field research and development. However, R & D is expensive, and we need more resources to reach our goals...\nFind out more at our website www.soilcquest.org.au",
+      "website": "soilcquest.org.au",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Yard Stick PBC",
+      "description": "Yard Stick PBC is an in-situ soil carbon & bulk density measurement technology.",
+      "website": "useyardstick.com",
+      "employees": "26",
+      "active_jobs": "4"
+    }
+  ],
+  "Offshore Wind Turbines": [
+    {
+      "name": "Aikido Technologies",
+      "description": "Bringing low-cost energy and high-paying jobs to coastal communities",
+      "website": "aikidotechnologies.com",
+      "employees": "5",
+      "active_jobs": "0"
+    }
+  ],
+  "Onshore Wind Turbines": [
+    {
+      "name": "AirLoom Energy",
+      "description": "AirLoom Energy uses the strength of the wind to propel wings down a lightweight track. The company\\'s geometry produces the same amount of energy as conventional turbines at a fraction of the cost. The company offers low-cost utility-scale wind energy.",
+      "website": "airloomenergy.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "H2SITE",
+      "description": "H2SITE produces onsite and renewable H2 for small and medium companies.",
+      "website": "h2site.eu",
+      "employees": "38",
+      "active_jobs": "12"
+    }
+  ],
+  "Alternative Cement": [
+    {
+      "name": "Aluminio",
+      "description": "Aluminio is developing new materials to address the biggest challenges in renewable energy production.",
+      "website": "aluminio.tech",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Aspiring Materials",
+      "description": "Aspiring Materials extracts mineral products from silicate rocks using magnesium hydroxide \u2013 one of the minerals in the rock \u2013 to produce a powdery material that can remove and solidify carbon dioxide at the source of emission, such as a factory\u2019s exhaust system.",
+      "website": "aspiringmaterials.com",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Boston Metal",
+      "description": "Boston Metal is a metallurgy company developing technology to reduce the carbon footprint of steel production. The company provides industrial-scale, metal production solutions utilizing its Molten Oxide Electrolysis (MOE) process. MOE provides the metals industry with a more efficient, lower-cost, and greener solution for the production of a widearray of metals and alloys from a wide variety of feedstocks. Boston Metal was spun out of MIT in 2012 with an investment from Ingo Wender and has since scaled the technology 1,000x and produced thousands of kilograms of metal. Boston Metal\u2019s headquarters and industrial development center are located in Woburn, MA.",
+      "website": "bostonmetal.com",
+      "employees": "166",
+      "active_jobs": "11"
+    },
+    {
+      "name": "Brimstone",
+      "description": "Brimstone is on a mission to decarbonize the cement industry, which today is responsible for 7.5% of carbon emissions annually. Founded in 2019, Brimstone developed a breakthrough carbon-negative process to produce the same ordinary portland cement and supplementary cementitious materials used today. These materials have the same quality and performance builders have trusted for decades \u2014 now with a positive climate impact.",
+      "website": "brimstone.com",
+      "employees": "55",
+      "active_jobs": "5"
+    },
+    {
+      "name": "CERT Systems",
+      "description": "CERT Systems is producing essential chemicals without fossil fuels. Using an electrochemical process, we convert carbon dioxide emissions into high value chemicals and fuels to support the decarbonization of the chemical manufacturing, transportation and energy industries.",
+      "website": "co2cert.com",
+      "employees": "14",
+      "active_jobs": "2"
+    },
+    {
+      "name": "CarbonBuilt",
+      "description": "CarbonBuilt enables concrete manufacturing to drive greenhouse gas reductions through the utilization of CO2 and other industrial wastes.",
+      "website": "carbonbuilt.com",
+      "employees": "25",
+      "active_jobs": "1"
+    },
+    {
+      "name": "CarbonCure Technologies",
+      "description": "CarbonCure Technologies creates, develops, and licenses solutions that consume waste CO2 to make better concrete. It spurs the market shift towards affordable green concrete, by enabling concrete manufacturers to convert waste CO2 into solid minerals, locked away as a solid within concrete during manufacturing. It is a green building technology company currently serving concrete product manufacturers in the US and Canada. It offers concrete producers the ability to manufacture green concrete products without compromising on either quality or price. CarbonCure is a retrofit innovation that repurposes CO2 gas from large final emitters as a feedstock in concrete plants. The gas is permanently converted into embedded solid mineral carbonates that yield material, environmental, and production advantages. By enabling concrete manufacturers to consume CO2 into concrete products during manufacturing, the technology differentiates an otherwise traditional commodity concrete product, while achieving superior material performance characteristics. In addition to technology, CarbonCure provides demand-pull marketing and environmental reporting/certification services to reinforce its customers\u2019 exclusive competitive positioning. The technology is licensed at a very low-CAPEX to concrete producers, generating a recurring revenue stream. CarbonCure Technologies was founded in 2007 and is headquartered in Halifax, Nova Scotia.",
+      "website": "carboncure.com",
+      "employees": "107",
+      "active_jobs": "1"
+    },
+    {
+      "name": "CemVision",
+      "description": "We are re-inventing cement; Replacing everything that\u2019s bad about it with a product that is economical, environmental friendly and technically superior.",
+      "website": "cemvision.tech",
+      "employees": "12",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Chement",
+      "description": "The production of cement is responsible for 8% of global greenhouse gas emissions each year. Chement is working to change that by developing technology that makes the production process more energy-efficient, runs on renewable electricity, and enables the low-cost capture of unavoidable process emissions.",
+      "website": "chement.co",
+      "active_jobs": "2"
+    },
+    {
+      "name": "EVOLOH",
+      "description": "Developer of a revolutionary electrolyzer technology designed to help in the affordable production of green hydrogen. The company\\'s technology eliminates the key drawbacks of corrosive liquid electrolytes and expensive metallurgy, enabling clients to have a low-cost system to seamlessly produce clean fuel and feedstock for sustainable industries.",
+      "website": "evoloh.com",
+      "employees": "13",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Ecocem Ireland",
+      "description": "Ecocem Ireland provides GGBS and CEM III-A technology in their manufacturing of cement products. they provide architectural designs for their customers. Their customers contact through the phone, e-mail, and online applications.",
+      "website": "ecocem.ie",
+      "employees": "32",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Ferrum Decarb",
+      "description": "DECARBONIZING THE STEEL INDUSTRY VIA HYDROGEN PLASMA.",
+      "website": "ferrumtech.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Furno",
+      "description": "Furno is an earth-first, science-backed, and data-driven startup committed to mitigating climate change. We\\'re here to tackle big cement, an industry responsible for nearly 10% of global CO2 emissions.",
+      "website": "furno.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mantel",
+      "description": "Mantel is developing the first molten-salt based carbon capture technology. Our molten borates are designed to operate at the high temperatures found inside boilers, kilns, and furnaces \u2013 enabling highly efficient carbon capture that has not been possible until now. Carbon capture can be applied across industry to reduce emissions - and even achieve net-negative emissions. By solving for efficiency Mantel can reduce energy losses by more than 60% and cut costs in half, unlocking carbon capture\u2019s role in reaching global net zero.",
+      "website": "mantelcapture.com",
+      "employees": "12",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Material Evolution",
+      "description": "Material Evolution uses patented geopolymer technology and proprietary algorithms to create the most sustainable materials on the planet. Material Evolution\u2019s first product is a cement mix made from 95% waste using its algorithm technology. Its smart concrete mix is 10X stronger, 5X more durable, and reduces carbon consumption by 85%. Most importantly, it\u2019s economically viable for construction companies.",
+      "website": "materialevolution.com",
+      "employees": "20",
+      "active_jobs": "0"
+    },
+    {
+      "name": "OzoneBio",
+      "description": "OzoneBio is a Canadian cleantech company that uses innovative technology to improve high-value products by reducing their environmental footprint in the early stages of the supply chain. Our unique technology of dead cell fermentation (\"Zombie cells\") allows us to convert challenging feedstocks into high value materials and products through an emission-negative process. Our first product is emission-zero adipic acid. Every year, the world makes eight million tons of oil-based nylon-6,6, which results in approximately 60 million tons of greenhouse gases emission. Production of oil-based adipic acid releases huge amounts of Nitrous Oxide in atmosphere. Nitrous Oxide is 300 times more potent and toxic for the atmosphere than Carbon Dioxide. A typical oil-based adipic acid plant (like the one in Florida) pumps out 33,046 metric tons of Nitrous Oxide a year. We target to replace global oil-based Nylon66 production. As a women-founded company, OzoneBio aims to lead the way towards a greener, better world by redefining and bolstering what it means to be \"sustainable.\"",
+      "website": "ozonebio.ca",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pathways",
+      "description": "Pathways is a company that uses AI technology to automate the creation of Buy Clean and EU compliant Environmental Product Declarations (EPDs), reducing the time spent on generating EPDs by up to 75%%.",
+      "website": "pathwaysai.co",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Phaseshift Technologies",
+      "description": "Whether it is to improve performance & efficiency, decrease our reliance on critical raw materials, or simply enable innovation that will accelerate the shift to net-zero industries - PhaseShift is on a mission to develop materials that serve a variety of use-cases in a broad range of industries. Based on Artificial Intelligence and Quantum Chemistry simulations, PhaseShift accelerates the discovery of new materials by a factor of 10x and with up to 75% in cost savings. However, the most significant benefit of all is the ability to develop better materials. The ability to scan a large design space of millions of possible chemistries in a matter of days enables us to identify materials that are truly optimized for a broad range of parameters. Our platform is designed to address the nuances of new alloy development and has been used previously to develop alloys for both structural and functional use-cases. Additionally, the alloys can be developed for both traditional and additive manufacturing.",
+      "website": "thephaseshift.com",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Queens Carbon",
+      "description": "Queens Carbon\u2019s mission is to build a sustainable future by eliminating deep-rooted CO2 emissions in industrial manufacturing and beyond. We\u2019re developing a novel hydrothermal process that dramatically reduces the energy needed to decompose carbonate minerals and allows for the capture of all CO2 produced during the reaction. This low energy solution for carbonate processing creates a commercially viable path for widespread carbon capture projects and carbon neutral cement production. At scale, this technology will enable gigaton-scale reductions in industrial CO2 emissions via avoidance and capture routes. Excited about cutting edge science, saving the environment, and want to have fun while doing it? Consider joining our team! https://queens-carbon.breezy.hr/?",
+      "website": "queenscarbon.com",
+      "employees": "9",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Solidia Technologies",
+      "description": "Solidia Technologies enables next generation products that offer superior performance while significantly minimizing environmental impact. Solidia is an advanced materials company, focusing on developing scalable solutions for the world of building and construction materials. Their technology enables the design of next generation products madeby low energy processes that utilize waste materials and consume CO2. The products offer superior performance and value when compared to cement, concrete and stone while significantly minimizing environmental impact.",
+      "website": "solidiatech.com",
+      "employees": "54",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Sublime Systems",
+      "description": "Sublime is developing a breakthrough process to make low-carbon cement. The technology replaces the industry\\'s legacy fossil-fuel-intensive thermal calciner process with an electrochemical process that produces low-carbon cement at ambient temperatures with renewable electricity. Sublime was started in 2020, as a spin-out of Yet-Ming Chiang\\'s lab at MIT (Form Energy, A123, American Superconductor, 24M, Desktop Metals).",
+      "website": "sublime-systems.com",
+      "employees": "71",
+      "active_jobs": "13"
+    },
+    {
+      "name": "Terra CO2 Technologies",
+      "description": "Terra CO2 Technologies is an industrial technology company that reduces material and logistics costs while reducing the environmental footprint in the cement and mining sectors. It develops innovative environmental technologies to tackle challenging environmental problems. It was founded in 2012 and employs a diverse group of engineers, scientists, and specialists to bring projects from the ideation stage to market.",
+      "website": "terraco2.com",
+      "employees": "27",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Toggle",
+      "description": "How will we build the next generation of cities and infrastructure when key construction methods have remained unchanged for a generation? As the built environment grows larger and more complex Toggle is introducing industrial robotics and automation to critical construction methods and materials. Starting with rebar for reinforced concrete Toggle is reinventing the way we build our world.",
+      "website": "toggle.is",
+      "employees": "16",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Ultra High Materials",
+      "description": "Ultra High Materials is a company of chemists, physicists, materials scientists, and entrepreneurs who have created, patented, reduced to practice, and initiated commercialization of novel cementitious materials which replace 100% of portland cement in conventional cement and concrete. UHM\u2019s new materials reduce embodied CO2 by 80% to 90%,demonstrate superior performance, are cost competitive, and may be manufactured in existing batch plants using locally available raw materials with workability identical to conventional concrete. The company has two novel formulation platforms - geopolymers and hydraulic systems - from which new materials may be derived. These new materials may be designed and customized for any given application of cement or concrete as ready-mix or precast and for use in structural, non-structural, and architectural products and projects. The company licenses it\\'s technology globally as well as manufacturers and sells cementitious binders with commercial strategic partners.",
+      "website": "ultrahighmaterials.com",
+      "active_jobs": "0"
     }
   ],
   "Distributed Energy Storage": [
@@ -2757,119 +2236,421 @@ const mapping = {
       "active_jobs": "4"
     }
   ],
-  "Smart Thermostats": [
+  "Electric Cars": [
     {
-      "name": "Flair",
-      "description": "Flair makes smart vents and wireless thermostats and advanced software for residential heating and cooling. The company builds smart hardware and software for HVAC controls focused on efficiency, comfort, electrification, and smart grid integration. The company\\'s products are sold through multiple channels including direct to consumer, HVACdistribution, and utilities.",
-      "website": "flair.co",
-      "employees": "24",
-      "active_jobs": "0"
-    },
-    {
-      "name": "ecobee",
-      "description": "Ecobee is a provider of Wi-Fi enabled smart thermostats for residential and commercial applications, delivering energy conservation solutions. The company offers ecobee Smart Thermostat, a digital programmable thermostat that helps in customizing temperature settings. The thermostat connects the clients to their WiFi, and gives them remote access to the thermostat settings from any computer and helps in energy conservation. Its products are used in single family homes, multi-family dwellings, and offices. The company accepts orders online. The company was founded in 2007 and is based in Toronto, Canada.",
-      "website": "ecobee.com",
-      "employees": "573",
-      "active_jobs": "17"
-    }
-  ],
-  "Biobased Chemicals": [
-    {
-      "name": "Manus Bio",
-      "description": "Manus Bio leverages rapid advances in biology to produce complex natural ingredients used in our daily lives as flavors, fragrances, food ingredients, cosmetics, vitamins, pharmaceuticals, and agricultural chemicals. Using its advanced fermentation technology, Manus Bio recreates natural processes for next-generation industrial biomanufacturing and provides sustainable, cost-effective sources of ingredients for health, wellness, and nutrition. We call it Biomanufacturing Redefined.",
-      "website": "manusbio.com",
-      "employees": "117",
-      "active_jobs": "1"
-    }
-  ],
-  "Geothermal Power": [
-    {
-      "name": "Baseload Capital",
-      "description": "Baseload Capital is a Specialized Investment Entity investing in Heat Power. They work globally with the aim to give Heat Power Operators the financial tools to build and operate renewable heat power plants.",
-      "website": "baseloadcap.com",
-      "employees": "20",
+      "name": "Amber Technologies",
+      "description": "While EVs typically have lower total cost of ownership and fewer maintenance requirements, longtime owners have found that EVs often outlive their warranties, which ends up costing drivers if they have issues with high voltage parts or the battery. That\u2019s why at Amber, we offer modern protection plans and repair facilities to give owners the confidence to own electric vehicles as they age. Unlike traditional extended warranty programs, Amber\u2019s EV care program was designed with the top EV technicians and communities to be tailored for the EV ownership experience. Amber is a seed-stage startup led by an experienced group of operators at the intersection of insurtech (Metromile; NYSE: LMND), mobility (Samsara; NYSE: IOT), and automotive (Hyundai), (Tesla; NASDAQ: TSLA).",
+      "website": "getamber.com",
+      "employees": "9",
       "active_jobs": "2"
     },
     {
-      "name": "Bedrock Energy",
-      "description": "Our mission is to transform the heating & cooling of buildings, using geothermal energy to radically reduce costs for people and the environment. Bedrock is building autonomous drilling technology and advanced subsurface simulation software to enable widespread, affordable, and accessible installations of geothermal heating & cooling. Our vision is to decarbonize buildings everywhere.",
-      "website": "bedrockenergy.com",
-      "employees": "16",
+      "name": "Arc",
+      "description": "Arc is a venture-backed startup manufacturing and selling high-performance electric boats. We\u2019re starting with watersport boats, but have an eye toward electrifying the watercraft industry.",
+      "website": "arcboats.com",
+      "employees": "569",
+      "active_jobs": "13"
+    },
+    {
+      "name": "BETA Technologies",
+      "description": "Beta Technologies designs and develops electric aircraft including advanced flight control and electric propulsion systems, with a focus on clean aviation technology. Beta designs a self-sufficient eVTOL aircraft ecosystem that satisfies the needs of humans, embraces the laws of nature, and works in harmony with the planet. Beta Technologies simplifies and amplifies access to the vertical dimension of mobility.",
+      "website": "beta.team",
+      "employees": "568",
+      "active_jobs": "86"
+    },
+    {
+      "name": "Blue Current",
+      "description": "Blue Current manufactures advanced solid-state batteries for electric vehicles, consumer electronics, medical, and IoT devices. The company strives to provide engineers and designers with the highest performance and safest battery solutions. Blue Current leads with science, data, and thoughtful IP across the full solid-state battery solution stack. We\u2019re excited to share more soon. The company was founded in 2014 and is based in Hayward, California.",
+      "website": "bluecurrent.com",
+      "employees": "40",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Bolt.Earth",
+      "description": "India\u2019s Largest EV Charging Network with 15000+ charging points, accessible across 300+ cities via the BOLT Application",
+      "website": "bolt.earth",
+      "employees": "293",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Breathe",
+      "description": "Breathe Battery Technologies is a developer of electric vehicle battery charging control software for automotive manufacturers. The software improves battery capacity by 5% and allows for twice more uses in the battery\u2019s lifetime, without requiring any costly or time consuming hardware changes.",
+      "website": "breathebatteries.com",
+      "employees": "32",
+      "active_jobs": "20"
+    },
+    {
+      "name": "ChargerHelp!",
+      "description": "ChargerHelp! pioneers the future of EV charging with our innovative Reliability as a Service (RaaS) solution. Addressing core challenges in EVSE Operation & Maintenance (O&M), our data-driven approach maximizes charger uptime. Partnering with industry leaders and emphasizing community empowerment, we\\'re committed to elevating EVSE infrastructure reliability. Let\\'s redefine the future of EV charging together.",
+      "website": "chargerhelp.com",
+      "employees": "57",
       "active_jobs": "1"
     },
     {
-      "name": "Dandelion Energy",
-      "description": "Dandelion Energy offers affordable geothermal heating and cooling installations. Dandelion Energy\\'s home geothermal system replaces your home\u2019s existing air conditioning and heating equipment with a powerful heat pump and safe, underground pipes that move heat between the earth and home. Kathleen Hannun and Rajeez Quazi founded it in 2017, with its headquarters in Palo Alto in California.",
-      "website": "dandelionenergy.com",
-      "employees": "139",
-      "active_jobs": "8"
+      "name": "Chargetrip",
+      "description": "Chargetrip is the world\\'s leading Smart EV Routing platform. We make EV-driving and -charging seamless, reduce operational costs, and unlock new business models. Our customers are CPOs (e.g. EnBW, Recharge, EDP, Iberdrola), Fleet Operators (e.g. Total), OEMs (e.g. Porsche), Telematics providers (e.g. Autosense), and Mobility Service Providers (e.g. Elbil, ANWB). They use our Routing-API to power solutions for individual EV-drivers and EV-fleets; owned, leased, rented, shared, and autonomous. Our routing engine uses over 15 different (dynamic) variables to calculate the real-time range of any EV (currently 260+ EV models). Proprietary algorithms then compute the best route from A, to B (to C, to D) with the optimal charge stations in between; specific to that vehicle, to that journey, business logic, and fleet specs. Build-in predictive models optimize for total travel-time and travel-costs. Chargetrip\u2019s API is easy to integrate into existing charge-, navigation-, Fleet operating, and telematics applications. On average, over 175.000 EV drivers use our software every month; equal to 10% of all EV\u2019s in Europe.",
+      "website": "chargetrip.com",
+      "employees": "42",
+      "active_jobs": "2"
     },
     {
-      "name": "Fervo Energy",
-      "description": "Fervo Energy provides 24/7 carbon-free energy through the development of next-generation geothermal power. Fervo\u2019s mission is to leverage innovation in geoscience to accelerate the world\u2019s transition to sustainable energy. Geothermal has a major role to play in the future electric grid, and Fervo\u2019s key advancements in drilling and subsurface analytics bring a full suite of modern technology to make geothermal cost competitive.",
-      "website": "fervoenergy.com",
-      "employees": "78",
-      "active_jobs": "10"
+      "name": "FLO",
+      "description": "Leader nord-am\u00e9ricain en solutions de recharge pour v\u00e9hicules \u00e9lectriques // North American leader in smart charging solutions for electric vehicles.",
+      "website": "addenergie.com",
+      "employees": "538",
+      "active_jobs": "6"
     },
     {
-      "name": "Zanskar",
-      "description": "Zanskar develops a predictive platform informed by massive data for discovering previously unknown geothermal resources. Its platform includes subsurface characterization technology and massive data sets, enhancing and reducing risk in the exploration of geothermal resources.",
-      "website": "zanskar.us",
-      "employees": "25",
-      "active_jobs": "9"
-    }
-  ],
-  "Efficient Ocean Shipping": [
-    {
-      "name": "Boundary Layer Technologies",
-      "description": "Boundary Layer Technologies is a startup that builds high-speed container ships using hydrofoil technology. It was founded in 2018.",
-      "website": "boundarylayer.tech",
-      "employees": "6",
+      "name": "Greenlots",
+      "description": "Greenlots is unlocking the possibilities of the new electric mobility future by delivering innovative software, services and expertise that empowers utilities, cities, communities and automakers to deploy EV charging infrastructure at scale. Their technology brings together the latest in EV charging and grid management software, connecting people in a safer, cleaner, and smarter way. Headquartered in Los Angeles, CA, the company\u2019s global footprint spans across three continents with deployments in 13 different countries.",
+      "website": "greenlots.com",
+      "employees": "23",
       "active_jobs": "0"
     },
     {
-      "name": "Fleet Zero",
-      "description": "Fleetzero is building battery-electric ships to decarbonize ocean freight for less than it costs today!",
-      "website": "fleetzero.com",
+      "name": "HIVED",
+      "description": "With innovative technology, we have created an all-electric parcel delivery system that is significantly better in every way imaginable: more affordable, great service and 100% emission-free.",
+      "website": "hived.space",
+      "employees": "80",
+      "active_jobs": "0"
+    },
+    {
+      "name": "KIGT",
+      "description": "KIGT is an Electric Vehicle Supply Equipment (EVSE) Manufacturer that also creates the operating software. We help Plug-in Car Drivers save time and money by providing faster charging at home with software that makes it easier to manage fueling and energy expenses. The MINI eCharger is one of the smallest Level 2-220 Volt wall mount Smart Charge Stations for your home or commercial parking structures. Featuring the first ever interactive touch screen in home charge station . Our Managed Charging Operating System completely enhances the most important aspects of the plug-in driving experience. Including Scheduled Charging software that enables drivers to pre-set your home charging session for off-peak times when electricity cost less per kWh. KIGT eChargers are for all Electric Vehicle (EV) and Plug-In Hybrid Electric Vehicle (PHEV) drivers. Imagine, what it would be like if you never had to pay for gasoline ever. Now imagine every time you left home or your parking space at work you had a full tank. Even better if you can, imagine it cost you less than $3. Now if you can do your best to imagine that the car you drove actually supplied the electricity for your home and building where you worked. Sounds like something out of the Jetsons, right? Yet it, isn\u2019t. We at KIGT live this future almost everyday, and our intent is to have others live like this to. KIGT is a green tech company whose core focus is providing clean affordable fuel and energy infrastructure options to individual consumers and commercial customers. KIGT designs and manufactures an intelligent compact yet stylish 220V/30Amp bi-directional fast chargers for battery electric vehicles. KIGT is now the primary Electric Vehicle (EV) Charge Station provider for the University of La Verne. KIGT and the Univ. of La Verne have agreed to a 3 Year exclusivity/non-compete agreement. This is the first EV Charging project on the campus for students and visitors.",
+      "website": "kigtinc.com",
+      "employees": "7",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Kinetic Automation",
+      "description": "Kinetic is ushering in the next generation of mobility (EVs, AVs) with a network of highly automated service centers.",
+      "website": "kinetic.auto",
+      "employees": "18",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Kopperfield",
+      "description": "Hassle-free home EV charger installation",
+      "website": "kopperfield.com",
+      "employees": "11",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Monta",
+      "description": "With Monta you can launch, manage, and scale all your EV needs and operation with one integrated software built to EV better. We believe that accelerating and democratising the adoption of EV technology is key to fostering the sustainable future we so desperately need. That\u2019s why Monta drives the entire EV ecosystem. You may be familiar with our app for EV drivers or our EV charging portal; Monta\u2019s mission is to provide the best technology solutions for the entire EV charging cycle. At our core, we provide access, innovation, and reliability to the emobility transformation. Why EV less when you can #EVBetter?",
+      "website": "monta.com",
+      "employees": "243",
+      "active_jobs": "75"
+    },
+    {
+      "name": "Orange Charger",
+      "description": "Orange Charger is excited about building solutions that overcome the limitations that have slowed the installation of electric vehicle charging in multi-unit dwellings. We believe that charging at home makes owning an electric vehicle more compelling and convenient. When cars first emerged, gas stations were not at every corner, and electricity was just taking off. As electric vehicles cross the chasm, a new charging network will be required to help manage the demand on the grid while also being more convenient than public charging and gas stations. Our goal at Orange is to build the world\\'s largest at-home charging network for multi-unit dwellings and beyond.",
+      "website": "orangecharger.com",
+      "employees": "12",
+      "active_jobs": "8"
+    },
+    {
+      "name": "Plug",
+      "description": "EV Wholesale Excellence",
+      "website": "plug.vin",
+      "employees": "8",
+      "active_jobs": "2"
+    },
+    {
+      "name": "PowerFlex Systems",
+      "description": "We enable work places to support mass EV charging using renewable energy. Our software solution intelligently balances electricity demand and supply to maximize the use of renewable energy, minimize cost, while meeting EV owners\\'\u200b needs for charging their vehicles.",
+      "website": "powerflex.com",
+      "active_jobs": "9"
+    },
+    {
+      "name": "Proterra",
+      "description": "Proterra is a leader in the design and manufacture of zero-emission, heavy-duty electric vehicles, enabling bus fleet operators to significantly reduce operating costs while delivering clean, quiet transportation to local communities across North America. The company\u2019s configurable Catalyst platform is designed to serve the daily mileage needs of a wide range of transit routes on a single charge. With industry-leading durability and energy efficiency based on rigorous U.S. independent testing, Proterra products are proudly designed, engineered, and manufactured in America, with offices in Silicon Valley, South Carolina, and Los Angeles. Proterra\\'s revolutionary battery-electric transit vehicles help fleet operators abandon fossil fuels, improve environmental quality, and reduce operating costs. Together with their customers, they have prevented more than 55 million pounds of greenhouse gases from escaping into the atmosphere and avoided burning some 2 million gallons of fuel. The company was established in 2004 and is based in Burlingame, California, USA.",
+      "website": "proterra.com",
+      "employees": "797",
+      "active_jobs": "21"
+    },
+    {
+      "name": "QuantumScape",
+      "description": "QuantumScape is a renewable energy company that develops solid-state battery technology to increase the range of electric cars. The company works to revolutionize the battery industry by producing a solid-state battery that will provide a substantially higher level of battery storage than other batteries currently on the market. It manufactures lithium batteries aimed to accelerate the commercialization of solid-state batteries. Jagdeep Singh founded the company in San Jose, California in 2010.",
+      "website": "quantumscape.com",
+      "employees": "581",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Recurrent",
+      "description": "We provide car dealers and private party buyers with vehicle reports for used electric cars. Understanding the battery health and typical ranges of electric cars as they age is more complicated. And it\\'s more important than knowing the odometer reading.",
+      "website": "recurrentauto.com",
+      "employees": "35",
+      "active_jobs": "0"
+    },
+    {
+      "name": "River",
+      "description": "River is an electric vehicle startup backed by marquee international investors in the mobility space. River is building high-quality mobility solutions designed to better the livelihoods of people around the world. The first product is an electric two-wheeler designed and built in India for the world.",
+      "website": "rideriver.com",
+      "employees": "453",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Rivian",
+      "description": "Rivian is an automotive technology company that develops products and services to advance the shift to sustainable mobility. The company creates solutions that redefine traditional automotive economics and remove the pain points of conventional ownership. It also manufactures autonomous electric vehicles intended to offer a comfortable and eco-friendly driving experience.",
+      "website": "rivian.com",
+      "employees": "9970",
+      "active_jobs": "474"
+    },
+    {
+      "name": "Scalvy",
+      "description": "Scalvy develops an electric powertrain platform for faster development of electric mobility systems. Its platform can be adjusted modularly to fit different customer requirements without over-specification and associated high costs such as research and development, sourcing, and production costs.",
+      "website": "scalvy.com",
+      "employees": "13",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Shift EV",
+      "description": "Shift EV is an electric mobility technology startup that develops electric vehicle batteries for commercial vehicles. The startup provides fleet owners, operators, and financiers with information about electric vehicle operations such as savings, electricity consumed, emissions avoided available battery range, and mileage.",
+      "website": "shift-ev.com",
+      "employees": "75",
+      "active_jobs": "17"
+    },
+    {
+      "name": "Stable",
+      "description": "Stable is helps EV fleets and charging providers efficiently plan and operate their charging infrastructure.",
+      "website": "stable.auto",
+      "employees": "18",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Synop",
+      "description": "The Operating System for Commercial EV\\'s",
+      "website": "synop.ai",
+      "employees": "28",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Treehouse",
+      "description": "Treehouse simplifies residential, commercial, and fleet electrification through software-enabled Installation-as-a-Service",
+      "website": "treehouse.pro",
+      "employees": "22",
+      "active_jobs": "1"
+    },
+    {
+      "name": "XL Fleet",
+      "description": "XL Fleet is a provider of electrified powertrain solutions for commercial fleet vehicles. The company provides real-time data monitoring and analytics and will expand its \u201cElectrification-as-a Service\u201d solution, which includes power management, charging infrastructure, and onsite power and storage offerings. XL has developed a flexible proprietary electrification powertrain platform that transforms traditional fossil fuel-powered fleet vehicles into hybrid and plug-in hybrid electric vehicles as they are manufactured.",
+      "website": "xlfleet.com",
+      "employees": "31",
+      "active_jobs": "0"
+    },
+    {
+      "name": "ev.energy",
+      "description": "We make electric vehicle charging simpler, greener, and cheaper for everyone, reducing carbon emissions caused by EV charging by as much as 70%. To achieve this we\u2019ve brought together a team of over 100 people, bringing expertise from previous roles at National Grid, Tesla, Amazon, Arcadia, and Chargepoint; and we\u2019ve secured over 50m USD from leading VCs in the automotive and energy space including National Grid Partners, WEX Venture Capital, Energy Impact Partners and JLR\u2019s InMotion Ventures. Come help us drive change for the better.",
+      "website": "ev.energy",
+      "employees": "106",
+      "active_jobs": "3"
+    }
+  ],
+  "Ammonia Production": [
+    {
+      "name": "Amogy",
+      "description": "Amogy is a VC-backed start-up, located in Brooklyn, New York, and is working on a novel carbon-free energy system using ammonia as a renewable fuel. The innovative solution enables the decarbonization of ground/sea/air transportations, accelerating our journey towards the Net Zero Economy. As a mission, we aim to eliminate &g;5 billion metric tons of CO2 emission by 2040 and achieve the complete decarbonization of transportations by 2050. see less",
+      "website": "amogy.co",
+      "employees": "179",
+      "active_jobs": "5"
+    }
+  ],
+  "Recycling": [
+    {
+      "name": "AMP Robotics",
+      "description": "AMP Robotics creates a scalable robotic system that reduces the cost of recycling and enables smart recycling facilities. AMP Robotics\\' solution is a combination of computer vision and machine learning with robots that can identify and rapidly pick recyclable materials off a conveyor belt for market and recovery. AMP Robotics automates the identification, sorting, and processing of material streams to extract value for material recovery facilities (MRFs) that process municipal solid waste, construction and demolition, e-waste, and auto-shredding. The company\\'s engineering design reduces the cost of capital investment with modular implementation easily dropping into existing facility infrastructure without costly retrofits or interruption to operations. AMP Robotics was founded on 2015 and is headquartered in Louisville, Colorado.",
+      "website": "amprobotics.com",
+      "employees": "198",
+      "active_jobs": "5"
+    },
+    {
+      "name": "AptDeco",
+      "description": "AptDeco is an online marketplace for buying and selling quality preowned furniture. AptDeco offers a complete end-to-end process to bring back the joy of discovering amazing furniture finds again. With a trusted and verified community of buyers and sellers, pre-arranged pick up and delivery and a secure payment process you can finally sit back, relax and enjoy your finds while they take care of those pesky details in the background!",
+      "website": "aptdeco.com",
+      "employees": "29",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Carbon Crusher",
+      "description": "Carbon Crusher is a road tech company that repairs roads in a carbon-negative way. We work with public and private road owners. Carbon Crusher replaces heavy oil with carbon-binding biopolymers and reuse old road materials with our crusher. The result is durable, recycled, and sustainable roads. We are committed to solving climate change and making a positive impact on our planet. Our goal is to change the negative trajectory the planet is on with sound values and innovative solutions. As Margaret Mead once said, \u201cNever doubt that a small group of thoughtful, committed citizens can change the world; indeed, it\u2019s the only thing that ever has\u201d.",
+      "website": "carboncrusher.com",
+      "active_jobs": "0"
+    },
+    {
+      "name": "ChemFinity Technologies",
+      "description": "ChemFinity Technologies is engineering a more equitable future, by creating molecularly selective materials that eliminate pollution and circularize natural resources. We aim to address the most impactful environmental challenges in water purification, critical mineral recovery, and gas separations. We\\'re hiring! https://jobs.polymer.co/chemfinitytech ChemFinity is a startup spun out of UC Berkeley\u2019s College of Chemistry and is backed by the Breakthrough Energy Fellows program, USAID, and Conservation X Labs.",
+      "website": "chemfinitytech.com",
+      "employees": "10",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Circ",
+      "description": "2023 Earthshot Prize Finalist on a mission to protect the planet from the cost of clothing. At Circ, we\u2019ve created a technology system that returns clothes to the raw materials from which they were made. Again and again. Brand partners like Patagonia, Marubeni, and Fashion For Good are joining us in our goal of turning wasteful fashion lines into renewable fashion circles. By 2030, we expect to have recycled 10 billion garments, represent 10% of the global apparel market, and to have saved more than 100 million trees. As our ecology and economy grow evermore entwined, it is clear to us that the world already has all the clothing it needs to create all the clothing it will ever need.",
+      "website": "circ.earth",
+      "employees": "49",
+      "active_jobs": "9"
+    },
+    {
+      "name": "Crux",
+      "description": "The ecosystem for developers, tax credit buyers, and financial institutions to transact & manage transferable tax credits.",
+      "website": "cruxclimate.com",
+      "employees": "17",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Ethic",
+      "description": "Hello, we\u2019re Ethic. We believe in a future where all investing is sustainable investing. Our way forward starts by empowering advisors and investors.",
+      "website": "ethic.com",
+      "employees": "110",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Evergrow",
+      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
+      "website": "evergrow.com",
+      "employees": "25",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Evrnu",
+      "description": "Evrnu is an innovative new technology that recycles post-consumer cotton textile waste to create premium, renewable fiber. Reduced CO2 emissions by 90% compared to polyester production, and water usage by 98% compared to traditional cotton fiber.",
+      "website": "evrnu.com",
+      "employees": "21",
+      "active_jobs": "0"
+    },
+    {
+      "name": "For Days",
+      "description": "For Days is the company behind the revolutionary recycling and rewards platform, Trashie. Trashie is the only platform that goes beyond rhetoric and offers tangible incentives to customers who embrace clothing recycling at scale.",
+      "website": "fordays.com",
+      "employees": "20",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Glacier",
+      "description": "Glacier is the creator of the first affordable, high-performing, and space-efficient AI-enabled robot for recycling.",
+      "website": "endwaste.io",
+      "employees": "50",
+      "active_jobs": "3"
+    },
+    {
+      "name": "MOLG",
+      "description": "We help companies achieve their sustainability goals by using automation to design how a product\\'s end is another\\'s new beginning.",
+      "website": "molg.ai",
+      "employees": "22",
+      "active_jobs": "8"
+    },
+    {
+      "name": "Musa Tecnologia LTDA",
+      "description": "Musa is a smart city solution providing a platform that efficiently connects waste generators, haulers, and recyclers. Our mission is to guarantee that all waste becomes raw material directed to a productive chain of reuse. This is what connects us, a world without waste where everything can be reused. We want to transform the waste management industry by leveraging technology and developing new business models ensuring economic, social, and environmental impact.",
+      "website": "musa.co",
+      "employees": "220",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Normative.io",
+      "description": "Normative is the only software capable of assessing a company\u2019s social and environmental impact automatically by analysing their purchases,using artificial intelligence combined with the world\\'s largest sustainability research database.Their goal is to make the social and environmental cost of every purchase in their economy transparent.This will enable humanity to move towards achieving the Sustainable Development Goals together.",
+      "website": "normative.io",
+      "employees": "183",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Phuc Labs",
+      "description": "At Phuc Labs, we use robotics to automate the process of identifying, separating, and reclaiming particles from water. We use the latest innovations from machine vision to identify particles in a stream of water, much like different types of packages moving along a conveyor belt in a warehouse. Then we use hardware to \u201cslice\u201d the water and divert it to various destinations; one for water and others for different types of particles.",
+      "website": "phuclabs.com",
+      "employees": "7",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pledge",
+      "description": "Pledge makes it simple for businesses of every size to understand and manage the climate impact of their products. By providing tools and infrastructure, we automate the delivery of climate solutions - such as footprint measurement, reduction and offsetting - into customer journeys. We\\'re on a mission to make businesses climate aware and help accelerate their transition to net zero. Pledge was founded in 2021 by early employees of Revolut and the co-founder of Freetrade.",
+      "website": "pledge.io",
+      "employees": "30",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Reath",
+      "description": "Reath is a software platform that lets businesses adopt safe, compliant, scalable reuse systems. It has been designed with input from businesses operating reuse systems, and environmental, health, and safety regulators. Their focus is on helping to capture data about your reusable packaging easily and at-scale, and using that data to maintain compliance with regulatory standards like batch codes, or optimise the system.",
+      "website": "reath.id",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Refiberd",
+      "description": "Refiberd is developing a novel textile recycling system that uses AI and a green chemical recycling process to convert used, discarded textiles into new, reusable thread. By turning waste into a resource, Refiberd is able to manufacture 100% recycled thread that is cost-effective, sustainable, and easy to integrate into existing manufacturing processes.",
+      "website": "refiberd.com",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Rheaply",
+      "description": "Developer of a online resource marketplace and Saas based platform designed to buy, sell, trade, donate and rent resources that might otherwise go to waste. The company\\'s platform has developed and launched the exchange technology for researchers to share their ideas and surplus resources with colleagues to reduce time, costs, as well as environmental waste. On Rheaply\\'s Asset Exchange Manager (AxM), users from all departments can access resources and expertise from colleagues in the same organization or beyond.",
+      "website": "rheaply.com",
+      "employees": "70",
+      "active_jobs": "1"
+    },
+    {
+      "name": "SINAI Technologies",
+      "description": "The world\u2019s leading enterprise decarbonization software. Built to measure, analyze, price, and reduce emissions.",
+      "website": "sinaitechnologies.com",
+      "employees": "49",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Safi",
+      "description": "Safi is the new era of TrueCircle. Since we launched in 2021 under the name TrueCircle, we have been on a mission to tackle recycling inefficiency by improving the way we buy and sell recyclables. The Safi marketplace gives customers access to the best prices and instant expansion into global markets. Through Safi AI, sellers can prove their material quality and drive better prices while buyers know they\u2019re getting exactly what they expect. And through Safi Ship, the entire order management process is online, automated and ultra easy.",
+      "website": "safi.co",
+      "employees": "33",
+      "active_jobs": "10"
+    },
+    {
+      "name": "Senken",
+      "description": "Senken is an easy-to-use platform to access the largest selection of climate assets for transparent climate actions and finance. To ensure the quality and integrity of each project, senken provides additional security and transparency at the data level. Confidently invest in climate projects that meet the values of your company. For verifiable climate impact, purchase, trade and retire carbon credits to offset your companies\u2019 emissions.",
+      "website": "senken.io",
+      "employees": "33",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Sourcemap",
+      "description": "Sourcemap helps companies map their supply chains, evaluate the social / environmental / financial risks, and put systems in place for ongoing monitoring and optimization. In 2009 we introduced the first software-as-a-service for supply chain mapping. Today Sourcemap SaaS is being used by dozens of major brands including Mars, Ikea and Stonyfield.",
+      "website": "sourcemap.com",
+      "employees": "93",
+      "active_jobs": "0"
+    },
+    {
+      "name": "SupplyShift",
+      "description": "At SupplyShift, we\u2019re committed to helping businesses create more transparent, responsible, and resilient supply chains. We believe that, when properly managed, a company\u2019s supplier network can deliver incredible value for the company, the greater economy, and can play an important role in changing our world for the better. For business to thrive, collaboration in the supply chain is critical. That\u2019s why we built a network for supply chain transparency. A place for buyers and suppliers to engage on critical aspects of risk without repeating their efforts. A place where information can be shared quickly and insights can be found efficiently. We help some of the world\u2019s most influential companies turn supplier information into action, improving their risk resilience and sustainable business practices. With tens of thousands of companies across 133 countries exchanging data every day, SupplyShift is the world\u2019s largest supply chain transparency network.",
+      "website": "supplyshift.net",
+      "employees": "65",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Thrilling",
+      "description": "Thrilling is an online marketplace that offers curated vintage and secondhand items from the best boutiques across the United States. Thrilling is currently hosting 100 stores in 15 cities.",
+      "website": "shopthrilling.com",
+      "employees": "11",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Topanga.io",
+      "description": "Topanga.io is building the digital infrastructure for the circular economy. Today, Topanga works with brands and restaurants to help them implement reusable packaging programs. Topanga\u2019s Track & Trace technology ensures that operators see ROI and consumers see added value as we collectively shift towards sustainable, circular consumption.",
+      "website": "topanga.io",
       "employees": "14",
       "active_jobs": "0"
     },
     {
-      "name": "Navier",
-      "description": "Navier\\'s goal is to build a new kind of watercraft that cuts the running cost of a marine vessel.",
-      "website": "navierboat.com",
-      "employees": "20",
-      "active_jobs": "4"
+      "name": "VALIS",
+      "description": "VALIS builds AI-powered software that makes recycling more profitable, material supply chains more sustainable, and closes the loop on a circular economy for metal fabrication.",
+      "website": "valisinsights.com",
+      "employees": "6",
+      "active_jobs": "2"
     },
     {
-      "name": "SailPlan",
-      "description": "At SailPlan, we dream of and deliver a better, cleaner future for maritime transportation. SailPlan is an emissions optimization platform that helps ship operators benchmark, optimize, and report fleet emissions with real-time data. We work with some of the most important names in shipping to deliver a cleaner future for the world and get to provable NetZero.",
-      "website": "sailplan.com",
-      "employees": "28",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Seabound",
-      "description": "Shipping accounts for 3% of global CO2 emissions, but has limited existing solutions to decarbonize. Alternative power sources such as hydrogen, ammonia, and batteries are still 10-20 years away from being feasible for large cargo ships.\n\nSeabound is piloting patent-pending technology that captures CO2 from the ship\\'s exhaust gas using lime (CaO). We\\'re developing the only way for shipowners to reduce up to 95% of their CO2 emissions and comply with upcoming global regulations.",
-      "website": "seabound.co",
-      "employees": "9",
-      "active_jobs": "6"
-    },
-    {
-      "name": "TradeLanes",
-      "description": "TradeLanes is a global trade market network that connects all trade participants into a single document chain over the lifecycle of a container shipment. This \"single source of truth\" eliminates document error rates, removes 10 days from the supply chain, saves 30-80% on trade management and facilitates trade finance payments (i.e. - letters of credit) up to 30 days faster.\n\nWe automate, digitize, and simplify trade execution management thereby minimizing errors, phone calls, emails, and lowering risk.\n\nJust a small sample of the value that our platform provides:\n* Automates the tasks required to export - we eliminate the need for Excel to track tasks. \n* Manage document generation - all required docs are automatically generated.\n* Eliminate duplicative data entry - we integrate with ERP and other systems.\n* Combine any and all multiple systems into a collaborative \"trade room\" - providing a single source of truth for the supply chain.\n\nBy automating the export process, companies:\n* Instill confidence in their customers that your shipments arrive on time\n* Instill confidence in their sales team that they can sell more\n* Scale with their export business to meet rapid growth",
-      "website": "tradelanes.co",
-      "employees": "13",
-      "active_jobs": "8"
-    }
-  ],
-  "Walkable Cities": [
-    {
-      "name": "Numina",
-      "description": "Numina\\'s standalone sensing and data platform uses computer vision to measure how people and objects move through the public right-of-way. Numina is purpose-built to empower urban planners and municipal DoTs with better data to design more walkable, bikeable, and efficient places. Simultaneously, Numina provides this intelligence to the private sector as the data backbone for urban automation. Numina has been serving planners and cities since 2014, with support from the John S. and James L. Knight Foundation, Robert Wood Johnson Foundation, Clinton Foundation, SOSV, MINI BMW, 500 Startups, and others. Numina is built with in St. Louis, MO and New York, NY.",
-      "website": "numina.co",
-      "employees": "21",
-      "active_jobs": "3"
+      "name": "WEEE Centre",
+      "description": "ISO Certified Company (ISO 14001:2015 & ISO 9001:2015) Managing E-waste for a safe environment. SME of the year 2019 winner. #ewate #recycling #circularEconomy",
+      "website": "weeecentre.com",
+      "employees": "19",
+      "active_jobs": "0"
     }
   ],
   "Efficient Aviation": [
@@ -2937,233 +2718,92 @@ const mapping = {
       "active_jobs": "29"
     }
   ],
-  "Alternative Cement": [
+  "Thermal Energy Storage": [
     {
-      "name": "Aluminio",
-      "description": "Aluminio is developing new materials to address the biggest challenges in renewable energy production.",
-      "website": "aluminio.tech",
-      "active_jobs": "0"
-    },
+      "name": "Antora Energy",
+      "description": "Antora Energy delivers zero-carbon industrial heat and power to heavy industries that are more reliable than fossil fuels. Antora\u2019s thermal energy storage soaks up excess solar and wind electricity and uses it to heat blocks of carbon so they glow like inside a toaster.",
+      "website": "antoraenergy.com",
+      "employees": "56",
+      "active_jobs": "24"
+    }
+  ],
+  "Efficient Trucks": [
     {
-      "name": "Aspiring Materials",
-      "description": "Aspiring Materials extracts mineral products from silicate rocks using magnesium hydroxide \u2013 one of the minerals in the rock \u2013 to produce a powdery material that can remove and solidify carbon dioxide at the source of emission, such as a factory\u2019s exhaust system.",
-      "website": "aspiringmaterials.com",
-      "employees": "9",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Boston Metal",
-      "description": "Boston Metal is a metallurgy company developing technology to reduce the carbon footprint of steel production. The company provides industrial-scale, metal production solutions utilizing its Molten Oxide Electrolysis (MOE) process. MOE provides the metals industry with a more efficient, lower-cost, and greener solution for the production of a widearray of metals and alloys from a wide variety of feedstocks. Boston Metal was spun out of MIT in 2012 with an investment from Ingo Wender and has since scaled the technology 1,000x and produced thousands of kilograms of metal. Boston Metal\u2019s headquarters and industrial development center are located in Woburn, MA.",
-      "website": "bostonmetal.com",
-      "employees": "166",
+      "name": "Aperia Technologies",
+      "description": "Aperia Technologies provides automatic tire inflation devices that help improve the safety and efficiency of commercial vehicles. It offers Halo Tire Inflator, a ring-shaped device that utilizes a wheel\\'s rotational motion to pump air and maintain optimal tire pressure. Aperia Technologies was incorporated in 2010 and is based in San Francisco, California.",
+      "website": "aperiatech.com",
+      "employees": "101",
       "active_jobs": "11"
     },
     {
-      "name": "Brimstone",
-      "description": "Brimstone is on a mission to decarbonize the cement industry, which today is responsible for 7.5% of carbon emissions annually. Founded in 2019, Brimstone developed a breakthrough carbon-negative process to produce the same ordinary portland cement and supplementary cementitious materials used today. These materials have the same quality and performance builders have trusted for decades \u2014 now with a positive climate impact.",
-      "website": "brimstone.com",
-      "employees": "55",
-      "active_jobs": "5"
-    },
-    {
-      "name": "CERT Systems",
-      "description": "CERT Systems is producing essential chemicals without fossil fuels. Using an electrochemical process, we convert carbon dioxide emissions into high value chemicals and fuels to support the decarbonization of the chemical manufacturing, transportation and energy industries.",
-      "website": "co2cert.com",
-      "employees": "14",
-      "active_jobs": "2"
-    },
-    {
-      "name": "CarbonBuilt",
-      "description": "CarbonBuilt enables concrete manufacturing to drive greenhouse gas reductions through the utilization of CO2 and other industrial wastes.",
-      "website": "carbonbuilt.com",
-      "employees": "25",
+      "name": "Derive Systems",
+      "description": "Derive Systems is a leading B2B and B2C automotive technology provider, with nearly 2 million software installations on the road today. Derive connects vehicles and their engines to the digital world, enabling individuals and fleets to take control of their vehicles and optimize the way they behave. The Derive Systems platform writes directly to the engine and other vehicle control modules, integrating third party software, data, and sensors so that each vehicle performs specifically to unique requirements, preferences, and conditions.",
+      "website": "derivesystems.com",
+      "employees": "96",
       "active_jobs": "1"
     },
     {
-      "name": "CarbonCure Technologies",
-      "description": "CarbonCure Technologies creates, develops, and licenses solutions that consume waste CO2 to make better concrete. It spurs the market shift towards affordable green concrete, by enabling concrete manufacturers to convert waste CO2 into solid minerals, locked away as a solid within concrete during manufacturing. It is a green building technology company currently serving concrete product manufacturers in the US and Canada. It offers concrete producers the ability to manufacture green concrete products without compromising on either quality or price. CarbonCure is a retrofit innovation that repurposes CO2 gas from large final emitters as a feedstock in concrete plants. The gas is permanently converted into embedded solid mineral carbonates that yield material, environmental, and production advantages. By enabling concrete manufacturers to consume CO2 into concrete products during manufacturing, the technology differentiates an otherwise traditional commodity concrete product, while achieving superior material performance characteristics. In addition to technology, CarbonCure provides demand-pull marketing and environmental reporting/certification services to reinforce its customers\u2019 exclusive competitive positioning. The technology is licensed at a very low-CAPEX to concrete producers, generating a recurring revenue stream. CarbonCure Technologies was founded in 2007 and is headquartered in Halifax, Nova Scotia.",
-      "website": "carboncure.com",
-      "employees": "107",
-      "active_jobs": "1"
-    },
-    {
-      "name": "CemVision",
-      "description": "We are re-inventing cement; Replacing everything that\u2019s bad about it with a product that is economical, environmental friendly and technically superior.",
-      "website": "cemvision.tech",
-      "employees": "12",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Chement",
-      "description": "The production of cement is responsible for 8% of global greenhouse gas emissions each year. Chement is working to change that by developing technology that makes the production process more energy-efficient, runs on renewable electricity, and enables the low-cost capture of unavoidable process emissions.",
-      "website": "chement.co",
-      "active_jobs": "2"
-    },
-    {
-      "name": "EVOLOH",
-      "description": "Developer of a revolutionary electrolyzer technology designed to help in the affordable production of green hydrogen. The company\\'s technology eliminates the key drawbacks of corrosive liquid electrolytes and expensive metallurgy, enabling clients to have a low-cost system to seamlessly produce clean fuel and feedstock for sustainable industries.",
-      "website": "evoloh.com",
-      "employees": "13",
+      "name": "Embark Trucks",
+      "description": "Embark is building self-driving truck technology to make roads safer and transportation more efficient. We\u2019re moving the entire trucking industry forward. Embark\u2019s technology is already moving freight for five Fortune 500 companies in the southwest U.S. By moving real freight through our purpose-built transfer hubs, we are setting a new standard for how driverless trucks will move freight in the future. Watch the video to learn more. Embark has compiled many firsts for automated trucks, including driving across the country, operating in rain and fog, and navigating between transfer hubs. Embark is advancing the state of the art in automated trucks and bringing safe, efficient commercial transport closer every day. Embark is assembling a world-class group of engineers from companies like Tesla, Google, Audi and NASA with a professional operations team that averages over a million miles per driver. Working together, we are able to develop a system tailored to the demands of real world trucking.",
+      "website": "embarktrucks.com",
+      "employees": "75",
       "active_jobs": "0"
     },
     {
-      "name": "Ecocem Ireland",
-      "description": "Ecocem Ireland provides GGBS and CEM III-A technology in their manufacturing of cement products. they provide architectural designs for their customers. Their customers contact through the phone, e-mail, and online applications.",
-      "website": "ecocem.ie",
-      "employees": "32",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Ferrum Decarb",
-      "description": "DECARBONIZING THE STEEL INDUSTRY VIA HYDROGEN PLASMA.",
-      "website": "ferrumtech.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Furno",
-      "description": "Furno is an earth-first, science-backed, and data-driven startup committed to mitigating climate change. We\\'re here to tackle big cement, an industry responsible for nearly 10% of global CO2 emissions.",
-      "website": "furno.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mantel",
-      "description": "Mantel is developing the first molten-salt based carbon capture technology. Our molten borates are designed to operate at the high temperatures found inside boilers, kilns, and furnaces \u2013 enabling highly efficient carbon capture that has not been possible until now. Carbon capture can be applied across industry to reduce emissions - and even achieve net-negative emissions. By solving for efficiency Mantel can reduce energy losses by more than 60% and cut costs in half, unlocking carbon capture\u2019s role in reaching global net zero.",
-      "website": "mantelcapture.com",
-      "employees": "12",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Material Evolution",
-      "description": "Material Evolution uses patented geopolymer technology and proprietary algorithms to create the most sustainable materials on the planet. Material Evolution\u2019s first product is a cement mix made from 95% waste using its algorithm technology. Its smart concrete mix is 10X stronger, 5X more durable, and reduces carbon consumption by 85%. Most importantly, it\u2019s economically viable for construction companies.",
-      "website": "materialevolution.com",
+      "name": "Forum Mobility",
+      "description": "The freight-moving industry are both a lifeblood of the US economy and its dominant source of harmful pollution. Diesel trucks emit nearly one-third of smog-forming nitrogen oxides and more than one-quarter of diesel particulate matter in the state. Forum Mobility is bringing its 60+ years of combined energy development and energy contracting history to the goods movement industry with a \"Zero Emissions Fleet as a Service\" business model. We do it ALL, own and operate the fleet for our customers who simply put a driver in the seat and realize a savings over its existing combustion engine fleet.",
+      "website": "forummobility.com",
       "employees": "20",
       "active_jobs": "0"
     },
     {
-      "name": "OzoneBio",
-      "description": "OzoneBio is a Canadian cleantech company that uses innovative technology to improve high-value products by reducing their environmental footprint in the early stages of the supply chain. Our unique technology of dead cell fermentation (\"Zombie cells\") allows us to convert challenging feedstocks into high value materials and products through an emission-negative process. Our first product is emission-zero adipic acid. Every year, the world makes eight million tons of oil-based nylon-6,6, which results in approximately 60 million tons of greenhouse gases emission. Production of oil-based adipic acid releases huge amounts of Nitrous Oxide in atmosphere. Nitrous Oxide is 300 times more potent and toxic for the atmosphere than Carbon Dioxide. A typical oil-based adipic acid plant (like the one in Florida) pumps out 33,046 metric tons of Nitrous Oxide a year. We target to replace global oil-based Nylon66 production. As a women-founded company, OzoneBio aims to lead the way towards a greener, better world by redefining and bolstering what it means to be \"sustainable.\"",
-      "website": "ozonebio.ca",
-      "employees": "9",
-      "active_jobs": "0"
+      "name": "Infinium",
+      "description": "Infinium offers an electrofuels solution to decarbonize the transportation sector using today\u2019s infrastructure. Infinium\u2019s Electrofuels is a net-zero carbon alternative to existing liquid fuels that can immediately \"drop-in\" and be used in plane, ship, and truck fleets.",
+      "website": "infiniumco.com",
+      "employees": "56",
+      "active_jobs": "6"
     },
     {
-      "name": "Pathways",
-      "description": "Pathways is a company that uses AI technology to automate the creation of Buy Clean and EU compliant Environmental Product Declarations (EPDs), reducing the time spent on generating EPDs by up to 75%%.",
-      "website": "pathwaysai.co",
+      "name": "Jaro Fleet Technologies",
+      "description": "Our high-power charging solution allows fleets to: Get more miles at lower cost with the same trucks Electrify more routes with no operational changes Extend battery life with top-up charging...",
+      "website": "jarofleets.com",
+      "employees": "3",
       "active_jobs": "2"
     },
     {
-      "name": "Phaseshift Technologies",
-      "description": "Whether it is to improve performance & efficiency, decrease our reliance on critical raw materials, or simply enable innovation that will accelerate the shift to net-zero industries - PhaseShift is on a mission to develop materials that serve a variety of use-cases in a broad range of industries. Based on Artificial Intelligence and Quantum Chemistry simulations, PhaseShift accelerates the discovery of new materials by a factor of 10x and with up to 75% in cost savings. However, the most significant benefit of all is the ability to develop better materials. The ability to scan a large design space of millions of possible chemistries in a matter of days enables us to identify materials that are truly optimized for a broad range of parameters. Our platform is designed to address the nuances of new alloy development and has been used previously to develop alloys for both structural and functional use-cases. Additionally, the alloys can be developed for both traditional and additive manufacturing.",
-      "website": "thephaseshift.com",
-      "employees": "4",
+      "name": "Linear Labs",
+      "description": "The world has a bottomless appetite for electricity. In fact, 45% of the world\\'s electricity passes through an electric motor. This is equivalent to 1 out of every 2 power plants solely dedicated to electric motors. And yet electric motor designs remain essentially unchanged in last 100 years. Linear Labs, an electric motor company, has created an entirely new family of electric motor systems designed for the next generation of electric vehicles, HVAC systems and robotics welcoming in a new era of smarter energy utilization. Our \"smart\"\u200b motors shape shift and morph the physical design in real time to adjust for changing conditions. The result is 2x improvements in torque, further range and significantly lowering power consumption. Linear Labs is a Texas based technology company. www.linearlabsinc.com",
+      "website": "linearlabsinc.com",
+      "employees": "30",
       "active_jobs": "0"
     },
     {
-      "name": "Queens Carbon",
-      "description": "Queens Carbon\u2019s mission is to build a sustainable future by eliminating deep-rooted CO2 emissions in industrial manufacturing and beyond. We\u2019re developing a novel hydrothermal process that dramatically reduces the energy needed to decompose carbonate minerals and allows for the capture of all CO2 produced during the reaction. This low energy solution for carbonate processing creates a commercially viable path for widespread carbon capture projects and carbon neutral cement production. At scale, this technology will enable gigaton-scale reductions in industrial CO2 emissions via avoidance and capture routes. Excited about cutting edge science, saving the environment, and want to have fun while doing it? Consider joining our team! https://queens-carbon.breezy.hr/?",
-      "website": "queenscarbon.com",
-      "employees": "9",
+      "name": "Motiv Power Systems",
+      "description": "Motiv Power Systems delivers medium-duty commercial all-electric trucks and buses, along with charging infrastructure and guidance for deploying commercial fleets. Specializing in step vans, shuttle buses, and box trucks, Motiv is an innovative provider of daily-use zero-emission vehicles for moving people and goods with 98% uptime and intense customer-driven focus.",
+      "website": "motivps.com",
+      "employees": "106",
+      "active_jobs": "9"
+    },
+    {
+      "name": "Terraline",
+      "description": "At Terraline we are fully committed to benefiting the planet by disrupting a massive segment of the transportation industry with our clean-sheet, battery-electric, long-rang, heavy trucks that are designed to eliminate CO2 emissions.",
+      "website": "terralinetrucks.com",
+      "employees": "15",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Verne",
+      "description": "Verne is a cleantech startup formed out of Stanford & Berkeley. We are accelerating the transition to zero-emission heavy transportation by pioneering a new high-density hydrogen technology platform for trucks and other heavy transport vehicles.",
+      "website": "verneh2.com",
+      "employees": "23",
       "active_jobs": "2"
     },
     {
-      "name": "Solidia Technologies",
-      "description": "Solidia Technologies enables next generation products that offer superior performance while significantly minimizing environmental impact. Solidia is an advanced materials company, focusing on developing scalable solutions for the world of building and construction materials. Their technology enables the design of next generation products madeby low energy processes that utilize waste materials and consume CO2. The products offer superior performance and value when compared to cement, concrete and stone while significantly minimizing environmental impact.",
-      "website": "solidiatech.com",
-      "employees": "54",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sublime Systems",
-      "description": "Sublime is developing a breakthrough process to make low-carbon cement. The technology replaces the industry\\'s legacy fossil-fuel-intensive thermal calciner process with an electrochemical process that produces low-carbon cement at ambient temperatures with renewable electricity. Sublime was started in 2020, as a spin-out of Yet-Ming Chiang\\'s lab at MIT (Form Energy, A123, American Superconductor, 24M, Desktop Metals).",
-      "website": "sublime-systems.com",
-      "employees": "71",
-      "active_jobs": "13"
-    },
-    {
-      "name": "Terra CO2 Technologies",
-      "description": "Terra CO2 Technologies is an industrial technology company that reduces material and logistics costs while reducing the environmental footprint in the cement and mining sectors. It develops innovative environmental technologies to tackle challenging environmental problems. It was founded in 2012 and employs a diverse group of engineers, scientists, and specialists to bring projects from the ideation stage to market.",
-      "website": "terraco2.com",
-      "employees": "27",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Toggle",
-      "description": "How will we build the next generation of cities and infrastructure when key construction methods have remained unchanged for a generation? As the built environment grows larger and more complex Toggle is introducing industrial robotics and automation to critical construction methods and materials. Starting with rebar for reinforced concrete Toggle is reinventing the way we build our world.",
-      "website": "toggle.is",
-      "employees": "16",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Ultra High Materials",
-      "description": "Ultra High Materials is a company of chemists, physicists, materials scientists, and entrepreneurs who have created, patented, reduced to practice, and initiated commercialization of novel cementitious materials which replace 100% of portland cement in conventional cement and concrete. UHM\u2019s new materials reduce embodied CO2 by 80% to 90%,demonstrate superior performance, are cost competitive, and may be manufactured in existing batch plants using locally available raw materials with workability identical to conventional concrete. The company has two novel formulation platforms - geopolymers and hydraulic systems - from which new materials may be derived. These new materials may be designed and customized for any given application of cement or concrete as ready-mix or precast and for use in structural, non-structural, and architectural products and projects. The company licenses it\\'s technology globally as well as manufacturers and sells cementitious binders with commercial strategic partners.",
-      "website": "ultrahighmaterials.com",
-      "active_jobs": "0"
-    }
-  ],
-  "Nuclear Power": [
-    {
-      "name": "Avalanche Energy",
-      "description": "Avalanche is a VC-backed, fusion energy start-up based in Seattle, WA. We are designing, testing and building micro fusion reactors that you can hold in your hands. Our modular reactor will be capable of being combined however needed to provide clean energy and decarbonize the planet. Our unique approach enables rapid iterations of build, test, fix design cycles.",
-      "website": "avalanchefusion.com",
-      "employees": "33",
-      "active_jobs": "10"
-    },
-    {
-      "name": "BHI Energy",
-      "description": "BHI Energy has provided a variety of on-site specialty maintenance, radiation protection and staffing services to the power-generation industry. BHI\u2019s business model is proven to build longstanding relationships with customers through the alignment of operating objectives and the ability to help customers effectively manage and service their assets across power generation, oil & gas, and electricity transmission and distribution sectors.",
-      "website": "bhienergy.com",
-      "employees": "1755",
-      "active_jobs": "51"
-    },
-    {
-      "name": "Commonwealth Fusion Systems",
-      "description": "Commonwealth Fusion Systems (CFS) has the fastest, lowest cost path to commercial fusion energy. CFS is collaborating with MIT to leverage decades of research combined with new groundbreaking high-temperature superconducting (HTS) magnet technology. HTS magnets will enable compact fusion power plants that can be constructed faster and at lower cost. CFS is now building SPARC, the world\\'s first commercially relevant, net energy fusion demonstration device. SPARC will pave the way for the first fusion power plant, ARC, that will produce power on the grid. The ultimate mission is to deploy fusion power plants to meet global decarbonization goals as fast as possible. CFS has assembled a team of leaders in tough tech, fusion science, and manufacturing with a track record of rapid execution. Supported by the world\u2019s leading investors, CFS is uniquely positioned to deliver limitless, clean, fusion power to combat climate change.",
-      "website": "cfs.energy",
-      "employees": "541",
-      "active_jobs": "100"
-    },
-    {
-      "name": "Marathon Fusion",
-      "description": "Marathon Fusion designs, engineers, and scales next-generation fuel-processing technologies to enable the deployment and scale-up of fusion power plants.",
-      "website": "marathonfusion.com",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Radiant",
-      "description": "Radiant is a clean energy startup building a nuclear microreactor. A climate-friendly alternative to diesel generators, Radiant\\'s Kaleidos 1MW microreactor will be the world\\'s first portable, zero-emissions power source that works anywhere. We plan to test our development reactor by 2026 and if successful, it will be the first new commercial reactor design to achieve a fueled test in over 50 years. Our microreactor can bring power to remote parts of the world and provide backup power for life-saving applications in hospitals or disaster-relief scenarios.",
-      "website": "radiantnuclear.com",
-      "employees": "67",
-      "active_jobs": "15"
-    },
-    {
-      "name": "Thea Energy",
-      "description": "Thea Energy (formerly Princeton Stellarators) was founded in 2022 with a focus on leveraging recent breakthroughs in stellarator physics and engineering to create a faster, simpler approach to commercializing fusion energy. Thea Energy is reinventing the stellarator using computer-controlled arrays of planar coils and replacing the intricate, complex modular magnets required in all other proposed stellarator architectures. Stellarators are inherently steady-state, stable magnetic configurations that eliminate potential disruptions, making it an optimal pilot plant architecture. Thea Energy is building off foundational research and technology development that it spun out of Princeton University and Princeton Plasma Physics Laboratory, where the stellarator was first imagined in 1951. Thea Energy\\'s proprietary breakthroughs have now enabled systems to be simpler and more practical than previously possible resulting in a system design that can scale to long-term commercial system operation and maintenance.\u200b",
-      "website": "thea.energy",
-      "employees": "40",
-      "active_jobs": "22"
-    },
-    {
-      "name": "Transmutex",
-      "description": "Based on the innovative combination of particle accelerators and fuel based on existing long-lived radioactive waste, Transmutex is developing a breakthrough energy process that will be intrinsically safe, will reduce the stockpile of long-lived waste, is resistant to military proliferation, and will be cost competitive.",
-      "website": "transmutex.com",
-      "employees": "29",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Xcimer Energy",
-      "description": "Xcimer Energy offers a laser-driven fusion to provide cheap, abundant, and carbon-free energy. It is used to transform the energy marketplace that integrates low-cost excimer laser technology with the HYLIFE reaction chamber concept to design an Inertial Fusion Energy (IFE) system. This system overcomes long-standing obstacles to viable fusion power. The company was founded in 2021 and is headquartered in Redwood City,, California.",
-      "website": "xcimer.net",
-      "employees": "24",
-      "active_jobs": "12"
-    },
-    {
-      "name": "Zap Energy",
-      "description": "Zap Energy\\'s fusion reactor stabilizes plasma using sheared flows rather than magnetic fields. Driving electric current through the flow creates the magnetic field, which confines and compresses the plasma. The higher the current, the greater the pressure and density in the plasma. Zap Energy\\'s reactor is the least expensive, most compact, most scalable solution with the shortest path to commercially viable fusion.",
-      "website": "zapenergy.com",
-      "employees": "125",
-      "active_jobs": "12"
+      "name": "Xos Trucks",
+      "description": "Xos Trucks is an electric mobility company dedicated to making fleets more efficient. Xos designs and develops fully electric battery mobility systems specifically for commercial fleets. The company\u2019s primary focus is on medium- and heavy-duty commercial vehicles that travel on \u201clast mile\u201d routes (i.e. predictable routes that are less than 200miles per day). The company leverages its proprietary technologies to provide commercial fleets zero emission vehicles that are easier to maintain and more cost-efficient on a total cost of ownership (TCO) basis than their internal combustion engine and commercial EV counterparts.",
+      "website": "xostrucks.com",
+      "employees": "213",
+      "active_jobs": "36"
     }
   ],
   "Improved Aquaculture": [
@@ -3219,6 +2859,392 @@ const mapping = {
       "description": "Running Tide crafts adaptive aquaculture techniques to optimize nature while amplifying flavor and health. It applies the minds of scientists to produce exceptionally healthy low-carbon protein. Running Tide analyzes ocean data to determine how to better utilize two-thirds of the Earth\u2019s surface in the climate fight.",
       "website": "runningtide.com",
       "employees": "126",
+      "active_jobs": "0"
+    }
+  ],
+  "Biochar Production": [
+    {
+      "name": "Arbor Energy",
+      "description": "Arbor Energy is a planetary renewal company on a mission to build a truly sustainable world. Working in harmony with Earth\u2019s natural rhythms, their technology turns waste into carbon negative energy and fresh water, while permanently removing CO2 from the atmosphere in the process. They envision a solarpunk future with carbon-negative power at the center of a global circular economy - where growth is no longer extractive, but regenerative. A world in tune, a planet in balance.",
+      "website": "arbor.energy",
+      "employees": "28",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Bloom Biorenewables Ltd",
+      "description": "Bloom Biorenewables is creating a global impact in the use of sustainable resources. By introducing a new route for the production of biorenewable products and fuels, they offer a sustainable alternative to fossil-based industries and contribute to mitigating climate change.",
+      "website": "bloombiorenewables.com",
+      "employees": "17",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Carbon180",
+      "description": "Carbon180 is a new breed of climate-focused NGO on a mission to fundamentally rethink carbon. We partner with policymakers, scientists and businesses around the globe to develop policy, promote research, and advance solutions to build an economy that removes more carbon than it emits. For more information, visit our website at www.carbon180.org or our career page at www.carbon180.org/jobs.",
+      "website": "carbon180.org",
+      "employees": "30",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Climate Robotics",
+      "description": "Climate Robotics develops robots designed to efficiently generate bio char to sequester carbon and improve soils, starting with urban land.",
+      "website": "climaterobotics.com",
+      "employees": "20",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Lydian",
+      "description": "Founded in 2021, Lydian is addressing more than 10% of global greenhouse gas emissions by creating the fuels, plastics, and other chemicals we need out of carbon dioxide and water, not petroleum. Lydian is proud to be backed by top climate investors.",
+      "website": "lydianlabs.com",
+      "employees": "15",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Phase Biolabs",
+      "description": "UK startup building bio-based carbon capture and utilisation (CCU) technology to recycle industrial carbon dioxide (CO2) emissions into carbon neutral chemicals and e-fuels.",
+      "website": "phasebiolabs.com",
+      "employees": "10",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Takachar",
+      "description": "Takachar creates a network of waste management enterprises in Kenya that turn unmanaged agricultural residues into charcoal, a low-cost, non-toxic, and eco-friendly cooking fuel for low-income households. They have developed a series of low-cost (US$20), locally manufacturable technologies to enable waste-to-char conversion, which has been tested and refined in Kenya for the past 3 years. Since 2011, They have set up or directly helped 7 nascent and locally run waste-to-charcoal enterprises in Kenya, some of which have since even demonstrated operational profitability and paying customers. So far they have created about 100 jobs and sold 50 tons of eco-char. Moving forward, they are trying to prove the long-term financial viability of these enterprises, which, if successful, will be the basis of a franchise network.",
+      "website": "takachar.com",
+      "employees": "17",
+      "active_jobs": "0"
+    },
+    {
+      "name": "made of air GmbH",
+      "description": "Made of Air is a radical new biochar-based material designed to combat climate change. Made of 90% atmospheric carbon, our material is a sustainable alternative for use in construction, interiors, furniture and more.",
+      "website": "madeofair.com",
+      "employees": "19",
+      "active_jobs": "1"
+    }
+  ],
+  "Methane Leak Management": [
+    {
+      "name": "Arculus Solutions",
+      "description": "Arculus Solutions is future-proofing current natural gas transmission pipelines to safely transport hydrogen.",
+      "website": "arculus-solutions.com",
+      "employees": "2",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Bend",
+      "description": "Bend makes CO2e emissions data programmable and queryable. Track companies as they cut carbon, and measure your supply chain footprint.",
+      "website": "bend.green",
+      "employees": "5",
+      "active_jobs": "0"
+    },
+    {
+      "name": "C-Zero",
+      "description": "C-Zero is a hard-tech startup located in Santa Barbara, CA, that is developing a technology for decarbonizing natural gas. The company\u2019s technology uses high temperatures to break down methane, (the primary molecule in natural gas) into hydrogen and solid carbon. C-Zero\u2019s hydrogen can be used to decarbonize a wide range of industries including ammonia production, electric generation, process heat, and fuel cell vehicles, and has the potential to address 75% of global CO2 emissions.",
+      "website": "czero.energy",
+      "employees": "28",
+      "active_jobs": "1"
+    },
+    {
+      "name": "CarbonChain",
+      "description": "CarbonChainp is a provider of a platform that enables companies in the polluting industries such as metals and mining, oil and gas, and agriculture to track their supply chain greenhouse gas emissions that help them track their transition to the low-carbon economy. The platform digitizes the supply chain to foster transparency, enhance security, and drive efficiencies and cost savings end to end across supply chains. It supports a wide range of hard and soft commodities with its database of greenhouse gas emissions factors covering individual assets from mines to ships. CarbonChain enables commodities companies to identify their highest polluting transactions and take the steps necessary to protect their supply chains against rising carbon prices while unlocking the immediate benefits of doing so, from lower interest rates to ESG leadership recognition.",
+      "website": "carbonchain.com",
+      "employees": "40",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Crusoe",
+      "description": "Crusoe exists to bring energy to ideas. We are the pioneers of clean computing infrastructure that reduces both the costs and the environmental impact of the world\u2019s expanding digital economy. By unlocking stranded sources of energy to power cloud and data center services, we are creating the climate-aligned future of compute-intensive innovation that reduces rather than adds to emissions. The world\u2019s appetite for computation, energy, and progress will never stop growing. Crusoe is here to bring energy to ideas in ways that are aligned with the needs of our climate.",
+      "website": "crusoeenergy.com",
+      "employees": "246",
+      "active_jobs": "53"
+    },
+    {
+      "name": "Frost Methane",
+      "description": "Frost Methane pays land owners, mineral rights owners, and farmers who deploy our turnkey, methane management solutions at their sites. Our proven technology neutralizes methane from manure ponds, abandoned coal mines, and landfills, which earns carbon offset revenue that we share with our customers.",
+      "website": "frostmethane.com",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mars Materials",
+      "description": "Reversing industrial waste carbon emissions",
+      "website": "marsmaterials.tech",
+      "employees": "9",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Orbio Earth",
+      "description": "Methane emissions from the oil & gas industry is the lowest hanging fruit in climate change mitigation. Orbio tracks global methane emissions from the oil & gas industry with satellite imagery. We sell the data to financial & energy companies that want to reduce methane emission risks in a cost-effective way.",
+      "website": "orbio.earth",
+      "employees": "14",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Project Canary",
+      "description": "Project Canary is a science-based enterprise emissions data platform that helps energy leaders identify, measure, understand, and act on GHG and other harmful emissions. We provide software visualization tools, high-fidelity sensor solutions, and rigorous environmental assessments. Our solutions enable companies to improve operations, differentiate their molecules, and meet regulatory and voluntary framework requirements.",
+      "website": "projectcanary.com",
+      "employees": "155",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Remora",
+      "description": "We\\'re building a device that captures a semi-truck\u2019s carbon emissions directly from the tailpipe. We\\'ll sell the CO2 to end-users, and share that revenue with our customers, so our device will create a new revenue stream for our customers while reducing their emissions.",
+      "website": "remoracarbon.com",
+      "employees": "73",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Sentient Energy",
+      "description": "Sentient Energy, a Koch Engineered Solutions company, is the premier Intelligent Sensing Platform Provider for power utilities. We provide the industry\u2019s only Grid Analytics System that covers the entire distribution network with quickly-deployed intelligent sensors and analytics that identify and analyze potential faults and other grid events. Sentient Energy leads the market with the largest mesh network line sensor deployments in North America, helping utilities deliver reliable, safe and smart power. Sentient Energy partners with the majority of leading utility network communication providers.",
+      "website": "sentientenergy.com",
+      "employees": "99",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Thalo Labs",
+      "description": "Thalo Labs makes it ridiculously easy to measure and mitigate greenhouse gas emissions.",
+      "website": "thalolabs.com",
+      "employees": "15",
+      "active_jobs": "1"
+    },
+    {
+      "name": "VIA",
+      "description": "VIA helps energy companies across the globe realize the value of their data through AI and blockchain. The company enables an encrypted analysis of confidential and classified data. It solves asset management and operational issues alongside key players in the energy industry and works with governments, regulators, and large global utilities on AI initiatives like predictive maintenance and contingency planning. Founded in 2016, VIA is headquartered in Somerville, Massachusetts.",
+      "website": "solvewithvia.com",
+      "employees": "50",
+      "active_jobs": "1"
+    }
+  ],
+  "Plant-Rich Diets": [
+    {
+      "name": "Artemys Foods",
+      "description": "Artemys Foods works on the next generation of meat alternatives by cultivating meat, instead of harvesting meat from animals. Artemys develops and executes a strategic vision for a biomanufacturing company that grows meat from animal cells, thereby empowering humanity to eat sustainable food.",
+      "website": "artemysfoods.com",
+      "employees": "35",
+      "active_jobs": "0"
+    },
+    {
+      "name": "BIOMILQ",
+      "description": "BIOMILQ is a women-owned and science-led mammary biotechnology start-up leveraging its patented technology to produce functional cell-cultured human milk components outside the body. With the goal of bridging the gap between breast milk and infant formula, BIOMILQ aims to revolutionize early-life nutrition by bringing more of the benefits of breast milk to more babies.",
+      "website": "biomilq.com",
+      "employees": "29",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Bellwether Coffee",
+      "description": "Bellwether Coffee is making coffee roasting more accessible, and more sustainable for the environment and communities. With its controllable roaster available, Bellwether\u2019s customers from large brands to small neighborhood cafes are in complete control of their coffee offerings using the electric, ventless, zero-emissions, award-winning Bellwether Roaster and intuitive roasting software. Bellwether Coffee is the recipient of the Best New Product award for 2019 by the Specialty Coffee Association. The company was founded in 2013 and is headquartered in Berkeley, California.",
+      "website": "bellwethercoffee.com",
+      "employees": "68",
+      "active_jobs": "0"
+    },
+    {
+      "name": "C16 Biosciences",
+      "description": "C16 Biosciences is a biotechnology firm that uses microbiology to brew sustainable alternatives to palm oil. It was founded in 2017 with the objective of creating a sustainable, environmentally friendly alternative to conflict palm oil. By offering producers, refiners, traders, and consumers of palm oil an opportunity to invest part of their production into bio-based oils and sustainability efforts, C16 Biosciences\\' aim is to reduce the environmental footprint of palm oil production and protect precious natural land, wildlife, and resources in the process. Fermentation is a well-proven commercial process that has been used for centuries to convert raw materials into consumable commercial products consumed by billions of people every day. C16 Biosciences believes that brewing palm oil like beer is the most likely path to developing a truly sustainable palm oil alternative. C16 Biosciences\\' palm oil is sustainable which doesn\\'t involve deforestation, endangering precious animal species, or forcing inhumane labor practices. The result is a world where consumers can enjoy the products they love without worrying about the dangerous practices involved in making them.",
+      "website": "c16bio.com",
+      "employees": "37",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Coconut Bliss",
+      "description": "Coconut Bliss is a dairy-free ice cream producer creating 100 percent plant-based flavors of ice creams.",
+      "website": "coconutbliss.com",
+      "employees": "19",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Eclipse Foods",
+      "description": "Eclipse Foods is plant-based dairy products that are indistinguishable from animal dairy products. Using a novel plant-processing technology, Eclipse gives amazing dairy flavor, texture, and functionality without the health, environmental, and welfare issues attached to traditional dairy. The company\\'s mission is to create a more sustainable, healthy, and humane food system by making amazing plant-based foods that require no sacrifice. Eclipse Foods was founded in 2019 and is based in Oakland, California.",
+      "website": "eclipsefoods.com",
+      "employees": "27",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Entocycle",
+      "description": "Entocycle is developing the world\u2019s most efficient and sustainable way to produce protein. The rainforests and savannahs of South America are being destroyed at shocking rates in order to grow crops such as soy to feed farm animals. Using insects to feed livestock requires significantly less land and water compared to soy whilst being a natural part of the diet for many animals including fish, chickens and pigs. Their technology is significantly more efficient at producing protein than traditional methods of production as their insects are vertically farmed and not restricted to floor space or area. Thanks to their automated system they can produce at industrial scale and offer farmers a cost-effective and sustainable alternative to soymeal and fishmeal.",
+      "website": "entocycle.com",
+      "employees": "37",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Formo",
+      "description": "Formo is Europe\u2019s first cellular agriculture company developing animal-free dairy products using real, nature-identical milk proteins derived from precision fermentation.",
+      "website": "formo.bio",
+      "employees": "100",
+      "active_jobs": "7"
+    },
+    {
+      "name": "HigherSteaks",
+      "description": "HigherSteaks is about providing with that juicy, tender, and delicious meat they love but without harming their health, planet, and animals. Using state-of-the-art cell culture techniques, a small sample of cells from an animal will be expanded by feeding these cells a rich and animal-free growth media. When these cells have grown we can then use different methods in order to form the desired meat product. Their technologies focus on the end-to-end solution and innovating in bioprocess engineering, biomaterials, and in-process monitoring. HigherSteaks was founded in 2017 and is headquartered in London, England, United Kingdom.",
+      "website": "highersteaks.com",
+      "employees": "64",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Impossible Foods",
+      "description": "Impossible Foods focuses on developing plant-based substitutes for meat, dairy, and fish products. It selects specific proteins and nutrients from greens, seeds, and grains to recreate the experience of meats and dairy products. Founded by Patrick Brown and Monte Casino in 2011, Impossible Foods is headquartered in Redwood City, California.",
+      "website": "impossiblefoods.com",
+      "employees": "682",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Maui Nui Venison",
+      "description": "Maui Nui Venison is sourced from Hawaii\u2019s Axis deer, harvested humanely and in the wild and combined with only a small handful of wholesome ingredients. USDA inspected, free of gluten, MSG and nitrates, and packed with protein; in short - Wildly Good.",
+      "website": "mauinuivenison.com",
+      "employees": "12",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Meati Foods",
+      "description": "Meati Foods is a consumer goods company that provides fungi-based meat alternatives to everyone. It focuses on using proprietary, clean technologies to provide nutrient-dense, plant-based meat alternatives that everyone can enjoy and feel good about eating every day. Meati Foods was founded in 2016 and is headquartered in Boulder, United States.",
+      "website": "meati.com",
+      "employees": "217",
+      "active_jobs": "11"
+    },
+    {
+      "name": "Minus",
+      "description": "We create delicious products through fermentation. Our product: Beanless coffee, crafted to conserve. As in: Forbes, Fast Company, NYT, Wired, TechCrunch, Food Entreprenuer Minus produces coffee using 94% less water than traditional coffee, 91% less GHG emissions, and shorter supply chains. Minus was developed by a team of coffee-obsessed, planet-loving scientists. How did they do this exactly? They subtracted the beans, kept the caffeine, and dialed up the flavor through a precise fermentation process. Minus is dangerously smooth and consciously created; even the most discerning coffee snobs won\\'t believe it\\'s beanless.",
+      "website": "shopminuscoffee.com",
+      "employees": "13",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Mission Barns",
+      "description": "Mission Barns is making the juicy, savory meats they all love in a sustainable, more efficient way. At Mission Barns, they are cultivating animal cells to sustainably grow meat without the negative impacts of intensive animal agriculture. They start with a handful of cells from select animals, grow them in a nutrient-rich environment, and harvest delicious, savory meat. Working at the convergence of biotech and food science, they\u2019re on the path to creating a more sensible food system for the world.",
+      "website": "missionbarns.com",
+      "employees": "61",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Mosa Meat",
+      "description": "Mosa Meat produces slaughter-free hamburgers. The burger is harvested from cow cells, rather than raising and slaughtering a whole animal. By growing meat naturally from cells, Mosa Meat strives to accelerate the transition to a truly sustainable global food system.",
+      "website": "mosameat.com",
+      "employees": "160",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Motif FoodWorks",
+      "description": "Motif develops plant-based food products designed to produce healthy food using genetic engineering and fermentation. Their food technologies enable CPG companies to develop plant-based alternatives that have the same meaty taste, appearance, and texture as their animal counterparts. They offer bioprocessing services, finished products, and food services.",
+      "website": "madewithmotif.com",
+      "employees": "50",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Nature\u2019s Fynd",
+      "description": "Nature\u2019s Fynd is a food company producing a protein from a microbe discovered in the geothermal springs. The company\\'s mission is to create foods that both nourish people and the planet. Its revolutionary fermentation technology grows protein using a fraction of the land and water resources required by traditional agriculture. Nature\u2019s Fynd was founded in 2012 and is headquartered in Chicago, Illinois.",
+      "website": "naturesfynd.com",
+      "employees": "154",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Neutral",
+      "description": "Neutral is a carbon-neutral food company that builds a sustainable carbon-neutral food ecosystem starting with milk and a half and half. The company was founded in 2018 and is based in Portland, OR.",
+      "website": "eatneutral.com",
+      "employees": "25",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Nobell Foods",
+      "description": "Alpine Roads unlocks the power of plants to create the next generation of animal-based food substitutes.",
+      "website": "nobellfoods.com",
+      "employees": "66",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Novel Farms, Inc.",
+      "description": "Industrial animal agriculture has detrimental impacts on the environment, public health, and animal welfare. Cultivated meat is a sustainable solution, but challenges arise in terms of cost and texture. Novel Farms produces scalable scaffolds that can significantly reduce production costs, enabling cultivated meat commercialization at price parity with conventional meat.",
+      "website": "novelfarms.co",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "OnePointOne",
+      "description": "OnePointOne is a developer of an automated indoor farming platform that supplies fresh food and technology to retail and beyond. It automates the vertical farming process to fill the globally widening gap between supply and demand for fresh produce. With a sophisticated, proprietary, and competitively-distinct combination of Plant Science, Robotics, Farming, and Machine Learning technologies, OPO\\'s automated farming platform will support the cultivation requirements of dozens of industries. Its rapidly growing first-class team is fervently committed to building a farming platform that has the potential to conquer global issues of malnutrition and agricultural sustainability. It was founded in 2017 and is based in San Jose, California.",
+      "website": "onepointone.com",
+      "employees": "88",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Planet FWD",
+      "description": "Planet FWD is the leading decarbonization platform for the consumer industry. Launched first for Food and Beverage companies, Planet FWD\u2019s platform and team of climate scientists empowers consumer companies to reach their climate goals by helping them measure and reduce their carbon footprint. Leveraging the food & beverage industry\u2019s most in-depth Life Cycle Assessment data and robust Scope 3 emissions modeling capabilities, customers can harness an understanding of their climate impacts and unlock a clear path to Net Zero. Planet FWD\u2019s software platform is the only solution that can analyze how a company can reduce emissions by making specific changes to their ingredients, packaging, suppliers and farm-level practices.",
+      "website": "planetfwd.com",
+      "employees": "43",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Plenty",
+      "description": "Plenty is a vertical farming company that brings fresh, clean, and craveable produce to people everywhere. Plenty\\'s vertical farms use 99% less water than conventional fields, are pesticide-free, and produce zero fertilizer runoff. Plenty is a collective of growers, innovators, engineers, scientists, artists, foodies, and plant romantics working to improve the health of plants, people, and the planet. It was founded in 2014 and headquartered in South San Francisco, California.",
+      "website": "plenty.ag",
+      "employees": "450",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Rubi Laboratories",
+      "description": "We turn carbon emissions into natural carbon-negative textiles. Rubi is building a future where human prosperity and economic growth are planet-positive. We\\'re unlocking CO2 as a natural resource for making critical materials, cost competitively, with our cell-free enzymatic technology platform. We\\'re producing carbon-negative textiles for the fashion industry first. We make the same textiles apparel brands already use today, for half the cost of cotton at scale, and completely carbon-negative and water- and land-neutral. Our company is built on high-quality science, a focus on impact, honesty & transparency, and a sense of purpose in everything we do. We\\'re backed by leading investors including Talis Capital, Plug and Play, Incite.org, Necessary Ventures, and Climactic VC.",
+      "website": "rubi.earth",
+      "employees": "35",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Tender Food",
+      "description": "Tender Food is a plant-based and cultured meat company in the Greater Boston Area, a hub for biotech research and innovation. It specializes in creating alternative meats with authentic textures.",
+      "website": "tenderfood.com",
+      "employees": "41",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Tezza",
+      "description": "We discover novel categories of fermented foods like cheese made from sustainable plants. We do this because climate change is about to sit on all of human civilization. But realistically we\\'re probably just going to get nachos out of this.",
+      "website": "tezzafoods.com",
+      "employees": "30",
+      "active_jobs": "8"
+    },
+    {
+      "name": "Tomorrow Farms",
+      "description": "Tomorrow Farms is a food technology company on a mission to fuel the sustainable food revolution with irresistible food and beverage brands.",
+      "website": "tomorrowfarms.co",
+      "employees": "19",
+      "active_jobs": "0"
+    },
+    {
+      "name": "VELOZBIO",
+      "description": "Veloz Bio is a biotechnology company that uses molecular farming to create and manufacture animal-free and alternative proteins. The company was founded in 2021 and is based in Monterrey, Nuevo Le\u00f3n.",
+      "website": "velozbio.com",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Xilinat",
+      "description": "Xilinat manufactures natural sweeteners from xylitol using a natural and environmentally friendly process. Customers will not notice the difference when using Xilinat to sweeten favorite desserts, drinks, and foods. Xilinat aims to reduce health problems associated with excessive sugar consumption while also providing consumers with a healthy and delicious alternative.",
+      "website": "xilinat.com",
+      "employees": "8",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Zero Acre Farms",
+      "description": "Zero Acre Farms is fixing one of the most problematic parts of our food system by introducing Zero Acre oil, a cleaner all-purpose cooking oil - with even more good fats than olive oil, a neutral taste, high smoke point and a smaller environmental footprint. Foods that are clean-fried in Zero Acre oil (not seed oils) have a delicious crisp taste with less greasiness, more heart-healthy fats and the lowest environmental impact compared to other cooking oils. Finally, restaurant and home kitchens have a replacement that offers the same versatility as vegetable oils without the health and environmental drawbacks. As a team of food lovers, nutritionists, medical professionals, scientists and Michelin-starred chefs, we\u2019re banding together to save our health and planet without sacrificing the foods we love.",
+      "website": "zeroacre.com",
+      "employees": "47",
+      "active_jobs": "0"
+    }
+  ],
+  "Refrigerant Management": [
+    {
+      "name": "Artyc",
+      "description": "Cost reducing, zero emissions, active cooling containers for cold chain logistics",
+      "website": "shipartyc.com",
+      "employees": "16",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Calion Technologies",
+      "description": "Refrigerants are on track to account for 25%% of global warming.Calion is unleashing the power of ionocaloric cooling to eliminate them.",
+      "website": "calion.tech",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Rebound Technologies",
+      "description": "Rebound has developed a freeze point suppression cycle that offers a 3-in-1 solution, combining agile freezing, unprecedented humidity control and demand response capabilities for frozen food processors and cold chain logistics companies. Rebound\u2019s IcePoint meets varying cooling demands while simultaneously optimizing moisture levels equating to improved system performance, increased productivity, lower demand charges and excellent return on investment. Rebound\u2019s IcePoint thermal storage capability has already proven to be the cheapest battery on the planet and will support decarbonization of the grid via year-round thermal storage and flexible demand. IcePoint thermal storage capability is supported via the Inflation Reduction Act and utility rebate programs. Rebound Technologies has received funding from the National Science Foundation, The U.S. Department of Energy, Clean Energy Ventures, Skyview Ventures, and others. Rebound commissioned its first full-scale commercial installation in 2023 and has demonstrated excellent performance with the world\u2019s largest cold chain warehouse and distribution center, owner/operator \u2013 Lineage Logistics.",
+      "website": "rebound-tech.com",
+      "employees": "12",
       "active_jobs": "0"
     }
   ],
@@ -3357,6 +3383,730 @@ const mapping = {
       "active_jobs": "3"
     }
   ],
+  "Nuclear Power": [
+    {
+      "name": "Avalanche Energy",
+      "description": "Avalanche is a VC-backed, fusion energy start-up based in Seattle, WA. We are designing, testing and building micro fusion reactors that you can hold in your hands. Our modular reactor will be capable of being combined however needed to provide clean energy and decarbonize the planet. Our unique approach enables rapid iterations of build, test, fix design cycles.",
+      "website": "avalanchefusion.com",
+      "employees": "33",
+      "active_jobs": "10"
+    },
+    {
+      "name": "BHI Energy",
+      "description": "BHI Energy has provided a variety of on-site specialty maintenance, radiation protection and staffing services to the power-generation industry. BHI\u2019s business model is proven to build longstanding relationships with customers through the alignment of operating objectives and the ability to help customers effectively manage and service their assets across power generation, oil & gas, and electricity transmission and distribution sectors.",
+      "website": "bhienergy.com",
+      "employees": "1755",
+      "active_jobs": "51"
+    },
+    {
+      "name": "Commonwealth Fusion Systems",
+      "description": "Commonwealth Fusion Systems (CFS) has the fastest, lowest cost path to commercial fusion energy. CFS is collaborating with MIT to leverage decades of research combined with new groundbreaking high-temperature superconducting (HTS) magnet technology. HTS magnets will enable compact fusion power plants that can be constructed faster and at lower cost. CFS is now building SPARC, the world\\'s first commercially relevant, net energy fusion demonstration device. SPARC will pave the way for the first fusion power plant, ARC, that will produce power on the grid. The ultimate mission is to deploy fusion power plants to meet global decarbonization goals as fast as possible. CFS has assembled a team of leaders in tough tech, fusion science, and manufacturing with a track record of rapid execution. Supported by the world\u2019s leading investors, CFS is uniquely positioned to deliver limitless, clean, fusion power to combat climate change.",
+      "website": "cfs.energy",
+      "employees": "541",
+      "active_jobs": "100"
+    },
+    {
+      "name": "Marathon Fusion",
+      "description": "Marathon Fusion designs, engineers, and scales next-generation fuel-processing technologies to enable the deployment and scale-up of fusion power plants.",
+      "website": "marathonfusion.com",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Radiant",
+      "description": "Radiant is a clean energy startup building a nuclear microreactor. A climate-friendly alternative to diesel generators, Radiant\\'s Kaleidos 1MW microreactor will be the world\\'s first portable, zero-emissions power source that works anywhere. We plan to test our development reactor by 2026 and if successful, it will be the first new commercial reactor design to achieve a fueled test in over 50 years. Our microreactor can bring power to remote parts of the world and provide backup power for life-saving applications in hospitals or disaster-relief scenarios.",
+      "website": "radiantnuclear.com",
+      "employees": "67",
+      "active_jobs": "15"
+    },
+    {
+      "name": "Thea Energy",
+      "description": "Thea Energy (formerly Princeton Stellarators) was founded in 2022 with a focus on leveraging recent breakthroughs in stellarator physics and engineering to create a faster, simpler approach to commercializing fusion energy. Thea Energy is reinventing the stellarator using computer-controlled arrays of planar coils and replacing the intricate, complex modular magnets required in all other proposed stellarator architectures. Stellarators are inherently steady-state, stable magnetic configurations that eliminate potential disruptions, making it an optimal pilot plant architecture. Thea Energy is building off foundational research and technology development that it spun out of Princeton University and Princeton Plasma Physics Laboratory, where the stellarator was first imagined in 1951. Thea Energy\\'s proprietary breakthroughs have now enabled systems to be simpler and more practical than previously possible resulting in a system design that can scale to long-term commercial system operation and maintenance.",
+      "website": "thea.energy",
+      "employees": "40",
+      "active_jobs": "22"
+    },
+    {
+      "name": "Transmutex",
+      "description": "Based on the innovative combination of particle accelerators and fuel based on existing long-lived radioactive waste, Transmutex is developing a breakthrough energy process that will be intrinsically safe, will reduce the stockpile of long-lived waste, is resistant to military proliferation, and will be cost competitive.",
+      "website": "transmutex.com",
+      "employees": "29",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Xcimer Energy",
+      "description": "Xcimer Energy offers a laser-driven fusion to provide cheap, abundant, and carbon-free energy. It is used to transform the energy marketplace that integrates low-cost excimer laser technology with the HYLIFE reaction chamber concept to design an Inertial Fusion Energy (IFE) system. This system overcomes long-standing obstacles to viable fusion power. The company was founded in 2021 and is headquartered in Redwood City,, California.",
+      "website": "xcimer.net",
+      "employees": "24",
+      "active_jobs": "12"
+    },
+    {
+      "name": "Zap Energy",
+      "description": "Zap Energy\\'s fusion reactor stabilizes plasma using sheared flows rather than magnetic fields. Driving electric current through the flow creates the magnetic field, which confines and compresses the plasma. The higher the current, the greater the pressure and density in the plasma. Zap Energy\\'s reactor is the least expensive, most compact, most scalable solution with the shortest path to commercially viable fusion.",
+      "website": "zapenergy.com",
+      "employees": "125",
+      "active_jobs": "12"
+    }
+  ],
+  "Macroalgae Protection and Restoration": [
+    {
+      "name": "Banyu Carbon",
+      "description": "Banyu Carbon focuses on developing a novel photocatalytic approach to marine carbon dioxide removal. It was founded in 2022 and is headquartered in Seattle, Washington.",
+      "website": "banyucarbon.com",
+      "employees": "6",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Brilliant Planet",
+      "description": "Brilliant Planet is unlocking the power of algae as an affordable method of permanently and quantifiably sequestering carbon at the gigaton scale. The company\\'s innovative process enables vast quantities of microalgae to grow in open-air pond-based systems on coastal desert land.",
+      "website": "brilliantplanet.com",
+      "employees": "46",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Ebb Carbon",
+      "description": "Ebb Carbon is working on a reverse electrochemical ocean deacidification process that will capture CO2 from the atmosphere. The company was established in 2021 and is based in San Carlos, California.",
+      "website": "ebbcarbon.com",
+      "employees": "37",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Sofar Ocean Technologies",
+      "description": "Sofar Ocean is a build accessible ocean sensing and exploration tools for ocean enthusiasts, industry, and conservation. The company was founded in 2016 and is based in San Francisco, California, United States.",
+      "website": "sofarocean.com",
+      "employees": "90",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Vesta",
+      "description": "Harnessing the power of the oceans to remove excess CO\u2082 from the atmosphere.",
+      "website": "vesta.earth",
+      "employees": "52",
+      "active_jobs": "5"
+    }
+  ],
+  "Geothermal Power": [
+    {
+      "name": "Baseload Capital",
+      "description": "Baseload Capital is a Specialized Investment Entity investing in Heat Power. They work globally with the aim to give Heat Power Operators the financial tools to build and operate renewable heat power plants.",
+      "website": "baseloadcap.com",
+      "employees": "20",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Bedrock Energy",
+      "description": "Our mission is to transform the heating & cooling of buildings, using geothermal energy to radically reduce costs for people and the environment. Bedrock is building autonomous drilling technology and advanced subsurface simulation software to enable widespread, affordable, and accessible installations of geothermal heating & cooling. Our vision is to decarbonize buildings everywhere.",
+      "website": "bedrockenergy.com",
+      "employees": "16",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Dandelion Energy",
+      "description": "Dandelion Energy offers affordable geothermal heating and cooling installations. Dandelion Energy\\'s home geothermal system replaces your home\u2019s existing air conditioning and heating equipment with a powerful heat pump and safe, underground pipes that move heat between the earth and home. Kathleen Hannun and Rajeez Quazi founded it in 2017, with its headquarters in Palo Alto in California.",
+      "website": "dandelionenergy.com",
+      "employees": "139",
+      "active_jobs": "8"
+    },
+    {
+      "name": "Fervo Energy",
+      "description": "Fervo Energy provides 24/7 carbon-free energy through the development of next-generation geothermal power. Fervo\u2019s mission is to leverage innovation in geoscience to accelerate the world\u2019s transition to sustainable energy. Geothermal has a major role to play in the future electric grid, and Fervo\u2019s key advancements in drilling and subsurface analytics bring a full suite of modern technology to make geothermal cost competitive.",
+      "website": "fervoenergy.com",
+      "employees": "78",
+      "active_jobs": "10"
+    },
+    {
+      "name": "Zanskar",
+      "description": "Zanskar develops a predictive platform informed by massive data for discovering previously unknown geothermal resources. Its platform includes subsurface characterization technology and massive data sets, enhancing and reducing risk in the exploration of geothermal resources.",
+      "website": "zanskar.us",
+      "employees": "25",
+      "active_jobs": "9"
+    }
+  ],
+  "Recycled Plastics": [
+    {
+      "name": "Better Packaging Co.",
+      "description": "Industry leading suppliers of eco friendly packaging, sustainable packaging, compostable packaging, mailers, gloves and much more. We believe waste is a design flaw and are working hard toward a zero waste world.",
+      "website": "betterpackaging.com",
+      "employees": "17",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Cirplus",
+      "description": "Cirplus is a global marketplace that develops a digital trading platform for recyclates and plastic waste feedstock. The company\\'s platform uses AI-powered algorithms and blockchain technology to close the loop for plastics, providing a one-stop shop for finding, negotiating, contracting, shipping, insuring, and paying for recyclates and plastic waste trades across the globe.",
+      "website": "cirplus.com",
+      "employees": "14",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Cypris Materials",
+      "description": "Cypris Materials is developing a new generation of sustainable color that broadens the color gamut while simplifying manufacturing, application and formulation. Cypris Materials, Inc. has harnessed the transformative power of structural color - a method of producing color that has evolved over millions of years. Cypris Materials\\' structural coating platform helps industry-leading companies and individuals redefine the capabilities of color. Our polymers, backed by an extensive patent portfolio, unlock exclusive colors and effects that can only be achieved through our paint. Cypris\u2019 materials enable a new paradigm: the first safe and sustainable structural color palette, free of toxic pigments and dyes.",
+      "website": "cyprismaterials.com",
+      "employees": "9",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Epoch Biodesign",
+      "description": "Epoch is the Total BioDesign company developing natural solutions to unnatural problems. We are designing and scaling the first enzymes capable of transforming plastics into low-carbon, circular chemicals.",
+      "website": "epochbiodesign.com",
+      "employees": "25",
+      "active_jobs": "0"
+    },
+    {
+      "name": "HILOS",
+      "description": "HILOS delivers zero-waste, on-demand product. By unifying design, development, and manufacturing within purpose-built digital molds, HILOS is pioneering personalized product, made locally and sustainably. To see what they\\'ve already done in footwear, check out www.hilos.co",
+      "website": "hilos.co",
+      "employees": "21",
+      "active_jobs": "4"
+    },
+    {
+      "name": "MACROCYCLE",
+      "description": "MacroCycle, we revive end-of-life plastics. We will protect our world through our circular, sustainable, zero-carbon plastic upcycling process. With leading experts in polymer chemistry and plastics engineering from MIT, ETH Zurich and Politecnico di Milano on our team, we take plastic waste in the form of bottles, food trays and polyester textiles, and produce our first product, virgin-grade mPET (MacroCycle-PET) resin. All with zero carbon emissions, through MacroCycle\\'s net-zero and efficient low energy process.",
+      "website": "macrocycle.tech",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Matter.",
+      "description": "Plastic-free water and valuable plastics. We have two central business goals: to stop microplastics entering the environment and to make them valuable for safe reuse. Matter. filters capture the plastic pollution entering our wastewater, not only ensuring life-sustaining clean water for everyone, but also transforming microfibres from a waste to a valuable resource. Matter. filters capture plastic micropollutants from the wastewater systems in homes, factories and utilities, improving water quality and reducing corporate risk. Altogether, these trillions of fibres are aggregated for re-use, turning them into a valuable resource that can be re-used in responsibly made products. Without Matter filters, the world\u2019s fresh and saltwater systems will become increasingly toxic, and ultimately, unable to sustain life.",
+      "website": "matter.industries",
+      "employees": "29",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Novoloop",
+      "description": "At Novoloop, we envision a truly circular world without waste, where materials are the building blocks for new things. So instead of ending up in a landfill, hard-to-recycle plastics are remade into something better, something beautiful: an infinite loop of possibility. We call it Lifecycling\u2122, and it\u2019s our platform that uses almost any plastic waste to make performance materials that are molecularly identical to conventional products. We want to create a wonderful world of endless possibilities \u2013 especially for plastics that have no future today.",
+      "website": "novoloop.com",
+      "employees": "32",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Thousand Fell",
+      "description": "Thousand Fell is a sustainably sourced and recyclable line of sneakers. Our core product is made of twelve biodegradable or recyclable \\'ingredients\\' including aloe vera, castor bean, coconut, sugar cane, palm leaf, and recycled water bottles. We are also launching subscription refurbishment kits in order to extend product life (the \u201ccobbler model\u201d for sneakers through the DTC lens). Finally we are building a backend digital closet to create transparency around product and material circularity, while incentivizing customers to return and recycle their shoes.",
+      "website": "thousandfell.com",
+      "employees": "12",
+      "active_jobs": "0"
+    }
+  ],
+  "Bicycle Infrastructure": [
+    {
+      "name": "Biki",
+      "description": "Biki is Honolulu\u2019s new transportation system, brought to you by Bikeshare Hawaii. Launched in late June 2017, Biki has 1,000 bikes at 130 conveniently located self-service \u201cBiki Stops\u201d from Chinatown to Diamond Head. Biki bikes are designed to be easy to maneuver, comfortable and fun to ride, while accommodating riders of all sizes. Honolulu is the first city in the world to have this new generation of bike.",
+      "website": "gobiki.org",
+      "employees": "3",
+      "active_jobs": "0"
+    },
+    {
+      "name": "N\u00dcWIEL GmbH",
+      "description": "N\u00dcWIEL provides innovative solutions for the last mile logistics to move goods in a sustainable and cost-efficient way. N\u00dcWIEL\\'s eTrailer is the world\\'s first electric trailer with patented technology to use with any (e)bike and to walk in pedestrian zones.",
+      "website": "nuwiel.com",
+      "employees": "23",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Oonee",
+      "description": "Oonee builds, finances, and operates automated bike parking infrastructure that humanizes public spaces. It is driven on changing the mobility game in cities by building a network of smart, modular, pods that provide secure parking for bikes and scooters on the interior while providing public space amenities on the exterior. The company was founded in 2017 and is headquartered in Brooklyn, New York.",
+      "website": "ooneepod.com",
+      "employees": "10",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Ride Report",
+      "description": "Ride Report offers a comprehensive toolset for cities to manage emerging mobility services.",
+      "website": "ridereport.com",
+      "employees": "9",
+      "active_jobs": "0"
+    }
+  ],
+  "Building Retrofitting": [
+    {
+      "name": "BlocPower",
+      "description": "BlocPower is an energy technology startup that develops healthier, greener, and smarter buildings. It leverages advanced technologies, innovative electrification equipment, and structured finance to provide green heating and cooling to urban buildings. The company also connects government agencies, utilities, building owners, and smart equipment providers to identify unhealthy, energy-wasting buildings to retrofit. Its propriety machine learning platform then determines which retrofits will produce the most energy savings at scale and uses the cloud and IoT to gather data and remotely monitor energy consumption. Since its founding, BlocPower has completed energy projects in nearly 1,000 buildings and delivers results ahead of schedule and under budget. It utilizes its proprietary software for analysis, leasing, project management, and monitoring of urban clean energy projects and its customers are saving 20-40% on their energy bills each year. The company is backed by top investors, including Kapor Capital, Andreessen Horowitz, American Family Insurance Institute for Corporate and Social Impact, AccelR8, The Goldman Sachs Urban Investment Group, Elemental Excelerator, CityRock Venture Partners, The Schmidt Family Foundation, and Salesforce Ventures. Donnel Baird and Morris Cox co-founded the company in Brooklyn, New York in 2014.",
+      "website": "blocpower.io",
+      "employees": "158",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Cambio",
+      "description": "Cambio is a software that enables commercial landlords and corporate tenants to reach their net zero goals by decarbonizing their facilities. They assist their clients in measuring their facilities\\' carbon footprints and identifying high-impact retrofits that produce both cost savings and decarbonization.",
+      "website": "cambio.ai",
+      "employees": "15",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Fram Energy",
+      "description": "Fram Energy is going after the huge opportunity of bringing energy retrofits to rental homes, starting with the multifamily segment. \n\nFram\\'s platform helps property owners identify the most profitable retrofits for their properties and captures energy savings for them via tenant billing infrastructure, solving split incentives through a win-win-win model.",
+      "website": "framenergy.com",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Kelvin",
+      "description": "Kelvin was founded in New York City in 2013 by Marshall Cox, a material science engineer with a Masters from Cornell University and a PhD in electrical engineering from Columbia University. The inspiration for the company came from Marshal\u2019s twin brother, who complained about the heat in his apartment while staying with him for a month. Marshal came up with a solution that eventually became the basis of Radiator Labs, the original name of the company. Unknowingly, from that day forward, he set out on a mission to decarbonize legacy building\u2019s heating and cooling systems. After conducting several successful pilots, Radiator Labs launched a full-scale commercial deployment of the Cozy system in 2016. The Cozy is a retrofit device that encloses radiators and controls their heat output. Radiator Labs participated in studies with NYSERDA and Con Edison, consistently demonstrating savings on heating bills between 25% and 40% with the Cozy system.",
+      "website": "kel.vin",
+      "employees": "31",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Lun",
+      "description": "Decarbonising homes. Faster.",
+      "website": "lun.energy",
+      "employees": "30",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Pono Home",
+      "description": "Pono Home offers green home consulting services for homeowners and renters. It offers its clients with personalized, in-home assessments: vampire power assessment, lighting assessment, appliance audit, and water assessment and leak check. The company provides a free audit of a customer\u2019s home, assessing various aspects of kitchen, bathrooms, living rooms, and bedrooms. It then assesses major appliances, on site, for potential improvements, maintenance or upgrades. Customers get a free report detailing their opportunities for improvements. Its maintenance services include leaning refrigerator condenser coils, setting energy saving settings in dishwashers, sealing drafts in windows and doors, pumping up car tires, and more. Pono Home was founded in 2013 by [Scott Cooney](https://www.crunchbase.com/person/scott-cooney#/entity).",
+      "website": "ponohome.com",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Zero Homes",
+      "description": "Zero is a marketplace for home electrification projects that offers homeowners a platform for project planning, acquisition, and scheduling.",
+      "website": "zerohomes.io",
+      "employees": "8",
+      "active_jobs": "1"
+    },
+    {
+      "name": "ecoworks",
+      "description": "ecoworks, uses industrial pre-fabrication, digital processes, and highly efficient energy systems to modernize multi-family houses with up to four floors within a few weeks.",
+      "website": "ecoworks.tech",
+      "employees": "165",
+      "active_jobs": "5"
+    }
+  ],
+  "High-Efficiency Heat Pumps": [
+    {
+      "name": "Blue Frontier",
+      "description": "Blue Frontier has developed a truly smart air conditioning system. We change the concentration of a salt-solution to create cooling with minimal energy requirements. This means that the air conditioner will require less than half the electricity than a conventional system. Also, our A/C does not have to consume electricity when its working, allowing us to move electricity consumption to non-peak periods, when electricity is cheapest and produced by renewable energy. While saving energy is critical, we are also a better A/C. With our system we can decouple humidity control form air temperature control, a feat difficult to accomplish with your conventional A/C technology. This, coupled with smart distributed control systems, ensures that your and all our customers will never feel too hot or too cold, but just right all the time.",
+      "website": "bluefrontierac.com",
+      "employees": "18",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Gradient",
+      "description": "Gradient\u2019s mission is to cool the world by transforming every home to be more comfortable and healthy for the people who inhabit it \u2014 without compromising the environment. Today, heating and cooling equipment emits more greenhouse gas emissions than the entire transportation sector, and expansion in the use of cooling is projected to double theseemissions in the next 30 years. However, comfortable buildings are critical for health and productivity, especially among communities that are vulnerable to the effects of climate change. Gradient\u2019s vision is a future where everyone has access to comfortable buildings that are fully decarbonized. Our launch product is a direct-to-consumer high-efficiency and low-carbon heat pump.",
+      "website": "gradientcomfort.com",
+      "employees": "65",
+      "active_jobs": "8"
+    },
+    {
+      "name": "Heaten",
+      "description": "Heaten is an industrial start-up, tackling one of the most difficult problems for numerous industries, namely, to accelerate the electrification of heat with the prospect of deep-decarbonization, while providing viable roadmaps, both technically and economically to rapidly de-carbonize industrial heating processes. Heaten is a start-up with an 8 years R&D history in heat-to-power (Organic Ranking Cycle) and power-to-heat machines (heat pump). Our technology platform and knowledge are leading the efforts to deliver process temperatures of currently realized 165 degrees Celsius which covers 30% of the energy demand of all industrial heating processes, equivalent to a \u20ac39billion TAM in the EU-28 market only. Heaten\\'s technology platform can achieve up to 400 degrees Celsius (R&D roadmap). Heaten AS has gone through the full cycle of R&D, prototyping, engineering, and design to successfully deliver 200kW heat pumps and industrial equipment to a customer. We are now looking to scaling the existing platform to meet industry needs and staying ahead of the competition by leading R&D and secure IP into medium-temperature process heat.",
+      "website": "heaten.com",
+      "employees": "24",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Quilt",
+      "description": "We\u2019re building a sleek and intelligent ductless heat pump system for the home. Quilt offers AI-driven efficiency and room-by-room control\u2014all while leaving fossil fuels behind.",
+      "website": "quilt.com",
+      "employees": "30",
+      "active_jobs": "12"
+    },
+    {
+      "name": "Transaera",
+      "description": "Transaera is developing a new class of affordable, energy-efficient,environmentally friendly cooling systems.",
+      "website": "transaera.com",
+      "employees": "16",
+      "active_jobs": "0"
+    }
+  ],
+  "Improved Cattle Feed": [
+    {
+      "name": "Blue Ocean Barns",
+      "description": "Blue Ocean Barns is on a mission to solve the global climate impact of cattle by working with farmers and food companies to radically scale the production and use of our unique feed ingredient.",
+      "website": "blueoceanbarns.com",
+      "employees": "30",
+      "active_jobs": "3"
+    },
+    {
+      "name": "ClearFlame Engines",
+      "description": "ClearFlame decarbonizes heavy-duty engines while reducing operating costs, to protect the future from the challenge of diesel fuel. The company\\'s technology enables heavy-duty engine manufacturers to produce engines at a lower cost, while simultaneously providing their customers with higher performance and fuel cost savings. Founded in 2016 by BJ Johnson and Julie Blumreiter, ClearFlame Engines is headquartered in Woodridge, Illinois.",
+      "website": "clearflameengines.com",
+      "employees": "49",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Hoofprint Biome",
+      "description": "Hoofprint Biome is developing probiotics that improve cattle health and digestive efficiency while eliminating methane production.",
+      "website": "hoofprintbiome.com",
+      "employees": "2",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Mootral",
+      "description": "Mootral is a Swiss AgriTech company that develops innovative carbon reduction solutions for companies and governments. Its first solution is a natural feed supplement that significantly reduces methane emissions from ruminants. Mootral is based on a proprietary combination of active compounds from garlic and flavonoids derived from citrus. Its research shows a nearly complete inhibition of emitted methane in vitro that reaches up to 38% reduction under real farm conditions.",
+      "website": "mootral.com",
+      "employees": "40",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Pasture Biosciences",
+      "description": "We\\'re building a vaccine that combats methane-producing microbes in a cow\u2019s gut, reducing a major accelerant of climate change.",
+      "website": "pasturebio.com",
+      "active_jobs": "1"
+    }
+  ],
+  "Methane Digesters": [
+    {
+      "name": "Blue World Technologies",
+      "description": "Blue World Technologies is an ambitious and visionary developer and manufacturer of methanol fuel cell components and systems for the automotive and heavy-duty transportation sectors and stationary applications around the world. The fuel cells act as a green alternative to combustion engines and diesel generators. Blue World Technologies was established on January 1, 2018 by Mads Friis Jensen, Mads Bang, and Anders Korsgaard in Aalborg, Nordjylland.",
+      "website": "blue.world",
+      "employees": "106",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Cambrian Innovation",
+      "description": "Cambrian Innovation is developing a portfolio of environmental solutions that help industrial, agricultural, and government customers save money while better managing and re-using their resources. Fueled initially by a 2006 NASA grant to explore how recent advances in bioelectricity can enhance water management in space, Cambrian has developed, scaled, and validated a pipeline of solutions that can recover resources from wastewater, eliminate energy input for wastewater treatment, radically reduce the cost of nitrate nitrogen treatment, and help agricultural operations monitoring their inputs more easily and efficiently.",
+      "website": "cambrianinnovation.com",
+      "employees": "32",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Liquium",
+      "description": "We are developing & scaling a new way to make green ammonia. Liquium\u2019s technology will enable new ammonia plants to be significantly more cost effective, energy efficient, and decentralized to have stronger alignment with renewable energy generation and support the maritime sector as the next clean liquid fuel",
+      "website": "liquium.nz",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Microvi Biotechnologies",
+      "description": "Microvi is a biotechnology company that discovers, develops, manufactures, and commercializes innovative biocatalytic solutions in the water, energy, and chemical industries. The company\u2019s core discipline is its MicroNiche Engineering platform technology, where the microenvironment of biological systems is precisely designed to enhance microbial life and optimize metabolic performance. Microvi\u2019s MicroNiche Engineering enables cost-effective economics, a smaller footprint and increased productivity compared to current methods. It seeks to develop key partnerships and alliances with industry leaders that will leverage the cutting-edge solutions that Microvi has developed.",
+      "website": "microvi.com",
+      "employees": "17",
+      "active_jobs": "4"
+    }
+  ],
+  "Efficient Ocean Shipping": [
+    {
+      "name": "Boundary Layer Technologies",
+      "description": "Boundary Layer Technologies is a startup that builds high-speed container ships using hydrofoil technology. It was founded in 2018.",
+      "website": "boundarylayer.tech",
+      "employees": "6",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Fleet Zero",
+      "description": "Fleetzero is building battery-electric ships to decarbonize ocean freight for less than it costs today!",
+      "website": "fleetzero.com",
+      "employees": "14",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Navier",
+      "description": "Navier\\'s goal is to build a new kind of watercraft that cuts the running cost of a marine vessel.",
+      "website": "navierboat.com",
+      "employees": "20",
+      "active_jobs": "4"
+    },
+    {
+      "name": "SailPlan",
+      "description": "At SailPlan, we dream of and deliver a better, cleaner future for maritime transportation. SailPlan is an emissions optimization platform that helps ship operators benchmark, optimize, and report fleet emissions with real-time data. We work with some of the most important names in shipping to deliver a cleaner future for the world and get to provable NetZero.",
+      "website": "sailplan.com",
+      "employees": "28",
+      "active_jobs": "7"
+    },
+    {
+      "name": "Seabound",
+      "description": "Shipping accounts for 3% of global CO2 emissions, but has limited existing solutions to decarbonize. Alternative power sources such as hydrogen, ammonia, and batteries are still 10-20 years away from being feasible for large cargo ships.\n\nSeabound is piloting patent-pending technology that captures CO2 from the ship\\'s exhaust gas using lime (CaO). We\\'re developing the only way for shipowners to reduce up to 95% of their CO2 emissions and comply with upcoming global regulations.",
+      "website": "seabound.co",
+      "employees": "9",
+      "active_jobs": "6"
+    },
+    {
+      "name": "TradeLanes",
+      "description": "TradeLanes is a global trade market network that connects all trade participants into a single document chain over the lifecycle of a container shipment. This \"single source of truth\" eliminates document error rates, removes 10 days from the supply chain, saves 30-80% on trade management and facilitates trade finance payments (i.e. - letters of credit) up to 30 days faster.\n\nWe automate, digitize, and simplify trade execution management thereby minimizing errors, phone calls, emails, and lowering risk.\n\nJust a small sample of the value that our platform provides:\n* Automates the tasks required to export - we eliminate the need for Excel to track tasks. \n* Manage document generation - all required docs are automatically generated.\n* Eliminate duplicative data entry - we integrate with ERP and other systems.\n* Combine any and all multiple systems into a collaborative \"trade room\" - providing a single source of truth for the supply chain.\n\nBy automating the export process, companies:\n* Instill confidence in their customers that your shipments arrive on time\n* Instill confidence in their sales team that they can sell more\n* Scale with their export business to meet rapid growth",
+      "website": "tradelanes.co",
+      "employees": "13",
+      "active_jobs": "8"
+    }
+  ],
+  "Net Zero Buildings": [
+    {
+      "name": "Cadence OneFive",
+      "description": "Cadence OneFive is a SaaS platform that makes climate-responsive construction easy for multifamily, hotel, student, and senior housing.",
+      "website": "hello.c15.io",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Helio Home",
+      "description": "Helio makes it simple for customers to transition off fossil fuels and fully electrify their homes. We are building the first online platform that designs the easiest and most cost-effective path to whole-home electrification",
+      "website": "heliohome.io",
+      "employees": "16",
+      "active_jobs": "0"
+    }
+  ],
+  "Tree Plantations (on Degraded Land)": [
+    {
+      "name": "Cambium",
+      "description": "Cambium Carbon is an early-stage social enterprise startup focused on implementing systems-level natural climate solutions centered on reforestation and urban wood reuse. They work with cities and other public and private partners to save fallen city trees from landfills, turn them into their best use, and channel revenues into planting projects.",
+      "website": "cambiumcarbon.com",
+      "employees": "19",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Living Carbon",
+      "description": "The goal of the public benefit corporation Living Carbon is to restore equilibrium to the planet\\'s metabolic process. We address this urgency by fusing cutting-edge biotechnology with plants\\' natural ability to capture and store carbon. Living Carbon is a public benefit corporation with the goal of rebalancing the planet\\'s metabolic system. In order to fulfill this need, tey combine cutting-edge biotechnology with plants\\' natural ability to capture and store carbon.",
+      "website": "livingcarbon.com",
+      "employees": "50",
+      "active_jobs": "8"
+    },
+    {
+      "name": "TerViva",
+      "description": "TerViva is an agricultural company that specializes in providing patented trees to growers and offer proprietary beans processing to create sustainable food and fuel. It utilizes patented Pongamia genetics and developed propagation techniques. TerViva was founded in 2010 and headquartered in Oakland, California.",
+      "website": "terviva.com",
+      "employees": "104",
+      "active_jobs": "1"
+    },
+    {
+      "name": "TreeCard",
+      "description": "TreeCard offers a wooden payment card that funds reforestation via the interchange fees generated. The company\\'s cards are designed with the environment in mind with only a small amount of plastic being used for the contactless chip-made from recycled plastic bottles and the rest of the card is made from FSC certified British cherry wood. TreeCard will be able to be used at any merchant (online or in-store) where Mastercard is accepted. TreeCard will also be connected to Apple Pay, Google Pay, and Samsung Pay.",
+      "website": "treecard.org",
+      "employees": "25",
+      "active_jobs": "5"
+    }
+  ],
+  "Telepresence": [
+    {
+      "name": "Canopy",
+      "description": "Working with corporations to remove 1+ gigaton of emissions from employee household energy use.",
+      "website": "canopyclimate.com",
+      "employees": "6",
+      "active_jobs": "0"
+    }
+  ],
+  "Direct Air Capture": [
+    {
+      "name": "Capture6",
+      "description": "We help businesses, governments, and communities mitigate the risks of climate change through direct air capture. We are the first in market to offer permanent million-ton direct air capture installations \u2013 solutions that are safe, permanent, to benefit people and the planet.",
+      "website": "capture6.org",
+      "employees": "28",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Carbon Engineering",
+      "description": "Founded in 2009, CE is a Canadian-based clean energy company leading the commercialization of groundbreaking technology that captures CO\u2082 directly from the atmosphere, and synthesizes it into clean, affordable transportation fuels. From a pilot plant in Squamish, B.C., CE has been removing CO\u2082 from the atmosphere since 2015 and converting it into fuels since December 2017.",
+      "website": "carbonengineering.com",
+      "employees": "151",
+      "active_jobs": "16"
+    },
+    {
+      "name": "Carbyon",
+      "description": "We are scientists and engineers with a shared dream: to tackle climate change. We deploy breakthrough technology that enables worldwide capture of CO2 from the atmosphere. It cannot wait.",
+      "website": "carbyon.com",
+      "employees": "34",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Clairity Technologies",
+      "description": "Clairity develops technology for direct air capture of carbon dioxide that is low-cost and scalable.",
+      "website": "clairitytech.com",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Heirloom",
+      "description": "Heirloom aims to remove 1 billion tons of carbon dioxide using the world\\'s most cost-effective Direct Air Capture solution, a mineralization process known as enhanced weathering.",
+      "website": "heirloomcarbon.com",
+      "employees": "128",
+      "active_jobs": "18"
+    },
+    {
+      "name": "Mission Zero",
+      "description": "Mission Zero is a DAC startup with patent-pending breakthrough technology and close the carbon cycle.",
+      "website": "missionzero.tech",
+      "employees": "23",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Unemit",
+      "description": "A company working to reverse climate change with permanent Carbon Dioxide Removal using novel Direct Air Capture technology",
+      "website": "unemit.com",
+      "employees": "3",
+      "active_jobs": "1"
+    }
+  ],
+  "Carbon Capture and Sequestration": [
+    {
+      "name": "Carbon America",
+      "description": "Carbon America transforms the carbon capture and sequestration (CCS) industry by lowering costs and rapidly increasing deployment. Carbon America is a carbon capture and sequestration developer. It is vertically integrated, nimble, and built to scale, with a multi-strategy approach to capture and sequester carbon dioxide faster, cheaper, and smarter than the competition. To achieve this, Carbon America has built a team combining world-class engineers, developers, and financiers into a vertically integrated CCS company.",
+      "website": "carbonamerica.com",
+      "employees": "72",
+      "active_jobs": "0"
+    }
+  ],
+  "Coastal Wetland Restoration": [
+    {
+      "name": "CarbonRun",
+      "description": "CarbonRun was founded and developed by Canadian environmental scientists dedicated to protecting aquatic life from the effects of pollution. Our technology increases a river\u2019s ability to capture carbon dioxide and deliver it to permanent storage in the ocean. Our safe carbon dioxide capture process is scalable, permanent, and verifiable.",
+      "website": "carbonrun.io",
+      "employees": "8",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Floodbase",
+      "description": "Floodbase is the leading flood mapping platform designed to protect the world\u2019s most climate-vulnerable communities. By harnessing global satellites, advanced science, and community intelligence, we monitor worldwide floods in near real-time and remotely analyze local flood exposure at a click of a button. Our mission is to ensure that all vulnerable governments finally access the high quality information they need to prepare for and respond to increasing catastrophes. Founded by two women at Yale and seeded by Google, Cloud to Street is being or has been used by governments and NGOs across 15 countries. We are on track to enable new flood protection and insurance for 10 million people in the next 5 years.",
+      "website": "floodbase.com",
+      "employees": "32",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Hohonu",
+      "description": "Hohonu provides precision monitoring and forecasting to help communities prepare for and respond to flooding. It uses the latest technologies in hardware, software, and data science in order to deliver reliable and accessible water level data to its customers. \"If you can\\'t measure it, you can\\'t improve it.\" The same principles its team used in the restoration of an ancient Hawaiian fishpond in He\\'eia fishpond, located in Kane\\'ohe Bay on the island of O\\'ahu, can be used to help aid in humanity\\'s fight against climate change.",
+      "website": "hohonu.io",
+      "employees": "12",
+      "active_jobs": "0"
+    }
+  ],
+  "Utility-Scale Solar Photovoltaics": [
+    {
+      "name": "Charge Robotics",
+      "description": "Charge Robotics is building robots that automate the most labor-intensive parts of solar construction.\nSolar has rapidly become the cheapest form of power generation in many regions. Demand has skyrocketed, and now the primary barrier to getting it installed is labor logistics and bandwidth.\nOur robots remove the labor bottleneck, allowing construction companies to meet the rising demand for solar, and enabling the world to switch to renewables faster.",
+      "website": "chargerobotics.com",
+      "employees": "9",
+      "active_jobs": "4"
+    },
+    {
+      "name": "CubicPV",
+      "description": "CubicPV is a solar manufacturing company that produces wafers and tandem modules. The company utilizes silicon and perovskite technologies to develop semiconductor combinations for tandem modules which lead to reductions in clean electricity costs and embedded carbon.",
+      "website": "cubicpv.com",
+      "employees": "76",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Dimensional Energy",
+      "description": "Dimensional Energy is a chemistry company pioneering artificial photosynthesis to produce environmentally responsible polymers and chemical intermediaries. Dimensional Energy is making solar fuels viable through efficient utilization and even distribution of sunlight in scalable reactor forms with novel, functionalized catalysts.",
+      "website": "dimensionalenergy.com",
+      "employees": "37",
+      "active_jobs": "6"
+    },
+    {
+      "name": "Equilibrium Energy",
+      "description": "We are building a next generation power company to create a cleaner, better world. Come join us!",
+      "website": "equilibriumenergy.com",
+      "employees": "87",
+      "active_jobs": "11"
+    },
+    {
+      "name": "Euclid",
+      "description": "Euclid Power is comprised of a team of industry-leading veterans within renewable energy project development, diligence, finance, and execution with over 3GW of PV and 3GWh of energy storage experience. We guide developers and investors through execution on projects at all stages of the project lifecycle. We offer a competitive advantage to our clients by demystifying technical and financial diligence, de-risking projects for investment, and by driving execution results through ensuring continuity throughout each respective discipline. Our market sectors include residential VPPs, commercial-industrial and utility scale solar and storage. Whether you have a small C&I portfolio or a utility scale solar plus storage project, we can help. Our services also span both development and operating portfolios, as our team has deep experience in both.",
+      "website": "euclidpower.com",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Fuse Energy",
+      "description": "Fuse is an energy supplier that offers the UK\\'s cheapest electricity tarif.",
+      "website": "fuseenergy.com",
+      "employees": "39",
+      "active_jobs": "16"
+    },
+    {
+      "name": "HST",
+      "description": "We are building a world where the way we work, move, and live is powered by clean energy. As carbon footprints expand with growing populations and rapid electrification, our digital technology is revolutionizing the way the world develops, sells,and procures clean energy. Our vision for a zero-carbon world drives us to develop software that makes the grid cleaner and more efficient. Our platform has already helped many top-tier clean energy developers assess, optimize, and build projects that deliver clean energy to power our society. Headquartered in the San Francisco Bay Area, HST\u2019s diverse team collectively brings several decades worth of clean energy and software experience. We work collaboratively to reinvent the way we decarbonize this planet with large clean energy projects.",
+      "website": "hstpowers.com",
+      "employees": "26",
+      "active_jobs": "0"
+    },
+    {
+      "name": "LevelTen Energy",
+      "description": "LevelTen Energy, Inc. manages a renewable energy transaction platform that connects corporate and industrial (C&amp;I) power buyers to the universe of power purchase agreements (PPAs) from utility-scale wind, solar, and storage projects. In facilitating these\ntransactions, LevelTen aims to revolutionize the $30 billion C&amp;I power market and to mobilize untapped corporate clean power demand.",
+      "website": "leveltenenergy.com",
+      "employees": "142",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Muon Space",
+      "description": "Muon is building the world\u2019s most capable multi-modal Earth remote sensing satellite platform. With a focus is on dense, scientific-grade measurements of the atmosphere, ocean, and land processes related to climate. Our Mission-as-a-Service product brings these capabilities to a broad array of customers without the expertise or resources to develop them themselves.",
+      "website": "muonspace.com",
+      "employees": "72",
+      "active_jobs": "13"
+    },
+    {
+      "name": "Pioneer Power Solutions",
+      "description": "Pioneer Power Solutions is a manufacturer of specialty electrical transmission and distribution equipment and provides a broad range of custom-engineered and general-purpose solutions for applications in the utility, industrial and commercial markets. The Company provides through its three operating subsidiaries, Pioneer Transformers Ltd., Jefferson Electric, Inc., and Bemag Transformer Inc., a range of electrical transformers for applications in the utility, industrial and commercial segments of the electrical transmission and distribution industry. The Company has operations in the United States, Canada, and Mexico. The Company\\'s customers include a range of national and regional utilities and industrial companies, which are primarily located in North America. On March 6, 2013, the Company acquired Power Systems Solutions Inc.",
+      "website": "pioneerpowersolutions.com",
+      "employees": "19",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Power Factors",
+      "description": "Power Factors is to deliver software and services to make renewable energy the world\u2019s leading power generation source. Power Factors consolidates multiple operational data sources, asset hierarchies, and metadata frameworks to create a single asset management platform that works with today\u2019s large-scale portfolios. With embedded connections to maintenance workflows, Power Factors streamlines the process, reduces costs, and increases the ROI of assets. Implementation and Customer Success Services ensure customers realize value from the platform quickly and for the life of the asset. .",
+      "website": "pfdrive.com",
+      "employees": "523",
+      "active_jobs": "18"
+    },
+    {
+      "name": "RIFT",
+      "description": "We are on a mission towards a sustainable future that is powered by clean and renewable energy. The use of renewable energy is accelerating, and the world continues to grow in its energy needs. We rethink traditional practices of fossil fuels and aim to reduce the global carbon footprint by revolutionizing energy-intensive industries with the Iron Fuel Technology\u2122. At RIFT, teamwork makes the impossible possible. While we continue to develop our technology, grow our partnerships and ensure investments our team needs to develop and grow with it. We are frontrunners in a fast-paced environment, and our team is diverse, highly skilled, eager to learn and to make an impact. We take pride in what we do, celebrate when we achieve our goals, and depend on each other while getting there. Working at RIFT means you are mission-driven, and don\\'t shy away from a challenge. You are looking to make a difference and want to be a part of the solution. You want to do that by working with likeminded colleagues, with whom you share more than just the 9 to 5; by sharing your knowledge and experience, or by learning from the best.",
+      "website": "ironfueltechnology.com",
+      "employees": "40",
+      "active_jobs": "5"
+    },
+    {
+      "name": "Raptor Maps",
+      "description": "Raptor Maps offers advanced analytics, insights and productivity software for the entire solar lifecycle. We provide asset owners, managers, O&M, EPCs and financiers with services that include: a digital twin of solar sites, aerial thermal inspections, data normalization, serial number scanning and mapping, warranty claim features, equipment records and mobile tools. Raptor Maps will help you standardize and compare data across installations, increase performance, reduce risk and lift ROI.",
+      "website": "raptormaps.com",
+      "employees": "84",
+      "active_jobs": "2"
+    },
+    {
+      "name": "RatedPower",
+      "description": "RatedPower offers pvDesign, a cloud-based software to carry out the design and engineering of utility-scale solar photovoltaic plants. The software offers a faster, more automated, accurate, and reliable method than traditional engineering, improving the profitability of users assets.",
+      "website": "ratedpower.com",
+      "employees": "99",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Swift Solar",
+      "description": "Swift Solar is a U.S. startup designing and manufacturing lightweight solar panels and systems that are cheaper and more efficient than existing products. The Swift Solar team includes leading solar technologists from Stanford, MIT, Cambridge, Oxford, and the University of Washington, with deep expertise in perovskite photovoltaic technology and scale-up. Swift\u2019s core technologies range from new solar cell architectures to specialized manufacturing techniques initially developed in the labs at Stanford and MIT.",
+      "website": "swiftsolar.com",
+      "employees": "39",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Terabase Energy",
+      "description": "Terabase Energy is a digital solutions company whose products and services reduce costs and accelerate deployment in large-scale solar. The company\\'s proprietary software is used by more than 400 engineering, procurement, and construction firms, developers, and independent power producers in 28 countries. Terabase Energy was established onJanuary 1, 2019 by Chris Baker, Matt Campbell, and Pierre Gousseland in Berkeley, California.",
+      "website": "terabase.energy",
+      "employees": "107",
+      "active_jobs": "7"
+    },
+    {
+      "name": "UtilityAPI",
+      "description": "UtilityAPI is a mission-driven software company that enables standardized data transactions for the new energy economy. Hundreds of companies use this everyday for quote generation, feasibility analyses, and asset management, measurement, and verification. UtilityAPI is based in oakland, California.",
+      "website": "utilityapi.com",
+      "employees": "47",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Verse Inc.",
+      "description": "Providing clean power to all.",
+      "website": "verse.inc",
+      "employees": "17",
+      "active_jobs": "1"
+    },
+    {
+      "name": "kWh Analytics",
+      "description": "kWh Analytics is the market leader in solar risk management. By leveraging the most comprehensive performance database of solar assets in the United States (20% of the U.S. asset class) and the strength of the global insurance markets, kWh Analytics\u2019 customers are able to minimize risk and increase equity returns of their solar portfolios. kWh Analytics invented the Solar Revenue Put to help solar investors reduce their biggest cost: the cost of capital. The credit enhancement has been valued by the leading project finance banks and implemented by top investors on $500M+ of solar projects. We wrote the book on \u201crisk management\u201d for solar investors, and our software solution, HelioStats, supports the market\u2019s largest financial institutions on their data management and compliance obligations. kWh Analytics is backed by private venture capital and the US Department of Energy. kWh Analytics was founded in 2012 and is based in San Francisco, California.",
+      "website": "kwhanalytics.com",
+      "employees": "47",
+      "active_jobs": "0"
+    }
+  ],
+  "Perennial Biomass Production": [
+    {
+      "name": "Charm Industrial",
+      "description": "Charm Industrial has developed a novel pathway for carbon sequestration: putting oil back underground in the form of bio-oil. The process converts agricultural residue to bio-oil, then injects the bio-oil into deep geological formations for permanent storage. After winning carbon removal contracts from Stripe, Shopify and Microsoft in 2020, Charm Industrial began rapidly scaling fulfillment. At scale, Charm Industrial plans to gasify bio-oil to produce industrial syngas. Charm\\'s engineering team is based in San Francisco, with operations in Louisiana, Kansas and Oklahoma.",
+      "website": "charmindustrial.com",
+      "employees": "59",
+      "active_jobs": "18"
+    },
+    {
+      "name": "Eion",
+      "description": "Eion\u2019s mission is to remove carbon permanently and at scale, with rigorous scientific verification, while providing economic opportunity and environmental benefits for farmers and rural communities.",
+      "website": "eioncarbon.com",
+      "employees": "25",
+      "active_jobs": "0"
+    }
+  ],
   "LED Lighting": [
     {
       "name": "CIMCON Lighting",
@@ -3366,133 +4116,169 @@ const mapping = {
       "active_jobs": "0"
     }
   ],
-  "Methane Leak Management": [
+  "Reduced Plastics": [
     {
-      "name": "Arculus Solutions",
-      "description": "Arculus Solutions is future-proofing current natural gas transmission pipelines to safely transport hydrogen.",
-      "website": "arculus-solutions.com",
-      "employees": "2",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Bend",
-      "description": "Bend makes CO2e emissions data programmable and queryable. Track companies as they cut carbon, and measure your supply chain footprint.",
-      "website": "bend.green",
-      "employees": "5",
-      "active_jobs": "0"
-    },
-    {
-      "name": "C-Zero",
-      "description": "C-Zero is a hard-tech startup located in Santa Barbara, CA, that is developing a technology for decarbonizing natural gas. The company\u2019s technology uses high temperatures to break down methane, (the primary molecule in natural gas) into hydrogen and solid carbon. C-Zero\u2019s hydrogen can be used to decarbonize a wide range of industries including ammonia production, electric generation, process heat, and fuel cell vehicles, and has the potential to address 75% of global CO2 emissions.",
-      "website": "czero.energy",
-      "employees": "28",
-      "active_jobs": "1"
-    },
-    {
-      "name": "CarbonChain",
-      "description": "CarbonChainp is a provider of a platform that enables companies in the polluting industries such as metals and mining, oil and gas, and agriculture to track their supply chain greenhouse gas emissions that help them track their transition to the low-carbon economy. The platform digitizes the supply chain to foster transparency, enhance security, and drive efficiencies and cost savings end to end across supply chains. It supports a wide range of hard and soft commodities with its database of greenhouse gas emissions factors covering individual assets from mines to ships. CarbonChain enables commodities companies to identify their highest polluting transactions and take the steps necessary to protect their supply chains against rising carbon prices while unlocking the immediate benefits of doing so, from lower interest rates to ESG leadership recognition.",
-      "website": "carbonchain.com",
-      "employees": "40",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Crusoe",
-      "description": "Crusoe exists to bring energy to ideas. We are the pioneers of clean computing infrastructure that reduces both the costs and the environmental impact of the world\u2019s expanding digital economy. By unlocking stranded sources of energy to power cloud and data center services, we are creating the climate-aligned future of compute-intensive innovation that reduces rather than adds to emissions. The world\u2019s appetite for computation, energy, and progress will never stop growing. Crusoe is here to bring energy to ideas in ways that are aligned with the needs of our climate.",
-      "website": "crusoeenergy.com",
-      "employees": "246",
-      "active_jobs": "53"
-    },
-    {
-      "name": "Frost Methane",
-      "description": "Frost Methane pays land owners, mineral rights owners, and farmers who deploy our turnkey, methane management solutions at their sites. Our proven technology neutralizes methane from manure ponds, abandoned coal mines, and landfills, which earns carbon offset revenue that we share with our customers.",
-      "website": "frostmethane.com",
-      "employees": "9",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Mars Materials",
-      "description": "Reversing industrial waste carbon emissions",
-      "website": "marsmaterials.tech",
-      "employees": "9",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Orbio Earth",
-      "description": "Methane emissions from the oil & gas industry is the lowest hanging fruit in climate change mitigation. Orbio tracks global methane emissions from the oil & gas industry with satellite imagery. We sell the data to financial & energy companies that want to reduce methane emission risks in a cost-effective way.",
-      "website": "orbio.earth",
-      "employees": "14",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Project Canary",
-      "description": "Project Canary is a science-based enterprise emissions data platform that helps energy leaders identify, measure, understand, and act on GHG and other harmful emissions. We provide software visualization tools, high-fidelity sensor solutions, and rigorous environmental assessments. Our solutions enable companies to improve operations, differentiate their molecules, and meet regulatory and voluntary framework requirements.",
-      "website": "projectcanary.com",
-      "employees": "155",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Remora",
-      "description": "We\\'re building a device that captures a semi-truck\u2019s carbon emissions directly from the tailpipe. We\\'ll sell the CO2 to end-users, and share that revenue with our customers, so our device will create a new revenue stream for our customers while reducing their emissions.",
-      "website": "remoracarbon.com",
-      "employees": "73",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Sentient Energy",
-      "description": "Sentient Energy, a Koch Engineered Solutions company, is the premier Intelligent Sensing Platform Provider for power utilities. We provide the industry\u2019s only Grid Analytics System that covers the entire distribution network with quickly-deployed intelligent sensors and analytics that identify and analyze potential faults and other grid events. Sentient Energy leads the market with the largest mesh network line sensor deployments in North America, helping utilities deliver reliable, safe and smart power. Sentient Energy partners with the majority of leading utility network communication providers.",
-      "website": "sentientenergy.com",
-      "employees": "99",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Thalo Labs",
-      "description": "Thalo Labs makes it ridiculously easy to measure and mitigate greenhouse gas emissions.",
-      "website": "thalolabs.com",
-      "employees": "15",
-      "active_jobs": "1"
-    },
-    {
-      "name": "VIA",
-      "description": "VIA helps energy companies across the globe realize the value of their data through AI and blockchain. The company enables an encrypted analysis of confidential and classified data. It solves asset management and operational issues alongside key players in the energy industry and works with governments, regulators, and large global utilities on AI initiatives like predictive maintenance and contingency planning. Founded in 2016, VIA is headquartered in Somerville, Massachusetts.",
-      "website": "solvewithvia.com",
-      "employees": "50",
-      "active_jobs": "1"
-    }
-  ],
-  "Bioplastics": [
-    {
-      "name": "Full Cycle Bioplastics",
-      "description": "Full Cycle Bioplastics provide plastic pollution, food waste, and climate change by transforming organic waste into PHA and oil-based plastics. They use natural processes to convert mixed feedstocks into tailorable product types. Their PHA technology is the solution for plastic pollution and food waste.",
-      "website": "fullcyclebioplastics.com",
-      "employees": "17",
-      "active_jobs": "0"
-    },
-    {
-      "name": "General Biological",
-      "description": "General Biological is developing technologies to catalyze a shift from traditional chemical manufacturing to sustainable bioproduction. The multi-trillion dollar chemicals industry underlies every aspect of the modern industrial economy. It is built on toxic processes, rotting infrastructure, and a need for oil.",
-      "website": "generalbiological.com",
-      "active_jobs": "3"
-    },
-    {
-      "name": "MycoWorks",
-      "description": "MycoWorks is engaged in the creation of sustainable design solutions with advanced biomaterials. The company\u2019s proprietary custom-engineered material is sustainable, versatile, and animal-free, and feels and performs like leather. Their first product, Reishi, and the proprietary platform to make it, Fine Mycelium, are a groundbreaking approach to biomaterials that delivers unparalleled versatility and unmatched performance in strength, durability, and hand feel. The perfect intersection of art and science, Reishi is the only natural material that performs like cowhide leather and is engineered to meet the highest quality standards. MycoWorks was founded by Sophia Wang and Philip Ross in 2013 and is based in San Francisco, California.",
-      "website": "mycoworks.com",
-      "employees": "189",
-      "active_jobs": "11"
-    },
-    {
-      "name": "RenewCO2",
-      "description": "RenewCO2 is a research company that develops processes for converting CO2 into polymers and chemicals. The company was founded in 2018 and is based in Cranford, New Jersey.",
-      "website": "renewco2.com",
+      "name": "CO280 Solutions",
+      "description": "CO280 aims to help businesses reduce their carbon footprint by developing permanent, high quality, carbon negative solutions. In collaboration with its partners, CO280 utilizes experience andskills to develop, finance and implement complex carbondioxid...",
+      "website": "co280.com",
       "employees": "9",
       "active_jobs": "2"
     },
     {
-      "name": "Solugen",
-      "description": "At Solugen, we believe planet-scale change starts with the chemistry we use every day. We\u2019re revolutionizing how things are made with the world\u2019s first carbon negative molecule factory: the Bioforge. Harnessing the power of evolved enzymes, plant-based feedstocks, and clean, catalytic reactions, we are making the materials we need to sustain life on Earth\u2014faster, cheaper, and without emissions or waste.",
-      "website": "solugen.com",
-      "employees": "183",
+      "name": "Dispatch Goods",
+      "description": "Dispatch Goods is creating a broadly applicable packaging solution, offering a plug and play solution for brands to enact packaging take-back programs. Dispatch Goods links together the returns and cleaning process for its B2B customers, and resells the used packaging back to the business at a price that\\'s lower than new, single-use packaging. In the past year, they\\'ve launched and grown with customers such as Imperfect Foods, Sakara, Thistle, CookUnity, Methodology, and others.",
+      "website": "dispatchgoods.com",
+      "employees": "26",
+      "active_jobs": "4"
+    },
+    {
+      "name": "Patch",
+      "description": "Patch is the platform scaling unified climate action.\nOur planet is out of sync. Companies need to drastically lower their carbon footprint for us to reach our global climate goals. It\\'s time to reduce emissions as quickly as possible and neutralize anything remaining. Patch is the platform putting us on a path to a planet in balance.",
+      "website": "patch.io",
+      "employees": "107",
       "active_jobs": "12"
+    },
+    {
+      "name": "UNLESS Collective",
+      "description": "UNLESS Collective is an apparel and fashion company that designs and develops streetwear apparel made from zero plastic. It is based in Portland, Oregon.",
+      "website": "unlesscollective.com",
+      "employees": "9",
+      "active_jobs": "0"
+    }
+  ],
+  "Sustainable Intensification for Smallholders": [
+    {
+      "name": "CowBell Labs",
+      "description": "At Cowbell Labs, we believe that innovation in agricultural climate technology should be available to anyone, anywhere in the world. We are devoted to creating a future where the power to change the world lies in the hands of every inventor, innovator, and practitioner determined to make a difference.",
+      "website": "cowbell-labs.org",
+      "active_jobs": "0"
+    },
+    {
+      "name": "NitroVolt",
+      "description": "NitroVolt, is developing a small-scale ammonia synthesis unit, to give farmers control over fertilizer production. We will do so through our patent-pending electrochemical process.\n\nOur aim is to decarbonized nitrogen-based fertilizer production one farm at the time, cut the logistic costs of distributing fertilizer, and make the agricultural sector more resilient to external factors and political issues.",
+      "website": "nitrovolt.com",
+      "employees": "7",
+      "active_jobs": "1"
+    },
+    {
+      "name": "PlanetX",
+      "description": "Our mission is simple...to create the sustainable planet we all want to live on, where citizens and companies are rewarded by doing good things for the environment, society, and people. www.planetx.com",
+      "website": "planetx.com",
+      "employees": "12",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Smallhold",
+      "description": "Smallhold is on a mission to dramatically shorten the distance between you and fresh, gourmet mushrooms. Our growing network of organic farms is upending the traditional farming model with patented technology and a sophisticated supply chain, dramatically increasing access to freshly harvested mushrooms.",
+      "website": "smallhold.com",
+      "employees": "59",
+      "active_jobs": "0"
+    }
+  ],
+  "Electric Bicycles": [
+    {
+      "name": "Dance",
+      "description": "Dance is an e-bike subscription service where users pay a monthly fee that covers their bikes and provides an all-inclusive support package. The subscription includes a bike concierge, maintenance, and theft replacement insurance, via the company\u2019s own hardware and software which allows for fast repairs through its warehouse and logistics setup. Through its subscription service, they want to make the e-bike the primary way people move about cities. The company\\'s electric bike transforms their daily commute from frustration to joy. Save time with no traffic jams, no waiting for departures, no searching for parking, and all without even breaking a sweat. Its frictionless subscription model includes a fully assembled, state of the art e-bike delivered to their door within 24 hours. Dance is based in Berlin, Germany.",
+      "website": "dance.co",
+      "employees": "698",
+      "active_jobs": "8"
+    }
+  ],
+  "Tropical Forest Restoration": [
+    {
+      "name": "Dendra Systems",
+      "description": "Dendra\\'s mission is to enable scalable restoration of the natural world using automation and intelligence",
+      "website": "dendra.io",
+      "employees": "92",
+      "active_jobs": "0"
+    },
+    {
+      "name": "DroneSeed",
+      "description": "DroneSeed is making reforestation scalable--to make a dent in carbon emissions. It is paid per acre to plant tree seed vessels with DroneSwarms. It is one of the most advanced drone companies in the US as it has obtained three precedent setting FAA approvals. It is the 1st and only company allowed to operate heavy-lift drone swarms each carrying a 57lb payload. It is also the first to be able to operate heavy lift swarms BVLOS (Beyond visual line of sight). Its customers include timber companies, non-profits such as The Nature Conservancy, and government agencies. It was founded by Grant Canary in 2015 and went through Techstars Seattle in 2016.",
+      "website": "droneseed.com",
+      "employees": "87",
+      "active_jobs": "0"
+    },
+    {
+      "name": "ERS - Ecosystem Restoration Standard",
+      "description": "ERS certifies ecosystem restoration projects on the carbon markets. Our standard is designed to empower efforts that combat climate change, uplift biodiversity, and improve livelihoods.",
+      "website": "ers.org",
+      "employees": "30",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Funga",
+      "description": "At Funga, we use the forest fungal microbiome to improve forestry outcomes and address the climate crisis while enhancing beneficial microbial biodiversity. We combine modern DNA sequencing and machine learning technology with breakthrough research on the forest microbiome to put the right native, biodiverse communities of mycorrhizal fungi in the right place. This leads to more quality wood created more quickly, more carbon sequestered, and more resilient forest ecologies.",
+      "website": "funga.earth",
+      "employees": "13",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Kodama Systems",
+      "description": "Kodama is developing technology to improve forest management operations across the western U.S. We\\'re doing this by introducing site connectivity, automating machinery and developing new methods of carbon storage.",
+      "website": "kodama.ai",
+      "employees": "10",
+      "active_jobs": "2"
+    },
+    {
+      "name": "NCX (Formerly SilviaTerra)",
+      "description": "NCX unlocks gigatons of new forest carbon offset supply using proprietary data, enabling every landowner to sell carbon every year. NCX\\'s vision is that the planet\\'s forests would be fully understood and fairly valued. To that end, they believe that measurements make markets. So they use their high-resolution forest data to underpin markets in carbon offsets, biodiversity, fire risk reduction, and more.",
+      "website": "ncx.com",
+      "employees": "50",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Overstory",
+      "description": "Overstory is on a mission to become the standard in predictive planet intelligence. Understanding every m\u00b2 on Earth. The planet is under pressure. Data-driven information is needed to improve decision making about our natural resources. By applying machine learning to satellite imagery Overstory creates insights about the quantity and quality of forests and other natural resources.",
+      "website": "overstory.com",
+      "employees": "74",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Pachama",
+      "description": "Pachama is an organization focused on developing technology solutions to accelerate the growth of the Forest Carbon Credits market. Their ultimate intention is to help scale up the protection and restoration of the forests of the planet, which recapture carbon from the atmosphere reversing climate change, and are the holders of the planet\u2019s biodiversity, keystones for maintaining planetary homeostasis.",
+      "website": "pachama.com",
+      "employees": "112",
+      "active_jobs": "3"
+    },
+    {
+      "name": "Terraformation",
+      "description": "Terraformation wants to solve climate change.",
+      "website": "terraformation.com",
+      "employees": "96",
+      "active_jobs": "1"
+    },
+    {
+      "name": "Vibrant Planet",
+      "description": "Unlocking nature-based climate solutions by accelerating wildland resilience. Vibrant Planet is a prioritization system for land management restoration efforts. Our software provides real-time scenario planning, monitoring, and reporting for natural resource managers, insurers, utilities, and other stakeholders seeking to improve community and wildland resilience to wildfire and climate change. Our system calculates the potential avoided loss and ecosystem services value of each land management and community wildfire protection treatment, helping to qualify projects for carbon, water, biodiversity, and other types of conservation finance.",
+      "website": "vibrantplanet.net",
+      "employees": "63",
+      "active_jobs": "0"
+    }
+  ],
+  "Smart Thermostats": [
+    {
+      "name": "Flair",
+      "description": "Flair makes smart vents and wireless thermostats and advanced software for residential heating and cooling. The company builds smart hardware and software for HVAC controls focused on efficiency, comfort, electrification, and smart grid integration. The company\\'s products are sold through multiple channels including direct to consumer, HVACdistribution, and utilities.",
+      "website": "flair.co",
+      "employees": "24",
+      "active_jobs": "0"
+    },
+    {
+      "name": "ecobee",
+      "description": "Ecobee is a provider of Wi-Fi enabled smart thermostats for residential and commercial applications, delivering energy conservation solutions. The company offers ecobee Smart Thermostat, a digital programmable thermostat that helps in customizing temperature settings. The thermostat connects the clients to their WiFi, and gives them remote access to the thermostat settings from any computer and helps in energy conservation. Its products are used in single family homes, multi-family dwellings, and offices. The company accepts orders online. The company was founded in 2007 and is based in Toronto, Canada.",
+      "website": "ecobee.com",
+      "employees": "573",
+      "active_jobs": "17"
+    }
+  ],
+  "Clean Cooking": [
+    {
+      "name": "Ecosafi",
+      "description": "Ecosafi develops a cooker and a pellet briquette fuel that promotes better way of cooking.",
+      "website": "ecosafi.com",
+      "employees": "37",
+      "active_jobs": "0"
     }
   ],
   "Recycled Metals": [
@@ -3593,517 +4379,6 @@ const mapping = {
       "active_jobs": "10"
     }
   ],
-  "Macroalgae Protection and Restoration": [
-    {
-      "name": "Banyu Carbon",
-      "description": "Banyu Carbon focuses on developing a novel photocatalytic approach to marine carbon dioxide removal. It was founded in 2022 and is headquartered in Seattle, Washington.",
-      "website": "banyucarbon.com",
-      "employees": "6",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Brilliant Planet",
-      "description": "Brilliant Planet is unlocking the power of algae as an affordable method of permanently and quantifiably sequestering carbon at the gigaton scale. The company\\'s innovative process enables vast quantities of microalgae to grow in open-air pond-based systems on coastal desert land.",
-      "website": "brilliantplanet.com",
-      "employees": "46",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Ebb Carbon",
-      "description": "Ebb Carbon is working on a reverse electrochemical ocean deacidification process that will capture CO2 from the atmosphere. The company was established in 2021 and is based in San Carlos, California.",
-      "website": "ebbcarbon.com",
-      "employees": "37",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Sofar Ocean Technologies",
-      "description": "Sofar Ocean is a build accessible ocean sensing and exploration tools for ocean enthusiasts, industry, and conservation. The company was founded in 2016 and is based in San Francisco, California, United States.",
-      "website": "sofarocean.com",
-      "employees": "90",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Vesta",
-      "description": "Harnessing the power of the oceans to remove excess CO\u2082 from the atmosphere.",
-      "website": "vesta.earth",
-      "employees": "52",
-      "active_jobs": "5"
-    }
-  ],
-  "Coastal Wetland Protection": [
-    {
-      "name": "Jupiter Intelligence",
-      "description": "Led by a team of world-renowned scientists and executives, Jupiter provides data and analytics services to better predict and manage risks from weather and sea-level rise, storm intensification and rising temperatures caused by medium- to long-term climate change. Jupiter\u2019s ClimateScore Intelligence Platform provides sophisticated, dynamic, hyper-local, current to 50-year predicted risks from weather in a changing climate. The company\u2019s FloodScore and HeatScore services are currently focused on climate-related risk assessment and management for New York City, South Florida and the Atlantic Coast with global expansion underway. Jupiter\u2019s models are based on the latest science, as developed by the global Earth and Ocean Systems community.",
-      "website": "jupiterintel.com",
-      "employees": "94",
-      "active_jobs": "1"
-    }
-  ],
-  "Multistrata Agroforestry": [
-    {
-      "name": "Propagate Ventures",
-      "description": "Developer of an agroforestry investment and project development platform intended to aid investors in funding low-risk agroforestry projects. The company leverages technology to provide services like workflow tools, data analytics, agroforestry analysis, and underwriting process, enabling investors to increase their returns and farmers to increase their profits.",
-      "website": "propagateventures.com",
-      "employees": "24",
-      "active_jobs": "1"
-    }
-  ],
-  "Tropical Forest Restoration": [
-    {
-      "name": "Dendra Systems",
-      "description": "Dendra\\'s mission is to enable scalable restoration of the natural world using automation and intelligence",
-      "website": "dendra.io",
-      "employees": "92",
-      "active_jobs": "0"
-    },
-    {
-      "name": "DroneSeed",
-      "description": "DroneSeed is making reforestation scalable--to make a dent in carbon emissions. It is paid per acre to plant tree seed vessels with DroneSwarms. It is one of the most advanced drone companies in the US as it has obtained three precedent setting FAA approvals. It is the 1st and only company allowed to operate heavy-lift drone swarms each carrying a 57lb payload. It is also the first to be able to operate heavy lift swarms BVLOS (Beyond visual line of sight). Its customers include timber companies, non-profits such as The Nature Conservancy, and government agencies. It was founded by Grant Canary in 2015 and went through Techstars Seattle in 2016.",
-      "website": "droneseed.com",
-      "employees": "87",
-      "active_jobs": "0"
-    },
-    {
-      "name": "ERS - Ecosystem Restoration Standard",
-      "description": "ERS certifies ecosystem restoration projects on the carbon markets. Our standard is designed to empower efforts that combat climate change, uplift biodiversity, and improve livelihoods.",
-      "website": "ers.org",
-      "employees": "30",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Funga",
-      "description": "At Funga, we use the forest fungal microbiome to improve forestry outcomes and address the climate crisis while enhancing beneficial microbial biodiversity. We combine modern DNA sequencing and machine learning technology with breakthrough research on the forest microbiome to put the right native, biodiverse communities of mycorrhizal fungi in the right place. This leads to more quality wood created more quickly, more carbon sequestered, and more resilient forest ecologies.",
-      "website": "funga.earth",
-      "employees": "13",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Kodama Systems",
-      "description": "Kodama is developing technology to improve forest management operations across the western U.S. We\\'re doing this by introducing site connectivity, automating machinery and developing new methods of carbon storage.",
-      "website": "kodama.ai",
-      "employees": "10",
-      "active_jobs": "2"
-    },
-    {
-      "name": "NCX (Formerly SilviaTerra)",
-      "description": "NCX unlocks gigatons of new forest carbon offset supply using proprietary data, enabling every landowner to sell carbon every year. NCX\\'s vision is that the planet\\'s forests would be fully understood and fairly valued. To that end, they believe that measurements make markets. So they use their high-resolution forest data to underpin markets in carbon offsets, biodiversity, fire risk reduction, and more.",
-      "website": "ncx.com",
-      "employees": "50",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Overstory",
-      "description": "Overstory is on a mission to become the standard in predictive planet intelligence. Understanding every m\u00b2 on Earth. The planet is under pressure. Data-driven information is needed to improve decision making about our natural resources. By applying machine learning to satellite imagery Overstory creates insights about the quantity and quality of forests and other natural resources.",
-      "website": "overstory.com",
-      "employees": "74",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Pachama",
-      "description": "Pachama is an organization focused on developing technology solutions to accelerate the growth of the Forest Carbon Credits market. Their ultimate intention is to help scale up the protection and restoration of the forests of the planet, which recapture carbon from the atmosphere reversing climate change, and are the holders of the planet\u2019s biodiversity, keystones for maintaining planetary homeostasis.",
-      "website": "pachama.com",
-      "employees": "112",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Terraformation",
-      "description": "Terraformation wants to solve climate change.",
-      "website": "terraformation.com",
-      "employees": "96",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Vibrant Planet",
-      "description": "Unlocking nature-based climate solutions by accelerating wildland resilience. Vibrant Planet is a prioritization system for land management restoration efforts. Our software provides real-time scenario planning, monitoring, and reporting for natural resource managers, insurers, utilities, and other stakeholders seeking to improve community and wildland resilience to wildfire and climate change. Our system calculates the potential avoided loss and ecosystem services value of each land management and community wildfire protection treatment, helping to qualify projects for carbon, water, biodiversity, and other types of conservation finance.",
-      "website": "vibrantplanet.net",
-      "employees": "63",
-      "active_jobs": "0"
-    }
-  ],
-  "Bicycle Infrastructure": [
-    {
-      "name": "Biki",
-      "description": "Biki is Honolulu\u2019s new transportation system, brought to you by Bikeshare Hawaii. Launched in late June 2017, Biki has 1,000 bikes at 130 conveniently located self-service \u201cBiki Stops\u201d from Chinatown to Diamond Head. Biki bikes are designed to be easy to maneuver, comfortable and fun to ride, while accommodating riders of all sizes. Honolulu is the first city in the world to have this new generation of bike.",
-      "website": "gobiki.org",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "N\u00dcWIEL GmbH",
-      "description": "N\u00dcWIEL provides innovative solutions for the last mile logistics to move goods in a sustainable and cost-efficient way. N\u00dcWIEL\\'s eTrailer is the world\\'s first electric trailer with patented technology to use with any (e)bike and to walk in pedestrian zones.",
-      "website": "nuwiel.com",
-      "employees": "23",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Oonee",
-      "description": "Oonee builds, finances, and operates automated bike parking infrastructure that humanizes public spaces. It is driven on changing the mobility game in cities by building a network of smart, modular, pods that provide secure parking for bikes and scooters on the interior while providing public space amenities on the exterior. The company was founded in 2017 and is headquartered in Brooklyn, New York.",
-      "website": "ooneepod.com",
-      "employees": "10",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Ride Report",
-      "description": "Ride Report offers a comprehensive toolset for cities to manage emerging mobility services.",
-      "website": "ridereport.com",
-      "employees": "9",
-      "active_jobs": "0"
-    }
-  ],
-  "Recycled Plastics": [
-    {
-      "name": "Better Packaging Co.",
-      "description": "Industry leading suppliers of eco friendly packaging, sustainable packaging, compostable packaging, mailers, gloves and much more. We believe waste is a design flaw and are working hard toward a zero waste world.",
-      "website": "betterpackaging.com",
-      "employees": "17",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Cirplus",
-      "description": "Cirplus is a global marketplace that develops a digital trading platform for recyclates and plastic waste feedstock. The company\\'s platform uses AI-powered algorithms and blockchain technology to close the loop for plastics, providing a one-stop shop for finding, negotiating, contracting, shipping, insuring, and paying for recyclates and plastic waste trades across the globe.",
-      "website": "cirplus.com",
-      "employees": "14",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Cypris Materials",
-      "description": "Cypris Materials is developing a new generation of sustainable color that broadens the color gamut while simplifying manufacturing, application and formulation. Cypris Materials, Inc. has harnessed the transformative power of structural color - a method of producing color that has evolved over millions of years. Cypris Materials\\' structural coating platform helps industry-leading companies and individuals redefine the capabilities of color. Our polymers, backed by an extensive patent portfolio, unlock exclusive colors and effects that can only be achieved through our paint. Cypris\u2019 materials enable a new paradigm: the first safe and sustainable structural color palette, free of toxic pigments and dyes.",
-      "website": "cyprismaterials.com",
-      "employees": "9",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Epoch Biodesign",
-      "description": "Epoch is the Total BioDesign company developing natural solutions to unnatural problems. We are designing and scaling the first enzymes capable of transforming plastics into low-carbon, circular chemicals.",
-      "website": "epochbiodesign.com",
-      "employees": "25",
-      "active_jobs": "0"
-    },
-    {
-      "name": "HILOS",
-      "description": "HILOS delivers zero-waste, on-demand product. By unifying design, development, and manufacturing within purpose-built digital molds, HILOS is pioneering personalized product, made locally and sustainably. To see what they\\'ve already done in footwear, check out www.hilos.co",
-      "website": "hilos.co",
-      "employees": "21",
-      "active_jobs": "4"
-    },
-    {
-      "name": "MACROCYCLE",
-      "description": "MacroCycle, we revive end-of-life plastics. We will protect our world through our circular, sustainable, zero-carbon plastic upcycling process. With leading experts in polymer chemistry and plastics engineering from MIT, ETH Zurich and Politecnico di Milano on our team, we take plastic waste in the form of bottles, food trays and polyester textiles, and produce our first product, virgin-grade mPET (MacroCycle-PET) resin. All with zero carbon emissions, through MacroCycle\\'s net-zero and efficient low energy process.",
-      "website": "macrocycle.tech",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Matter.",
-      "description": "Plastic-free water and valuable plastics. We have two central business goals: to stop microplastics entering the environment and to make them valuable for safe reuse. Matter. filters capture the plastic pollution entering our wastewater, not only ensuring life-sustaining clean water for everyone, but also transforming microfibres from a waste to a valuable resource. Matter. filters capture plastic micropollutants from the wastewater systems in homes, factories and utilities, improving water quality and reducing corporate risk. Altogether, these trillions of fibres are aggregated for re-use, turning them into a valuable resource that can be re-used in responsibly made products. Without Matter filters, the world\u2019s fresh and saltwater systems will become increasingly toxic, and ultimately, unable to sustain life.",
-      "website": "matter.industries",
-      "employees": "29",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Novoloop",
-      "description": "At Novoloop, we envision a truly circular world without waste, where materials are the building blocks for new things. So instead of ending up in a landfill, hard-to-recycle plastics are remade into something better, something beautiful: an infinite loop of possibility. We call it Lifecycling\u2122, and it\u2019s our platform that uses almost any plastic waste to make performance materials that are molecularly identical to conventional products. We want to create a wonderful world of endless possibilities \u2013 especially for plastics that have no future today.",
-      "website": "novoloop.com",
-      "employees": "32",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Thousand Fell",
-      "description": "Thousand Fell is a sustainably sourced and recyclable line of sneakers. Our core product is made of twelve biodegradable or recyclable \\'ingredients\\' including aloe vera, castor bean, coconut, sugar cane, palm leaf, and recycled water bottles. We are also launching subscription refurbishment kits in order to extend product life (the \u201ccobbler model\u201d for sneakers through the DTC lens). Finally we are building a backend digital closet to create transparency around product and material circularity, while incentivizing customers to return and recycle their shoes.",
-      "website": "thousandfell.com",
-      "employees": "12",
-      "active_jobs": "0"
-    }
-  ],
-  "Direct Air Capture": [
-    {
-      "name": "Capture6",
-      "description": "We help businesses, governments, and communities mitigate the risks of climate change through direct air capture. We are the first in market to offer permanent million-ton direct air capture installations \u2013 solutions that are safe, permanent, to benefit people and the planet.",
-      "website": "capture6.org",
-      "employees": "28",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Carbon Engineering",
-      "description": "Founded in 2009, CE is a Canadian-based clean energy company leading the commercialization of groundbreaking technology that captures CO\u2082 directly from the atmosphere, and synthesizes it into clean, affordable transportation fuels. From a pilot plant in Squamish, B.C., CE has been removing CO\u2082 from the atmosphere since 2015 and converting it into fuels since December 2017.",
-      "website": "carbonengineering.com",
-      "employees": "151",
-      "active_jobs": "16"
-    },
-    {
-      "name": "Carbyon",
-      "description": "We are scientists and engineers with a shared dream: to tackle climate change. We deploy breakthrough technology that enables worldwide capture of CO2 from the atmosphere. It cannot wait.",
-      "website": "carbyon.com",
-      "employees": "34",
-      "active_jobs": "6"
-    },
-    {
-      "name": "Clairity Technologies",
-      "description": "Clairity develops technology for direct air capture of carbon dioxide that is low-cost and scalable.",
-      "website": "clairitytech.com",
-      "active_jobs": "4"
-    },
-    {
-      "name": "Heirloom",
-      "description": "Heirloom aims to remove 1 billion tons of carbon dioxide using the world\\'s most cost-effective Direct Air Capture solution, a mineralization process known as enhanced weathering.",
-      "website": "heirloomcarbon.com",
-      "employees": "128",
-      "active_jobs": "18"
-    },
-    {
-      "name": "Mission Zero",
-      "description": "Mission Zero is a DAC startup with patent-pending breakthrough technology and close the carbon cycle.",
-      "website": "missionzero.tech",
-      "employees": "23",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Unemit",
-      "description": "A company working to reverse climate change with permanent Carbon Dioxide Removal using novel Direct Air Capture technology",
-      "website": "unemit.com",
-      "employees": "3",
-      "active_jobs": "1"
-    }
-  ],
-  "Building Retrofitting": [
-    {
-      "name": "BlocPower",
-      "description": "BlocPower is an energy technology startup that develops healthier, greener, and smarter buildings. It leverages advanced technologies, innovative electrification equipment, and structured finance to provide green heating and cooling to urban buildings. The company also connects government agencies, utilities, building owners, and smart equipment providers to identify unhealthy, energy-wasting buildings to retrofit. Its propriety machine learning platform then determines which retrofits will produce the most energy savings at scale and uses the cloud and IoT to gather data and remotely monitor energy consumption. Since its founding, BlocPower has completed energy projects in nearly 1,000 buildings and delivers results ahead of schedule and under budget. It utilizes its proprietary software for analysis, leasing, project management, and monitoring of urban clean energy projects and its customers are saving 20-40% on their energy bills each year. The company is backed by top investors, including Kapor Capital, Andreessen Horowitz, American Family Insurance Institute for Corporate and Social Impact, AccelR8, The Goldman Sachs Urban Investment Group, Elemental Excelerator, CityRock Venture Partners, The Schmidt Family Foundation, and Salesforce Ventures. Donnel Baird and Morris Cox co-founded the company in Brooklyn, New York in 2014.",
-      "website": "blocpower.io",
-      "employees": "158",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Cambio",
-      "description": "Cambio is a software that enables commercial landlords and corporate tenants to reach their net zero goals by decarbonizing their facilities. They assist their clients in measuring their facilities\\' carbon footprints and identifying high-impact retrofits that produce both cost savings and decarbonization.",
-      "website": "cambio.ai",
-      "employees": "15",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Fram Energy",
-      "description": "Fram Energy is going after the huge opportunity of bringing energy retrofits to rental homes, starting with the multifamily segment. \n\nFram\\'s platform helps property owners identify the most profitable retrofits for their properties and captures energy savings for them via tenant billing infrastructure, solving split incentives through a win-win-win model.",
-      "website": "framenergy.com",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Kelvin",
-      "description": "Kelvin was founded in New York City in 2013 by Marshall Cox, a material science engineer with a Masters from Cornell University and a PhD in electrical engineering from Columbia University. The inspiration for the company came from Marshal\u2019s twin brother, who complained about the heat in his apartment while staying with him for a month. Marshal came up with a solution that eventually became the basis of Radiator Labs, the original name of the company. Unknowingly, from that day forward, he set out on a mission to decarbonize legacy building\u2019s heating and cooling systems. After conducting several successful pilots, Radiator Labs launched a full-scale commercial deployment of the Cozy system in 2016. The Cozy is a retrofit device that encloses radiators and controls their heat output. Radiator Labs participated in studies with NYSERDA and Con Edison, consistently demonstrating savings on heating bills between 25% and 40% with the Cozy system.",
-      "website": "kel.vin",
-      "employees": "31",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Lun",
-      "description": "Decarbonising homes. Faster.",
-      "website": "lun.energy",
-      "employees": "30",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Pono Home",
-      "description": "Pono Home offers green home consulting services for homeowners and renters. It offers its clients with personalized, in-home assessments: vampire power assessment, lighting assessment, appliance audit, and water assessment and leak check. The company provides a free audit of a customer\u2019s home, assessing various aspects of kitchen, bathrooms, living rooms, and bedrooms. It then assesses major appliances, on site, for potential improvements, maintenance or upgrades. Customers get a free report detailing their opportunities for improvements. Its maintenance services include leaning refrigerator condenser coils, setting energy saving settings in dishwashers, sealing drafts in windows and doors, pumping up car tires, and more. Pono Home was founded in 2013 by [Scott Cooney](https://www.crunchbase.com/person/scott-cooney#/entity).",
-      "website": "ponohome.com",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Zero Homes",
-      "description": "Zero is a marketplace for home electrification projects that offers homeowners a platform for project planning, acquisition, and scheduling.",
-      "website": "zerohomes.io",
-      "employees": "8",
-      "active_jobs": "1"
-    },
-    {
-      "name": "ecoworks",
-      "description": "ecoworks, uses industrial pre-fabrication, digital processes, and highly efficient energy systems to modernize multi-family houses with up to four floors within a few weeks.",
-      "website": "ecoworks.tech",
-      "employees": "165",
-      "active_jobs": "5"
-    }
-  ],
-  "Improved Cattle Feed": [
-    {
-      "name": "Blue Ocean Barns",
-      "description": "Blue Ocean Barns is on a mission to solve the global climate impact of cattle by working with farmers and food companies to radically scale the production and use of our unique feed ingredient.",
-      "website": "blueoceanbarns.com",
-      "employees": "30",
-      "active_jobs": "3"
-    },
-    {
-      "name": "ClearFlame Engines",
-      "description": "ClearFlame decarbonizes heavy-duty engines while reducing operating costs, to protect the future from the challenge of diesel fuel. The company\\'s technology enables heavy-duty engine manufacturers to produce engines at a lower cost, while simultaneously providing their customers with higher performance and fuel cost savings. Founded in 2016 by BJ Johnson and Julie Blumreiter, ClearFlame Engines is headquartered in Woodridge, Illinois.",
-      "website": "clearflameengines.com",
-      "employees": "49",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Hoofprint Biome",
-      "description": "Hoofprint Biome is developing probiotics that improve cattle health and digestive efficiency while eliminating methane production.",
-      "website": "hoofprintbiome.com",
-      "employees": "2",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Mootral",
-      "description": "Mootral is a Swiss AgriTech company that develops innovative carbon reduction solutions for companies and governments. Its first solution is a natural feed supplement that significantly reduces methane emissions from ruminants. Mootral is based on a proprietary combination of active compounds from garlic and flavonoids derived from citrus. Its research shows a nearly complete inhibition of emitted methane in vitro that reaches up to 38% reduction under real farm conditions.",
-      "website": "mootral.com",
-      "employees": "40",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Pasture Biosciences",
-      "description": "We\\'re building a vaccine that combats methane-producing microbes in a cow\u2019s gut, reducing a major accelerant of climate change.",
-      "website": "pasturebio.com",
-      "active_jobs": "1"
-    }
-  ],
-  "Concentrated Solar Power": [
-    {
-      "name": "Heliogen",
-      "description": "Heliogen is a clean energy company focused on eliminating the need for fossil fuels in all sectors of the economy. Heliogen\u2019s mission is to create the world\u2019s first technology that can commercially replace fossil fuels in industrial processes with carbon-free, ultra-high temperature heat from the sun and to transform sunlight into fuels, including hydrogen, at scale. Heliogen was created at Idealab, a technology incubator.",
-      "website": "heliogen.com",
-      "employees": "192",
-      "active_jobs": "3"
-    }
-  ],
-  "Wastewater Management": [
-    {
-      "name": "Kando",
-      "description": "Kando is an end-to-end solution that creates continuous awareness of events in the collection system. Kando enables utilities to remotely and continuously improve their operations by providing the following features: \u2022 Realtime wastewater quality data across the collection system \u2022 Pinpoint sources of pollution \u2022 Early warnings of damaging WWTP influent quality \u2022 Machine learning that evolves with your network \u2022 Autonomous sampling units \u2022 User fee calculator \u2022 Customized pollution alerts \u2022 A user-friendly, online interface \u2022 Detection of COVID-19 infection rates (New) The combination of these actionable insights results in: \u2022 Reduced CAPEX/OPEX \u2022 Greater WW reuse capabilities \u2022 Improved public health \u2022 Cleaner environments Kando has been deployed in Los Angeles, Milan, Brisbane, and many other cities. To gain a greater understanding of how our system can help your organization, visit our homepage at www.kando.eco.",
-      "website": "kando.eco",
-      "employees": "90",
-      "active_jobs": "0"
-    }
-  ],
-  "Methane Digesters": [
-    {
-      "name": "Blue World Technologies",
-      "description": "Blue World Technologies is an ambitious and visionary developer and manufacturer of methanol fuel cell components and systems for the automotive and heavy-duty transportation sectors and stationary applications around the world. The fuel cells act as a green alternative to combustion engines and diesel generators. Blue World Technologies was established on January 1, 2018 by Mads Friis Jensen, Mads Bang, and Anders Korsgaard in Aalborg, Nordjylland.",
-      "website": "blue.world",
-      "employees": "106",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Cambrian Innovation",
-      "description": "Cambrian Innovation is developing a portfolio of environmental solutions that help industrial, agricultural, and government customers save money while better managing and re-using their resources. Fueled initially by a 2006 NASA grant to explore how recent advances in bioelectricity can enhance water management in space, Cambrian has developed, scaled, and validated a pipeline of solutions that can recover resources from wastewater, eliminate energy input for wastewater treatment, radically reduce the cost of nitrate nitrogen treatment, and help agricultural operations monitoring their inputs more easily and efficiently.",
-      "website": "cambrianinnovation.com",
-      "employees": "32",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Liquium",
-      "description": "We are developing & scaling a new way to make green ammonia. Liquium\u2019s technology will enable new ammonia plants to be significantly more cost effective, energy efficient, and decentralized to have stronger alignment with renewable energy generation and support the maritime sector as the next clean liquid fuel",
-      "website": "liquium.nz",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Microvi Biotechnologies",
-      "description": "Microvi is a biotechnology company that discovers, develops, manufactures, and commercializes innovative biocatalytic solutions in the water, energy, and chemical industries. The company\u2019s core discipline is its MicroNiche Engineering platform technology, where the microenvironment of biological systems is precisely designed to enhance microbial life and optimize metabolic performance. Microvi\u2019s MicroNiche Engineering enables cost-effective economics, a smaller footprint and increased productivity compared to current methods. It seeks to develop key partnerships and alliances with industry leaders that will leverage the cutting-edge solutions that Microvi has developed.",
-      "website": "microvi.com",
-      "employees": "17",
-      "active_jobs": "4"
-    }
-  ],
-  "Refrigerant Management": [
-    {
-      "name": "Artyc",
-      "description": "Cost reducing, zero emissions, active cooling containers for cold chain logistics",
-      "website": "shipartyc.com",
-      "employees": "16",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Calion Technologies",
-      "description": "Refrigerants are on track to account for 25%% of global warming.Calion is unleashing the power of ionocaloric cooling to eliminate them.",
-      "website": "calion.tech",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Rebound Technologies",
-      "description": "Rebound has developed a freeze point suppression cycle that offers a 3-in-1 solution, combining agile freezing, unprecedented humidity control and demand response capabilities for frozen food processors and cold chain logistics companies. Rebound\u2019s IcePoint meets varying cooling demands while simultaneously optimizing moisture levels equating to improved system performance, increased productivity, lower demand charges and excellent return on investment. Rebound\u2019s IcePoint thermal storage capability has already proven to be the cheapest battery on the planet and will support decarbonization of the grid via year-round thermal storage and flexible demand. IcePoint thermal storage capability is supported via the Inflation Reduction Act and utility rebate programs. Rebound Technologies has received funding from the National Science Foundation, The U.S. Department of Energy, Clean Energy Ventures, Skyview Ventures, and others. Rebound commissioned its first full-scale commercial installation in 2023 and has demonstrated excellent performance with the world\u2019s largest cold chain warehouse and distribution center, owner/operator \u2013 Lineage Logistics.",
-      "website": "rebound-tech.com",
-      "employees": "12",
-      "active_jobs": "0"
-    }
-  ],
-  "Microgrids": [
-    {
-      "name": "Odyssey Energy Solutions",
-      "description": "Provider of an online platform intended to streamline the development of mini-grids in emerging markets. The company\\'s online platform manages how mini-grid data is analyzed and communicated via software tools, data analytics and marketplaces, enabling mini-grid project developers to connect with investors, suppliers, donors and other market stakeholders.",
-      "website": "odysseyenergysolutions.com",
-      "employees": "49",
-      "active_jobs": "5"
-    },
-    {
-      "name": "SparkMeter",
-      "description": "SparkMeter offers comprehensive low-cost metering solutions for everything from rural micro-grids to existing urban central grid utilities. Our products help make access to electricity possible in hard-to-reach places and underserved markets.",
-      "website": "sparkmeter.io",
-      "employees": "40",
-      "active_jobs": "0"
-    }
-  ],
-  "Tree Plantations (on Degraded Land)": [
-    {
-      "name": "Cambium",
-      "description": "Cambium Carbon is an early-stage social enterprise startup focused on implementing systems-level natural climate solutions centered on reforestation and urban wood reuse. They work with cities and other public and private partners to save fallen city trees from landfills, turn them into their best use, and channel revenues into planting projects.",
-      "website": "cambiumcarbon.com",
-      "employees": "19",
-      "active_jobs": "5"
-    },
-    {
-      "name": "Living Carbon",
-      "description": "The goal of the public benefit corporation Living Carbon is to restore equilibrium to the planet\\'s metabolic process. We address this urgency by fusing cutting-edge biotechnology with plants\\' natural ability to capture and store carbon. Living Carbon is a public benefit corporation with the goal of rebalancing the planet\\'s metabolic system. In order to fulfill this need, tey combine cutting-edge biotechnology with plants\\' natural ability to capture and store carbon.",
-      "website": "livingcarbon.com",
-      "employees": "50",
-      "active_jobs": "8"
-    },
-    {
-      "name": "TerViva",
-      "description": "TerViva is an agricultural company that specializes in providing patented trees to growers and offer proprietary beans processing to create sustainable food and fuel. It utilizes patented Pongamia genetics and developed propagation techniques. TerViva was founded in 2010 and headquartered in Oakland, California.",
-      "website": "terviva.com",
-      "employees": "104",
-      "active_jobs": "1"
-    },
-    {
-      "name": "TreeCard",
-      "description": "TreeCard offers a wooden payment card that funds reforestation via the interchange fees generated. The company\\'s cards are designed with the environment in mind with only a small amount of plastic being used for the contactless chip-made from recycled plastic bottles and the rest of the card is made from FSC certified British cherry wood. TreeCard will be able to be used at any merchant (online or in-store) where Mastercard is accepted. TreeCard will also be connected to Apple Pay, Google Pay, and Samsung Pay.",
-      "website": "treecard.org",
-      "employees": "25",
-      "active_jobs": "5"
-    }
-  ],
-  "Sustainable Intensification for Smallholders": [
-    {
-      "name": "CowBell Labs",
-      "description": "At Cowbell Labs, we believe that innovation in agricultural climate technology should be available to anyone, anywhere in the world. We are devoted to creating a future where the power to change the world lies in the hands of every inventor, innovator, and practitioner determined to make a difference.",
-      "website": "cowbell-labs.org",
-      "active_jobs": "0"
-    },
-    {
-      "name": "NitroVolt",
-      "description": "NitroVolt, is developing a small-scale ammonia synthesis unit, to give farmers control over fertilizer production. We will do so through our patent-pending electrochemical process.\n\nOur aim is to decarbonized nitrogen-based fertilizer production one farm at the time, cut the logistic costs of distributing fertilizer, and make the agricultural sector more resilient to external factors and political issues.",
-      "website": "nitrovolt.com",
-      "employees": "7",
-      "active_jobs": "1"
-    },
-    {
-      "name": "PlanetX",
-      "description": "Our mission is simple...to create the sustainable planet we all want to live on, where citizens and companies are rewarded by doing good things for the environment, society, and people. www.planetx.com",
-      "website": "planetx.com",
-      "employees": "12",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Smallhold",
-      "description": "Smallhold is on a mission to dramatically shorten the distance between you and fresh, gourmet mushrooms. Our growing network of organic farms is upending the traditional farming model with patented technology and a sophisticated supply chain, dramatically increasing access to freshly harvested mushrooms.",
-      "website": "smallhold.com",
-      "employees": "59",
-      "active_jobs": "0"
-    }
-  ],
   "Alternative Refrigerants": [
     {
       "name": "Electric Hydrogen Co.",
@@ -4127,49 +4402,96 @@ const mapping = {
       "active_jobs": "10"
     }
   ],
-  "Small Hydropower": [
+  "Bioproduction": [
     {
-      "name": "Natel Energy",
-      "description": "Natel Energy is working to support healthy rivers, promote biodiversity and decarbonize the grid through fish-safe hydropower and accurate, timely decision-making tools that improve natural resource management. Natel delivers high-performance fish-safe turbine and plant designs and engineering services informed by industry-leading CFD modeling and analysis as well as an in-house hydraulic test lab. In partnership with turbine manufacturers, Natel designs solutions to upgrade existing hydropower plants and develop new, sustainable projects worldwide, mitigating climate change and curbing biodiversity loss.",
-      "website": "natelenergy.com",
-      "employees": "48",
-      "active_jobs": "2"
+      "name": "Enzymit",
+      "description": "Enzymit is a bioproduction platform company based on \u2018cell-free\u2019 enzymatic manufacturing technology. Enzymit\u2019s computational enzyme design platform enables us to generate \u2018new-to-nature\\' enzymes opening production routes to molecules previously unattainable. These novel enzymes are then combined in a bioreactor to produce desired molecules from cheap feedstock. Unlike fermentation, cell-free production enables higher product yields at higher purity and lower costs and significantly less complications.",
+      "website": "enzymit.com",
+      "employees": "23",
+      "active_jobs": "0"
     }
   ],
-  "High-Efficiency Heat Pumps": [
+  "Abandoned Farmland Restoration": [
     {
-      "name": "Blue Frontier",
-      "description": "Blue Frontier has developed a truly smart air conditioning system. We change the concentration of a salt-solution to create cooling with minimal energy requirements. This means that the air conditioner will require less than half the electricity than a conventional system. Also, our A/C does not have to consume electricity when its working, allowing us to move electricity consumption to non-peak periods, when electricity is cheapest and produced by renewable energy. While saving energy is critical, we are also a better A/C. With our system we can decouple humidity control form air temperature control, a feat difficult to accomplish with your conventional A/C technology. This, coupled with smart distributed control systems, ensures that your and all our customers will never feel too hot or too cold, but just right all the time.",
-      "website": "bluefrontierac.com",
-      "employees": "18",
-      "active_jobs": "6"
+      "name": "Farm Holdings",
+      "description": "Farm is a land restoration investment platform. Our mission is to increase the number of healthy acres &amp; productive investments that benefit the natural ecosystem.",
+      "website": "farm.vc",
+      "employees": "63",
+      "active_jobs": "0"
+    }
+  ],
+  "Improved Fisheries": [
+    {
+      "name": "FlyWire",
+      "description": "At FlyWire, our mission is to provide at-sea verification of fishing efforts in order to ensure and promote sustainable fishing and responsible labor practices. Our at-sea fisheries monitoring solutions are critical to identifying, empowering, and growing the number of fishers operating sustainably and responsibly world-wide.",
+      "website": "flywirecameras.com",
+      "employees": "4",
+      "active_jobs": "1"
     },
     {
-      "name": "Gradient",
-      "description": "Gradient\u2019s mission is to cool the world by transforming every home to be more comfortable and healthy for the people who inhabit it \u2014 without compromising the environment. Today, heating and cooling equipment emits more greenhouse gas emissions than the entire transportation sector, and expansion in the use of cooling is projected to double theseemissions in the next 30 years. However, comfortable buildings are critical for health and productivity, especially among communities that are vulnerable to the effects of climate change. Gradient\u2019s vision is a future where everyone has access to comfortable buildings that are fully decarbonized. Our launch product is a direct-to-consumer high-efficiency and low-carbon heat pump.",
-      "website": "gradientcomfort.com",
-      "employees": "65",
-      "active_jobs": "8"
+      "name": "Scoot Science",
+      "description": "The Ocean is changing. Quickly. Know what\\'s coming. What\\'s happening beneath the surface doesn\\'t have to be a mystery. Scoot Science fills in the data gaps, and then uses a combination of traditional numerical ocean models and predictive artificial intelligence to deliver accurate underwater weather. What can Scoot Science do for your marine operations? * Visualize - Wake up each day to the headlines of your underwater weather and a complete picture of the local sub-surface conditions *Analyze - Know the environmental threats to your marine operations before the impacts materialize * Empower - Make informed logistics and operations decisions, protect your marine assets and strengthen your bottom line",
+      "website": "scootscience.com",
+      "employees": "15",
+      "active_jobs": "0"
+    }
+  ],
+  "Bioplastics": [
+    {
+      "name": "Full Cycle Bioplastics",
+      "description": "Full Cycle Bioplastics provide plastic pollution, food waste, and climate change by transforming organic waste into PHA and oil-based plastics. They use natural processes to convert mixed feedstocks into tailorable product types. Their PHA technology is the solution for plastic pollution and food waste.",
+      "website": "fullcyclebioplastics.com",
+      "employees": "17",
+      "active_jobs": "0"
     },
     {
-      "name": "Heaten",
-      "description": "Heaten is an industrial start-up, tackling one of the most difficult problems for numerous industries, namely, to accelerate the electrification of heat with the prospect of deep-decarbonization, while providing viable roadmaps, both technically and economically to rapidly de-carbonize industrial heating processes. Heaten is a start-up with an 8 years R&D history in heat-to-power (Organic Ranking Cycle) and power-to-heat machines (heat pump). Our technology platform and knowledge are leading the efforts to deliver process temperatures of currently realized 165 degrees Celsius which covers 30% of the energy demand of all industrial heating processes, equivalent to a \u20ac39billion TAM in the EU-28 market only. Heaten\\'s technology platform can achieve up to 400 degrees Celsius (R&D roadmap). Heaten AS has gone through the full cycle of R&D, prototyping, engineering, and design to successfully deliver 200kW heat pumps and industrial equipment to a customer. We are now looking to scaling the existing platform to meet industry needs and staying ahead of the competition by leading R&D and secure IP into medium-temperature process heat.",
-      "website": "heaten.com",
-      "employees": "24",
-      "active_jobs": "6"
+      "name": "General Biological",
+      "description": "General Biological is developing technologies to catalyze a shift from traditional chemical manufacturing to sustainable bioproduction. The multi-trillion dollar chemicals industry underlies every aspect of the modern industrial economy. It is built on toxic processes, rotting infrastructure, and a need for oil.",
+      "website": "generalbiological.com",
+      "active_jobs": "3"
     },
     {
-      "name": "Quilt",
-      "description": "We\u2019re building a sleek and intelligent ductless heat pump system for the home. Quilt offers AI-driven efficiency and room-by-room control\u2014all while leaving fossil fuels behind.",
-      "website": "quilt.com",
-      "employees": "30",
+      "name": "MycoWorks",
+      "description": "MycoWorks is engaged in the creation of sustainable design solutions with advanced biomaterials. The company\u2019s proprietary custom-engineered material is sustainable, versatile, and animal-free, and feels and performs like leather. Their first product, Reishi, and the proprietary platform to make it, Fine Mycelium, are a groundbreaking approach to biomaterials that delivers unparalleled versatility and unmatched performance in strength, durability, and hand feel. The perfect intersection of art and science, Reishi is the only natural material that performs like cowhide leather and is engineered to meet the highest quality standards. MycoWorks was founded by Sophia Wang and Philip Ross in 2013 and is based in San Francisco, California.",
+      "website": "mycoworks.com",
+      "employees": "189",
+      "active_jobs": "11"
+    },
+    {
+      "name": "RenewCO2",
+      "description": "RenewCO2 is a research company that develops processes for converting CO2 into polymers and chemicals. The company was founded in 2018 and is based in Cranford, New Jersey.",
+      "website": "renewco2.com",
+      "employees": "9",
+      "active_jobs": "2"
+    },
+    {
+      "name": "Solugen",
+      "description": "At Solugen, we believe planet-scale change starts with the chemistry we use every day. We\u2019re revolutionizing how things are made with the world\u2019s first carbon negative molecule factory: the Bioforge. Harnessing the power of evolved enzymes, plant-based feedstocks, and clean, catalytic reactions, we are making the materials we need to sustain life on Earth\u2014faster, cheaper, and without emissions or waste.",
+      "website": "solugen.com",
+      "employees": "183",
       "active_jobs": "12"
+    }
+  ],
+  "Managed Grazing": [
+    {
+      "name": "Halter",
+      "description": "Halter creates GPS enabled, solar powered collars for cows. The collar hardware allows farmers to use simple tablet app software to remotely set geographic boundaries for cattle, virtual fences. Farmers use Halter\\'s system to avoid physically herding cows, maximizing farmer time and productivity.",
+      "website": "halter.co.nz",
+      "employees": "163",
+      "active_jobs": "16"
     },
     {
-      "name": "Transaera",
-      "description": "Transaera is developing a new class of affordable, energy-efficient,environmentally friendly cooling systems.",
-      "website": "transaera.com",
-      "employees": "16",
+      "name": "PastureMap",
+      "description": "PastureMap helps ranchers and farmers make profits building healthy grasslands. The company builds a global regenerative agriculture movement that is restores soil health, sequestering carbon, and provides clean water while feeding local communities.",
+      "website": "pasturemap.com",
+      "employees": "4",
+      "active_jobs": "0"
+    },
+    {
+      "name": "Vence",
+      "description": "Vence makes a hardware solution for cattle which when combined with their application software allows farmers to remotely manage/control their livestock. Their solution increases the utilization of the available grasses (increased the number of animals on a farm), removes costs associated with fencing (hardware/ maintenance costs/ labor) and eliminates labor associated with moving the animals.",
+      "website": "vence.io",
+      "employees": "24",
       "active_jobs": "0"
     }
   ],
@@ -4210,214 +4532,46 @@ const mapping = {
       "active_jobs": "0"
     }
   ],
-  "Electric Bicycles": [
+  "Concentrated Solar Power": [
     {
-      "name": "Dance",
-      "description": "Dance is an e-bike subscription service where users pay a monthly fee that covers their bikes and provides an all-inclusive support package. The subscription includes a bike concierge, maintenance, and theft replacement insurance, via the company\u2019s own hardware and software which allows for fast repairs through its warehouse and logistics setup. Through its subscription service, they want to make the e-bike the primary way people move about cities. The company\\'s electric bike transforms their daily commute from frustration to joy. Save time with no traffic jams, no waiting for departures, no searching for parking, and all without even breaking a sweat. Its frictionless subscription model includes a fully assembled, state of the art e-bike delivered to their door within 24 hours. Dance is based in Berlin, Germany.",
-      "website": "dance.co",
-      "employees": "698",
-      "active_jobs": "8"
+      "name": "Heliogen",
+      "description": "Heliogen is a clean energy company focused on eliminating the need for fossil fuels in all sectors of the economy. Heliogen\u2019s mission is to create the world\u2019s first technology that can commercially replace fossil fuels in industrial processes with carbon-free, ultra-high temperature heat from the sun and to transform sunlight into fuels, including hydrogen, at scale. Heliogen was created at Idealab, a technology incubator.",
+      "website": "heliogen.com",
+      "employees": "192",
+      "active_jobs": "3"
     }
   ],
-  "Farm Irrigation Efficiency": [
+  "Reduced Emissions from Deforestation and Degradation (REDD+)": [
     {
-      "name": "NEER",
-      "description": "NEER is a comprehensive integrated real time water management platform. The Platform uses Machine Learning, to model and assess the risk condition of drinking water distribution mains, sewer and stormwater collection systems.",
-      "website": "neer.ai",
-      "employees": "12",
-      "active_jobs": "0"
-    }
-  ],
-  "Biochar Production": [
-    {
-      "name": "Arbor Energy",
-      "description": "Arbor Energy is a planetary renewal company on a mission to build a truly sustainable world. Working in harmony with Earth\u2019s natural rhythms, their technology turns waste into carbon negative energy and fresh water, while permanently removing CO2 from the atmosphere in the process. They envision a solarpunk future with carbon-negative power at the center of a global circular economy - where growth is no longer extractive, but regenerative. A world in tune, a planet in balance.",
-      "website": "arbor.energy",
-      "employees": "28",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Bloom Biorenewables Ltd",
-      "description": "Bloom Biorenewables is creating a global impact in the use of sustainable resources. By introducing a new route for the production of biorenewable products and fuels, they offer a sustainable alternative to fossil-based industries and contribute to mitigating climate change.",
-      "website": "bloombiorenewables.com",
-      "employees": "17",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Carbon180",
-      "description": "Carbon180 is a new breed of climate-focused NGO on a mission to fundamentally rethink carbon. We partner with policymakers, scientists and businesses around the globe to develop policy, promote research, and advance solutions to build an economy that removes more carbon than it emits. For more information, visit our website at www.carbon180.org or our career page at www.carbon180.org/jobs.",
-      "website": "carbon180.org",
-      "employees": "30",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Climate Robotics",
-      "description": "Climate Robotics develops robots designed to efficiently generate bio char to sequester carbon and improve soils, starting with urban land.",
-      "website": "climaterobotics.com",
+      "name": "Holocene Climate Corporation",
+      "description": "Holocene is a direct air capture (\u201cDAC\u201d) technology developer and carbon removal service provider harnessing organic chemistry, and the abundant elements therein \u2013 carbon, nitrogen, hydrogen, and oxygen \u2013 to remove carbon dioxide directly from the atmosphere in support of restoring the climate stability and prosperity of our namesake, the Holocene Epoch. Our liquid-based, low-temperature, thermochemical approach has the potential to be the lowest cost direct air capture system on the market, according to independent, third-party analysis (CICE, IBET - 2024).",
+      "website": "theholocene.co",
       "employees": "20",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Lydian",
-      "description": "Founded in 2021, Lydian is addressing more than 10% of global greenhouse gas emissions by creating the fuels, plastics, and other chemicals we need out of carbon dioxide and water, not petroleum. Lydian is proud to be backed by top climate investors.",
-      "website": "lydianlabs.com",
-      "employees": "15",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Phase Biolabs",
-      "description": "UK startup building bio-based carbon capture and utilisation (CCU) technology to recycle industrial carbon dioxide (CO2) emissions into carbon neutral chemicals and e-fuels.",
-      "website": "phasebiolabs.com",
-      "employees": "10",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Takachar",
-      "description": "Takachar creates a network of waste management enterprises in Kenya that turn unmanaged agricultural residues into charcoal, a low-cost, non-toxic, and eco-friendly cooking fuel for low-income households. They have developed a series of low-cost (US$20), locally manufacturable technologies to enable waste-to-char conversion, which has been tested and refined in Kenya for the past 3 years. Since 2011, They have set up or directly helped 7 nascent and locally run waste-to-charcoal enterprises in Kenya, some of which have since even demonstrated operational profitability and paying customers. So far they have created about 100 jobs and sold 50 tons of eco-char. Moving forward, they are trying to prove the long-term financial viability of these enterprises, which, if successful, will be the basis of a franchise network.",
-      "website": "takachar.com",
-      "employees": "17",
       "active_jobs": "0"
     },
     {
-      "name": "made of air GmbH",
-      "description": "Made of Air is a radical new biochar-based material designed to combat climate change. Made of 90% atmospheric carbon, our material is a sustainable alternative for use in construction, interiors, furniture and more.",
-      "website": "madeofair.com",
-      "employees": "19",
-      "active_jobs": "1"
-    }
-  ],
-  "Thermal Energy Storage": [
-    {
-      "name": "Antora Energy",
-      "description": "Antora Energy delivers zero-carbon industrial heat and power to heavy industries that are more reliable than fossil fuels. Antora\u2019s thermal energy storage soaks up excess solar and wind electricity and uses it to heat blocks of carbon so they glow like inside a toaster.",
-      "website": "antoraenergy.com",
-      "employees": "56",
-      "active_jobs": "24"
-    }
-  ],
-  "Perennial Biomass Production": [
-    {
-      "name": "Charm Industrial",
-      "description": "Charm Industrial has developed a novel pathway for carbon sequestration: putting oil back underground in the form of bio-oil. The process converts agricultural residue to bio-oil, then injects the bio-oil into deep geological formations for permanent storage. After winning carbon removal contracts from Stripe, Shopify and Microsoft in 2020, Charm Industrial began rapidly scaling fulfillment. At scale, Charm Industrial plans to gasify bio-oil to produce industrial syngas. Charm\\'s engineering team is based in San Francisco, with operations in Louisiana, Kansas and Oklahoma.",
-      "website": "charmindustrial.com",
-      "employees": "59",
-      "active_jobs": "18"
-    },
-    {
-      "name": "Eion",
-      "description": "Eion\u2019s mission is to remove carbon permanently and at scale, with rigorous scientific verification, while providing economic opportunity and environmental benefits for farmers and rural communities.",
-      "website": "eioncarbon.com",
-      "employees": "25",
-      "active_jobs": "0"
-    }
-  ],
-  "Onshore Wind Turbines": [
-    {
-      "name": "AirLoom Energy",
-      "description": "AirLoom Energy uses the strength of the wind to propel wings down a lightweight track. The company\\'s geometry produces the same amount of energy as conventional turbines at a fraction of the cost. The company offers low-cost utility-scale wind energy.",
-      "website": "airloomenergy.com",
-      "active_jobs": "0"
-    },
-    {
-      "name": "H2SITE",
-      "description": "H2SITE produces onsite and renewable H2 for small and medium companies.",
-      "website": "h2site.eu",
-      "employees": "38",
-      "active_jobs": "12"
-    }
-  ],
-  "Peatland Protection and Rewetting": [
-    {
-      "name": "44.01",
-      "description": "4.01 is a company that specializes in eliminating CO2 from the atmosphere by mineralizing it in peridotite, a type of rock that naturally absorbs CO2. We eliminate CO2 by turning it into rock, and removing it from the atmosphere safely, efficiently, and permanently.",
-      "website": "4401.earth",
-      "employees": "67",
-      "active_jobs": "7"
-    },
-    {
-      "name": "CarbonPlan",
-      "description": "we\\'re using science and data to help optimize the deployment of carbon removal",
-      "website": "carbonplan.org",
-      "employees": "12",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Carbonfuture",
-      "description": "Carbonfuture helps companies and organizations worldwide on their path to true net zero. As an online marketplace and fully digitized platform for high-quality and effective carbon sink credits, we offer certificates that not only avoid CO2 emissions, but actively remove them out of the atmosphere. Our uncompromisingly scientific approach as well as seamless, tamper-proof supply chain tracking, precise sink modeling, and flexible credit management, set the standard for credible and effective climate protection. In accordance with our mission statement \u201ccarbon removal you can trust\u201d, we incorporate these key values into all our processes. One carbon future credit corresponds to one ton of CO2 being safely removed from the atmosphere for a minimum of 100 years. The goal is to deliver real climate impact: and that means providing carbon sinks in the gigaton range. Find out more about how we can help you reach your net zero goals here: https://www.carbonfuture.earth",
-      "website": "carbonfuture.earth",
-      "employees": "47",
-      "active_jobs": "3"
-    },
-    {
-      "name": "Carboniferous",
-      "description": "Enhancing natures carbon sequestration solutions to reduce climate change. Learn more at carboniferous.co",
-      "website": "carboniferous.co",
-      "employees": "4",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Origen",
-      "description": "Origen is a UK-based cleantech company specialising in providing innovative solutions for carbon removal from the atmosphere. Founded in 2013 following ground-breaking research at the University of Oxford, Origen\u2019s patented ZerCaL\u2122 technology enables the production of zero-carbon lime that can be used in carbon-intensive industrial processes.\n\nBy harnessing lime\u2019s CO2-absorbing properties, Origen is developing new methods to remove billions of tonnes of CO2 directly from the atmosphere and bring us closer to achieving crucial climate change targets.\n\nNo more excuses. No more blue sky thinking. It\u2019s time for blue sky doing.",
-      "website": "origencarbonsolutions.com",
-      "employees": "48",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Silicate",
-      "description": "Silicate permanently removes excess carbon dioxide from the atmosphere via the acceleration of a natural geochemical process \u2013 mineral weathering.",
-      "website": "silicatecarbon.com",
-      "employees": "3",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sylvera",
-      "description": "Sylvera is a leading carbon data provider. Our mission is to incentivize investment in real climate action. To help organizations ensure they\\'re making the most effective investments toward net zero, we build software that independently and accurately automates the evaluation of carbon projects that capture, remove, or avoid emissions. With Sylvera\\'s data and tools, businesses and governments can confidently invest in, benchmark, deliver, and report real climate impact.",
-      "website": "sylvera.com",
-      "employees": "167",
-      "active_jobs": "13"
-    },
-    {
-      "name": "UNDO",
-      "description": "UNDO develops pioneering carbon removal that can capture huge amounts of CO2 from our atmosphere. Our innovative, nature-based technologies lock away carbon permanently and start immediately. And with cutting-edge, scientific research we ensure our technology is safe, effective, and beneficial, whilst measuring the amount of carbon removed through our model. Partnering with local agricultural communities, they both support and benefit from our work. And by providing high-quality carbon credits, we enable companies to meet their net zero commitments and help individuals who want to make a difference. Our ambition is to be the first company to remove 1 million tons of CO2 with the aim of removing a billion - once and for all.",
-      "website": "un-do.com",
-      "employees": "79",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Vaulted Deep",
-      "description": "Vaulted is an emerging leader in permanent carbon removal. A biomass carbon removal and storage (BiCRs) solution, Vaulted delivers permanent, high quality carbon removal at scale through the geologic sequestration of carbon-filled organic waste. Vaulted\u2019s approach is designed to be the lowest-cost, gigaton scale, permanent carbon removal. We sequester sludgy organic wastes (biosolids, manure, agricultural, food waste, paper sludge, etc.) that today are sent to a landfill, dumped into an ocean/river, land applied, or otherwise left to decompose, releasing GHGs into the atmosphere. Vaulted leverages a suite of patented, mature, geologic slurry sequestration technologies which allow us to sequester organic waste with minimal processing. We inject deep under the earth\u2019s surface, where the carbon is permanently trapped under a layer of impermeable rock - the same formations that have kept hydrocarbons underground for millions of years. We have two permitted, operational, facilities allowing us to reach near-term meaningful scale. Our carbon removal approach goes beyond vaulting carbon. It inherently improves local environmental and human health. In doing so, our operations redress historically unjust waste management practices and advance environmental justice. Vaulted is backed by leading carbon removal and climate investors, including Lowercarbon Capital, Earthshot Ventures, and WovenEarth Ventures.",
-      "website": "vaulteddeep.com",
-      "employees": "10",
-      "active_jobs": "5"
-    }
-  ],
-  "Reduced Plastics": [
-    {
-      "name": "CO280 Solutions",
-      "description": "CO280 aims to help businesses reduce their carbon footprint by developing permanent, high quality, carbon negative solutions. In collaboration with its partners, CO280 utilizes experience andskills to develop, finance and implement complex carbondioxid...",
-      "website": "co280.com",
-      "employees": "9",
-      "active_jobs": "2"
-    },
-    {
-      "name": "Dispatch Goods",
-      "description": "Dispatch Goods is creating a broadly applicable packaging solution, offering a plug and play solution for brands to enact packaging take-back programs. Dispatch Goods links together the returns and cleaning process for its B2B customers, and resells the used packaging back to the business at a price that\\'s lower than new, single-use packaging. In the past year, they\\'ve launched and grown with customers such as Imperfect Foods, Sakara, Thistle, CookUnity, Methodology, and others.",
-      "website": "dispatchgoods.com",
-      "employees": "26",
+      "name": "Sustaera",
+      "description": "Sustaera offers a direct air capture solution that works ranging from open grasslands to arid deserts to tropical savannas. The company was founded in 2021 and is headquartered in Cary, North Carolina, United States.",
+      "website": "sustaera.com",
+      "employees": "6",
       "active_jobs": "4"
-    },
+    }
+  ],
+  "Coastal Wetland Protection": [
     {
-      "name": "Patch",
-      "description": "Patch is the platform scaling unified climate action.\nOur planet is out of sync. Companies need to drastically lower their carbon footprint for us to reach our global climate goals. It\\'s time to reduce emissions as quickly as possible and neutralize anything remaining. Patch is the platform putting us on a path to a planet in balance.",
-      "website": "patch.io",
-      "employees": "107",
-      "active_jobs": "12"
-    },
+      "name": "Jupiter Intelligence",
+      "description": "Led by a team of world-renowned scientists and executives, Jupiter provides data and analytics services to better predict and manage risks from weather and sea-level rise, storm intensification and rising temperatures caused by medium- to long-term climate change. Jupiter\u2019s ClimateScore Intelligence Platform provides sophisticated, dynamic, hyper-local, current to 50-year predicted risks from weather in a changing climate. The company\u2019s FloodScore and HeatScore services are currently focused on climate-related risk assessment and management for New York City, South Florida and the Atlantic Coast with global expansion underway. Jupiter\u2019s models are based on the latest science, as developed by the global Earth and Ocean Systems community.",
+      "website": "jupiterintel.com",
+      "employees": "94",
+      "active_jobs": "1"
+    }
+  ],
+  "Wastewater Management": [
     {
-      "name": "UNLESS Collective",
-      "description": "UNLESS Collective is an apparel and fashion company that designs and develops streetwear apparel made from zero plastic. It is based in Portland, Oregon.",
-      "website": "unlesscollective.com",
-      "employees": "9",
+      "name": "Kando",
+      "description": "Kando is an end-to-end solution that creates continuous awareness of events in the collection system. Kando enables utilities to remotely and continuously improve their operations by providing the following features: \u2022 Realtime wastewater quality data across the collection system \u2022 Pinpoint sources of pollution \u2022 Early warnings of damaging WWTP influent quality \u2022 Machine learning that evolves with your network \u2022 Autonomous sampling units \u2022 User fee calculator \u2022 Customized pollution alerts \u2022 A user-friendly, online interface \u2022 Detection of COVID-19 infection rates (New) The combination of these actionable insights results in: \u2022 Reduced CAPEX/OPEX \u2022 Greater WW reuse capabilities \u2022 Improved public health \u2022 Cleaner environments Kando has been deployed in Los Angeles, Milan, Brisbane, and many other cities. To gain a greater understanding of how our system can help your organization, visit our homepage at www.kando.eco.",
+      "website": "kando.eco",
+      "employees": "90",
       "active_jobs": "0"
     }
   ],
@@ -4437,88 +4591,48 @@ const mapping = {
       "active_jobs": "0"
     }
   ],
-  "Insulation": [
+  "Biobased Chemicals": [
     {
-      "name": "Aeroseal",
-      "description": "Aeroseal\u2019s mission is to revolutionize the way buildings consume energy, drastically reducing their carbon emissions in a simple, safe, and cost-effective way. How will we do it? With our air-sealing technologies. Small leaks are a BIG problem -- The ducts and walls in buildings leak air - wasting energy and affecting comfort, and traditional sealing solutions fall short of solving the problem. Aeroseal\u2019s technologies - HomeSeal Connect, SmartSeal, and AeroBarrier Connect - inject a fog of sealant particles into these pressurized spaces, efficiently sealing air leaks in both ducts and the building envelope. Software tracks the entire process, creating a certificate of completion showing before and after leakage. Aeroseal is one of the fastest-growing clean technology companies in the U.S. and has sealed over 250,000 buildings globally, spanning homes, hospitals, schools, government facilities, hotels, and offices. This commitment has resulted in billions of dollars in energy savings.",
-      "website": "aeroseal.com",
-      "employees": "193",
-      "active_jobs": "14"
-    },
-    {
-      "name": "Agorus",
-      "description": "We are a construction technology company accelerating the future of homebuilding to help solve our nation\u2019s housing crisis. Agorus\u00ae has streamlined and accelerated the custom home building process with software and robotics that optimize residential construction. In doing so we eliminate many of the risks and inefficiencies associated with traditional homebuilding. The Agorus technology leverages our proprietary software and custom automated robotics to minimize construction time, on-site costs and material waste while maximizing construction precision and efficiency.",
-      "website": "agorus.com",
-      "employees": "45",
-      "active_jobs": "7"
-    },
-    {
-      "name": "Get Weatherized, Inc.",
-      "description": "SaaS for residential insulation retrofits.",
-      "website": "getweatherized.com",
-      "employees": "5",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Hyperframe",
-      "description": "Hyperframe develops a new class of building materials that raises construction productivity by 10 to 100 times.",
-      "website": "hyperframe.com",
-      "employees": "11",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Tangible",
-      "description": "Your platform for sustainable building materials.",
-      "website": "tangiblematerials.com",
-      "employees": "15",
+      "name": "Manus Bio",
+      "description": "Manus Bio leverages rapid advances in biology to produce complex natural ingredients used in our daily lives as flavors, fragrances, food ingredients, cosmetics, vitamins, pharmaceuticals, and agricultural chemicals. Using its advanced fermentation technology, Manus Bio recreates natural processes for next-generation industrial biomanufacturing and provides sustainable, cost-effective sources of ingredients for health, wellness, and nutrition. We call it Biomanufacturing Redefined.",
+      "website": "manusbio.com",
+      "employees": "117",
       "active_jobs": "1"
-    },
-    {
-      "name": "Vantem Global",
-      "description": "We make possible the construction of affordable, energy-efficient homes on a large scale, globally. Our Vantem Building System enables the rapid delivery of high quality, energy-efficient structures with the look and feel of traditional masonry construction. It is cost-effective, requires less labor, and is very thermally efficient.",
-      "website": "vantem.com",
-      "employees": "28",
-      "active_jobs": "0"
     }
   ],
-  "Water Distribution Efficiency": [
+  "Composting": [
     {
-      "name": "120Water",
-      "description": "120Water is the end-to-end lead management solution designed to ease the compliance burden and optimize the efforts of water systems. Comprised of software, consultative services and sampling kits, 120Water\u2019s solution meets systems where they are, providing a roadmap for lead compliance and program success. Their team of water alumni and technology experts have supported over 7,000 sampling events across the country, partnering with water systems and facilities of all sizes to protect public health and provide clean drinking water to communities.",
-      "website": "120water.com",
-      "employees": "75",
-      "active_jobs": "0"
-    },
-    {
-      "name": "DigitalPaani",
-      "description": "Today, most of India faces extreme water scarcity even as 75% of the sewage treatment plants that can recycle water remain defunct. \n\nWe\u2019re building cutting-edge IoT and digital management tools that redesign wastewater operations to protect natural resources and build clean cities with abundant water. Our IOT-powered platform automates plants, comprehensively detects issues using custom-made sensors and 75+ algorithms, launches automated workflows for service teams, and gives maintenance recommendations. It has been awarded by Niti Aayog and transforms non-functional plants to high quality, compliant units while reducing operating costs by 25-35%. \n\nEach plant that partners with us also saves 58 million litres of freshwater and offsets as much carbon as 5200 trees. \n\nJoin us on our mission to tackle India\u2019s water and sanitation crisis!",
-      "website": "ecoinnovision.com",
-      "employees": "14",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Waterplan",
-      "description": "Waterplan is a SaaS platform for companies to manage water availability in their facilities.",
-      "website": "waterplan.com",
-      "employees": "86",
-      "active_jobs": "4"
+      "name": "Mill",
+      "description": "Trash stinks. Together, we can do better. Mill has created a new system to help you outsmart waste at home.",
+      "website": "mill.com",
+      "employees": "330",
+      "active_jobs": "14"
     }
   ],
-  "Ammonia Production": [
+  "Hydrogen Production": [
     {
-      "name": "Amogy",
-      "description": "Amogy is a VC-backed start-up, located in Brooklyn, New York, and is working on a novel carbon-free energy system using ammonia as a renewable fuel. The innovative solution enables the decarbonization of ground/sea/air transportations, accelerating our journey towards the Net Zero Economy. As a mission, we aim to eliminate &g;5 billion metric tons of CO2 emission by 2040 and achieve the complete decarbonization of transportations by 2050. see less",
-      "website": "amogy.co",
-      "employees": "179",
-      "active_jobs": "5"
+      "name": "Molten Industries",
+      "description": "Molten Industries develops clean technology with the goal of decarbonizing the hydrogen market. The company\\'s technology generates the most affordable and environmentally friendly hydrogen.",
+      "website": "moltenindustries.com",
+      "employees": "6",
+      "active_jobs": "1"
     }
   ],
-  "Carbon Capture and Sequestration": [
+  "Small Hydropower": [
     {
-      "name": "Carbon America",
-      "description": "Carbon America transforms the carbon capture and sequestration (CCS) industry by lowering costs and rapidly increasing deployment. Carbon America is a carbon capture and sequestration developer. It is vertically integrated, nimble, and built to scale, with a multi-strategy approach to capture and sequester carbon dioxide faster, cheaper, and smarter than the competition. To achieve this, Carbon America has built a team combining world-class engineers, developers, and financiers into a vertically integrated CCS company.",
-      "website": "carbonamerica.com",
-      "employees": "72",
+      "name": "Natel Energy",
+      "description": "Natel Energy is working to support healthy rivers, promote biodiversity and decarbonize the grid through fish-safe hydropower and accurate, timely decision-making tools that improve natural resource management. Natel delivers high-performance fish-safe turbine and plant designs and engineering services informed by industry-leading CFD modeling and analysis as well as an in-house hydraulic test lab. In partnership with turbine manufacturers, Natel designs solutions to upgrade existing hydropower plants and develop new, sustainable projects worldwide, mitigating climate change and curbing biodiversity loss.",
+      "website": "natelenergy.com",
+      "employees": "48",
+      "active_jobs": "2"
+    }
+  ],
+  "Farm Irrigation Efficiency": [
+    {
+      "name": "NEER",
+      "description": "NEER is a comprehensive integrated real time water management platform. The Platform uses Machine Learning, to model and assess the risk condition of drinking water distribution mains, sewer and stormwater collection systems.",
+      "website": "neer.ai",
+      "employees": "12",
       "active_jobs": "0"
     }
   ],
@@ -4531,45 +4645,28 @@ const mapping = {
       "active_jobs": "1"
     }
   ],
-  "Abandoned Farmland Restoration": [
+  "Walkable Cities": [
     {
-      "name": "Farm Holdings",
-      "description": "Farm is a land restoration investment platform. Our mission is to increase the number of healthy acres &amp; productive investments that benefit the natural ecosystem.",
-      "website": "farm.vc",
-      "employees": "63",
-      "active_jobs": "0"
+      "name": "Numina",
+      "description": "Numina\\'s standalone sensing and data platform uses computer vision to measure how people and objects move through the public right-of-way. Numina is purpose-built to empower urban planners and municipal DoTs with better data to design more walkable, bikeable, and efficient places. Simultaneously, Numina provides this intelligence to the private sector as the data backbone for urban automation. Numina has been serving planners and cities since 2014, with support from the John S. and James L. Knight Foundation, Robert Wood Johnson Foundation, Clinton Foundation, SOSV, MINI BMW, 500 Startups, and others. Numina is built with in St. Louis, MO and New York, NY.",
+      "website": "numina.co",
+      "employees": "21",
+      "active_jobs": "3"
     }
   ],
-  "Carbon Capture and Storage": [
+  "Microgrids": [
     {
-      "name": "Verdox",
-      "description": "Verdox is dedicated to reversing climate change through the development and deployment of advanced technology. The company\u2019s proprietary electro-swing process, developed at MIT, enables carbon dioxide and other acid gases to be captured with up to 80% less energy and 70% less cost than conventional approaches.",
-      "website": "verdox.com",
-      "employees": "36",
-      "active_jobs": "2"
-    }
-  ],
-  "Clean Cooking": [
-    {
-      "name": "Ecosafi",
-      "description": "Ecosafi develops a cooker and a pellet briquette fuel that promotes better way of cooking.",
-      "website": "ecosafi.com",
-      "employees": "37",
-      "active_jobs": "0"
-    }
-  ],
-  "Net Zero Buildings": [
-    {
-      "name": "Cadence OneFive",
-      "description": "Cadence OneFive is a SaaS platform that makes climate-responsive construction easy for multifamily, hotel, student, and senior housing.",
-      "website": "hello.c15.io",
-      "active_jobs": "0"
+      "name": "Odyssey Energy Solutions",
+      "description": "Provider of an online platform intended to streamline the development of mini-grids in emerging markets. The company\\'s online platform manages how mini-grid data is analyzed and communicated via software tools, data analytics and marketplaces, enabling mini-grid project developers to connect with investors, suppliers, donors and other market stakeholders.",
+      "website": "odysseyenergysolutions.com",
+      "employees": "49",
+      "active_jobs": "5"
     },
     {
-      "name": "Helio Home",
-      "description": "Helio makes it simple for customers to transition off fossil fuels and fully electrify their homes. We are building the first online platform that designs the easiest and most cost-effective path to whole-home electrification",
-      "website": "heliohome.io",
-      "employees": "16",
+      "name": "SparkMeter",
+      "description": "SparkMeter offers comprehensive low-cost metering solutions for everything from rural micro-grids to existing urban central grid utilities. Our products help make access to electricity possible in hard-to-reach places and underserved markets.",
+      "website": "sparkmeter.io",
+      "employees": "40",
       "active_jobs": "0"
     }
   ],
@@ -4601,6 +4698,23 @@ const mapping = {
       "active_jobs": "43"
     }
   ],
+  "Ocean Power": [
+    {
+      "name": "Panthalassa",
+      "description": "The open ocean is Earth\\'s largest and most power-dense renewable energy resource. We\u2019re harnessing that energy, turning it into green hydrogen and other clean fuels, and delivering those fuels around the world at a cost that everyone can afford.",
+      "website": "panthalassa.com",
+      "active_jobs": "1"
+    }
+  ],
+  "Multistrata Agroforestry": [
+    {
+      "name": "Propagate Ventures",
+      "description": "Developer of an agroforestry investment and project development platform intended to aid investors in funding low-risk agroforestry projects. The company leverages technology to provide services like workflow tools, data analytics, agroforestry analysis, and underwriting process, enabling investors to increase their returns and farmers to increase their profits.",
+      "website": "propagateventures.com",
+      "employees": "24",
+      "active_jobs": "1"
+    }
+  ],
   "Waste to Energy": [
     {
       "name": "Sierra Energy",
@@ -4610,69 +4724,13 @@ const mapping = {
       "active_jobs": "0"
     }
   ],
-  "Reduced Emissions from Deforestation and Degradation (REDD+)": [
+  "Carbon Capture and Storage": [
     {
-      "name": "Holocene Climate Corporation",
-      "description": "Holocene is a direct air capture (\u201cDAC\u201d) technology developer and carbon removal service provider harnessing organic chemistry, and the abundant elements therein \u2013 carbon, nitrogen, hydrogen, and oxygen \u2013 to remove carbon dioxide directly from the atmosphere in support of restoring the climate stability and prosperity of our namesake, the Holocene Epoch. Our liquid-based, low-temperature, thermochemical approach has the potential to be the lowest cost direct air capture system on the market, according to independent, third-party analysis (CICE, IBET - 2024).",
-      "website": "theholocene.co",
-      "employees": "20",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Sustaera",
-      "description": "Sustaera offers a direct air capture solution that works ranging from open grasslands to arid deserts to tropical savannas. The company was founded in 2021 and is headquartered in Cary, North Carolina, United States.",
-      "website": "sustaera.com",
-      "employees": "6",
-      "active_jobs": "4"
-    }
-  ],
-  "Hydrogen Production": [
-    {
-      "name": "Molten Industries",
-      "description": "Molten Industries develops clean technology with the goal of decarbonizing the hydrogen market. The company\\'s technology generates the most affordable and environmentally friendly hydrogen.",
-      "website": "moltenindustries.com",
-      "employees": "6",
-      "active_jobs": "1"
-    }
-  ],
-  "Ocean Power": [
-    {
-      "name": "Panthalassa",
-      "description": "The open ocean is Earth\\'s largest and most power-dense renewable energy resource. We\u2019re harnessing that energy, turning it into green hydrogen and other clean fuels, and delivering those fuels around the world at a cost that everyone can afford.",
-      "website": "panthalassa.com",
-      "active_jobs": "1"
-    }
-  ],
-  "Coastal Wetland Restoration": [
-    {
-      "name": "CarbonRun",
-      "description": "CarbonRun was founded and developed by Canadian environmental scientists dedicated to protecting aquatic life from the effects of pollution. Our technology increases a river\u2019s ability to capture carbon dioxide and deliver it to permanent storage in the ocean. Our safe carbon dioxide capture process is scalable, permanent, and verifiable.",
-      "website": "carbonrun.io",
-      "employees": "8",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Floodbase",
-      "description": "Floodbase is the leading flood mapping platform designed to protect the world\u2019s most climate-vulnerable communities. By harnessing global satellites, advanced science, and community intelligence, we monitor worldwide floods in near real-time and remotely analyze local flood exposure at a click of a button. Our mission is to ensure that all vulnerable governments finally access the high quality information they need to prepare for and respond to increasing catastrophes. Founded by two women at Yale and seeded by Google, Cloud to Street is being or has been used by governments and NGOs across 15 countries. We are on track to enable new flood protection and insurance for 10 million people in the next 5 years.",
-      "website": "floodbase.com",
-      "employees": "32",
-      "active_jobs": "0"
-    },
-    {
-      "name": "Hohonu",
-      "description": "Hohonu provides precision monitoring and forecasting to help communities prepare for and respond to flooding. It uses the latest technologies in hardware, software, and data science in order to deliver reliable and accessible water level data to its customers. \"If you can\\'t measure it, you can\\'t improve it.\" The same principles its team used in the restoration of an ancient Hawaiian fishpond in He\\'eia fishpond, located in Kane\\'ohe Bay on the island of O\\'ahu, can be used to help aid in humanity\\'s fight against climate change.",
-      "website": "hohonu.io",
-      "employees": "12",
-      "active_jobs": "0"
-    }
-  ],
-  "Offshore Wind Turbines": [
-    {
-      "name": "Aikido Technologies",
-      "description": "Bringing low-cost energy and high-paying jobs to coastal communities",
-      "website": "aikidotechnologies.com",
-      "employees": "5",
-      "active_jobs": "0"
+      "name": "Verdox",
+      "description": "Verdox is dedicated to reversing climate change through the development and deployment of advanced technology. The company\u2019s proprietary electro-swing process, developed at MIT, enables carbon dioxide and other acid gases to be captured with up to 80% less energy and 70% less cost than conventional approaches.",
+      "website": "verdox.com",
+      "employees": "36",
+      "active_jobs": "2"
     }
   ],
   "Biofuels": [
@@ -4682,33 +4740,6 @@ const mapping = {
       "website": "xfuel.com",
       "employees": "17",
       "active_jobs": "2"
-    }
-  ],
-  "Telepresence": [
-    {
-      "name": "Canopy",
-      "description": "Working with corporations to remove 1+ gigaton of emissions from employee household energy use.",
-      "website": "canopyclimate.com",
-      "employees": "6",
-      "active_jobs": "0"
-    }
-  ],
-  "Composting": [
-    {
-      "name": "Mill",
-      "description": "Trash stinks. Together, we can do better. Mill has created a new system to help you outsmart waste at home.",
-      "website": "mill.com",
-      "employees": "330",
-      "active_jobs": "14"
-    }
-  ],
-  "Bioproduction": [
-    {
-      "name": "Enzymit",
-      "description": "Enzymit is a bioproduction platform company based on \u2018cell-free\u2019 enzymatic manufacturing technology. Enzymit\u2019s computational enzyme design platform enables us to generate \u2018new-to-nature\\' enzymes opening production routes to molecules previously unattainable. These novel enzymes are then combined in a bioreactor to produce desired molecules from cheap feedstock. Unlike fermentation, cell-free production enables higher product yields at higher purity and lower costs and significantly less complications.",
-      "website": "enzymit.com",
-      "employees": "23",
-      "active_jobs": "0"
     }
   ]
 };
