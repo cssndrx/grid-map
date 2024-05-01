@@ -235,6 +235,13 @@ const mapping = {
       "active_jobs": "18"
     },
     {
+      "name": "Phaidra",
+      "description": "Phaidra creates AI-powered control systems for the industrial sector, enabling industrial facilities to automatically learn and improve over time",
+      "website": "phaidra.ai",
+      "employees": "81",
+      "active_jobs": "13"
+    },
+    {
       "name": "PlotWatt",
       "description": "PlotWatt manages energy for large enterprises, small & medium businesses, utilities & smart-grid providers. Our approach is simple: We unlock, consolidate and analyze your energy usage data to produce dead-simple advice that will quantifiably grow your bottom line.",
       "website": "plotwatt.com",
@@ -548,6 +555,13 @@ const mapping = {
       "active_jobs": "1"
     },
     {
+      "name": "Evergrow",
+      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
+      "website": "evergrow.com",
+      "employees": "25",
+      "active_jobs": "1"
+    },
+    {
       "name": "FACE PLANT",
       "description": "",
       "website": "eatfaceplant.com",
@@ -782,13 +796,6 @@ const mapping = {
       "website": "petra.cc",
       "employees": "75",
       "active_jobs": "0"
-    },
-    {
-      "name": "Phaidra",
-      "description": "Phaidra creates AI-powered control systems for the industrial sector, enabling industrial facilities to automatically learn and improve over time",
-      "website": "phaidra.ai",
-      "employees": "81",
-      "active_jobs": "13"
     },
     {
       "name": "Phase Genomics",
@@ -2503,13 +2510,6 @@ const mapping = {
       "description": "Hello, we\u2019re Ethic. We believe in a future where all investing is sustainable investing. Our way forward starts by empowering advisors and investors.",
       "website": "ethic.com",
       "employees": "110",
-      "active_jobs": "1"
-    },
-    {
-      "name": "Evergrow",
-      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
-      "website": "evergrow.com",
-      "employees": "25",
       "active_jobs": "1"
     },
     {
