@@ -37,7 +37,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
         <h1>These companies are working on Drawdown solutions</h1>
         <p class="explainer"><a class="link" href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a table of solutions sorted by climate impact. But which solutions have people working on them and which do not? Where are the opportunities in the space? Which climate companies are hiring?</p>
 
-        <p class="explainer">I took the companies on <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> and ran the Claude language model to map companies to solution category. The results are imperfect but still illustrative, and I hope we can collaboratively fix the mapping. If you want to add a new climate company or a fix a solution tag, you can do so <a class="link" href="https://docs.google.com/spreadsheets/d/1b8uowRbDN20sRHVYz_BlL4bu20LLpPJDJv2uGqdbduQ/edit?usp=sharing">here</a>.</p>
+        <p class="explainer">I took the companies on <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> and ran the Claude language model to map companies to solution category. The results are imperfect but still illustrative, and I hope we can collaboratively fix the mapping. If you want to add a new climate company or a fix a solution tag, you can do so <a class="link" href="https://docs.google.com/spreadsheets/d/1b8uowRbDN20sRHVYz_BlL4bu20LLpPJDJv2uGqdbduQ/edit?usp=sharing">here</a>. This visualization works best on large screens so there is room for the company names.</p>
     </div>
 
     <div></div>
@@ -82,7 +82,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
         </div>
 
         <div style="margin: 8px 0">
-            <div class="company activejobs" style="background-color: #000"></div> <span style="position:relative; top:-8px">If the company is hiring it has a <span style="color: orange">gold</span> rim. Join Climate Draft to view job postings.</span>
+            <div class="company activejobs" style="background-color: #000"></div> <span style="position:relative; top:-8px">If the company is hiring it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
         </div>
         
     </div>
@@ -270,7 +270,7 @@ Vue.createApp({
 
 body{
     color: #fff;
-    background-color: #000;
+    background-color: #002829;
     padding-left: 16px;
 }
 
@@ -335,7 +335,7 @@ a{
     font-size:14px; max-width: 800px
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
   .legend{
     bottom: 20px;
   }
