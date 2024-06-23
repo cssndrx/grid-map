@@ -45,24 +45,9 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
     <div>
     <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
 
-        <div class="active-solution" v-if="activeSolution.name === solution.name" :style="activeSolutionHeight">
-            <a :href="makeUrl(company.website)" target="_blank" class="company active-company" v-for="company in mapping[solution.name]" :key="company.name" :title="company.description" :style="companyStyle(company)" :class="{'activejobs': company['active_jobs'] > 0}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{company.name}}</a>    
- 
-        </div>
-        <template v-else>
-            <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
-            </a>    
-        </template>
-
-        <!-- No companies, sp no circles, but still keep height-->
-        <div v-if="mapping[solution.name] === undefined" style="height: 20px">
-
-            <div v-if="activeSolution.name === solution.name">No companies. Add your own.</div>
-
-        </div>
-
-
         <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
+        <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+        </a>    
 
     </div>
     </div>
