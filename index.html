@@ -96,7 +96,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 // #1BC6CB - baby blue
 // 3B6CA8 - serious blue
 
-const solutions = [
+var solutions = [
   {name: 'Reduced Food Waste', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 88.5},
   {name: 'Plant-Rich Diets', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 78.33},
   {name: 'Family Planning and Education', sector: 'Health and Education', impact: 68.9},
@@ -186,7 +186,10 @@ const solutions = [
   {name: 'Micro Wind Turbines', sector: 'Electricity', impact: 0.09},
 ];
 
+const drawdown_solution_names = _.map(solutions, x => x['name']);
 
+const nondrawdown_solutions = _.keys(mapping).filter(x => !_.includes(drawdown_solution_names, x)).map(x => ({name: x, impact: 0}));
+solutions = _.concat(solutions, nondrawdown_solutions);
 
 function lerp(x, a, b, c, d){
 	const scale = (x-a)/(b-a);

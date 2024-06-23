@@ -27,19 +27,32 @@ def process_csv_to_js_object(file_path):
             description = ''
 
         # Append the data as a dictionary to the list in the correct category
+        if pd.notna(employees):
+            datum['employees'] = int(employees)
+        else:
+            datum['employees'] = 1
+
         if pd.notna(description):
             datum['description'] = description
+        else:
+            datum['description'] = ''
+
         if pd.notna(website):
             datum['website'] = website
-        if pd.notna(employees):
-            datum['employees'] = employees
+        else:
+            datum['website'] = ''
+
         if pd.notna(active_jobs):
-            datum['active_jobs'] = active_jobs
-        categorized_data[category].append(datum)
+            datum['active_jobs'] = int(active_jobs)
+        else:
+            datum['active_jobs'] = 0
+
+        if pd.notna(category):
+            categorized_data[category].append(datum)
 
     # Sort alphabetically
     for category in categorized_data:
-        categorized_data[category] = sorted(categorized_data[category], key=lambda x: x['name'])
+        categorized_data[category] = sorted(categorized_data[category], key=lambda x: x['employees'], reverse=True)
 
     # Convert Python dictionary to JSON string that is JavaScript compatible
     js_object = json.dumps(categorized_data, indent=2)
