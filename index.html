@@ -45,15 +45,19 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
     <div>
     <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
 
-        <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
-        <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
-        </a>    
+        <div style="background-color: red;">
+            <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
+        </div>
+
+        <!-- <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+        </a>     -->
 
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
             <div v-for="company in mapping[solution.name]" :key="company.name">
                 <a class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
                 </a>
                 <div style="font-weight: bold; display: inline-block; margin-left: 4px; position:relative; bottom: 4px">{{company.name}}</div>
+                <p style="font-size: 12px; margin: 0; display: inline-block; position:relative; bottom: 4px; padding-left: 4px"> · {{company.employees}} employees</p>
                 <p style="font-size: 12px;">{{company.description}}</p>
             </div> 
         </div>
@@ -325,7 +329,7 @@ a{
 }
 
 .legend{
-    position:fixed; left:70%; margin-top: 150px; font-size: 12px;
+    position:fixed; left:80%; margin-top: 150px; font-size: 12px; padding-left: 40px;
 }
 
 .explainer{
