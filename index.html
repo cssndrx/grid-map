@@ -49,6 +49,15 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
         <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
         </a>    
 
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
+            <div v-for="company in mapping[solution.name]" :key="company.name">
+                <a class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+                </a>
+                <div style="font-weight: bold; display: inline-block; margin-left: 4px; position:relative; bottom: 4px">{{company.name}}</div>
+                <p style="font-size: 12px;">{{company.description}}</p>
+            </div> 
+        </div>
+
     </div>
     </div>
 
