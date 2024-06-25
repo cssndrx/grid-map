@@ -43,9 +43,13 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
     <div></div>
 
     <div>
+        <h2>Drawdown solutions</h2>
     <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
 
-        <div style="background-color: red;">
+        <h2 v-if="solution.name == 'Air Quality'">Other solutions</h2>
+
+
+        <div style="background-color: #325253;">
             <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
         </div>
 
@@ -56,7 +60,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             <div v-for="company in mapping[solution.name]" :key="company.name">
                 <a class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
                 </a>
-                <div style="font-weight: bold; display: inline-block; margin-left: 4px; position:relative; bottom: 4px">{{company.name}}</div>
+                <a :href="makeUrl(company.website)" target="_blank" ><div style="font-weight: bold; display: inline-block; margin-left: 4px; position:relative; bottom: 4px">{{company.name}}</div></a>
                 <p style="font-size: 12px; margin: 0; display: inline-block; position:relative; bottom: 4px; padding-left: 4px"> · {{company.employees}} employees</p>
                 <p style="font-size: 12px;">{{company.description}}</p>
             </div> 

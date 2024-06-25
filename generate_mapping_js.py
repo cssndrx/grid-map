@@ -60,6 +60,7 @@ def process_csv_to_js_object(file_path):
 
 
 # Usage example
+# csv_file_path = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZ1PwInqh0KBOa_EemXo-_ZVOrHPYXD8dAmwaa88kikPvE2YQkOaxjbjcLHuJvgkbQs_gPbWB_XKKn/pub?gid=1919626651&single=true&output=csv'
 csv_file_path = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZ1PwInqh0KBOa_EemXo-_ZVOrHPYXD8dAmwaa88kikPvE2YQkOaxjbjcLHuJvgkbQs_gPbWB_XKKn/pub?gid=1919626651&single=true&output=csv'
 js_output = process_csv_to_js_object(csv_file_path)
 

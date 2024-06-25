@@ -1983,6 +1983,13 @@ const mapping = {
       "active_jobs": 41
     },
     {
+      "name": "Greenly",
+      "employees": 217,
+      "description": "Greenly makes carbon management simple and intuitive for companies of all sizes and every industry, allowing them to fast-track the transition to a net-zero-carbon economy. In practice, Greenly\u2019s SaaS enables companies to measure, monitor, reduce and offset their carbon footprint based on international carbon accounting standards such as the GHG Protocol, while engaging their ecosystem, from employees to suppliers, on their climate journey.",
+      "website": "greenly.earth",
+      "active_jobs": 25
+    },
+    {
       "name": "Sweep",
       "employees": 125,
       "description": "Sweep helps businesses track and act on their carbon, so they can become forever companies. Our data-driven platform, with powerful collaboration features and user-focused design, makes it easy to measure emissions, take action to reduce your carbon footprint, and stay compliant with the latest reporting standards.",
@@ -3483,6 +3490,13 @@ const mapping = {
       "active_jobs": 0
     },
     {
+      "name": "Re-Nuble",
+      "employees": 19,
+      "description": "Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming. Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We were founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.",
+      "website": "re-nuble.com",
+      "active_jobs": 1
+    },
+    {
       "name": "Urban Machine",
       "employees": 16,
       "description": "We Use Robotics and AI to Reclaim Lumber for Reuse",
@@ -3539,15 +3553,6 @@ const mapping = {
       "active_jobs": 2
     }
   ],
-  "Recyling": [
-    {
-      "name": "Re-Nuble",
-      "employees": 19,
-      "description": "Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming. Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We were founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.",
-      "website": "re-nuble.com",
-      "active_jobs": 1
-    }
-  ],
   "Reduce Consumption": [
     {
       "name": "Grover",
@@ -3564,13 +3569,6 @@ const mapping = {
       "description": "Pepr is an online platform that provides food cost management software for restaurants on multiple platforms.",
       "website": "linkedin.com",
       "active_jobs": 0
-    },
-    {
-      "name": "Greenly",
-      "employees": 217,
-      "description": "Greenly makes carbon management simple and intuitive for companies of all sizes and every industry, allowing them to fast-track the transition to a net-zero-carbon economy. In practice, Greenly\u2019s SaaS enables companies to measure, monitor, reduce and offset their carbon footprint based on international carbon accounting standards such as the GHG Protocol, while engaging their ecosystem, from employees to suppliers, on their climate journey.",
-      "website": "greenly.earth",
-      "active_jobs": 25
     },
     {
       "name": "Afresh",
@@ -3617,7 +3615,7 @@ const mapping = {
     {
       "name": "Telesense",
       "employees": 32,
-      "description": "TeleSense is an Agtech company providing environmental monitoring and control solutions for the food and grain industry. Using an advanced suite of sensors, TeleSense provides grain managers with actionable insights about their stored grain, so that they can make storage decisions easily, quickly, and accurately. The easy-to-use sensors continuously monitor grain, and will automatically send alerts to the TeleSense app on their computer, smartphone, or tablet. They help manage risks in the world\u2019s perishable commodities supply chain by using machine learning algorithms. TeleSense also retrofits traditional temperature cables to make them wireless. Imagine never having to manually check your cables again, and having that information available 24/7, right at their fingertips. The company is digitizing the post-harvest grain supply chain using advanced Internet of Things, real-time environmental monitoring, and cloud-based artificial intelligence. Whether assets are stationary or moving, TeleSense uses cloud-based technology to simplify monitoring. Their solutions help eliminate human error, improve operational efficiency, and increase profitability. It was founded in 2013 and is based in Sunnyvale, California, United State.",
+      "description": "TeleSense is an Agtech company providing environmental monitoring and control solutions for the food and grain industry. Using an advanced suite of sensors, TeleSense provides grain managers with actionable insights about their stored grain, so that they can make storage decisions easily, quickly, and accurately. The easy-to-use sensors continuously monitor grain, and will automatically send alerts to the TeleSense app on their computer, smartphone, or tablet.",
       "website": "telesense.com",
       "active_jobs": 2
     },
