@@ -68,10 +68,10 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             </div>
         </div>
 
-        <p style="font-weight:bold">Trends</p>
+        <h2>Trends</h2>
         <ul>
             <li>There are definitely important unloved sectors for venture-backed startups, including <a href="https://drawdown.org/solutions/family-planning-and-education">Family Planning and Education</a> and <a href="https://drawdown.org/solutions/refrigerant-management">Refrigerant Management</a> - the number 3 and 4 ranked solutions. These are promising areas for new climate startups to form in. </li>
-            <li>Even lower ranked solution categories have incredible potential. For reference, the world emits 40 GT CO2e per year. The USA emits 6 GT CO2e/year </li>
+            <li>Even lower ranked solutions have incredible potential. For reference, the world emits 40 GT CO2e per year. The USA emits 6 GT CO2e/year </li>
         </ul>
         
         <p>      It is my hope that this visualization: </p>
@@ -81,7 +81,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             </ul>
     </p>
   
-        <p style="font-weight:bold">Caveats</p>
+    <h2>Caveats</h2>
         <p>
             It is important to note that Project Drawdown doesn’t assign an impact estimate to all of its own categories, e.g. no estimate is provided for <a href="https://drawdown.org/solutions/utility-scale-energy-storage">Utility-Scale Energy Storage</a> in order to avoid double counting.     
         </p>
@@ -94,11 +94,22 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             Other solutions are hard to capture in any rigid taxonomy - for instance, in the USA renewables deployment is blocked on <a href="https://emp.lbl.gov/news/grid-connection-backlog-grows-30-2023-dominated-requests-solar-wind-and-energy-storage">grid interconnection</a> and delays mean that projects take over 3 years(!) to connect. Solutions at the bottom of the visualization do not have Drawdown’s numerical estimates, but are likely highly impactful as well. 
         </p>
 
-        <p style="font-weight: bold">        Data
-        </p>
+        <h2>Data</h2>
         <p>
         The data is from <a href="https://www.climatedraft.org/">Climate Draft</a>, a resource for VC-backed climate companies. This visualization was generated with the help of Claude Haiku in matching companies to solutions. 
         </p>
+
+
+        <h2>Views</h2>
+
+        <p>Be sure to try out the <span style="font-weight:bold">Company View</span> which allows you to drill down into individual sectors.</p>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap: 16px;">
+            <div class="big-button" @click="isExpanded=false" :class="{active: !isExpanded}">Chart view</div>
+            <div class="big-button glimmer-div" @click="isExpanded=true" :class="{active: isExpanded}">Company view
+                <div v-if="!isExpanded" class="glimmer-effect"></div>
+            </div>
+        </div>
 
 
     </div>
@@ -108,10 +119,6 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
     <div>
         <h2>Drawdown solutions</h2>
 
-        <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap: 16px;">
-            <div class="big-button" @click="isExpanded=false" :class="{active: !isExpanded}">Chart view</div>
-            <div class="big-button" @click="isExpanded=true" :class="{active: isExpanded}">Company view</div>
-        </div>
 
     <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
 
@@ -359,9 +366,6 @@ body{
     cursor: pointer;
 }
 
-.bar:hover{
-    background-color: #94ae44;
-}
 
 .company{
     box-sizing: border-box;
@@ -452,5 +456,28 @@ height: 60px;   display: flex;
     box-sizing: border-box;
 }
 
+.glimmer-div{
+    position: relative;
+    overflow: hidden;
+}
+
+.glimmer-effect {
+      position: absolute;
+      top: 0;
+      left: -150%;
+      width: 150%;
+      height: 100%;
+      background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+      animation: glimmer 2s infinite;
+    }
+
+    @keyframes glimmer {
+      0% {
+        left: -150%;
+      }
+      100% {
+        left: 150%;
+      }
+    }
 
 </style>
