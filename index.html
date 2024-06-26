@@ -31,13 +31,65 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
 <div id="app">
 
-<div style="display:grid; grid-template-columns: 7fr 3fr;">
+<div>
 
-    <div>
-        <h1>These companies are working on Drawdown solutions</h1>
-        <p class="explainer"><a class="link" href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a table of solutions sorted by climate impact. But which solutions have people working on them and which do not? Where are the opportunities in the space? Which climate companies are hiring?</p>
+    <div class="explainer">
+        <h1>Companies Working on Climate Solutions and Who is Hiring</h1>
+        <p>June 2024</p>
+        <!-- <p class="explainer"><a class="link" href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a table of solutions sorted by climate impact. But which solutions have people working on them and which do not? Where are the opportunities in the space? Which climate companies are hiring?</p>
 
-        <p class="explainer">I took the companies on <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> and ran the Claude language model to map companies to solution category. The results are imperfect but still illustrative, and I hope we can collaboratively fix the mapping. If you want to add a new climate company or a fix a solution tag, you can do so <a class="link" href="https://docs.google.com/spreadsheets/d/1b8uowRbDN20sRHVYz_BlL4bu20LLpPJDJv2uGqdbduQ/edit?usp=sharing">here</a>. This visualization works best on large screens so there is room for the company names.</p>
+        <p class="explainer">I took the companies on <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> and ran the Claude language model to map companies to solution category. The results are imperfect but still illustrative, and I hope we can collaboratively fix the mapping. If you want to add a new climate company or a fix a solution tag, you can do so <a class="link" href="https://docs.google.com/spreadsheets/d/1b8uowRbDN20sRHVYz_BlL4bu20LLpPJDJv2uGqdbduQ/edit?usp=sharing">here</a>. This visualization works best on large screens so there is room for the company names.</p> -->
+
+
+        <p>
+        Sometimes it feels like the climate problem is a massive coordination problem. Are all climate solutions being worked on? What are the neglected areas? Which areas make the most profitable investments? This visualization attempts to answer those questions using the <a href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> taxonomy of climate solutions which provides estimates for carbon impact per solution. Companies in each solution are ordered by number of employees which provides a rough estimate to their traction and success.
+        </p>
+
+        <div class="legend">
+            <div style="margin: 4px 0">Size of company by employees</div>
+            <div v-for="(color, ind) in colors" :key="color">
+                <div style="height: 20px; width: 20px; display: inline-block; border-radius: 50%;" :style="{'background-color': color}">
+                </div>
+                <span style="position:relative; bottom: 4px; left: 4px">{{ labels[ind] }} </span>
+            </div>
+    
+            <div style="margin: 8px 0; line-height: 24px">
+                <div class="company activejobs" style="background-color: #000;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
+            </div>
+        </div>
+
+        <p style="font-weight:bold">Trends</p>
+        <ul>
+            <li>There are definitely important unloved sectors for venture-backed startups, including Family Planning and Education and Refrigerant Management - the number 3 and 4 ranked solutions. These are promising areas for new climate startups to form in. </li>
+            <li>Even lower ranked solution categories have incredible potential. For reference, the world emits 40 GT CO2e per year. The USA emits 6 GT CO2e/year </li>
+        </ul>
+        
+        <p>      It is my hope that this visualization: </p>
+            <ul>
+                <li>Can be used by startup founders and investors who want to fund neglected sectors. If you are interested in making sure climate companies are funded, or if you have companies to add, message team@clai.vc - a new climate VC fund.</li>
+                <li>Can be used by people who want to find a job in climate to easily find where they can have impact. Join Climate Draft to find these job postings. </li>
+            </ul>
+    </p>
+  
+        <p style="font-weight:bold">Caveats</p>
+        <p>
+            It is important to note that Project Drawdown doesn’t assign an impact estimate to all of its own categories, e.g. no estimate is provided for <a href="https://drawdown.org/solutions/utility-scale-energy-storage">Utility-Scale Energy Storage</a> in order to avoid double counting.     
+        </p>
+        
+        <p>
+            Also, not every climate solution is accounted for in the Drawdown taxonomy. Missing sectors that are included in Bill Gates’ excellent <a href="https://amzn.to/45K6gTc">How to Avoid a Climate Disaster</a> taxonomy include decarbonizing heavy industries like steel, concrete, and chemicals. Most notably, carbon removal, utilization, and storage (CCUS) solutions are also missing from Drawdown. Historical amounts of carbon released into the atmosphere need to be removed through CCUS techniques, and this is the focus of groups like <a href="https://airminers.com/">AirMiners</a>.
+        </p>
+        
+        <p>
+            Other solutions are hard to capture in any rigid taxonomy - for instance, in the USA renewables deployment is blocked on <a href="https://emp.lbl.gov/news/grid-connection-backlog-grows-30-2023-dominated-requests-solar-wind-and-energy-storage">grid interconnection</a> and delays mean that projects take over 3 years(!) to connect. Solutions at the bottom of the visualization do not have Drawdown’s numerical estimates, but are likely highly impactful as well. 
+        </p>
+
+        <p>
+        Data
+        The data is from <a href="https://www.climatedraft.org/">Climate Draft</a>, a resource for VC-backed climate companies. This visualization was generated with the help of Claude Haiku in matching companies to solutions. 
+        </p>
+
+
     </div>
 
     <div></div>
@@ -49,14 +101,18 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
         <h2 v-if="solution.name == 'Air Quality'">Other solutions</h2>
 
 
-        <div style="background-color: #325253;">
+        <!-- style="background-color: #325253;" -->
+        <div v-if="solution.impact > 0">
             <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
         </div>
+        <div v-else>
+            <div style="margin-bottom: 4px"><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">?? GT</span></div>
+        </div>
 
-        <!-- <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
-        </a>     -->
+        <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+        </a>    
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
+        <!-- <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
             <div v-for="company in mapping[solution.name]" :key="company.name">
                 <a class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
                 </a>
@@ -64,7 +120,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
                 <p style="font-size: 12px; margin: 0; display: inline-block; position:relative; bottom: 4px; padding-left: 4px"> · {{company.employees}} employees</p>
                 <p style="font-size: 12px;">{{company.description}}</p>
             </div> 
-        </div>
+        </div> -->
 
     </div>
     </div>
@@ -73,21 +129,7 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
     </div>
 
 
-    <div class="legend">
 
-        <div style="margin: 4px 0">Size of company by employees</div>
-        <div v-for="(color, ind) in colors" :key="color">
-            <div style="height: 20px; width: 20px; display: inline-block; border-radius: 50%;" :style="{'background-color': color}">
-            </div>
-            {{ labels[ind] }}
-
-        </div>
-
-        <div style="margin: 8px 0; line-height: 24px">
-            <div class="company activejobs" style="background-color: #000;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
-        </div>
-        
-    </div>
 
 </div>
 
@@ -322,6 +364,10 @@ a{
     text-decoration: underline;
 }
 
+.explainer a{
+    text-decoration: underline;
+}
+
 .activejobs{
     border: 2px solid orange;
 }
@@ -333,17 +379,21 @@ a{
 }
 
 .legend{
-    position:fixed; left:80%; margin-top: 150px; font-size: 12px; padding-left: 40px;
+     font-size: 12px; 
 }
 
-.explainer{
+.explainer p{
     font-size:14px; max-width: 800px
 }
 
-@media (max-width: 1200px){
-  .legend{
-    padding-left: 20px;
-    bottom: 20px;
-  }
+.explainer ul{
+    font-size:14px; max-width: 750px
 }
+
+li{
+    margin-bottom: 4px;
+}
+
+
+
 </style>
