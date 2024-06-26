@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Drawdown in Action</title>
+<title>Climate Companies and Who is Hiring</title>
 <script src="
 https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 "></script>
@@ -13,17 +13,17 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Drawdown in Action">
-<meta name="twitter:description" content="These companies are working on Drawdown solutions">
+<meta name="twitter:title" content="Climate Companies and Who is Hiring">
+<meta name="twitter:description" content="These companies are working on Drawdown solutions and they are hiring">
 <meta name="twitter:creator" content="@CassandraXia">
 <meta name="twitter:image" content="https://cassandraxia.com/climate-draft-map/preview.png">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Drawdown in Action">
+<meta property="og:title" content="Climate Companies and Who is Hiring">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cassandraxia.com/climate-draft-map/">
 <meta property="og:image" content="https://cassandraxia.com/climate-draft-map/preview.png" />
-<meta property="og:description" content="These companies are working on Drawdown solutions">
+<meta property="og:description" content="These companies are working on Drawdown solutions and they are hiring">
 </head>
 
 <body>
@@ -31,10 +31,15 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
 <div id="app">
 
+<img src="logo.png" style="position:fixed; width: 90%; top: 200px; left: 5%; z-index: -1; opacity: 0.03; max-width: 95%">
+
+
+
 <div>
 
     <div class="explainer">
-        <h1>Companies Working on Climate Solutions and Who is Hiring</h1>
+        <h1>Climate Companies and Who is Hiring</h1>
+        <p>by Cassandra Xia, <a href="clai.vc">CLAI VC</a> and <a href="climatedraft.org">Climate Draft</a></p>
         <p>June 2024</p>
         <!-- <p class="explainer"><a class="link" href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a table of solutions sorted by climate impact. But which solutions have people working on them and which do not? Where are the opportunities in the space? Which climate companies are hiring?</p>
 
@@ -42,7 +47,10 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
 
         <p>
-        Sometimes it feels like the climate problem is a massive coordination problem. Are all climate solutions being worked on? What are the neglected areas? Which areas make the most profitable investments? This visualization attempts to answer those questions using the <a href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> taxonomy of climate solutions which provides estimates for carbon impact per solution. Companies in each solution are ordered by number of employees which provides a rough estimate to their traction and success.
+        Sometimes it feels like the climate problem is a massive coordination problem. Are all climate solutions being worked on? What are the neglected areas? Which areas make the most profitable investments? 
+        </p>
+        
+        <p>This visualization attempts to answer those questions using the <a href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> taxonomy of climate solutions which provides estimates for carbon impact per solution. Companies in each solution are ordered by number of employees which provides a rough estimate to their traction and success.
         </p>
 
         <div class="legend">
@@ -54,20 +62,20 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             </div>
     
             <div style="margin: 8px 0; line-height: 24px">
-                <div class="company activejobs" style="background-color: #000;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
+                <div class="company activejobs" style="background-color: #fff; box-sizing: border-box;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
             </div>
         </div>
 
         <p style="font-weight:bold">Trends</p>
         <ul>
-            <li>There are definitely important unloved sectors for venture-backed startups, including Family Planning and Education and Refrigerant Management - the number 3 and 4 ranked solutions. These are promising areas for new climate startups to form in. </li>
+            <li>There are definitely important unloved sectors for venture-backed startups, including <a href="https://drawdown.org/solutions/family-planning-and-education">Family Planning and Education</a> and <a href="https://drawdown.org/solutions/refrigerant-management">Refrigerant Management</a> - the number 3 and 4 ranked solutions. These are promising areas for new climate startups to form in. </li>
             <li>Even lower ranked solution categories have incredible potential. For reference, the world emits 40 GT CO2e per year. The USA emits 6 GT CO2e/year </li>
         </ul>
         
         <p>      It is my hope that this visualization: </p>
             <ul>
-                <li>Can be used by startup founders and investors who want to fund neglected sectors. If you are interested in making sure climate companies are funded, or if you have companies to add, message team@clai.vc - a new climate VC fund.</li>
-                <li>Can be used by people who want to find a job in climate to easily find where they can have impact. Join Climate Draft to find these job postings. </li>
+                <li>Can be used by startup founders and investors who want to fund neglected sectors. If you are interested in making sure climate companies are funded, or if you have companies to add, message <a href="mailto: team@clai.vc">team@clai.vc</a> - a new climate VC fund.</li>
+                <li>Can be used by people who want to find a job in climate to easily find where they can have impact. Join <a href="climatedraft.org">Climate Draft</a> to find these job postings. </li>
             </ul>
     </p>
   
@@ -84,8 +92,9 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             Other solutions are hard to capture in any rigid taxonomy - for instance, in the USA renewables deployment is blocked on <a href="https://emp.lbl.gov/news/grid-connection-backlog-grows-30-2023-dominated-requests-solar-wind-and-energy-storage">grid interconnection</a> and delays mean that projects take over 3 years(!) to connect. Solutions at the bottom of the visualization do not have Drawdown’s numerical estimates, but are likely highly impactful as well. 
         </p>
 
+        <p style="font-weight: bold">        Data
+        </p>
         <p>
-        Data
         The data is from <a href="https://www.climatedraft.org/">Climate Draft</a>, a resource for VC-backed climate companies. This visualization was generated with the help of Claude Haiku in matching companies to solutions. 
         </p>
 
@@ -96,6 +105,12 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
     <div>
         <h2>Drawdown solutions</h2>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap: 16px;">
+            <div class="big-button" @click="isExpanded=false" :class="{active: !isExpanded}">Chart view</div>
+            <div class="big-button" @click="isExpanded=true" :class="{active: isExpanded}">Company view</div>
+        </div>
+
     <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
 
         <h2 v-if="solution.name == 'Air Quality'">Other solutions</h2>
@@ -109,10 +124,8 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             <div style="margin-bottom: 4px"><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">?? GT</span></div>
         </div>
 
-        <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
-        </a>    
 
-        <!-- <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
+        <div v-if="isExpanded" style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 16px">
             <div v-for="company in mapping[solution.name]" :key="company.name">
                 <a class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
                 </a>
@@ -120,7 +133,10 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
                 <p style="font-size: 12px; margin: 0; display: inline-block; position:relative; bottom: 4px; padding-left: 4px"> · {{company.employees}} employees</p>
                 <p style="font-size: 12px;">{{company.description}}</p>
             </div> 
-        </div> -->
+        </div> 
+
+        <a v-else v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+        </a>    
 
     </div>
     </div>
@@ -263,12 +279,21 @@ Vue.createApp({
 
             // colors: [ '#fff', '#d0d1e6', '#a6bddb', '#74a9cf', '#2b8cbe', '#045a8d'],
 
-            colors: ['#fff', '#ece7f2', '#a6bddb', '#3690c0', '#045a8d', '#023858'],
+            // colors: ['#fff', '#ece7f2', '#a6bddb', '#3690c0', '#045a8d', '#023858'],
+
+            // colors: ['#fff', '#e8e8e8', '#bababa', '#757575', '#474747', '#1a1a1a'],
+
+            colors: ['#fff', '#d5e899', '#bada55', '#94ae44', '#6f8233', '#000'],
+
+
             solutions: solutions,
             mapping: mapping,
-            windowWidth: window.innerWidth * .6,
+            windowWidth: Math.min(600, window.innerWidth * .6),
             windowHeight: window.innerHeight,
             activeSolution: nullActiveSolution, //solutions[0]
+
+            // whether to show all descriptions or not
+            isExpanded: false,
         };
     },
     mounted(){
@@ -316,14 +341,15 @@ Vue.createApp({
 }
 
 body{
-    color: #fff;
-    background-color: #002829;
     padding-left: 16px;
+    background-color: #BADA55;
+    color: #1A1A1A;  
+  /* background-repeat: no-repeat; Do not repeat the image */
 }
 
 .bar{
     height: 20px;
-    background-color: #1BC6CB;
+    background-color: #BADA55;
     white-space: nowrap;
     overflow: visible;
     margin: 4px 0;
@@ -332,7 +358,7 @@ body{
 }
 
 .bar:hover{
-    background-color: #3dd4d9;
+    background-color: #94ae44;
 }
 
 .company{
@@ -353,7 +379,7 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
+    color: #1A1A1A;
 }
 
 .active-company:hover{
@@ -383,17 +409,46 @@ a{
 }
 
 .explainer p{
-    font-size:14px; max-width: 800px
+    font-size:14px; 
 }
 
 .explainer ul{
-    font-size:14px; max-width: 750px
+    font-size:14px; 
 }
 
 li{
     margin-bottom: 4px;
 }
 
+#app{
+    max-width: 600px; 
+    margin: 24px auto;
+    background-color: rgba(239,254,139, .9);
+    padding: 36px 24px;
+    position: relative;
+
+}
+
+.big-button{
+    background-color: #d5e899;
+    color: white;
+    font-weight: bold;
+
+height: 60px;   display: flex;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
+
+.big-button:hover{
+    background-color: #A7C44C;
+}
+
+.big-button.active{
+    background-color: #bada55;
+    border: 4px solid #A7C44C;
+    box-sizing: border-box;
+}
 
 
 </style>

@@ -914,13 +914,6 @@ const mapping = {
       "active_jobs": 1
     },
     {
-      "name": "Evergrow",
-      "employees": 25,
-      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
-      "website": "evergrow.com",
-      "active_jobs": 1
-    },
-    {
       "name": "Crux",
       "employees": 17,
       "description": "The ecosystem for developers, tax credit buyers, and financial institutions to transact & manage transferable tax credits.",
@@ -933,6 +926,13 @@ const mapping = {
       "description": "Carbon Collective is the first 100% climate-focused online investment advisor with the mission to close the annual $5 trillion climate investment gap.",
       "website": "carboncollective.co",
       "active_jobs": 0
+    },
+    {
+      "name": "Evergrow",
+      "employees": 9,
+      "description": "Evergrow, we use technology to create products that unlock funding for decarbonization. We partner with project developers, corporations, and financial institutions to help build and sustain a carbon neutral world. Our team has experience across corporate finance, clean energy, and technology. We are backed by top-tier venture capital firms and leaders from the technology, climate, and finance communities.",
+      "website": "evergrow.com",
+      "active_jobs": 1
     },
     {
       "name": "Opna",
