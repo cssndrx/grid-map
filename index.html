@@ -64,23 +64,20 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             </div>
     
             <div style="margin: 8px 0; line-height: 24px">
-                <div class="company activejobs" style="background-color: #fff; box-sizing: border-box;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings.</span>
+                <div class="company activejobs" style="background-color: #fff; box-sizing: border-box;"></div> <span style="position:relative; top:-8px">The company is hiring if it has a <span style="color: orange">gold</span> rim. Join <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> to view job postings. <a href="https://climatebase.org/">Climatebase</a> also makes it easy to find jobs.</span>
             </div>
         </div>
 
         <h2>Trends</h2>
+        <p> It is my hope that this visualization can be used by startup founders and investors who want to support neglected sectors. If you are interested in making sure climate companies are funded, or if you have companies to add, message <a href="https://clai.vc">CLAI VC</a>, a new climate fund.
+        </p>
+
         <ul>
-            <li>There are definitely important unloved sectors for venture-backed startups, including <a href="https://drawdown.org/solutions/family-planning-and-education">Family Planning and Education</a> and <a href="https://drawdown.org/solutions/refrigerant-management">Refrigerant Management</a> - the number 3 and 4 ranked solutions. These are promising areas for new climate startups to form in. </li>
-            <li>Even lower ranked solutions have incredible potential. For reference, the world emits 40 GT CO2e per year. The USA emits 6 GT CO2e/year </li>
+            <li>Funded sectors are clumpy - with the most investor interest around recycling, the grid, and EVs.</li>
+            <li>There are important unloved sectors, including <a href="https://drawdown.org/solutions/family-planning-and-education">Family Planning and Education</a> and <a href="https://drawdown.org/solutions/refrigerant-management">Refrigerant Management</a> - the number 3 and 4 ranked solutions. </li>
+            <li>Nature-based solutions seem particularly underfunded, perhaps because they are harder to monetize.</li>
         </ul>
-        
-        <p>      It is my hope that this visualization: </p>
-            <ul>
-                <li>Can be used by startup founders and investors who want to fund neglected sectors. If you are interested in making sure climate companies are funded, or if you have companies to add, message <a href="mailto: team@clai.vc">team@clai.vc</a> - a new climate VC fund.</li>
-                <li>Can be used by people who want to find a job in climate to easily find where they can have impact. Join <a href="https://climatedraft.org">Climate Draft</a> to find these job postings. </li>
-            </ul>
-    </p>
-  
+          
     <h2>Caveats</h2>
         <p>
             It is important to note that Project Drawdown doesn’t assign an impact estimate to all of its own categories, e.g. no estimate is provided for <a href="https://drawdown.org/solutions/utility-scale-energy-storage">Utility-Scale Energy Storage</a> in order to avoid double counting.     
@@ -127,10 +124,13 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
         <!-- style="background-color: #325253;" -->
         <div v-if="solution.impact > 0">
-            <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
+            <a :href="solution.link"><div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div></a>
         </div>
         <div v-else>
-            <div style="margin-bottom: 4px"><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">?? GT</span></div>
+            <a v-if="solution.link" :href="solution.link">
+                <div style="margin-bottom: 4px"><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">?? GT</span></div>
+            </a>
+            <div v-else style="margin-bottom: 4px"><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">?? GT</span></div>
         </div>
 
 
@@ -165,99 +165,509 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 // #1BC6CB - baby blue
 // 3B6CA8 - serious blue
 
+
 var solutions = [
-  {name: 'Reduced Food Waste', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 88.5},
-  {name: 'Plant-Rich Diets', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 78.33},
-  {name: 'Family Planning and Education', sector: 'Health and Education', impact: 68.9},
-  {name: 'Refrigerant Management', sector: 'Industry / Buildings', impact: 57.15},
-  {name: 'Tropical Forest Restoration', sector: 'Land Sinks', impact: 54.45},
-  {name: 'Onshore Wind Turbines', sector: 'Electricity', impact: 46.95},
-  {name: 'Alternative Refrigerants', sector: 'Industry / Buildings', impact: 42.73},
-  {name: 'Utility-Scale Solar Photovoltaics', sector: 'Electricity', impact: 40.83},
-  {name: 'Clean Cooking', sector: 'Buildings', impact: 31.38},
-  {name: 'Distributed Solar Photovoltaics', sector: 'Electricity', impact: 26.65},
-  {name: 'Silvopasture', sector: 'Land Sinks', impact: 26.58},
-  {name: 'Methane Leak Management', sector: 'Other Energy', impact: 25.83},
-  {name: 'Peatland Protection and Rewetting', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 25.4},
-  {name: 'Tree Plantations (on Degraded Land)', sector: 'Land Sinks', impact: 22.04},
-  {name: 'Temperate Forest Restoration', sector: 'Land Sinks', impact: 19.42},
-  {name: 'Concentrated Solar Power', sector: 'Electricity', impact: 18.0},
-  {name: 'Perennial Staple Crops', sector: 'Land Sinks', impact: 16.34},
-  {name: 'Insulation', sector: 'Electricity / Buildings', impact: 15.38},
-  {name: 'Regenerative Annual Cropping', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 15.12},
-  {name: 'Tree Intercropping', sector: 'Land Sinks', impact: 15.03},
-  {name: 'LED Lighting', sector: 'Electricity', impact: 14.45},
-  {name: 'Managed Grazing', sector: 'Land Sinks', impact: 13.72},
-  {name: 'Multistrata Agroforestry', sector: 'Land Sinks', impact: 13.26},
-  {name: 'Conservation Agriculture', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 12.81},
-  {name: 'Abandoned Farmland Restoration', sector: 'Land Sinks', impact: 12.48},
-  {name: 'Recycling', sector: 'Industry', impact: 10.36},
-  {name: 'Offshore Wind Turbines', sector: 'Electricity', impact: 10.22},
-  {name: 'Improved Rice Production', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 9.85},
-  {name: 'Building Automation Systems', sector: 'Electricity / Buildings', impact: 9.55},
-  {name: 'Public Transit', sector: 'Transportation', impact: 9.42},
-  {name: 'Efficient Trucks', sector: 'Transportation', impact: 9.15},
-  {name: 'Carpooling', sector: 'Transportation', impact: 9.06},
-  {name: 'High-Performance Glass', sector: 'Electricity / Buildings', impact: 8.82},
-  {name: 'Indigenous Peoples’ Forest Tenure', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 8.69},
-  {name: 'Alternative Cement', sector: 'Industry', impact: 7.7},
-  {name: 'Bamboo Production', sector: 'Land Sinks', impact: 7.7},
-  {name: 'Electric Cars', sector: 'Transportation', impact: 7.66},
-  {name: 'Smart Thermostats', sector: 'Electricity / Buildings', impact: 6.91},
-  {name: 'Efficient Ocean Shipping', sector: 'Transportation', impact: 6.72},
-  {name: 'Waste to Energy', sector: 'Electricity / Industry', impact: 6.27},
-  {name: 'District Heating', sector: 'Electricity / Buildings', impact: 6.18},
-  {name: 'Geothermal Power', sector: 'Electricity', impact: 6.15},
-  {name: 'Methane Digesters', sector: 'Electricity / Industry', impact: 6.02},
-  {name: 'Forest Protection', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 5.55},
-  {name: 'Efficient Aviation', sector: 'Transportation', impact: 5.29},
-  {name: 'Biogas for Cooking', sector: 'Buildings', impact: 4.65},
-  {name: 'Improved Cattle Feed', sector: 'Food, Agriculture, and Land Use', impact: 4.42},
-  {name: 'Recycled Metals', sector: 'Industry', impact: 4.31},
-  {name: 'High-Efficiency Heat Pumps', sector: 'Electricity / Buildings', impact: 4.04},
-  {name: 'Perennial Biomass Production', sector: 'Land Sinks', impact: 4.0},
-  {name: 'Landfill Methane Capture', sector: 'Electricity / Industry', impact: 3.89},
-  {name: 'Seafloor Protection', sector: 'Food, Agriculture, and Land Use', impact: 3.8},
-  {name: 'Reduced Plastics', sector: 'Industry', impact: 3.76},
-  {name: 'Solar Hot Water', sector: 'Electricity / Buildings', impact: 3.41},
-  {name: 'Grassland Protection', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 3.35},
-  {name: 'Improved Manure Management', sector: 'Food, Agriculture, and Land Use', impact: 3.34},
-  {name: 'Nuclear Power', sector: 'Electricity', impact: 3.17},
-  {name: 'System of Rice Intensification', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 2.9},
-  {name: 'Walkable Cities', sector: 'Transportation', impact: 2.83},
-  {name: 'Nutrient Management', sector: 'Food, Agriculture, and Land Use', impact: 2.77},
-  {name: 'Bicycle Infrastructure', sector: 'Transportation', impact: 2.73},
-  {name: 'Telepresence', sector: 'Transportation', impact: 2.64},
-  {name: 'Biomass Power', sector: 'Electricity', impact: 2.62},
-  {name: 'Macroalgae Protection and Restoration', sector: 'Coastal and Ocean Sinks', impact: 2.61},
-  {name: 'Seaweed Farming', sector: 'Coastal and Ocean Sinks / Coastal and Ocean Sinks', impact: 2.5},
-  {name: 'Recycled Paper', sector: 'Industry', impact: 2.28},
-  {name: 'Electric Trains', sector: 'Transportation', impact: 1.91},
-  {name: 'Small Hydropower', sector: 'Electricity', impact: 1.65},
-  {name: 'Hybrid Cars', sector: 'Transportation', impact: 1.61},
-  {name: 'Electric Bicycles', sector: 'Transportation', impact: 1.39},
-  {name: 'Biochar Production', sector: 'Engineered Sinks', impact: 1.36},
-  {name: 'Sustainable Intensification for Smallholders', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 1.36},
-  {name: 'Bioplastics', sector: 'Industry', impact: 1.33},
-  {name: 'Ocean Power', sector: 'Electricity', impact: 1.27},
-  {name: 'High-Speed Rail', sector: 'Transportation', impact: 1.26},
-  {name: 'Coastal Wetland Protection', sector: 'Food, Agriculture, and Land Use / Coastal and Ocean Sinks', impact: 1.2},
-  {name: 'Composting', sector: 'Industry', impact: 1.13},
-  {name: 'Farm Irrigation Efficiency', sector: 'Food, Agriculture, and Land Use', impact: 1.13},
-  {name: 'Improved Fisheries', sector: 'Food, Agriculture, and Land Use / Coastal and Ocean Sinks', impact: 1.01},
-  {name: 'Low-Flow Fixtures', sector: 'Electricity / Buildings', impact: 0.93},
-  {name: 'Coastal Wetland Restoration', sector: 'Coastal and Ocean Sinks', impact: 0.76},
-  {name: 'Water Distribution Efficiency', sector: 'Electricity', impact: 0.61},
-  {name: 'Green and Cool Roofs', sector: 'Electricity / Buildings', impact: 0.53},
-  {name: 'Recycled Plastics', sector: 'Industry', impact: 0.52},
-  {name: 'Improved Aquaculture', sector: 'Food, Agriculture, and Land Use', impact: 0.5},
-  {name: 'Dynamic Glass', sector: 'Electricity / Buildings', impact: 0.34},
-  {name: 'Micro Wind Turbines', sector: 'Electricity', impact: 0.09},
+  {
+    "name": "Reduced Food Waste",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 88.5,
+    "link": "https://drawdown.org/solutions/reduced-food-waste"
+  },
+  {
+    "name": "Abandoned Farmland Restoration",
+    "sector": "Land Sinks",
+    "impact": 12.48,
+    "link": "https://drawdown.org/solutions/abandoned-farmland-restoration"
+  },
+  {
+    "name": "Alternative Cement",
+    "sector": "Industry",
+    "impact": 7.7,
+    "link": "https://drawdown.org/solutions/alternative-cement"
+  },
+  {
+    "name": "Alternative Refrigerants",
+    "sector": "Industry / Buildings",
+    "impact": 42.73,
+    "link": "https://drawdown.org/solutions/alternative-refrigerants"
+  },
+  {
+    "name": "Bamboo Production",
+    "sector": "Land Sinks",
+    "impact": 7.7,
+    "link": "https://drawdown.org/solutions/bamboo-production"
+  },
+  {
+    "name": "Bicycle Infrastructure",
+    "sector": "Transportation",
+    "impact": 2.73,
+    "link": "https://drawdown.org/solutions/bicycle-infrastructure"
+  },
+  {
+    "name": "Biochar Production",
+    "sector": "Engineered Sinks",
+    "impact": 1.36,
+    "link": "https://drawdown.org/solutions/biochar-production"
+  },
+  {
+    "name": "Biogas for Cooking",
+    "sector": "Buildings",
+    "impact": 4.65,
+    "link": "https://drawdown.org/solutions/biogas-for-cooking"
+  },
+  {
+    "name": "Biomass Power",
+    "sector": "Electricity",
+    "impact": 2.62,
+    "link": "https://drawdown.org/solutions/biomass-power"
+  },
+  {
+    "name": "Bioplastics",
+    "sector": "Industry",
+    "impact": 1.33,
+    "link": "https://drawdown.org/solutions/bioplastics"
+  },
+  {
+    "name": "Building Automation Systems",
+    "sector": "Electricity / Buildings",
+    "impact": 9.55,
+    "link": "https://drawdown.org/solutions/building-automation-systems"
+  },
+  {
+    "name": "Carpooling",
+    "sector": "Transportation",
+    "impact": 9.06,
+    "link": "https://drawdown.org/solutions/carpooling"
+  },
+  {
+    "name": "Clean Cooking",
+    "sector": "Buildings",
+    "impact": 31.38,
+    "link": "https://drawdown.org/solutions/clean-cooking"
+  },
+  {
+    "name": "Coastal Wetland Protection",
+    "sector": "Food, Agriculture, and Land Use / Coastal and Ocean Sinks",
+    "impact": 1.2,
+    "link": "https://drawdown.org/solutions/coastal-wetland-protection"
+  },
+  {
+    "name": "Coastal Wetland Restoration",
+    "sector": "Coastal and Ocean Sinks",
+    "impact": 0.76,
+    "link": "https://drawdown.org/solutions/coastal-wetland-restoration"
+  },
+  {
+    "name": "Composting",
+    "sector": "Industry",
+    "impact": 1.13,
+    "link": "https://drawdown.org/solutions/composting"
+  },
+  {
+    "name": "Concentrated Solar Power",
+    "sector": "Electricity",
+    "impact": 18,
+    "link": "https://drawdown.org/solutions/concentrated-solar-power"
+  },
+  {
+    "name": "Conservation Agriculture",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 12.81,
+    "link": "https://drawdown.org/solutions/conservation-agriculture"
+  },
+  {
+    "name": "Distributed Solar Photovoltaics",
+    "sector": "Electricity",
+    "impact": 26.65,
+    "link": "https://drawdown.org/solutions/distributed-solar-photovoltaics"
+  },
+  {
+    "name": "District Heating",
+    "sector": "Electricity / Buildings",
+    "impact": 6.18,
+    "link": "https://drawdown.org/solutions/district-heating"
+  },
+  {
+    "name": "Dynamic Glass",
+    "sector": "Electricity / Buildings",
+    "impact": 0.34,
+    "link": "https://drawdown.org/solutions/dynamic-glass"
+  },
+  {
+    "name": "Efficient Aviation",
+    "sector": "Transportation",
+    "impact": 5.29,
+    "link": "https://drawdown.org/solutions/efficient-aviation"
+  },
+  {
+    "name": "Efficient Ocean Shipping",
+    "sector": "Transportation",
+    "impact": 6.72,
+    "link": "https://drawdown.org/solutions/efficient-ocean-shipping"
+  },
+  {
+    "name": "Efficient Trucks",
+    "sector": "Transportation",
+    "impact": 9.15,
+    "link": "https://drawdown.org/solutions/efficient-trucks"
+  },
+  {
+    "name": "Electric Bicycles",
+    "sector": "Transportation",
+    "impact": 1.39,
+    "link": "https://drawdown.org/solutions/electric-bicycles"
+  },
+  {
+    "name": "Electric Cars",
+    "sector": "Transportation",
+    "impact": 7.66,
+    "link": "https://drawdown.org/solutions/electric-cars"
+  },
+  {
+    "name": "Electric Trains",
+    "sector": "Transportation",
+    "impact": 1.91,
+    "link": "https://drawdown.org/solutions/electric-trains"
+  },
+  {
+    "name": "Family Planning and Education",
+    "sector": "Health and Education",
+    "impact": 68.9,
+    "link": "https://drawdown.org/solutions/family-planning-and-education"
+  },
+  {
+    "name": "Farm Irrigation Efficiency",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 1.13,
+    "link": "https://drawdown.org/solutions/farm-irrigation-efficiency"
+  },
+  {
+    "name": "Forest Protection",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 5.55,
+    "link": "https://drawdown.org/solutions/forest-protection"
+  },
+  {
+    "name": "Geothermal Power",
+    "sector": "Electricity",
+    "impact": 6.15,
+    "link": "https://drawdown.org/solutions/geothermal-power"
+  },
+  {
+    "name": "Grassland Protection",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 3.35,
+    "link": "https://drawdown.org/solutions/grassland-protection"
+  },
+  {
+    "name": "Green and Cool Roofs",
+    "sector": "Electricity / Buildings",
+    "impact": 0.53,
+    "link": "https://drawdown.org/solutions/green-and-cool-roofs"
+  },
+  {
+    "name": "High-Efficiency Heat Pumps",
+    "sector": "Electricity / Buildings",
+    "impact": 4.04,
+    "link": "https://drawdown.org/solutions/high-efficiency-heat-pumps"
+  },
+  {
+    "name": "High-Performance Glass",
+    "sector": "Electricity / Buildings",
+    "impact": 8.82,
+    "link": "https://drawdown.org/solutions/high-performance-glass"
+  },
+  {
+    "name": "High-Speed Rail",
+    "sector": "Transportation",
+    "impact": 1.26,
+    "link": "https://drawdown.org/solutions/high-speed-rail"
+  },
+  {
+    "name": "Hybrid Cars",
+    "sector": "Transportation",
+    "impact": 1.61,
+    "link": "https://drawdown.org/solutions/hybrid-cars"
+  },
+  {
+    "name": "Improved Aquaculture",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 0.5,
+    "link": "https://drawdown.org/solutions/improved-aquaculture"
+  },
+  {
+    "name": "Improved Cattle Feed",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 4.42,
+    "link": "https://drawdown.org/solutions/improved-cattle-feed"
+  },
+  {
+    "name": "Improved Fisheries",
+    "sector": "Food, Agriculture, and Land Use / Coastal and Ocean Sinks",
+    "impact": 1.01,
+    "link": "https://drawdown.org/solutions/improved-fisheries"
+  },
+  {
+    "name": "Improved Manure Management",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 3.34,
+    "link": "https://drawdown.org/solutions/improved-manure-management"
+  },
+  {
+    "name": "Improved Rice Production",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 9.85,
+    "link": "https://drawdown.org/solutions/improved-rice-production"
+  },
+  {
+    "name": "Indigenous Peoples’ Forest Tenure",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 8.69,
+    "link": "https://drawdown.org/solutions/indigenous-peoples-forest-tenure"
+  },
+  {
+    "name": "Insulation",
+    "sector": "Electricity / Buildings",
+    "impact": 15.38,
+    "link": "https://drawdown.org/solutions/insulation"
+  },
+  {
+    "name": "Landfill Methane Capture",
+    "sector": "Electricity / Industry",
+    "impact": 3.89,
+    "link": "https://drawdown.org/solutions/landfill-methane-capture"
+  },
+  {
+    "name": "LED Lighting",
+    "sector": "Electricity",
+    "impact": 14.45,
+    "link": "https://drawdown.org/solutions/led-lighting"
+  },
+  {
+    "name": "Low-Flow Fixtures",
+    "sector": "Electricity / Buildings",
+    "impact": 0.93,
+    "link": "https://drawdown.org/solutions/low-flow-fixtures"
+  },
+  {
+    "name": "Macroalgae Protection and Restoration",
+    "sector": "Coastal and Ocean Sinks",
+    "impact": 2.61,
+    "link": "https://drawdown.org/solutions/macroalgae-protection-and-restoration"
+  },
+  {
+    "name": "Managed Grazing",
+    "sector": "Land Sinks",
+    "impact": 13.72,
+    "link": "https://drawdown.org/solutions/managed-grazing"
+  },
+  {
+    "name": "Methane Digesters",
+    "sector": "Electricity / Industry",
+    "impact": 6.02,
+    "link": "https://drawdown.org/solutions/methane-digesters"
+  },
+  {
+    "name": "Methane Leak Management",
+    "sector": "Other Energy",
+    "impact": 25.83,
+    "link": "https://drawdown.org/solutions/methane-leak-management"
+  },
+  {
+    "name": "Micro Wind Turbines",
+    "sector": "Electricity",
+    "impact": 0.09,
+    "link": "https://drawdown.org/solutions/micro-wind-turbines"
+  },
+  {
+    "name": "Multistrata Agroforestry",
+    "sector": "Land Sinks",
+    "impact": 13.26,
+    "link": "https://drawdown.org/solutions/multistrata-agroforestry"
+  },
+  {
+    "name": "Nuclear Power",
+    "sector": "Electricity",
+    "impact": 3.17,
+    "link": "https://drawdown.org/solutions/nuclear-power"
+  },
+  {
+    "name": "Nutrient Management",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 2.77,
+    "link": "https://drawdown.org/solutions/nutrient-management"
+  },
+  {
+    "name": "Ocean Power",
+    "sector": "Electricity",
+    "impact": 1.27,
+    "link": "https://drawdown.org/solutions/ocean-power"
+  },
+  {
+    "name": "Offshore Wind Turbines",
+    "sector": "Electricity",
+    "impact": 10.22,
+    "link": "https://drawdown.org/solutions/offshore-wind-turbines"
+  },
+  {
+    "name": "Onshore Wind Turbines",
+    "sector": "Electricity",
+    "impact": 46.95,
+    "link": "https://drawdown.org/solutions/onshore-wind-turbines"
+  },
+  {
+    "name": "Peatland Protection and Rewetting",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 25.4,
+    "link": "https://drawdown.org/solutions/peatland-protection-and-rewetting"
+  },
+  {
+    "name": "Perennial Biomass Production",
+    "sector": "Land Sinks",
+    "impact": 4,
+    "link": "https://drawdown.org/solutions/perennial-biomass-production"
+  },
+  {
+    "name": "Perennial Staple Crops",
+    "sector": "Land Sinks",
+    "impact": 16.34,
+    "link": "https://drawdown.org/solutions/perennial-staple-crops"
+  },
+  {
+    "name": "Plant-Rich Diets",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 78.33,
+    "link": "https://drawdown.org/solutions/plant-rich-diets"
+  },
+  {
+    "name": "Public Transit",
+    "sector": "Transportation",
+    "impact": 9.42,
+    "link": "https://drawdown.org/solutions/public-transit"
+  },
+  {
+    "name": "Recycled Metals",
+    "sector": "Industry",
+    "impact": 4.31,
+    "link": "https://drawdown.org/solutions/recycled-metals"
+  },
+  {
+    "name": "Recycled Paper",
+    "sector": "Industry",
+    "impact": 2.28,
+    "link": "https://drawdown.org/solutions/recycled-paper"
+  },
+  {
+    "name": "Recycled Plastics",
+    "sector": "Industry",
+    "impact": 0.52,
+    "link": "https://drawdown.org/solutions/recycled-plastics"
+  },
+  {
+    "name": "Recycling",
+    "sector": "Industry",
+    "impact": 10.36,
+    "link": "https://drawdown.org/solutions/recycling"
+  },
+  {
+    "name": "Reduced Plastics",
+    "sector": "Industry",
+    "impact": 3.76,
+    "link": "https://drawdown.org/solutions/reduced-plastics"
+  },
+  {
+    "name": "Refrigerant Management",
+    "sector": "Industry / Buildings",
+    "impact": 57.15,
+    "link": "https://drawdown.org/solutions/refrigerant-management"
+  },
+  {
+    "name": "Regenerative Annual Cropping",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 15.12,
+    "link": "https://drawdown.org/solutions/regenerative-annual-cropping"
+  },
+  {
+    "name": "Seafloor Protection",
+    "sector": "Food, Agriculture, and Land Use",
+    "impact": 3.8,
+    "link": "https://drawdown.org/solutions/seafloor-protection"
+  },
+  {
+    "name": "Seaweed Farming",
+    "sector": "Coastal and Ocean Sinks / Coastal and Ocean Sinks",
+    "impact": 2.5,
+    "link": "https://drawdown.org/solutions/seaweed-farming"
+  },
+  {
+    "name": "Silvopasture",
+    "sector": "Land Sinks",
+    "impact": 26.58,
+    "link": "https://drawdown.org/solutions/silvopasture"
+  },
+  {
+    "name": "Small Hydropower",
+    "sector": "Electricity",
+    "impact": 1.65,
+    "link": "https://drawdown.org/solutions/small-hydropower"
+  },
+  {
+    "name": "Smart Thermostats",
+    "sector": "Electricity / Buildings",
+    "impact": 6.91,
+    "link": "https://drawdown.org/solutions/smart-thermostats"
+  },
+  {
+    "name": "Solar Hot Water",
+    "sector": "Electricity / Buildings",
+    "impact": 3.41,
+    "link": "https://drawdown.org/solutions/solar-hot-water"
+  },
+  {
+    "name": "Sustainable Intensification for Smallholders",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 1.36,
+    "link": "https://drawdown.org/solutions/sustainable-intensification-for-smallholders"
+  },
+  {
+    "name": "System of Rice Intensification",
+    "sector": "Food, Agriculture, and Land Use / Land Sinks",
+    "impact": 2.9,
+    "link": "https://drawdown.org/solutions/system-of-rice-intensification"
+  },
+  {
+    "name": "Telepresence",
+    "sector": "Transportation",
+    "impact": 2.64,
+    "link": "https://drawdown.org/solutions/telepresence"
+  },
+  {
+    "name": "Temperate Forest Restoration",
+    "sector": "Land Sinks",
+    "impact": 19.42,
+    "link": "https://drawdown.org/solutions/temperate-forest-restoration"
+  },
+  {name: 'Tropical Forest Restoration', sector: 'Land Sinks', impact: 54.45, link: 'https://drawdown.org/solutions/tropical-forest-restoration'},
+{name: 'Utility-Scale Solar Photovoltaics', sector: 'Electricity', impact: 40.83, link: 'https://drawdown.org/solutions/utility-scale-solar-photovoltaics'},
+{name: 'Tree Plantations (on Degraded Land)', sector: 'Land Sinks', impact: 22.04, link: 'https://drawdown.org/solutions/tree-plantations-on-degraded-land'},
+{name: 'Tree Intercropping', sector: 'Land Sinks', impact: 15.03, link: 'https://drawdown.org/solutions/tree-intercropping'},
+{name: 'Waste to Energy', sector: 'Electricity / Industry', impact: 6.27, link: 'https://drawdown.org/solutions/waste-to-energy'},
+{name: 'Walkable Cities', sector: 'Transportation', impact: 2.83, link: 'https://drawdown.org/solutions/walkable-cities'},
+{name: 'Water Distribution Efficiency', sector: 'Electricity', impact: 0.61, link: 'https://drawdown.org/solutions/water-distribution-efficiency'},
+
+{name: 'Building Retrofitting', impact: -1, link: 'https://drawdown.org/solutions/building-retrofitting'},
+{name: 'Distributed Energy Storage', impact: -1, link: 'https://drawdown.org/solutions/distributed-energy-storage'},
+{name: 'Grid Flexibility', impact: -1, link: 'https://drawdown.org/solutions/grid-flexibility'},
+{name: 'Microgrids', impact: -1, link: 'https://drawdown.org/solutions/microgrids'},
+{name: 'Net Zero Buildings', impact: -1, link: 'https://drawdown.org/solutions/net-zero-buildings'},
+{name: 'Utility-Scale Energy Storage', impact: -1, link: 'https://drawdown.org/solutions/utility-scale-energy-storage'},
+
 ];
 
 const drawdown_solution_names = _.map(solutions, x => x['name']);
 
 const nondrawdown_solutions = _.keys(mapping).filter(x => !_.includes(drawdown_solution_names, x)).map(x => ({name: x, impact: 0}));
+
 solutions = _.concat(solutions, nondrawdown_solutions);
 
 function lerp(x, a, b, c, d){
@@ -461,6 +871,10 @@ height: 60px;   display: flex;
     overflow: hidden;
 }
 
+a:hover{
+    color: #222;
+    text-decoration: underline;
+}
 .glimmer-effect {
       position: absolute;
       top: 0;
