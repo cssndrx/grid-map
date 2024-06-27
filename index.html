@@ -663,6 +663,7 @@ var solutions = [
 {name: 'Utility-Scale Energy Storage', impact: -1, link: 'https://drawdown.org/solutions/utility-scale-energy-storage'},
 
 ];
+solutions = _.sortBy(solutions, x => -x.impact);
 
 const drawdown_solution_names = _.map(solutions, x => x['name']);
 
